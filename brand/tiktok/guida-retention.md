@@ -218,7 +218,7 @@ Tratti comuni:
 - **Video 6 e 7: nessun CTA.** Il V6 finisce su "un'unica abitudine" (primo piano con la moneta), il V7 su "…des règles que la plupart des gens ignorent": il video termina **esattamente sull'ultima parola** (V7: 62,0 s di video, ultima parola a 61,998 s). *Ipotesi:* il video riparte da solo e l'ultima frase si aggancia alla prima ("…che molti ignorano" → "Louis è milionario…"), favorendo i riavvii e il completamento. Da verificare con le nostre analytics.
 - Nessuno chiude con un "commentate" generico: **chiedono un'azione che cambia la situazione dello spettatore, oppure non chiedono nulla e lasciano la frase finale come punch.**
 
-## Dove i riferimenti precedenti e questi due divergono
+## Dove i riferimenti precedenti e questi divergono
 | Aspetto | Prima (V0-V3) | Ora (V4-V5) |
 |---|---|---|
 | Durata | 60-80 s | 70-99 s |
@@ -284,7 +284,108 @@ Tratti comuni:
 
 **Punteggio (max 42):** 35-42 pubblica · 27-34 rivedi i punti a 0 · < 27 riscrivi l'hook e il passo.
 
-## Schede dei due video
+## Valutare un nostro video prima di pubblicarlo
+
+Serve a dare un voto **prima** di inserire il video su TikTok, e poi a confrontare il voto con i risultati reali per capire se la guida prevede bene.
+
+### Cosa mi serve per valutare
+1. Il file video (`.mp4`).
+2. La trascrizione con i tempi (`.srt` o tabella Da/A/Testo).
+3. Se esiste, il copione in `brand/tiktok/copioni/` (per le fonti dei dati).
+
+### Cosa faccio
+1. **Misuro l'editing:** durata, cambi visivi per secondo (differenza tra fotogrammi), pause audio, parole/minuto, livello audio.
+2. **Guardo i fotogrammi** ogni 0,5 s per hook, testi, inquadrature, sovrapposizioni, elementi tagliati.
+3. **Compilo la checklist** (21 voci, max 42) e i **controlli tecnici** (sotto).
+4. **Do il voto e la fascia** e scrivo le correzioni in ordine di impatto, con i tempi.
+5. **Aggiorno il registro "I nostri video"** (sotto). Dopo la pubblicazione tu mi dai i numeri reali e io li scrivo accanto al voto.
+
+### Fasce del punteggio
+| Punti (max 42) | Fascia | Cosa fare |
+|---|---|---|
+| 35-42 | **Pubblica** | Solo rifiniture |
+| 27-34 | **Rivedi** | Correggi prima le voci a 0 (hook, cicli, finale) |
+| < 27 | **Riscrivi** | Riscrivi hook e struttura, poi rimontare |
+
+Il voto misura **quanto il video assomiglia ai riferimenti che hanno funzionato**, non il risultato che avrà. Il risultato dipende anche da account, orario, tema e prima ora di test. Quando avremo almeno 5 video con metriche, confronteremo punteggio e retention e **ricalibreremo le voci** che non prevedono nulla.
+
+### Controlli tecnici (sì/no, non danno punti)
+| # | Controllo | Come lo verifico |
+|---|---|---|
+| T1 | La mascotte è **intera e riconoscibile** nell'hook (occhiali visibili) e non è coperta da testi | Fotogrammi a 0, 1, 2, 3 s e a ogni cambio |
+| T2 | Nessuna **frase ripetuta** tra titolo, testo centrale e sottotitolo nello stesso fotogramma | Fotogrammi nei primi 5 s |
+| T3 | Testi nella **zona sicura**: non nel 10% in alto, non nel 15% in basso, non nella colonna destra | Posizione di titoli e sottotitoli |
+| T4 | I numeri nel video coincidono con la fonte del copione; fonte nominata a voce o a schermo | Copione + fonti |
+| T5 | Audio tra circa -16 e -12 LUFS, picco sotto -1 dBFS, nessuna pausa lunga | `ffmpeg` (volumedetect, silencedetect) |
+| T6 | Etichetta "contenuto generato da IA" attiva, se serve | Promemoria |
+| T7 | La prima e l'ultima inquadratura si agganciano (loop) | Fotogrammi 0 e finale |
+
+### I nostri video: registro
+| Video | Data | Durata | Punteggio | Fascia | Visualizzazioni | Retention media | % fino alla fine | Salvataggi / like | Condivisioni | Note |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Il prezzo di… un caffè, **versione 24 s (470 €)** | 2026-10-28 | 24 s | **29 / 42** | Rivedi | — | — | — | — | — | Valutazione sotto; metriche da inserire dopo la pubblicazione |
+
+*(Copia la riga per ogni nuovo video. Una versione modificata dello stesso video si aggiunge come nuova riga, con la dicitura "v2".)*
+
+### Valutazione compilata: "Il prezzo di… un caffè" (versione 24 s, 470 €)
+Misure: 24,3 s · 14 cambi grandi (uno ogni ~1,7 s) · 7% di fotogrammi fermi · 168 parole/min · 9 pause brevi a fine frase · audio medio -14,4 dB, picco -1,4 dB.
+
+| # | Voce | Punti | Note |
+|---|---|---|---|
+| 1 | La prima frase parla di te o di un dato che fa male | 1 | Dato (470 €), ma senza "tu" |
+| 2 | Voce a 0:00, nessun logo/saluto | 2 | |
+| 3 | Cambio visivo entro 4-5 s | 2 | Zoom a 2,0 s, taglio a 4,5 s |
+| 4 | Ciclo lungo promesso nell'hook, chiuso nell'ultimo quarto | 0 | Manca |
+| 5 | Mini-ciclo domanda → risposta ogni ~10 s | 1 | Uno solo, a 4,5-7,9 s |
+| 6 | Gradino buona notizia → clausola | 0 | Manca |
+| 7 | Nuova immagine ogni ≤ 2 s | 2 | |
+| 8 | Concetto astratto = oggetto | 2 | Monete che cadono, forbici, bilancia |
+| 9 | Un numero per schermata, grande | 1 | 470 € in apertura, poi nessun numero |
+| 10 | Un solo colore d'accento | 2 | Ambra |
+| 11 | Svolta segnalata dal cambio di sfondo | 1 | Inchiostro → carta a 4,5 s, inchiostro nel finale |
+| 12 | Testi in zona sicura, ≤ 2 righe, parola-chiave | 2 | |
+| 13 | Nessun tempo morto sullo schermo | 2 | |
+| 14 | Numero o formula finale riassuntiva | 1 | Tre passi, ma nessun totale |
+| 15 | Chiusura che riporta al quotidiano o apre una domanda vera | 1 | Frase morale, nessuna domanda |
+| 16 | ≥ 3 frasi-segnale a voce | 1 | "Ma perché…?", "Primo/Secondo/Terzo", "Non serve cambiare vita" |
+| 17 | Sostantivo-chiave nell'istante in cui è detto | 2 | Etichette 1/2/3 sincronizzate |
+| 18 | Transizioni speciali solo ai cambi di blocco | 2 | Solo tagli netti |
+| 19 | Oggetti con movimento + movimento di riposo | 2 | Zoom lento continuo, monete che cadono |
+| 20 | Titolo in alto che resta mentre cambia la riga parlata | 2 | |
+| 21 | Beat di autorità a ~2/3 | 0 | Manca |
+| | **Totale** | **29 / 42** | **Rivedi** |
+
+**Controlli tecnici:** T1 **NO** (a 0:02-0:04 l'orso è tagliato dallo zoom e gli occhiali sono fuori campo; a 0:11,5-0:12,5 l'etichetta "1 · ABBONAMENTI" copre il viso) · T2 **NO** (nei primi 3 s lo stesso concetto è sia in alto sia nel sottotitolo; a 0:04,5 "MA PERCHÉ?" sia in alto sia in basso) · T3 sì · T4 **da verificare** (470 € = 1,29 € × 365 ≈ 471 €: coerente con il prezzo medio Assoutenti/MIMIT del copione, ancora da controllare sulla fonte originale; nessuna fonte a schermo) · T5 sì · T6 da ricordare · T7 **NO** (il finale non richiama il primo fotogramma).
+
+### Correzioni da applicare a questo video (in ordine di impatto)
+| # | Dove | Problema | Correzione | Voci toccate |
+|---|---|---|---|---|
+| 1 | 0:00-0:03 | Hook senza "tu": "Un caffè al bar ogni giorno costa circa 470 euro all'anno" è un dato neutro | Riscrivere in seconda persona: **"Se bevi un caffè al bar ogni giorno, spendi circa 470 euro all'anno."** Poi, subito: **"E non te ne accorgi."** | 1, 16 |
+| 2 | 0:00-0:03 | Testo duplicato: in alto "CAFFÈ AL GIORNO ~470€ ALL'ANNO", in basso la stessa frase | In alto una sola etichetta ("UN CAFFÈ AL GIORNO"), al centro **470 €** gigante in ambra, in basso solo la riga parlata | T2, 9 |
+| 3 | 0:02-0:04 | Lo zoom taglia la faccia dell'orso (occhiali fuori campo) proprio nell'hook | Mantenere **volto e tazzina nell'inquadratura**: zoom massimo ~120% centrato sul volto, oppure punch-in sul solo scontrino tenendo l'orso intero | T1 |
+| 4 | 0:11,5-0:12,5 | L'etichetta "1 · ABBONAMENTI" copre l'orso | Spostare l'etichetta più in alto o ridurre lo zoom su quell'immagine | T1 |
+| 5 | 0:04,5-0:08 | L'unico ciclo (domanda → risposta) si chiude in 3 s | **Ritardare la risposta**: mostrare prima lo scontrino **1,29 € × 365 = 471 €** (numero come oggetto), poi rispondere "perché sono piccole spese che non guardiamo mai" | 4, 5, 9 |
+| 6 | 0:10-0:23 | Tre consigli generici, nessun numero | Aggiungere **un dato verificato per ogni passo** (es. quanto costa in media un abbonamento non usato, quanto può cambiare una bolletta). Se non c'è la fonte, lasciare il passo senza cifra | 9, 14 |
+| 7 | ~0:14-0:16 | Nessun beat di autorità | Inserire la fonte a voce e a schermo: **"Secondo Assoutenti, in media 1,29 euro."** (fonte dal copione, da controllare) | 21, T4 |
+| 8 | 0:20-0:24 | Chiusura morale senza domanda né totale | Chiudere sul totale e su una domanda vera: **"Quella piccola spesa che non guardi mai: qual è la tua?"** con scontrino a 470 € e fumetto "But Why Finance?" | 14, 15 |
+| 9 | Ultima inquadratura | Il finale non richiama il primo fotogramma | Riusare l'immagine iniziale (orso + tazzina + scontrino) senza la cifra, come nel copione originale, così il video si aggancia al riavvio | T7, loop |
+| 10 | Intero video | Struttura a elenco senza colpo di scena | **Opzionale, solo con una fonte:** un gradino prima dei tre consigli ("Ma il caffè non è la voce che pesa di più sul tuo budget"), da usare solo se avete il dato | 6 |
+
+**Punteggio stimato dopo le correzioni 1-9:** circa **34-38 / 42**. È una stima: va ricalcolata sul montaggio nuovo, perché dipende da come vengono realizzati hook, numeri e finale.
+
+**Nuova traccia del parlato (per le correzioni 1, 5, 7, 8):**
+| Tempo | Voce | Schermo |
+|---|---|---|
+| 0:00-0:03 | "Se bevi un caffè al bar ogni giorno, spendi circa 470 euro all'anno." | Orso intero e sorpreso, **470 €** gigante ambra, etichetta "UN CAFFÈ AL GIORNO" |
+| 0:03-0:05 | "E non te ne accorgi. Ma perché?" | Orso pensieroso, fila di tazzine |
+| 0:05-0:09 | "Per Assoutenti un espresso costa in media 1,29 euro. Moltiplicato per 365 giorni: 471." | Scontrino **1,29 € × 365 = 471 €** |
+| 0:09-0:12 | "Sono piccole spese. E le piccole spese non le guardiamo mai." | Monete che cadono dalla tasca della sagoma grigia |
+| 0:12-0:23 | "Primo: controlla gli abbonamenti che non usi. Secondo: fai la lista prima del supermercato. Terzo: confronta le offerte di luce e gas una volta all'anno." | Come oggi, con **un numero verificato per ogni passo** dove disponibile |
+| 0:23-0:27 | "Non serve cambiare vita. Basta guardare quella piccola spesa che non guardi mai: qual è la tua?" | Orso con il salvadanaio e "But Why Finance?"; ultima inquadratura = prima senza cifra |
+
+(Durata finale ~27 s. I numeri e la fonte vanno controllati prima di registrare. Per un A/B: stessa versione a 24 s contro questa a ~27 s.)
+
+## Schede dei video di riferimento
 
 ### Video 4: @bl.finanza, camionisti e fondi promessi (99 s)
 Formato: notizia + conseguenza personale + CTA newsletter. Sfondo carta, illustrazioni a matita/incisione, rosso come unico accento.
@@ -391,6 +492,7 @@ Per ogni video che mi mandi:
 3. **Aggiorno le tabelle di confronto** e la colonna "Visto in".
 4. **Promuovo o scarto le proposte da validare**: una regola diventa "confermata" quando compare in almeno 3 video, "scartata" se un video con ottimi risultati la contraddice.
 5. **Se hai i dati reali** (retention media, % fino alla fine, salvataggi per visualizzazione), li scrivo nella riga del video: un numero vero vale più di dieci ipotesi.
+6. **Per i nostri video** vedi la sezione "Valutare un nostro video prima di pubblicarlo" e il registro "I nostri video".
 
 ### Modello di scheda (da copiare)
 ```
