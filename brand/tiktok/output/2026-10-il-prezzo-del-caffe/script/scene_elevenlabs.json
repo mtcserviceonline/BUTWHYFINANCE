@@ -1,52 +1,52 @@
 [
- {
-  "id": 1,
-  "secondi": "0-4",
-  "espressione_orso": "sorpreso, mani aperte",
-  "tono": "incredulo e curioso, come davanti a un prezzo che non torna",
-  "tag_v3": "[surprised]",
-  "stability": 0.35,
-  "style": 0.45,
-  "text": "Il caffè costa il ventiquattro per cento in più di cinque anni fa. Ma perché?"
- },
- {
-  "id": 2,
-  "secondi": "4-8",
-  "espressione_orso": "tazzina in mano, sguardo sui numeri",
-  "tono": "calmo e preciso, un dato alla volta",
-  "tag_v3": "[curious]",
-  "stability": 0.5,
-  "style": 0.3,
-  "text": "Nel 2021 era un euro e quattro. Oggi, in media, un euro e ventinove."
- },
- {
-  "id": 3,
-  "secondi": "8-13",
-  "espressione_orso": "indice alzato, spiega la prima tesi",
-  "tono": "neutro e chiaro, da commercialista al bar: presenta la tesi senza giudicarla",
-  "tag_v3": "[calm]",
-  "stability": 0.7,
-  "style": 0.1,
-  "text": "Per illycaffè, la materia prima è salita dell'ottanta per cento. La tazzina, del ventiquattro."
- },
- {
-  "id": 4,
-  "secondi": "13-16",
-  "espressione_orso": "pensieroso, mano al mento",
-  "tono": "riflessivo, tono da seconda tesi, sullo stesso piano della prima",
-  "tag_v3": "[thoughtful]",
-  "stability": 0.7,
-  "style": 0.1,
-  "text": "Per Assoutenti, pesano energia e costi del bar."
- },
- {
-  "id": 5,
-  "secondi": "16-20",
-  "espressione_orso": "occhiolino, sorriso complice",
-  "tono": "aperto e leggero, invita il lettore a rispondere, senza dare la risposta",
-  "tag_v3": "[warm]",
-  "stability": 0.5,
-  "style": 0.3,
-  "text": "E tu? Quanto dovrebbe costare un caffè?"
- }
+  {
+    "id": 1,
+    "secondi": "0-4",
+    "espressione_orso": "sorpreso, mani aperte",
+    "tono": "incredulo e curioso, come davanti a un prezzo che non torna",
+    "tag_v3": "[surprised]",
+    "stability": 0.35,
+    "style": 0.45,
+    "text": "Il caffè costa il ventiquattro per cento in più di cinque anni fa. Ma perché?"
+  },
+  {
+    "id": 2,
+    "secondi": "4-8",
+    "espressione_orso": "tazzina in mano, sguardo sui numeri",
+    "tono": "calmo e preciso, un dato alla volta",
+    "tag_v3": "[curious]",
+    "stability": 0.5,
+    "style": 0.3,
+    "text": "Nel 2021 era un euro e quattro. Oggi, in media, un euro e ventinove."
+  },
+  {
+    "id": 3,
+    "secondi": "8-13",
+    "espressione_orso": "indice alzato, spiega la prima tesi",
+    "tono": "neutro e chiaro, da commercialista al bar: presenta la tesi senza giudicarla",
+    "tag_v3": "[calm]",
+    "stability": 0.7,
+    "style": 0.1,
+    "text": "Per illycaffè, la materia prima è salita dell'ottanta per cento. La tazzina, del ventiquattro."
+  },
+  {
+    "id": 4,
+    "secondi": "13-16",
+    "espressione_orso": "pensieroso, mano al mento",
+    "tono": "riflessivo, tono da seconda tesi, sullo stesso piano della prima",
+    "tag_v3": "[thoughtful]",
+    "stability": 0.7,
+    "style": 0.1,
+    "text": "Per Assoutenti, pesano energia e costi del bar."
+  },
+  {
+    "id": 5,
+    "secondi": "16-20",
+    "espressione_orso": "occhiolino, sorriso complice",
+    "tono": "calda, invita il lettore a rispondere nei commenti, senza dare la risposta",
+    "tag_v3": "[warm]",
+    "stability": 0.5,
+    "style": 0.3,
+    "text": "E secondo te? Quanto dovrebbe costare un caffè?"
+  }
 ]
