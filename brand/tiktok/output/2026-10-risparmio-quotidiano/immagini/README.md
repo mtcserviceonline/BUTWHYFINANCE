@@ -21,7 +21,7 @@ Le 8 illustrazioni del video "consigli pratici per risparmiare nella vita di tut
 | 05 | carta | Tip 1 abbonamenti: orso con smartphone (icone tonde astratte) e indice alzato; grandi forbici ambra tagliano a metà una tessera grigia | 2° |
 | 06 | carta | Tip 2 lista della spesa: orso con foglio a righe e matita ambra, carrello grigio e scaffali grigi sullo sfondo | 3° |
 | 07 | carta | Tip 3 luce e gas: bilancia grigia con due fogli a righe (lampadina ambra / fiammella ambra), orso pensieroso con mano al mento | 3° |
-| 08 | inchiostro | Orso con occhiolino (occhio chiuso visibile nella lente) che infila una moneta ambra in un salvadanaio grigio; spazio libero in alto a destra | 2° |
+| 08 | inchiostro | Orso con occhiolino: la lente dell'occhio che strizza è scura semitrasparente e lascia vedere l'occhio chiuso, l'altra è nera piena con riflesso; infila una moneta ambra in un salvadanaio grigio; spazio libero in alto a destra | 3° (rifatta, vedi sotto) |
 
 Nessun rosso, nessun verde oltre alla maglietta dell'orso, unico accento ambra (`#E9A400`), nessuna scritta/lettera/numero.
 
@@ -54,6 +54,8 @@ Struttura del prompt: `Vertical 9:16 illustration…` + [ORSO] + [STILE] + `Scen
 
 01-04 riuscite al primo tentativo.
 
+**08 rifatta (seconda revisione):** nella versione precedente l'occhiolino non si leggeva bene. Richiesta: la lente dell'occhio che strizza deve essere **nera ma trasparente** (lente scura semitrasparente) così che si veda l'occhio chiuso, mentre l'altra resta nera piena con il riflesso bianco diagonale. Al prompt è stata aggiunta, in modo esplicito e ripetuto, la descrizione "see-through dark tinted lens (black outline, translucent dark tint) so the closed, winking eye with a curved lid line is clearly visible through the lens; the other lens stays solid black with the white diagonal glare" (e tolto "eyes never visible" dalla scheda dell'orso, solo per questa immagine). Stessi riferimenti (`mascotte-principale.jpg` + `espressioni.jpg`). **1 tentativo**, riuscito al primo colpo: controllato anche ingrandito sul volto (lente fumé con l'occhio chiuso a linea curva visibile, altra lente nera piena con riflesso, occhiali tondi riconoscibili). Rigenerata anche `anteprima.jpg`.
+
 ## Controlli fatti
 
 Ogni immagine guardata intera e, per scontrini e fogli, anche ingrandita: nessuna scritta o cifra, solo righe grigie. Fondo misurato sui bordi e ingombro verticale del contenuto (percentuale dell'altezza, dall'alto):
@@ -67,7 +69,7 @@ Ogni immagine guardata intera e, per scontrini e fogli, anche ingrandita: nessun
 | 05 | `#F4F1EA` | 14,3% – 87,2% |
 | 06 | `#F4F1E9` | 26,9% – 76,8% |
 | 07 | `#F4F1E9` | 39,9% – 87,0% |
-| 08 | `#0E1218` | 32,4% – 80,1% |
+| 08 | `#0E1218` | 23,6% – 80,5% |
 
 Fascia alta (10%) libera in tutte.
 
@@ -80,7 +82,7 @@ Fascia alta (10%) libera in tutte.
 - **06**: l'orso non sta scrivendo sul foglio: tiene il foglio in una zampa e la matita alzata nell'altra (si legge come "ho fatto la lista"). Le versioni in cui scriveva coprivano la €.
 - **07**: la bilancia è un po' inclinata (non in pari); funziona comunque come "confronto tra due offerte". Lampadina e fiammella sono piccole.
 - **02**: l'orso è più grande di "piccolo a lato" (circa metà altezza), e la linea del pavimento è irregolare.
-- **08**: due monete (una in mano, una sopra la fessura), si legge come la moneta che cade.
+- **08**: l'orso è un po' più grande della versione precedente (testa dal 23,6% dell'altezza), ma l'angolo in alto a destra resta vuoto per il fumetto. La linea dell'occhio chiuso nella lente scura è sottile: si legge bene a schermo intero, meno nelle miniature.
 
 **Coerenza dell'orso:** in tutte e 8 le immagini l'orso è riconoscibile e coerente con `mascotte-principale.jpg`: pelliccia ramata, muso pesca, naso nero con linea, occhiali tondi neri con riflesso bianco diagonale, maglietta verde scuro con € gialla al centro del petto e visibile, contorno nero spesso. Le proporzioni cambiano leggermente tra mezzo busto e figura intera (più tozzo nella 05).
 
