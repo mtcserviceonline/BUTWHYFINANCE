@@ -362,7 +362,7 @@ Misure (script `misura_video.py`): 24,3 s · 13 cambi medi/grandi (uno ogni ~1,9
 ### Correzioni da applicare a questo video (in ordine di impatto)
 | # | Dove | Problema | Correzione | Voci toccate |
 |---|---|---|---|---|
-| 1 | 0:00-0:03 | Hook senza "tu": "Un caffè al bar ogni giorno costa circa 470 euro all'anno" è un dato neutro | Riscrivere in seconda persona: **"Se bevi un caffè al bar ogni giorno, spendi circa 470 euro all'anno."** Poi, subito: **"E non te ne accorgi."** | 1, 16 |
+| 1 | 0:00-0:03 | Hook senza "tu": "Un caffè al bar ogni giorno costa circa 470 euro all'anno" è un dato neutro | Riscrivere in seconda persona e con la domanda dentro l'hook (versione scelta): **"Se ti bevi un caffè al bar ogni giorno, spendi circa 470 euro all'anno e non te ne accorgi. Ma perché?"** (attenzione a "all'anno": 470 € è il totale annuo, non giornaliero) | 1, 16 |
 | 2 | 0:00-0:03 | Testo duplicato: in alto "CAFFÈ AL GIORNO ~470€ ALL'ANNO", in basso la stessa frase | In alto una sola etichetta ("UN CAFFÈ AL GIORNO"), al centro **470 €** gigante in ambra, in basso solo la riga parlata | T2, 9 |
 | 3 | 0:02-0:04 | Lo zoom taglia la faccia dell'orso (occhiali fuori campo) proprio nell'hook | Mantenere **volto e tazzina nell'inquadratura**: zoom massimo ~120% centrato sul volto, oppure punch-in sul solo scontrino tenendo l'orso intero | T1 |
 | 4 | 0:11,5-0:12,5 | L'etichetta "1 · ABBONAMENTI" copre l'orso | Spostare l'etichetta più in alto o ridurre lo zoom su quell'immagine | T1 |
@@ -378,10 +378,10 @@ Misure (script `misura_video.py`): 24,3 s · 13 cambi medi/grandi (uno ogni ~1,9
 **Nuova traccia del parlato (per le correzioni 1, 5, 7, 8):**
 | Tempo | Voce | Schermo |
 |---|---|---|
-| 0:00-0:03 | "Se bevi un caffè al bar ogni giorno, spendi circa 470 euro all'anno." | Orso intero e sorpreso, **470 €** gigante ambra, etichetta "UN CAFFÈ AL GIORNO" |
-| 0:03-0:05 | "E non te ne accorgi. Ma perché?" | Orso pensieroso, fila di tazzine |
-| 0:05-0:09 | "Per Assoutenti un espresso costa in media 1,29 euro. Moltiplicato per 365 giorni: 471." | Scontrino **1,29 € × 365 = 471 €** |
-| 0:09-0:12 | "Sono piccole spese. E le piccole spese non le guardiamo mai." | Monete che cadono dalla tasca della sagoma grigia |
+| 0:00-0:03 | "Se ti bevi un caffè al bar ogni giorno, spendi circa 470 euro all'anno…" | Orso intero e sorpreso, **470 €** gigante ambra, etichetta "UN CAFFÈ AL GIORNO" |
+| 0:03-0:06 | "…e non te ne accorgi. Ma perché?" | Orso pensieroso, fila di tazzine; a 0:05 il "perché" resta sospeso |
+| 0:06-0:10 | "Per Assoutenti un espresso costa in media 1,29 euro. Moltiplicato per 365 giorni: 471." | Scontrino **1,29 € × 365 = 471 €** |
+| 0:10-0:13 | "Sono piccole spese. E le piccole spese non le guardiamo mai." | Monete che cadono dalla tasca della sagoma grigia |
 | 0:12-0:23 | "Primo: controlla gli abbonamenti che non usi. Secondo: fai la lista prima del supermercato. Terzo: confronta le offerte di luce e gas una volta all'anno." | Come oggi, con **un numero verificato per ogni passo** dove disponibile |
 | 0:23-0:27 | "Non serve cambiare vita. Basta guardare quella piccola spesa che non guardi mai: qual è la tua?" | Orso con il salvadanaio e "But Why Finance?"; ultima inquadratura = prima senza cifra |
 
