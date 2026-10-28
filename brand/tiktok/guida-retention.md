@@ -1,0 +1,267 @@
+# Guida alla retention: cosa fa guardare e salvare un video
+
+Documento vivo. Parte da due video con ~30k like e ~3k salvataggi (rapporto salvataggi/like ≈ 10%, molto alto) e si aggiorna a ogni nuovo video analizzato. Complementa [`stile-tiktok.md`](stile-tiktok.md) (regole di produzione) e [`analisi-riferimenti.md`](analisi-riferimenti.md) (i primi quattro riferimenti).
+
+**Versione:** 1 · **Video analizzati:** 2 (Video 4 e Video 5) · **Ultimo aggiornamento:** 2026-10-28
+
+## Limiti di questa analisi (da leggere prima)
+- **Audio non trascritto.** Non avevo un modello di trascrizione raggiungibile e la quota ElevenLabs era esaurita. Le parole sono ricavate dai sottotitoli visibili, quindi il Video 5 (francese) è ricostruito in modo parziale. Quando serve un copione parola per parola, rimandare il video e ritrascrivere.
+- **Misurato:** durate, tagli di scena, colori, posizione e stile dei testi, pause audio.
+- **Dedotto:** il *perché* funziona. Non ho le analytics (retention, curve di abbandono). Le spiegazioni sul perché si salva sono **ipotesi**, segnate come tali, da confermare con i nostri numeri.
+- Il Video 4 usa il volto di un politico reale e un CTA alla propria newsletter; il Video 5 è un consiglio fiscale specifico per la Francia. Sono contenuti da cui si impara la struttura, non da copiare (vedi "Cosa non copiare").
+
+## Il metodo in una pagina
+
+1. **Hook in 3 s con un'asserzione che riguarda lo spettatore**, non un titolo. Qui: "l'ennesima cosa assurda… potrebbe toccare *anche te*" con un uomo che punta il dito verso la camera; oppure una cifra enorme che si paga e "non è inevitabile" (200.000 € di tasse).
+2. **Apri un ciclo e chiudilo tardi.** La promessa dell'hook viene mantenuta nell'ultimo quarto (Video 4: "la parte che riguarda te" arriva a 1:12 su 1:39).
+3. **Dentro il ciclo grande, mini-cicli da 5-12 s:** domanda → risposta ("Cioè?" → "credito d'imposta"; "E quando?" → "2027").
+4. **Ogni buona notizia viene smentita entro ~10 s** ("i soldi ci sono" → "Fermati" → "erano già stanziati" → "non ti danno i soldi, ti scontano tasse future"). Lo spettatore resta per capire come va a finire.
+5. **Una frase = una immagine nuova = ~1,8 s.** Nessuna schermata ferma più di 3 s.
+6. **Ogni concetto astratto diventa un oggetto fisico** (promesse mancate = cassetta della posta con ragnatela; burocrazia = scrivania con pile di carte; nuda proprietà = muri + atto; usufrutto = chiave).
+7. **Un solo numero per schermata, e il numero è l'immagine** (480, 2027, 1 miliardo, 600 000 € sul cartellino).
+8. **Testo che anticipa o accompagna la voce, mai in ritardo**, con una sola parola-chiave in colore.
+9. **Nessuna pausa nel parlato** (vedi misure): il video non dà mai il permesso di scorrere via.
+10. **Chiusura che sposta lo spettatore verso qualcosa** (iscriviti, commenta), mai un "inizia piccolo" generico.
+
+## Elementi chiave, uno per uno
+
+### 1. Hook (0-5 s)
+| | Video 4 (@bl.finanza) | Video 5 (@lapinlafinance) |
+|---|---|---|
+| Frase | "L'ennesima cosa assurda in Italia" + timbro IN ITALIA, poi "potrebbe toccare anche te" | Una casa da 1 000 000 €, 200 000 € di successione "all'Stato", "normale…", poi "il coniglio…" (frase ricostruita in parte: il senso è che lui questa tassa la evita) |
+| Immagine | Mappa d'Italia; da 0:04 uomo che punta il dito alla camera | Coniglio in giacca davanti a una villa, braccia conserte, sguardo di sufficienza |
+| Leva | Minaccia personale + indignazione | Curiosità: c'è un trucco che gli altri non conoscono |
+| Dove parte la voce | Subito, a 0:00 | Subito, a 0:00 |
+
+Cosa tengono in comune: **parte subito il parlato**, la prima immagine è già "carica" (mappa con tratteggio forte / personaggio sicuro), c'è **un secondo "scatto" entro 4-5 s** (cambio di immagine + dito puntato / cambio di inquadratura da campo lungo a mezza figura). Nessuno dei due si presenta, non c'è logo, non c'è "ciao".
+
+### 2. Cicli aperti e payoff ritardato
+Video 4, mappa dei cicli:
+| Aperto | Chiuso | Distanza |
+|---|---|---|
+| "Potrebbe toccare anche te" (0:04) | "E quei rincari li paghi tu" (1:20) | ~76 s |
+| "I soldi promessi mai arrivati" (0:11) | "E di colpo… Magia. I soldi ci sono" (0:16) | 5 s |
+| "Sbloccato circa 1 miliardo" (0:21) | "Fermati… erano già stanziati, fermi per burocrazia" (0:29-0:33) | 10 s |
+| "Cioè?" (0:45) | "Non ti danno i soldi, ti scontano tasse future" (0:46-0:48) | 3 s |
+| "E quando?" (0:49) | "2027" (0:50) | 1 s |
+| "Fino al 27 ottobre" / "E Salvini?" (1:00-1:05) | "chi blocca una strada rischia il carcere… prima i soldi, poi la minaccia" (1:07-1:11) | 5 s |
+
+Regola ricavata: **un ciclo lungo (tutto il video) + un ciclo breve ogni ~10 s**. Il ciclo lungo è la promessa dell'hook.
+
+Video 5 fa lo stesso con una sola domanda lunga ("come evita i 200 000 €?") e una sequenza di passaggi: definizione → esempio con numeri → "ma il trucco è…" → risultato "160 000 € risparmiati".
+
+### 3. Il colpo di scena a gradini ("buona notizia → clausola")
+Il Video 4 è costruito per **alternare sollievo e delusione**: il governo convoca → i soldi ci sono → sono già stanziati da mesi → non sono soldi ma credito d'imposta → arriva nel 2027 → intanto il gasolio lo paghi tu. Ogni gradino ribalta quello prima. È il motore principale della retention nel video più lungo (99 s).
+
+*Ipotesi:* funziona perché lo spettatore non riesce a prevedere l'esito e vuole sapere "qual è la fregatura".
+
+### 4. Ritmo visivo
+Misurato (conteggio dei fotogrammi a 1 fps, ±3 cambi):
+| | Video 4 | Video 5 |
+|---|---|---|
+| Durata | 99 s | 70 s |
+| Cambi di immagine | ~55 | ~38 |
+| Media | **~1,8 s per immagine** | **~1,8 s per immagine** |
+| Cambi di testo/stato dentro la stessa immagine | molti (ogni ~1 s) | ogni ~0,5-1 s (1-3 parole) |
+
+Importante: i due video durano molto più dei 20-40 s previsti nelle nostre regole e hanno comunque funzionato. **La durata non è il problema, lo è il passo.** Anche in 99 s nessuna schermata resta ferma: se l'immagine è la stessa per più di ~2 s, cambia qualcosa (appare un timbro, il testo si sottolinea in rosso, la mappa si sposta, il personaggio cambia inquadratura).
+
+Tecniche per "muovere" senza nuove immagini (viste nel Video 4):
+- **Timbro** che compare sopra l'immagine (IN ITALIA, MAI ARRIVATI, GIÀ STANZIATI, FERMI, SCONTO, REVOCATO, VA AVANTI, LINK IN BIO).
+- **Sottolineatura rossa** disegnata sotto la riga chiave.
+- **Cerchio rosso** attorno al numero (1 miliardo, 2027).
+- **Croce rossa** su un oggetto (sacco di soldi barrato = "non ti danno i soldi").
+- **Entrata dell'oggetto** da un lato (camion, edificio) che scorre dentro l'inquadratura.
+- **Stessa composizione con elemento nuovo** (busta → compare la clessidra accanto).
+
+Tecniche del Video 5: **alternanza di inquadratura** sullo stesso personaggio (figura intera, mezza figura, primissimo piano con gli occhi socchiusi), comparsa di un **oggetto in mano** per ogni concetto (chiave, atto, calcolatrice, cartellino prezzo), **sagome grigie** come terzi.
+
+### 5. Sistema dei testi
+**Video 4: due livelli**
+- **In alto, la "etichetta" del passaggio**: maiuscolo, sans, piccolo, 2-5 parole, spaziato ("IL GASOLIO", "SBLOCCATO CIRCA", "ERANO FERMI"). Appare **prima** della voce che la pronuncia: lo spettatore legge il tema e ascolta il dettaglio.
+- **In basso, la riga parlata**: serif minuscolo (tipo Playfair), 2-4 parole alla volta, con parole già dette in nero e prossime in grigio chiaro ("po' potrebbe *toccare*").
+- **Punchline in serif grande al centro o in alto** quando la frase è il colpo di scena ("E Salvini?", "Prima i soldi,", "Cioè?", "Magia.").
+- **Rosso solo per l'essenziale**: parola-chiave, timbri, sottolineature. Mai due rossi diversi.
+
+**Video 5: un livello solo**
+- **1-3 parole al centro, ~50% dell'altezza**, sans condensed bold bianco con bordo nero, parola chiave in giallo. Al centro significa fuori da ogni zona coperta dall'interfaccia TikTok.
+
+Entrambi: **mai più di 2 righe**, sempre sincronizzati con la voce, un solo segno grafico di enfasi per schermata.
+
+### 6. Il colore come emozione (Video 4)
+| Sfondo | Quando | Effetto |
+|---|---|---|
+| Carta/crema | Narrazione normale | Calma, "documento" |
+| **Nero** | Svolta o minaccia ("E di colpo", "rischia il carcere", "Vuoi sapere cosa succede ai tuoi soldi?") | Pattern interrupt: cambia la luminosità del feed |
+| **Blu notte** | Numeri e tempo (480 milioni, 2027, "E quando?") | "Qui c'è un dato" |
+| Grigio scuro | Soldi "esposti" (mazzetta) | Peso |
+
+Il cambio di sfondo avvenuto ai punti di svolta è un **segnale visivo del cambio di tono** che aiuta anche chi guarda senza audio.
+
+### 7. Personaggi
+- **Video 4:** nessuna mascotte, ma due **"proxy"** dello spettatore: l'omino senza capelli con scontrino lunghissimo ("li paghi tu") e il camionista. Più immagini "documentarie" a matita (porto, distributore, Duomo, edificio istituzionale). Un volto reale (politico) in versione incisione.
+- **Video 5:** un personaggio fisso che fa tutto (spiega, indica, firma, aspetta), con **terzi sempre grigi e senza volto**. Il personaggio non parla mai al posto della voce: indica, reagisce, mostra.
+- Per entrambi: **un solo stile di illustrazione per tutto il video**, nessun mix di stili.
+
+### 8. Perché lo si salva (ipotesi, da validare)
+I due video hanno cose diverse che stimolano il salvataggio:
+| Video | Perché potrebbe essere salvato |
+|---|---|
+| 4 | **Cronologia con date** (27 ottobre, entro novembre, 2027, set-ott) e importi: è un "promemoria" da riguardare quando la storia evolve. |
+| 5 | **Ricetta con numeri** passo passo (1 000 000 → 600 000; 100 000 € di franchigia a testa; 200 000 € tassati al 20% = 40 000 €; **160 000 € risparmiati**): è un'informazione "da rifare con il notaio". |
+
+Tratti comuni:
+- **C'è un numero finale riassuntivo** (480 milioni / 1 miliardo / 160 000 €): lo spettatore sente di avere in tasca una risposta.
+- **Linguaggio chiaro con una parola tecnica spiegata con un oggetto** (credito d'imposta = foglio "sconto tasse"; nuda proprietà = atto).
+- **Contenuto da "dopo"**: dice "mi servirà" (tasse, rincari, eredità), non "mi diverte".
+- Il Video 4 chiede esplicitamente un'azione che somiglia a un salvataggio ("Iscriviti… ogni mattina alle 7").
+
+### 9. Audio
+- Nessuna pausa del parlato sopra 0,25 s: **1 sola in 99 s** (Video 4) e **1 sola in 70 s** (Video 5), oltre alla coda finale.
+- Voce continua, passo sostenuto e diretto. Non posso dire se c'è musica sotto (non separabile senza ascolto).
+- Nel Video 4 i timbri/oggetti sono pensati per "colpi" sonori coincidenti con la comparsa (da verificare ascoltando il video).
+
+**Conflitto da risolvere con le nostre regole:** `stile-tiktok.md` chiede voce "calma, 140-150 parole/min, pause brevi tra i concetti". I due video che hanno funzionato hanno un parlato più continuo. Da testare: stessa voce calma ma **senza pause lunghe tra le frasi**, e il passo dato dall'immagine.
+
+### 10. Chiusura (CTA)
+- **Video 4:** domanda diretta sullo spettatore ("Vuoi sapere cosa succede ai tuoi soldi?") → promessa concreta con tre dettagli di abitudine ("ogni mattina alle 7", "mentre bevi il caffè", "in 5 minuti") → timbro LINK IN BIO. La chiusura **vende il prodotto con un'immagine della vita quotidiana**, non con un'etichetta.
+- **Video 5:** chiusura breve su una frase del personaggio, nessun CTA invadente.
+- Non c'è "commentate qui sotto" generico.
+
+## Dove i riferimenti precedenti e questi due divergono
+| Aspetto | Prima (V0-V3) | Ora (V4-V5) |
+|---|---|---|
+| Durata | 60-80 s | 70-99 s |
+| Passo | 1 immagine ogni 2-6 s | **~1,8 s costante** |
+| Testo | 1 livello (V0-V2) / evidenziato (V3) | **V4: due livelli (etichetta + riga parlata)**; V5: 1-3 parole centrali |
+| Svolta | non rilevata | **Sfondo nero/blu nei punti di svolta (V4)** |
+| Notizia | mai | **V4: attualità con conseguenza personale** |
+
+## Proposte da validare con i nostri video (non ancora regole)
+1. Portare il passo da "2-3 s" a **~1,8 s** per immagine nei video narrati.
+2. Aggiungere **timbro / sottolineatura / cerchio / croce** come variazione dentro la stessa immagine.
+3. Provare il **doppio livello di testo** (etichetta in alto + riga parlata in basso) sui video "Dietro la notizia".
+4. Usare **sfondo ink `#111418` solo per le svolte** (non per l'hook): così il cambio di colore diventa un segnale.
+5. Includere in ogni video **un ciclo lungo + almeno un "gradino" buona notizia → clausola**.
+6. Chiudere con **un numero riassuntivo** e una domanda che riguarda lo spettatore.
+7. Verificare se video più lunghi di 40 s funzionano per noi: fare un test A/B con 40 s contro 70 s sullo stesso tema.
+
+## Cosa non copiare
+- **Consigli prescrittivi** ("fai così per non pagare"): presentiamo fatti e tesi; per un tema fiscale, spiegare **come funziona** e non "cosa fare".
+- **Volti reali di politici/persone** anche in stile incisione: rischio di parzialità e di uso del volto. Per notizie politiche usare simboli (edificio, scrivania, sagoma grigia).
+- **Immagini IA con testi interni** e marchi "Ai": il testo si aggiunge sempre in montaggio.
+- **Schieramento** (nel Video 4 si sente un tono di accusa verso "lo Stato"): noi manteniamo le due tesi.
+- **Parole ambigue che sembrano una promessa** ("ti scontano", "i soldi ci sono") senza il dato esatto subito dopo.
+- **CTA solo di acquisizione** (newsletter) quando non abbiamo ancora un prodotto: la nostra chiusura resta la domanda aperta.
+
+## Checklist prima di pubblicare (punteggio: 0 = no, 1 = in parte, 2 = sì)
+| # | Elemento | Punti |
+|---|---|---|
+| 1 | La prima frase parla di *te* o di un dato che fa male | |
+| 2 | La voce parte a 0:00, nessun logo/saluto | |
+| 3 | C'è un cambio visivo entro 4-5 s | |
+| 4 | Esiste un **ciclo lungo** promesso nell'hook e chiuso nell'ultimo quarto | |
+| 5 | Almeno 1 mini-ciclo domanda → risposta ogni ~10 s | |
+| 6 | Almeno 1 gradino buona notizia → clausola | |
+| 7 | Una nuova immagine ogni ≤ 2 s (o un elemento nuovo sulla stessa) | |
+| 8 | Ogni concetto astratto è un oggetto | |
+| 9 | Un numero per schermata, il numero è grande | |
+| 10 | Un solo colore d'accento, solo per l'essenziale | |
+| 11 | Svolta segnalata da cambio di sfondo | |
+| 12 | Testi in zona sicura, ≤ 2 righe, parola-chiave evidenziata | |
+| 13 | Nessuna pausa del parlato oltre ~0,3 s | |
+| 14 | C'è un numero finale riassuntivo (cosa si porta a casa) | |
+| 15 | La chiusura riporta alla vita quotidiana o apre una domanda vera | |
+
+**Punteggio:** 26-30 pubblica · 20-25 rivedi i punti a 0 · < 20 riscrivi l'hook e il passo.
+
+## Schede dei due video
+
+### Video 4: @bl.finanza, camionisti e fondi promessi (99 s)
+Formato: notizia + conseguenza personale + CTA newsletter. Sfondo carta, illustrazioni a matita/incisione, rosso come unico accento.
+
+| Tempo | Etichetta in alto | Riga parlata / punchline | Immagine | Leva |
+|---|---|---|---|---|
+| 0:00-0:03 | L'ennesima cosa… | "assurda" (rosso) | Mappa d'Italia, timbro IN ITALIA | Indignazione |
+| 0:04-0:05 | Potrebbe toccare | "anche te" | Uomo che punta il dito | Minaccia personale |
+| 0:06-0:07 | Ti ricordi? | i camionisti del Sud | Camionista a braccia conserte | Richiamo |
+| 0:08-0:10 | Da giorni bloccano / E porti / Il gasolio | — | Camion fermi, porto, distributore | Elenco in 3 colpi |
+| 0:11-0:13 | I soldi promessi | dallo Stato non… MAI ARRIVATI | Cassetta della posta con ragnatela | Promessa mancata |
+| 0:14-0:15 | Ieri | Il governo li ha convocati | Mappa, tratteggio | Novità |
+| 0:16-0:18 | E di colpo | Magia. I SOLDI CI SONO | **Sfondo nero**, cappello da mago con banconote | Svolta |
+| 0:19-0:22 | Il viceministro… sbloccato circa | 1 miliardo | Tavolo riunioni, lucchetto rotto | Ancoraggio autorevole |
+| 0:23-0:25 | 480 milioni | per le domande arrivate fino ad agosto | **Blu notte**, pila di carte | Numero |
+| 0:26-0:28 | Una parte SUBITO | Il resto ENTRO NOVEMBRE | Busta + clessidra | Doppia scadenza |
+| 0:29-0:30 | **Fermati** | — | Mano alzata su nero | **Pattern interrupt** |
+| 0:31-0:33 | Questi soldi erano | GIÀ STANZIATI / erano fermi per burocrazia | Atto con sigillo, scrivania con pile | Rivelazione |
+| 0:34-0:39 | Ci sono voluti camion fermi / distributori vuoti / supermercati | senza frutta e verdura / per farli uscire | Camion, stazione, scaffali | Costo del blocco |
+| 0:42-0:48 | Per i mesi di set/ott: credito d'imposta | **Cioè?** → NON TI DANNO I SOLDI → TI SCONTANO TASSE FUTURE | Calendario, uomo perplesso, sacco barrato, foglio SCONTO | **Clausola** |
+| 0:49-0:50 | E quando? | **2027** (cerchiato) | **Blu notte** | Dato che punge |
+| 0:51-0:54 | Tu paghi il gasolio / E lo Stato ti dice | "Ci vediamo tra un anno" | Omino con portafoglio, palazzo istituzionale | Ironia |
+| 0:55-0:59 | La protesta | NON È FINITA; Sicilia REVOCATO, Calabria VA AVANTI | Megafono, mappe con timbri | Stato attuale |
+| 1:00-1:05 | Fino al 27 ottobre / E Salvini? | giorno del nuovo incontro / ha chiesto di togliere subito i blocchi | Calendario, politico a un leggio | Prossimo evento |
+| 1:06-1:11 | Perché con il decreto sicurezza | chi blocca una strada **rischia il carcere** (rosso su nero); *Prima i soldi, poi la minaccia.* | Giornale, manette, carota e bastone | **Metafora** |
+| 1:12-1:19 | La parte che riguarda te / Finché i camion | **ANCHE SE VIVI A MILANO** / la merce arriva meno, **e costa di più** / **li paghi tu** | Duomo, camion FERMI, spesa, omino con scontrino | **Payoff dell'hook** |
+| 1:22-1:34 | Vuoi sapere cosa succede ai tuoi soldi? | Prima che te ne accorga al supermercato / Iscriviti alla newsletter / Ogni mattina alle 7 / in 5 minuti | Carrello, omino con telefono, sveglia, caffè | CTA con quotidianità |
+| 1:36-1:38 | Spiegata | in modo semplice. + LINK IN BIO | Nero | Promessa di marca |
+
+### Video 5: @lapinlafinance, "démembrement" e tassa di successione (70 s)
+Formato: micro-lezione con numeri. Sfondo verde scuro uniforme, personaggio fisso, sagome grigie, testo giallo al centro. Parlato francese: ricostruzione parziale.
+
+| Tempo | Parole viste | Immagine | Leva |
+|---|---|---|---|
+| 0:00-0:05 | LAPIN… À SES… PAYER UN… MAISON (1 000 000 €) | Coniglio braccia conserte davanti a una villa; poi cartellino prezzo | Cifra enorme |
+| 0:06-0:09 | … 200 000 € DE SUCCESSION À L'ÉTAT. | Sagome in fila al banco con fascia tricolore | Tassa, ingiustizia |
+| 0:10-0:11 | NORMALE… LE LAPIN | Sagoma grigia seduta con un foglio in mano; poi il coniglio che si indica con il pollice | Contrasto |
+| 0:12-0:13 | UTILISE… DÉMEMBREMENT | Primo piano, sguardo d'intesa | **Il segreto** |
+| 0:14-0:16 | DÉMEMBREMENT, la propriété EN DEUX | Lavagna con casa, due casette sulla scrivania | Spiegazione con oggetti |
+| 0:17-0:23 | Il diritto di… (chiave + casa "à louer") / de l'autre… posséder LES MURS / garde d'habiter | Chiave, muri in sezione, atto | **Due concetti = due oggetti** |
+| 0:24-0:28 | USUFRUIT; NUE-PROPRIÉTÉ | Atto timbrato USUFRUIT, scrivania NOTAIRE | Termine tecnico mostrato |
+| 0:29-0:32 | ENFANTS… ET L'ASTUCE | Consegna di un atto a due sagome | **Gancio al trucco** |
+| 0:33-0:38 | L'Etat CONSIDÈRE SEULEMENT… DU 600 000 € | Sagoma "TAX", cartellino 1 000 000 barrato → 600 000 | **Numero chiave** |
+| 0:39-0:46 | CHAQUE 100 000 € / ENFANT / PARENTS ET… S'EFFACENT | Soldi passati alle sagome, banconote che svaniscono | Calcolo |
+| 0:47-0:51 | 200 000 € TAXÉS (20%) → 40 000 € | Banconota 200 000 con 20%; pila barrata | Risultato intermedio |
+| 0:52-0:58 | MAIS LA… À LA MORT, SES ENFANTS… AUTOMATIQUEMENT D'HABITER GRATUITEMENT, 0 € | Calendario, casa con chiavi che cadono, modulo 0 € | **Seconda sorpresa** |
+| 0:59-1:03 | CALCUL: 160 000 € ÉCONOMISÉS AVEC LE NOTAIRE | Calcolatrice, mazzette 160 000 | **Numero finale** |
+| 1:04-1:09 | PENDANT QUE… SUCCESSION… A DÉJÀ… DE TE… | Sagoma che aspetta sulle sedie, coniglio che si sistema la cravatta | Contrasto finale |
+
+## Come aggiornare la guida con un nuovo video
+Per ogni video che mi mandi:
+1. **Misuro**: durata, numero di cambi di immagine (e media), pause audio, colori, posizione del testo.
+2. **Mappo**: hook, cicli aperti/chiusi, svolte, CTA, timeline come nelle schede sopra.
+3. **Aggiorno le tabelle di confronto** e la colonna "Visto in".
+4. **Promuovo o scarto le proposte da validare**: una regola diventa "confermata" quando compare in almeno 3 video, "scartata" se un video con ottimi risultati la contraddice.
+5. **Se hai i dati reali** (retention media, % fino alla fine, salvataggi per visualizzazione), li scrivo nella riga del video: un numero vero vale più di dieci ipotesi.
+
+### Modello di scheda (da copiare)
+```
+### Video N: @account, tema (durata)
+Metriche note: like __, salvataggi __, commenti __, condivisioni __, retention media __ %
+Misure: cambi di immagine __ (media __ s) · pause audio __ · font __ · colori __
+Hook (0-5 s): frase, immagine, leva
+Cicli aperti/chiusi: tabella
+Svolte e pattern interrupt:
+CTA:
+Cosa conferma delle regole attuali: (n. regola)
+Cosa contraddice o aggiunge:
+Cosa non copiare:
+```
+
+## Registro regole (aggiornare a ogni video)
+| # | Regola | Visto in | Stato |
+|---|---|---|---|
+| 1 | Voce parte a 0:00, hook con asserzione personale | V4, V5 | Provvisoria (2/3) |
+| 2 | ~1,8 s per immagine, anche in 99 s | V4, V5, (V2 ≈ 1,8 s) | **Confermata (3)** |
+| 3 | Ogni concetto astratto = oggetto fisico | V2, V4, V5 | **Confermata (3)** |
+| 4 | Terzi come sagome grigie senza volto | V0, V1, V2, V5 | **Confermata (4)** |
+| 5 | Un solo accento colore, per l'essenziale | V2, V4, V5 | **Confermata (3)** |
+| 6 | Ciclo lungo + mini-cicli domanda/risposta | V4, V5 | Provvisoria (2/3) |
+| 7 | Gradini buona notizia → clausola | V4 | In osservazione (1) |
+| 8 | Sfondo nero/blu nei punti di svolta | V4 | In osservazione (1) |
+| 9 | Etichetta in alto + riga parlata in basso | V4 | In osservazione (1) |
+| 10 | Timbro / cerchio / croce / sottolineatura come "movimento" | V4 | In osservazione (1) |
+| 11 | Numero finale riassuntivo | V4, V5 | Provvisoria (2/3) |
+| 12 | Parlato continuo, senza pause lunghe | V4, V5 | Provvisoria (2/3) |
+| 13 | Durata 70-99 s accettabile se il passo regge | V4, V5 | Da testare con i nostri video |
+
+*Nota:* V0-V3 sono i riferimenti di `analisi-riferimenti.md`; le colonne "Visto in" per quei video sono dedotte dalla loro scheda, non rimisurate.

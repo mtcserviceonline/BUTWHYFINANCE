@@ -1,6 +1,8 @@
 # Stile TikTok di But Why Finance
 
 > Aggiornato dopo l'analisi di quattro video di riferimento: vedi [`analisi-riferimenti.md`](analisi-riferimenti.md). Il modello principale è il Video 2 (@cashfoxclub0): una immagine illustrata ogni 2-3 secondi, una metafora concreta per ogni concetto.
+>
+> **Guida alla retention:** [`guida-retention.md`](guida-retention.md) raccoglie cosa fa guardare e salvare i video (aggiornata a ogni nuovo riferimento; i Video 4 e 5 mostrano ~1,8 s per immagine e durate di 70-99 s).
 
 ## Perché cambiare
 I reel di Instagram riproposti uguali su TikTok non hanno funzionato. Su TikTok si guarda con l'audio acceso e si resta per una voce e un personaggio, non per un montaggio di grafiche. Quindi:
