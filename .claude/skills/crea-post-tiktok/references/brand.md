@@ -65,7 +65,7 @@ Espressioni (dal set `espressioni.jpg`) e formula inglese collaudata nei prompt:
 | Preoccupato | un costo che pesa | `WORRIED: a light-blue sweat drop on his temple, eyebrows tilted, mouth turned down` |
 | Ho un'idea / spiega | spiegazione, consigli | `explaining: one index finger raised up ('I have an idea' pose), open smiling mouth` |
 | Felice | consiglio pratico, soluzione | `pleased smile` / `satisfied smile` |
-| Occhiolino | chiusura, domanda finale | `WINKING exactly like the winking face in the second reference image: both round black sunglasses lenses are present, one lens shows the closed eye as a curved line, the other lens is dark with the white glare stripe; friendly knowing closed-mouth smile` (+ `espressioni.jpg` come `image[1]`) |
+| Occhiolino | chiusura, domanda finale | `WINKING like the winking face in the second reference image` + la frase sulla **lente fumé**: la lente dell'occhio che strizza è scura ma semitrasparente e lascia vedere l'occhio chiuso (linea curva), l'altra resta nera piena con il riflesso bianco; entrambe le lenti presenti. `componi_prompt.py` aggiunge da solo la frase, `espressioni.jpg` come `image[1]` e toglie "eyes never visible" dalla scheda dell'orso |
 
 ## Voce e tono
 

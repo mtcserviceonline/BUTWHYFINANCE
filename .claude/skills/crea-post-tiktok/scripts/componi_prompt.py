@@ -77,6 +77,12 @@ SAGOME = SAGOMA.replace("silhouette person", "silhouette people").replace("the w
 NOTEXT = ("Absolutely no text, no letters, no numbers, no words, no labels, no logo, no watermark anywhere in the "
           "image; any paper is blank or has only abstract grey lines.")
 
+# occhiolino: formula che ha funzionato al primo colpo nella 08 del post risparmio (con espressioni.jpg come image[1])
+WINK = ("The bear's winking eye: its sunglasses lens on that side is a see-through dark tinted lens (black outline, "
+        "translucent smoky dark grey tint) so the closed, winking eye with a curved lid line is clearly visible "
+        "through the lens; the other lens stays opaque solid black with the white diagonal glare stripe, exactly "
+        "like the reference image. Both lenses present, same round size, joined by the black bridge.")
+
 RIF_PRINCIPALE = "brand/mascotte/mascotte-principale.jpg"
 RIF_ESPRESSIONI = "brand/mascotte/espressioni.jpg"
 
@@ -122,7 +128,15 @@ def componi(spec, fascia_destra=True):
             if orso and "wink" in scena.lower():
                 rif.append(RIF_ESPRESSIONI)
                 print(f"{iid}: occhiolino -> aggiunto {RIF_ESPRESSIONI} come secondo riferimento", file=sys.stderr)
-        parti = [INTRO] + ([BEAR] if orso else []) + [STYLE, "Scene: " + scena, FONDI[fondo][1], comp, pal, NOTEXT]
+        bear = BEAR
+        if orso and "wink" in scena.lower():
+            # per l'occhiolino l'occhio chiuso si vede attraverso una lente fume' (risparmio 08, terza versione)
+            bear = BEAR.replace("(always worn, eyes never visible)",
+                                "(always worn; eyes hidden, except the winking eye seen through its see-through "
+                                "dark tinted lens)")
+            if "tinted lens" not in scena:
+                scena += " " + WINK
+        parti = [INTRO] + ([bear] if orso else []) + [STYLE, "Scene: " + scena, FONDI[fondo][1], comp, pal, NOTEXT]
         out[iid] = {"bear": orso, "background": FONDI[fondo][0], "riferimenti": rif, "scena": im["scena"],
                     "prompt": " ".join(parti)}
     return out

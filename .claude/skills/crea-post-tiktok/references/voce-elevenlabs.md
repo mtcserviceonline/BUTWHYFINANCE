@@ -55,7 +55,7 @@ python3 .claude/skills/crea-post-tiktok/scripts/elevenlabs_txt.py \
   brand/tiktok/output/AAAA-MM-slug/script/elevenlabs.txt --titolo "<titolo>"
 ```
 
-Contiene tre blocchi: (1) testo con i tag in italiano `[sorpreso] …`; (2) testo con i tag in inglese per `eleven_v3`; (3) per `eleven_multilingual_v2`, che non interpreta i tag, il testo di ogni scena senza tag con stability/style da impostare. Stampa anche il conteggio parole e la durata stimata.
+Stesso formato di `brand/tiktok/output/2026-10-risparmio-quotidiano/script/elevenlabs.txt`, tre blocchi: (1) tag in inglese per `eleven_v3` (`[surprised] …`); (2) tag in italiano come li scrive l'utente (`[sorpreso] …`); (3) per `eleven_multilingual_v2`, che non interpreta i tag, il testo di ogni scena senza tag con stability/style da impostare. In testa il conteggio parole e la durata stimata.
 
 **L'utente vuole sempre questo testo anche incollato nel messaggio in chat**, non solo nel file: copia almeno i blocchi 1 e 2 (e il 3 se usa `eleven_multilingual_v2`).
 

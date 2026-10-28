@@ -34,7 +34,7 @@ Consigli per la scena (da quello che ha funzionato):
 - Gli oggetti in mano vanno **tenuti di lato o in alto**, "so the euro symbol on his t-shirt stays uncovered".
 - Un oggetto forte per immagine; se ce ne sono due da confrontare, mettili su una bilancia o affiancati.
 - Fogli, scontrini, schermi: "BLANK", "only neat straight grey horizontal lines", "abstract round grey icons, no text".
-- Per l'occhiolino: formula della tabella in `brand.md`; `componi_prompt.py` aggiunge da solo `espressioni.jpg` come secondo riferimento se la scena contiene "wink".
+- Per l'occhiolino basta scrivere "WINKING like the winking face in the second reference image" nella scena: se la scena contiene "wink", `componi_prompt.py` aggiunge `espressioni.jpg` come secondo riferimento, la frase della **lente fumé** (occhio chiuso visibile attraverso una lente scura semitrasparente, l'altra nera piena con riflesso) e toglie "eyes never visible" dalla scheda dell'orso.
 
 ## 2. Comporre i prompt (`immagini/prompts.json`)
 
@@ -88,7 +88,8 @@ Si possono lanciare più generazioni in parallelo (2-4 alla volta) se il tempo c
 | **Contenuto nelle fasce alta/bassa** (oggetti dove va il titolo, piedi al bordo basso) | caffè (tutte, orso fino al bordo); risparmio 07, 05 (13% libero in basso) | blocco COMPOSIZIONE (12% / 18%); scena "the whole scene is in the middle of the image, nothing in the top part"; orso più piccolo |
 | **Fascia destra occupata** (oggetti fino al bordo destro) | tutte le immagini dei due post (misurato: contenuto fino al 97-100% della larghezza) | frase sulla fascia destra nel blocco COMPOSIZIONE (nuova: verificata su una sola prova); orso "on the left/center"; se resta, tenere l'elemento importante lontano dall'angolo in basso a destra dove stanno i pulsanti |
 | **Mezzo busto tagliato nel vuoto**, braccia ai bordi | prova di questa skill | figura intera piccola o mezzo busto dietro un tavolo/bancone |
-| **Occhiolino senza una lente** (monocolo) | risparmio 08 | `espressioni.jpg` come `image[1]` + "both round black sunglasses lenses are present, one lens shows the closed eye" |
+| **Occhiolino senza una lente** (monocolo) | risparmio 08, 1ª prova | `espressioni.jpg` come `image[1]` + "both lenses present, same round size, joined by the black bridge" |
+| **Occhiolino che non si legge** (lente nera piena, occhio chiuso invisibile) | risparmio 08, 2ª versione | lente fumé: "see-through dark tinted lens … the closed, winking eye with a curved lid line is clearly visible through the lens; the other lens stays opaque solid black with the white diagonal glare", e senza "eyes never visible" nella scheda (lo fa `componi_prompt.py`). Riuscita al primo colpo; la linea dell'occhio è sottile e si legge meno nelle miniature |
 | **Riflesso degli occhiali grigio/sbiadito** | risparmio 06 | rigenerare; il blocco ORSO chiede "one white diagonal glare stripe on each lens" |
 | **Filtro dei contenuti** (richiesta bloccata, HTTP 4xx) | caffè 11 ("carrying on his shoulders, bending under the weight") | riformulare senza fatica/peso fisico/pericolo: "holds the sack in both arms, the sack looks heavy" |
 | **HTTP 502 `upstream request failed`** | risparmio (2 volte) | temporaneo: ritentare uguale (lo script lo fa da solo) |
