@@ -10,13 +10,15 @@
 
 ## Testo della voce (approvato)
 
+> **Aggiornato il 28/10/2026 con il testo effettivamente registrato** (voce ElevenLabs "Valerio – Warm Italian Storyteller", [`voce.mp3`](../output/2026-10-risparmio-quotidiano/voce.mp3), 24,0 s, verificato trascrivendo l'audio): l'ultima frase è **"Non serve cambiare vita, basta iniziare a guardare le piccole spese."** al posto della domanda "E tu, quale piccola spesa taglieresti per prima?". La domanda per i commenti resta nella didascalia. Il video montato è in [`../output/2026-10-risparmio-quotidiano/`](../output/2026-10-risparmio-quotidiano/README.md).
+
 ```
 [sorpreso] Un caffè al bar ogni giorno costa circa quattrocentosettanta euro all'anno. Ma perché non ce ne accorgiamo?
 [curioso] Perché sono piccole spese, e le piccole spese non le guardiamo mai.
 [calmo] Primo: controlla gli abbonamenti che non usi.
 [calmo] Secondo: fai la lista prima di andare al supermercato.
 [pensieroso] Terzo: confronta le offerte di luce e gas una volta all'anno.
-[caldo] E tu, quale piccola spesa taglieresti per prima?
+[caldo] Non serve cambiare vita, basta iniziare a guardare le piccole spese.
 ```
 
 ## Fatti da verificare prima di pubblicare
@@ -42,7 +44,7 @@ Da fare: aprire la fonte originale Assoutenti/MIMIT e confermare 1,29 € prima 
 | 5 | 0:10-0:13 | **Consiglio 1.** Fondo carta; forbici ambra che tagliano una tessera/abbonamento, orso accanto con lo smartphone | **1 · ABBONAMENTI** | *(calmo)* "Primo: controlla gli abbonamenti che non usi." | taglio di forbici |
 | 6 | 0:13-0:17 | **Consiglio 2.** Fondo carta; orso con la lista della spesa (foglio e matita) davanti a un carrello, sagome di scaffali | **2 · LISTA DELLA SPESA** | *(calmo)* "Secondo: fai la lista prima di andare al supermercato." | fruscio di carta |
 | 7 | 0:17-0:21 | **Consiglio 3.** Fondo carta; orso pensieroso con due fogli di offerta affiancati, una lampadina e una fiammella del gas | **3 · LUCE E GAS** | *(pensieroso)* "Terzo: confronta le offerte di luce e gas una volta all'anno." | |
-| 8 | 0:21-0:25 | **Chiusura.** Fondo inchiostro; orso con l'occhiolino, salvadanaio con una moneta, spazio libero per il fumetto "But Why Finance?" (aggiunto in montaggio) | **E TU? QUALE TAGLIERESTI?** | *(caldo)* "E tu, quale piccola spesa taglieresti per prima?" | moneta nel salvadanaio, base musicale sfuma |
+| 8 | 0:21-0:25 | **Chiusura.** Fondo inchiostro; orso con l'occhiolino, salvadanaio con una moneta, spazio libero per il fumetto "But Why Finance?" (aggiunto in montaggio) | **BASTA GUARDARE LE PICCOLE SPESE** (prima: "E TU? QUALE TAGLIERESTI?") | *(caldo)* "Non serve cambiare vita, basta iniziare a guardare le piccole spese." (registrato; prima: "E tu, quale piccola spesa taglieresti per prima?") | moneta nel salvadanaio |
 
 Note di montaggio:
 - Il numero 470 è sempre preceduto da "~" a schermo e da "circa" nella voce.
@@ -57,7 +59,7 @@ Note di montaggio:
 
 ## Loop e rewatch
 
-- L'ultimo fotogramma (inchiostro, orso con l'occhiolino, salvadanaio con una moneta) richiama il primo (inchiostro, orso sorpreso, tazzina e scontrino vuoto): stesso fondo, orso nello stesso angolo, la moneta nel salvadanaio "risponde" allo scontrino vuoto. La domanda finale porta naturalmente alla frase d'apertura sul caffè, così il video riparte senza strappo.
+- L'ultimo fotogramma (inchiostro, orso con l'occhiolino, salvadanaio con una moneta) richiama il primo (inchiostro, orso sorpreso, tazzina e scontrino vuoto): stesso fondo, orso nello stesso angolo, la moneta nel salvadanaio "risponde" allo scontrino vuoto. La frase finale ("…basta iniziare a guardare le piccole spese") porta naturalmente alla frase d'apertura sul caffè, così il video riparte senza strappo.
 - Il rewatch trigger sono i tre consigli numerati (1 · 2 · 3): brevi, da salvare o rileggere.
 
 ## SEO TikTok
@@ -78,5 +80,5 @@ Note di montaggio:
 - Nessun consiglio di investimento né prodotto finanziario: solo abitudini di spesa quotidiana; nessun fornitore, servizio o marca citati per nome (il Portale Offerte ARERA solo in didascalia, come strumento pubblico).
 - Colori: ambra come unico accento (titoli, forbici, "~470 €"); carta per le spiegazioni, inchiostro per hook e chiusura; niente rosso accanto a verde (la fiammella del gas va in blu, non rossa/arancio accanto alla maglietta verde dell'orso; il verde marchio compare solo sulla maglietta e sul fumetto del logo).
 - Testi solo in montaggio: le immagini non devono contenere scritte (scontrino vuoto, fogli di offerta senza cifre leggibili).
-- Domanda finale aperta, ripetuta in didascalia.
-- Da fare: verifica della fonte Assoutenti/MIMIT, poi registrare la voce (con l'account ElevenLabs gratuito non è stato possibile generarla: va registrata quando l'account lo permette, o con un'altra voce con licenza commerciale).
+- Domanda aperta per i commenti: nella voce registrata non c'è più (la chiusura è "Non serve cambiare vita, basta iniziare a guardare le piccole spese."), resta **solo in didascalia**.
+- Da fare: verifica della fonte Assoutenti/MIMIT. Voce registrata (ElevenLabs, 28/10/2026) e video montato: vedi [`../output/2026-10-risparmio-quotidiano/README.md`](../output/2026-10-risparmio-quotidiano/README.md).

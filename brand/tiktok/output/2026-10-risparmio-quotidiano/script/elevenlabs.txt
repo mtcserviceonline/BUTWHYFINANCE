@@ -1,3 +1,8 @@
+NOTA (28/10/2026): la voce registrata (ElevenLabs, voce "Valerio - Warm Italian Storyteller", file ../voce.mp3)
+chiude con "Non serve cambiare vita, basta iniziare a guardare le piccole spese."
+invece della domanda "E tu, quale piccola spesa taglieresti per prima?" prevista prima. Testo verificato
+trascrivendo l'audio (muse-spark-1.3). La domanda per i commenti resta nella didascalia.
+
 === VERSIONE 1: eleven_v3, tag di tono in inglese (da incollare così) ===
 
 [surprised] Un caffè al bar ogni giorno costa circa quattrocentosettanta euro all'anno. Ma perché non ce ne accorgiamo?
@@ -5,7 +10,7 @@
 [calm] Primo: controlla gli abbonamenti che non usi.
 [calm] Secondo: fai la lista prima di andare al supermercato.
 [thoughtful] Terzo: confronta le offerte di luce e gas una volta all'anno.
-[warm] E tu, quale piccola spesa taglieresti per prima?
+[warm] Non serve cambiare vita, basta iniziare a guardare le piccole spese.
 
 
 === VERSIONE 2: tag di tono in italiano ===
@@ -15,7 +20,7 @@
 [calmo] Primo: controlla gli abbonamenti che non usi.
 [calmo] Secondo: fai la lista prima di andare al supermercato.
 [pensieroso] Terzo: confronta le offerte di luce e gas una volta all'anno.
-[caldo] E tu, quale piccola spesa taglieresti per prima?
+[caldo] Non serve cambiare vita, basta iniziare a guardare le piccole spese.
 
 
 === VERSIONE 3: eleven_multilingual_v2, una scena alla volta (senza tag) ===
@@ -36,4 +41,4 @@ Scena 5 | stability 0.7 | style 0.1
 Terzo: confronta le offerte di luce e gas una volta all'anno.
 
 Scena 6 | stability 0.5 | style 0.3
-E tu, quale piccola spesa taglieresti per prima?
+Non serve cambiare vita, basta iniziare a guardare le piccole spese.

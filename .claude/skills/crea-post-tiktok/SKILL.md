@@ -16,7 +16,7 @@ Produce un post completo nella cartella `brand/tiktok/output/AAAA-MM-slug/`: `ri
 
 Argomento indicato dall'utente (può essere vuoto): $ARGUMENTS
 
-Il metodo viene dai due post già fatti; quando hai un dubbio, imita `brand/tiktok/output/2026-10-risparmio-quotidiano/` (forma standard) e leggi il README di `brand/tiktok/output/2026-10-il-prezzo-del-caffe/` (API, montaggio, errori).
+Il metodo viene dai due post già fatti; quando hai un dubbio, imita `brand/tiktok/output/2026-10-risparmio-quotidiano/` (forma standard) e leggi il README di `brand/tiktok/output/2026-10-il-prezzo-del-caffe/` (API, errori); per il montaggio del video la sezione "Montaggio" del README di `2026-10-risparmio-quotidiano/`.
 
 ## Prima di iniziare
 

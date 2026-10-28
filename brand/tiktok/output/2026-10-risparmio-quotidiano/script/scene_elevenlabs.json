@@ -8,7 +8,10 @@
     "stability": 0.35,
     "style": 0.45,
     "text": "Un caffè al bar ogni giorno costa circa quattrocentosettanta euro all'anno. Ma perché non ce ne accorgiamo?",
-    "immagini": [1, 2]
+    "immagini": [
+      1,
+      2
+    ]
   },
   {
     "id": 2,
@@ -19,7 +22,10 @@
     "stability": 0.5,
     "style": 0.3,
     "text": "Perché sono piccole spese, e le piccole spese non le guardiamo mai.",
-    "immagini": [3, 4]
+    "immagini": [
+      3,
+      4
+    ]
   },
   {
     "id": 3,
@@ -30,7 +36,9 @@
     "stability": 0.7,
     "style": 0.1,
     "text": "Primo: controlla gli abbonamenti che non usi.",
-    "immagini": [5]
+    "immagini": [
+      5
+    ]
   },
   {
     "id": 4,
@@ -41,7 +49,9 @@
     "stability": 0.7,
     "style": 0.1,
     "text": "Secondo: fai la lista prima di andare al supermercato.",
-    "immagini": [6]
+    "immagini": [
+      6
+    ]
   },
   {
     "id": 5,
@@ -52,17 +62,22 @@
     "stability": 0.7,
     "style": 0.1,
     "text": "Terzo: confronta le offerte di luce e gas una volta all'anno.",
-    "immagini": [7]
+    "immagini": [
+      7
+    ]
   },
   {
     "id": 6,
     "secondi": "21-25",
     "espressione_orso": "occhiolino, sorriso complice",
-    "tono": "caldo, invita a rispondere nei commenti, senza dare la risposta",
+    "tono": "caldo e rassicurante, chiude con un invito semplice (testo effettivamente registrato, al posto della domanda iniziale)",
     "tag_v3": "[warm]",
     "stability": 0.5,
     "style": 0.3,
-    "text": "E tu, quale piccola spesa taglieresti per prima?",
-    "immagini": [8]
+    "text": "Non serve cambiare vita, basta iniziare a guardare le piccole spese.",
+    "immagini": [
+      8
+    ],
+    "testo_precedente": "E tu, quale piccola spesa taglieresti per prima?"
   }
 ]
