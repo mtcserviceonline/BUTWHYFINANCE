@@ -12,6 +12,8 @@
 #            <1 rimpicciolisce col fondo esteso; >1 ingrandisce). Limite: zoom effettivo <= zoom_max
 #   zoom_max default 1.20 (I-2); 1.15 dove richiesto (I-5)
 #   moto     "in" (zoom 100->104% durante l'inquadratura, default), "out" (104->100%), "fermo"
+#   punch    (zoom, secondi): avvicinamento rapido iniziale con ease-out (es. (1.13, 0.7)), poi il moto lento;
+#            cresce attorno ad "ancora" (se c'e') o agli occhiali
 #   ancora   (x, y) punto dello schermo attorno a cui cresce lo zoom; default: centro degli occhiali
 #            dell'immagine (cosi' gli occhiali non si spostano mai durante lo zoom)
 #   pan      (dx, dy) spostamento lento della sorgente in px (facoltativo)
@@ -39,7 +41,8 @@
 #   inquadratura (inizio, meta', fine) che il volto sia tutto in campo, che gli occhiali siano fuori dalla
 #   fascia destra e che nessun titolo, sottotitolo, fumetto o scritta li copra.
 #
-# EFFETTI: (effetto, parola). Solo sui numeri (A8): scontrino sul "470", tick leggeri sugli altri numeri.
+# EFFETTI: (effetto, parola) oppure (effetto, secondi) con un numero decimale (es. 0.0 = primo fotogramma).
+#   Solo sui numeri (A8): scontrino sul "470" (a 0,0 s, il numero e' la prima parola), tick sugli altri numeri.
 
 OCCHIALI = {
     "01": {"occhiali": (280, 430, 710, 610), "volto": (240, 290, 770, 800)},
@@ -54,8 +57,7 @@ OCCHIALI = {
 }
 
 TITLES = {
-    "hook": [{"runs": [("470", "mono", 250, "accent"), (" ", "mono", 110, "accent"), ("€", "cond", 236, "accent")],
-              "parola": "quattrocentosettanta"},
+    "hook": [[("470", "mono", 250, "accent"), (" ", "mono", 110, "accent"), ("€", "cond", 236, "accent")],
              {"runs": [("ALL'ANNO", "cond", 104, "base")], "parola": "all'anno"}],
     "loop": [[("?", "mono", 250, "accent")]],
     "piccole": [[("PICCOLE ", "cond", 120, "accent"), ("SPESE", "cond", 120, "base")]],
@@ -83,12 +85,15 @@ SCRITTE = {
 }
 
 SHOTS = [
-    # 0:00 hook su inchiostro: orso intero (I-1), poi due avvicinamenti (I-2: mai oltre 120%, volto intero)
-    {"img": "01", "parola": 0, "view": (515, 760, 0.70), "title": "hook"},
-    {"img": "01", "parola": "spendi", "view": (515, 690, 0.90), "title": "hook"},
+    # 0:00 hook su inchiostro (v2b): orso intero (I-1); "470 €" e colpo di scontrino dal fotogramma 0 (il numero e'
+    # la prima parola); punch-in rapido (112% in 0,7 s, ease-out) centrato tra orso e scontrino, poi zoom lento;
+    # poi due inquadrature piu' vicine (I-2: mai oltre 120%, volto intero)
+    {"img": "01", "parola": 0, "view": (515, 680, 0.70), "title": "hook", "punch": (1.12, 0.7), "ancora": (680, 1280)},
+    {"img": "01", "parola": "È", "view": (515, 690, 0.90), "title": "hook"},
+    {"img": "01", "parola": "caffè", "view": (560, 650, 1.0), "title": "hook"},
     # "e non te ne accorgi": primo piano sul volto (115%), il numero sparisce (e non c'e' titolo fino ai consigli
     # sul "Ma perche'?", T-2); con il titolo il primo piano avrebbe messo "ALL'ANNO" sulle orecchie
-    {"img": "01", "parola": "e", "view": (505, 690, 1.15), "title": None},
+    {"img": "01", "parola": "E", "view": (505, 690, 1.15), "title": None},
     # "Ma perche'?": carta, nessun titolo (T-2), unica transizione (M-2)
     {"img": "02", "parola": "Ma", "view": (700, 960, 1.0), "title": None, "transizione": "tenda"},
     # numero e fonte: scontrino 09, alternando largo e primo piano sullo scontrino con l'orso in campo (M-1, I-4, T-3)
@@ -113,11 +118,11 @@ SHOTS = [
     {"img": "08", "parola": "Basta", "view": (560, 990, 0.85), "title": "fine", "moto": "out"},
     {"img": "08", "parola": "E", "view": (560, 1010, 0.92), "title": None, "bubble": (600, 300, 520, 470), "bubble_parola": "qual"},
     # ultimo mezzo secondo: stessa composizione del primo fotogramma con "?" al posto di "470 €" (I-8)
-    {"img": "01", "dopo": "mai?", "view": (515, 760, 0.70), "title": "loop", "moto": "fermo"},
+    {"img": "01", "dopo": "mai?", "view": (515, 680, 0.70), "title": "loop", "moto": "fermo"},
 ]
 
 SUBS = [
-    "SE TI BEVI", "UN CAFFÈ AL BAR", "OGNI GIORNO,", "SPENDI CIRCA", "*470 EURO*", "ALL'ANNO",
+    "*470 EURO*", "ALL'ANNO.", "È PIÙ O MENO", "QUANTO SPENDI", "CON UN CAFFÈ AL BAR", "OGNI GIORNO.",
     "E *NON TE NE ACCORGI*.", "MA *PERCHÉ?*",
     "PER *ASSOUTENTI*", "UN ESPRESSO COSTA", "IN MEDIA *1,29_€*{3}.",
     "MOLTIPLICATO PER", "*365* GIORNI:", "*471 EURO*.",
@@ -130,7 +135,7 @@ SUBS = [
 ]
 
 EFFETTI = [
-    ("scontrino", "quattrocentosettanta"),
+    ("scontrino", 0.0),
     ("tick", "uno"), ("tick", "trecentosessantacinque"), ("tick", "quattrocentosettantuno"),
     ("pop", "Primo"), ("pop", "Secondo"), ("pop", "Terzo"),
 ]

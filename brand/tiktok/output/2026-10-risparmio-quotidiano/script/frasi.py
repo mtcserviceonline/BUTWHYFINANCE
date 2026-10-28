@@ -74,10 +74,10 @@ def main():
         cum += syl[j]
         pos_spazio.append(cum)
     atteso = pos_spazio
-    # 2 = punto/domanda/due punti, 1 = virgola o spazio prima di una congiunzione (in italiano si respira
-    # spesso prima di "e", "ma", "che"... anche senza virgola), 0 = niente
+    # 2 = punto/domanda/due punti, 1 = virgola, 0.5 = spazio prima di una congiunzione (in italiano si respira
+    # spesso prima di "e", "ma", "che"... anche senza virgola; peso minore: "uno e ventinove"), 0 = niente
     CONG = {"e", "ed", "ma", "che", "perché", "però", "o", "oppure", "quindi"}
-    punt = [2 if re.search(r"[.?!:]$", w) else 1 if w.endswith(",") or words[j + 1].lower() in CONG else 0
+    punt = [2 if re.search(r"[.?!:]$", w) else 1 if w.endswith(",") else 0.5 if words[j + 1].lower() in CONG else 0
             for j, w in enumerate(words[:-1])]
     G, P = len(atteso), len(pause)
     INF = 1e18
@@ -89,7 +89,7 @@ def main():
         peso = min(1.0, (pause[k][1] - pause[k][0]) / 0.3)     # le pause lunghe "vogliono" la punteggiatura
         # 0.6 fisso: una pausa brevissima senza punteggiatura (spesso l'occlusione di una "p" o una "t"
         # dentro la parola) costa meno lasciarla senza abbinamento che metterla tra due parole
-        return 0.6 + ((pos_pausa[k] - pos_spazio[j]) / a.sigma) ** 2 - peso * (3.0 if punt[j] == 2 else 1.5 if punt[j] == 1 else 0)
+        return 0.6 + ((pos_pausa[k] - pos_spazio[j]) / a.sigma) ** 2 - peso * (3.0 if punt[j] == 2 else 1.5 if punt[j] == 1 else 1.0 if punt[j] == 0.5 else 0)
 
     def costo_vuoto(j):               # spazio con punteggiatura forte rimasto senza pausa
         return 0.8 if punt[j] == 2 else 0.2 if punt[j] == 1 else 0

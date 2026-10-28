@@ -2,18 +2,19 @@
 
 Realizzazione del copione [`../../copioni/2026-10-risparmio-quotidiano.md`](../../copioni/2026-10-risparmio-quotidiano.md).
 
-Ci sono **due versioni** del video, da mettere a confronto (P-6):
+Ci sono **tre versioni** del video:
 
-- **v2** (`video.mp4`, 33,7 s): testo nuovo con la fonte Assoutenti, il conto sullo scontrino e la domanda finale, montaggio rifatto con tutte le correzioni dell'utente (28/10/2026).
-- **v1** (`video_v1_24s.mp4`, 24,3 s): la prima versione, conservata per l'A/B test.
+- **v2b** (`video.mp4`, 34,1 s, quella da pubblicare): come la v2a, ma con l'apertura registrata di nuovo dall'utente con il **numero come prima parola** ("Quattrocentosettanta euro all'anno. È più o meno quanto spendi con un caffè al bar ogni giorno. E non te ne accorgi. Ma perché?"), il colpo di scontrino e "470 €" dal fotogramma 0 e un punch-in rapido verso lo scontrino nei primi 0,7 s.
+- **v2a** (`video_v2a.mp4`, 33,7 s): testo nuovo con la fonte Assoutenti, il conto sullo scontrino e la domanda finale, montaggio con tutte le correzioni dell'utente; apertura "Se ti bevi un caffè al bar ogni giorno…". Conservata per confronto.
+- **v1** (`video_v1_24s.mp4`, 24,3 s): la prima versione, conservata per l'A/B test (P-6).
 
 ## Stato
 
 | Cosa | Stato |
 |---|---|
 | Testo v2, scene ElevenLabs | pronti (`script/elevenlabs.txt`, `script/scene_elevenlabs.json`) |
-| Voce v2 | **registrata** dall'utente su ElevenLabs ("Valerio – Warm Italian Storyteller"), `voce.mp3` (35,6 s grezza) |
-| Video v2 | **montato** (`video.mp4`, 33,74 s, 1080x1920, 30 fps, H.264 + AAC 48 kHz), -14,7 LUFS, true peak -1,5 dBFS |
+| Voce v2b | **registrata** dall'utente su ElevenLabs ("Valerio – Warm Italian Storyteller"): apertura nuova (`voce_hook_v2b.mp3`, 7,81 s) + resto della v2a da "Per Assoutenti…" (`voce_v2a.mp3`), uniti in `voce.mp3` (35,68 s grezza) |
+| Video v2b | **montato** (`video.mp4`, 34,10 s, 1080x1920, 30 fps, H.264 + AAC 48 kHz), -14,7 LUFS, true peak -1,6 dBFS |
 | Copertina | `copertina.png` (P-2) |
 | Didascalia | `didascalia.md` (P-3 e P-4 alla lettera) |
 | Fonte del 1,29 € | concordante su più testate; **comunicato originale da aprire a cura dell'utente** (vedi sotto) |
@@ -25,10 +26,10 @@ Ci sono **due versioni** del video, da mettere a confronto (P-6):
 - [ ] **P-2 Copertina:** caricare `copertina.png` (fondo inchiostro, orso intero sorpreso, "470 €" in ambra e "ALL'ANNO"; tutto tra y=260 e y=1650, quindi visibile anche nel ritaglio 3:4 della griglia del profilo).
 - [ ] **P-3 Didascalia:** il testo esatto in `didascalia.md` ("Se ti bevi un caffè al bar ogni giorno, spendi circa 470 euro all'anno. Per Assoutenti l'espresso costa in media 1,29 euro. Qual è la piccola spesa che non guardi mai? 👇").
 - [ ] **P-4 Hashtag:** `#caffè #prezzi #risparmio #finanzapersonale`.
-- [ ] **P-5 Assoutenti nominata** a voce (0:07,4 "Per Assoutenti…"), a schermo ("Fonte: Assoutenti (dati MIMIT)" sullo scontrino, 7,5-14,8 s) e in didascalia: fatto nel video e nella didascalia.
+- [ ] **P-5 Assoutenti nominata** a voce (0:07,8 "Per Assoutenti…"), a schermo ("Fonte: Assoutenti (dati MIMIT)" sullo scontrino, 7,9-15,2 s) e in didascalia: fatto nel video e nella didascalia.
 - [ ] **Fonte:** aprire il comunicato originale Assoutenti/CRC (18/08/2026) e confermare 1,29 €. Se è diverso: correggere testo, rifare la voce e rilanciare `monta.sh`.
 - [ ] **A8 Musica:** nessuna base nel file (vedi "Musica"). Se si vuole, aggiungerla in app.
-- [ ] **P-6 A/B test:** (1) v1 da 24 s contro v2 da 33,7 s; (2) finale con domanda (v2) contro taglio netto sull'ultima frase. Per la variante (2) basta rimontare la v2 fermandola dopo "Basta guardare le piccole spese." (vedi "Varianti per l'A/B test").
+- [ ] **P-6 A/B test:** (1) v1 da 24 s contro v2b da 34,1 s (eventualmente anche v2a contro v2b: apertura "Se ti bevi…" contro numero in apertura); (2) finale con domanda (v2) contro taglio netto sull'ultima frase. Per la variante (2) basta rimontare la v2 fermandola dopo "Basta guardare le piccole spese." (vedi "Varianti per l'A/B test").
 - [ ] Ascoltare il video almeno una volta: voce, pause accorciate, effetti (vedi "Limiti").
 
 ## Verifica della fonte (prima di registrare)
@@ -39,7 +40,15 @@ Ci sono **due versioni** del video, da mettere a confronto (P-6):
 - **Conto:** 1,29 × 365 = 470,85 € → "circa quattrocentosettanta" nell'apertura e "quattrocentosettantuno" nel conto (arrotondamento), regge.
 - **T-5 / M-6 (cifre accanto ai consigli, frase di colpo di scena):** **non applicati**. Per "abbonamenti non usati", "lista della spesa" e "confronto luce e gas una volta all'anno" non ho una cifra con fonte verificata, quindi i tre passi restano senza numero e non c'è la frase di colpo di scena prima dei consigli.
 
-## Voce v2 e ritmo
+## Voce v2b: nuova apertura (28/10/2026, pomeriggio)
+
+- **Trascrizione** (`muse-spark-1.3`, intero 4 volte e a spezzoni): "Quattrocentosettanta euro all'anno. È più o meno quanto spendi con un caffè al bar ogni giorno. E non te ne accorgi. Ma perché?". Nessun tag letto. Il trascrittore sull'intero ha scritto una volta "al mese" e due volte "nemmeno/neanche" in fondo a "non te ne accorgi": gli spezzoni (0-2,3 s: "470 euro all'anno", due volte; 4,9-7,8 s: "non te ne accorgi ma perché") e il conteggio delle sillabe (6 picchi per le 7 sillabe di "e non te ne accorgi", 10 con "nemmeno") dicono che non ci sono. **Da ascoltare** comunque "all'anno" all'inizio.
+- **Giunzione:** dall'audio nuovo tutto fino a 0,15 s dopo la fine di "Ma perché?" (7,63 s), poi la v2a da 0,15 s prima di "Per Assoutenti" (7,89 s del file v2a), dissolvenza incrociata di 10 ms nel silenzio (livello al giunto -71 dB, nessun clic). Pausa di raccordo 0,29 s.
+- **Volume e timbro delle due parti:** apertura nuova -18,8 LUFS contro -18,4 dell'apertura v2a e -20,0/-20,3 del resto (lo stesso scarto che c'era nella v2a: nessuna correzione di guadagno); rumore di fondo uguale (-85 dB). Sulla stessa frase "e non te ne accorgi" il centroide spettrale è 1954 Hz contro 2028 della v2a (timbro uguale), ma è **2,3 dB più bassa** e 0,07 s più lunga: l'enfasi chiesta in A2 è meno marcata della v2a. "Ma perché?" quasi identico (-21,4 contro -21,1 dB).
+- **Ritmo** (stessa catena): attacco 0,09 → 0,05 s, pausa prima di "Ma perché?" 0,49 → 0,36 s, 8 pause tra frasi da 0,41-0,65 s a 0,30 s. 95 parole, 35,66 s → 33,76 s di voce, **161 → 170 parole/min**, nessuna accelerazione. Video 34,10 s.
+- **Testo e didascalia:** la voce non dice più "circa" ma "più o meno quanto spendi": la didascalia ("spendi circa 470 euro all'anno") resta coerente nel senso, ma non è più la stessa frase del video.
+
+## Voce v2a e ritmo
 
 Trascrizione di controllo (`muse-spark-1.3`, intero e a spezzoni): testo **quello nuovo**, nessun tag letto ad alta voce, nessuna parola aggiunta. Due punti da ascoltare: il "Se" iniziale è breve e debole (il trascrittore ha sentito "Ti bevi" / "Te ti bevi"; nell'audio c'è una sillaba a 0,12-0,22 s con la "s" iniziale) e "Assoutenti" è stato trascritto una volta "assurdo è" e una volta "assutenti".
 
@@ -67,53 +76,55 @@ Nel video **non c'è musica**: non abbiamo una traccia con licenza commerciale e
 | Punto | Cosa è stato fatto |
 |---|---|
 | A1 | testo nuovo, 7 scene (`script/scene_elevenlabs.json`) |
-| A4 | -14,7 LUFS integrati, true peak -1,5 dBFS misurati sul `video.mp4` finale (loudnorm a -14 LUFS con tetto -2 dBTP: con -1,5 dBTP, dopo l'AAC il picco risaliva a -1,1) |
+| A4 | v2b: -14,7 LUFS integrati, true peak -1,6 dBFS (v2a: -14,7 / -1,5) misurati sul `video.mp4` finale (loudnorm a -14 LUFS con tetto -2 dBTP: con -1,5 dBTP, dopo l'AAC il picco risaliva a -1,1) |
 | A5 | numeri per esteso nel testo per la voce; a schermo in cifre ("470 EURO", "1,29 €", "365", "471 EURO") |
-| A6 | il video finisce **0,45 s** dopo l'ultima parola ("mai?" finisce a 33,29 s) |
-| A8 | effetti solo sui numeri: "scontrino" (stampante + strappo) su "quattrocentosettanta", tre "tick" leggeri su "uno e ventinove", "trecentosessantacinque", "quattrocentosettantuno", tre "pop" leggeri su Primo/Secondo/Terzo. Tolti forbici, monete, monetine, carta, salvadanaio. Effetti nel complesso a -36 LUFS contro -19,5 della voce. Musica: vedi sopra |
-| T-1 / M-5 | apertura senza titolo; **"470 €"** (IBM Plex Mono, ambra, gigante) entra con il colpo di scontrino all'inizio di "quattrocentosettanta" (2,58 s); **"ALL'ANNO"** entra su "all'anno" (4,12 s); in basso solo la riga parlata |
-| T-2 | da "e non te ne accorgi" (4,95 s) fino ai consigli nessun titolo in alto: "Ma perché?" è solo nel sottotitolo |
+| A6 | il video finisce **0,45 s** dopo l'ultima parola ("mai?" finisce a 33,65 s) |
+| A8 | effetti solo sui numeri: "scontrino" (stampante + strappo) a **0,0 s** (v2b: il numero è la prima parola), tre "tick" leggeri su "uno e ventinove", "trecentosessantacinque", "quattrocentosettantuno", tre "pop" leggeri su Primo/Secondo/Terzo. Tolti forbici, monete, monetine, carta, salvadanaio. Effetti nel complesso a -36 LUFS contro -19,5 della voce. Musica: vedi sopra |
+| T-1 / M-5 | v2b: **"470 €"** (IBM Plex Mono, ambra, gigante) già pieno al fotogramma 0, con il colpo di scontrino, perché la voce parte con "quattrocentosettanta"; **"ALL'ANNO"** entra su "all'anno" (1,39 s); in basso solo la riga parlata. (v2a: apertura senza titolo, "470 €" sulla parola a 2,58 s) |
+| T-2 | da "e non te ne accorgi" (5,32 s) fino ai consigli nessun titolo in alto: "Ma perché?" è solo nel sottotitolo |
 | T-3 / I-4 | immagine nuova **09** (orso con scontrino vuoto); sullo scontrino, in Mono, compaiono "1,29 €" (su "uno"), "× 365" (su "trecentosessantacinque"), riga e "= 471 €" (su "quattrocentosettantuno"); "Fonte: Assoutenti (dati MIMIT)" dall'inizio della scena, sopra il 15% in basso |
 | T-4 | "1 ·", "2 ·", "3 ·" sopra la testa dell'orso in tutte le inquadrature (vista scelta perché la testa stia sotto il titolo) |
 | T-6 | domanda finale intera nel sottotitolo, su due righe, con **"MAI?"** in ambra; resta fino all'ultimo fotogramma |
 | T-7 | sottotitoli ancorati in basso: bordo basso del testo (contorno compreso) ≤ y=1632 in tutti, controllato |
 | I-1 | apertura: orso intero sorpreso (01 al 70%), occhiali ben visibili, fondo inchiostro |
-| I-2 | avvicinamenti sull'01: 90% su "spendi", **115%** sul volto per "e non te ne accorgi"; volto sempre intero |
+| Punch-in (v2b) | nei primi 0,7 s zoom rapido **100 → 112%** con ease-out (cubico: un terzo del movimento nei primi 0,1 s), centrato tra orso e scontrino (punto dello schermo 680, 1280); poi lo zoom lento di sempre (+4%), che cresce attorno agli occhiali così la testa non sale sotto "ALL'ANNO" (testa a y≈609-616, "ALL'ANNO" finisce a 609) |
+| I-2 | avvicinamenti sull'01: 90% su "È", 100% su "caffè", **115%** sul volto per "e non te ne accorgi"; volto sempre intero |
 | I-5 | 04 al massimo al 108% (+4% di movimento = 112%), titolo sopra la scena |
 | I-6 | 06: due inquadrature con l'orso intero e la lista (100% e 112%), titolo sopra la testa |
 | I-7 | 08: volto e salvadanaio insieme (112%) |
-| I-8 | ultimi 0,45 s: **stessa vista del primo fotogramma** (01 al 70%, ferma), con **"?"** al posto di "470 €" (centro del titolo identico: 504, 384) |
-| I-9 / M-1 / M-2 | vedi "Controlli automatici". Un solo effetto di passaggio: la "tenda" da inchiostro a carta (0,2 s) su "Ma perché?" (6,42 s); il resto tagli netti |
+| I-8 | ultimi 0,45 s: **stessa vista del primo fotogramma, prima del punch-in** (01 al 70%, ferma), con **"?"** al posto di "470 €" (centro del titolo identico; differenza media tra fotogramma 0 e ultimo fotogramma nella fascia dell'orso: 0,26 livelli su 255) |
+| I-9 / M-1 / M-2 | vedi "Controlli automatici". Un solo effetto di passaggio: la "tenda" da inchiostro a carta (0,2 s) su "Ma perché?" (6,86 s); il resto tagli netti |
 | M-3 | fondo inchiostro in apertura e chiusura |
 
 **Non applicati:** T-5 e M-6 (nessuna cifra verificata per i consigli, vedi sopra). Durata ~27 s (A1): vedi "Voce v2 e ritmo".
 
-### Inquadrature (22 in 33,7 s, una ogni 1,53 s in media)
+### Inquadrature v2b (23 in 34,1 s, una ogni 1,48 s in media)
 
 | # | Tempo (s) | Img | Vista (zoom) | Titolo | Voce |
 |---|---|---|---|---|---|
-| 1 | 0,00-1,99 | 01 | orso intero (70%) | — | Se ti bevi un caffè al bar ogni giorno, |
-| 2 | 1,99-4,95 | 01 | 90% | **470 €** (2,58) + ALL'ANNO (4,12) | spendi circa quattrocentosettanta euro all'anno |
-| 3 | 4,95-6,42 | 01 | volto 115% | — | e non te ne accorgi. |
-| 4 | 6,42-7,31 | 02 | 100%, entra con la tenda | — | Ma perché? |
-| 5 | 7,31-9,25 | 09 | larga (80%) | scontrino: Fonte | Per Assoutenti un espresso costa in media |
-| 6 | 9,25-10,42 | 09 | scontrino + orso (97%) | scontrino: 1,29 € | uno e ventinove. |
-| 7 | 10,42-13,14 | 09 | 88% | scontrino: × 365 (11,26) | Moltiplicato per trecentosessantacinque giorni: |
-| 8 | 13,14-14,82 | 09 | scontrino + orso (97%) | scontrino: = 471 € | quattrocentosettantuno euro. |
-| 9 | 14,82-16,16 | 03 | 86% | PICCOLE SPESE | Sono piccole spese. |
-| 10 | 16,16-17,16 | 04 | 92% | PICCOLE SPESE | E le piccole spese |
-| 11 | 17,16-18,25 | 04 | 108% | PICCOLE SPESE | non le guardiamo mai. |
-| 12 | 18,25-19,47 | 05 | 75% | 1 · ABBONAMENTI | Primo: controlla gli |
-| 13 | 19,47-20,86 | 05 | 100% | 1 · ABBONAMENTI | abbonamenti che non usi. |
-| 14 | 20,86-22,28 | 06 | 100% | 2 · LISTA DELLA SPESA | Secondo: fai la lista |
-| 15 | 22,28-24,09 | 06 | orso intero + lista (112%) | 2 · LISTA DELLA SPESA | prima di andare al supermercato. |
-| 16 | 24,09-25,46 | 07 | 95% | 3 · LUCE E GAS | Terzo: confronta le |
-| 17 | 25,46-26,74 | 07 | orso + fiammella (112%) | 3 · LUCE E GAS | offerte di luce e gas |
-| 18 | 26,74-27,90 | 07 | 100% | 3 · LUCE E GAS | una volta all'anno. |
-| 19 | 27,90-29,39 | 08 | volto + salvadanaio (112%) | — | Non serve cambiare vita. |
-| 20 | 29,39-31,24 | 08 | 85%, zoom all'indietro | BASTA GUARDARE LE + PICCOLE SPESE (30,23) | Basta guardare le piccole spese. |
-| 21 | 31,24-33,29 | 08 | 92% | fumetto "But Why Finance?" (31,96) | E tu: qual è quella che non guardi mai? |
-| 22 | 33,29-33,74 | 01 | **come il fotogramma 0** | **?** | — (ultima parola finita) |
+| 1 | 0,00-2,28 | 01 | orso intero (70%), **punch-in a 112% in 0,7 s** | **470 €** (0,0) + ALL'ANNO (1,39) | Quattrocentosettanta euro all'anno. |
+| 2 | 2,28-3,81 | 01 | 90% | 470 € ALL'ANNO | È più o meno quanto spendi con un |
+| 3 | 3,81-5,32 | 01 | 100% | 470 € ALL'ANNO | caffè al bar ogni giorno. |
+| 4 | 5,32-6,86 | 01 | volto 115% | — | E non te ne accorgi. |
+| 5 | 6,86-7,67 | 02 | 100%, entra con la tenda | — | Ma perché? |
+| 6 | 7,67-9,63 | 09 | larga (80%) | scontrino: Fonte | Per Assoutenti un espresso costa in media |
+| 7 | 9,63-10,78 | 09 | scontrino + orso (97%) | scontrino: 1,29 € | uno e ventinove. |
+| 8 | 10,78-13,50 | 09 | 88% | scontrino: × 365 (11,64) | Moltiplicato per trecentosessantacinque giorni: |
+| 9 | 13,50-15,18 | 09 | scontrino + orso (97%) | scontrino: = 471 € | quattrocentosettantuno euro. |
+| 10 | 15,18-16,52 | 03 | 86% | PICCOLE SPESE | Sono piccole spese. |
+| 11 | 16,52-17,54 | 04 | 92% | PICCOLE SPESE | E le piccole spese |
+| 12 | 17,54-18,61 | 04 | 108% | PICCOLE SPESE | non le guardiamo mai. |
+| 13 | 18,61-19,75 | 05 | 75% | 1 · ABBONAMENTI | Primo: controlla gli |
+| 14 | 19,75-21,22 | 05 | 100% | 1 · ABBONAMENTI | abbonamenti che non usi. |
+| 15 | 21,22-22,67 | 06 | 100% | 2 · LISTA DELLA SPESA | Secondo: fai la lista |
+| 16 | 22,67-24,45 | 06 | orso intero + lista (112%) | 2 · LISTA DELLA SPESA | prima di andare al supermercato. |
+| 17 | 24,45-25,94 | 07 | 95% | 3 · LUCE E GAS | Terzo: confronta le |
+| 18 | 25,94-27,26 | 07 | orso + fiammella (112%) | 3 · LUCE E GAS | offerte di luce e gas |
+| 19 | 27,26-28,25 | 07 | 100% | 3 · LUCE E GAS | una volta all'anno. |
+| 20 | 28,25-29,74 | 08 | volto + salvadanaio (112%) | — | Non serve cambiare vita. |
+| 21 | 29,74-31,60 | 08 | 85%, zoom all'indietro | BASTA GUARDARE LE + PICCOLE SPESE | Basta guardare le piccole spese. |
+| 22 | 31,60-33,65 | 08 | 92% | fumetto "But Why Finance?" | E tu: qual è quella che non guardi mai? |
+| 23 | 33,65-34,10 | 01 | **come il fotogramma 0** (prima del punch-in) | **?** | — (ultima parola finita) |
 
 Tempi esatti, sottotitoli parola per parola, effetti, controlli e ritmo della voce in `tempi.json`.
 
@@ -124,36 +135,39 @@ Per ogni inquadratura, all'inizio, a metà e alla fine (lo zoom si muove):
 - **volto dell'orso tutto in campo** e **occhiali** fuori dalla fascia destra di 120 px e mai coperti da titolo, sottotitoli, fumetto o scritte sullo scontrino (box di occhiali e volto per ogni immagine in `script/config_video.py` → `OCCHIALI`, misurati a mano e verificati disegnandoli; lo zoom lento cresce attorno agli occhiali, che quindi non si spostano);
 - zoom effettivo ≤ 120% (≤ 115% dove indicato);
 - testi nelle zone sicure: niente nel 10% in alto (y < 192), nel 15% in basso (y > 1632), nella fascia destra (x > 960);
-- **cambio visivo al massimo ogni 2 s** (tagli, righe di titolo, scritte e fumetto che entrano): massimo misurato **1,99 s**;
+- **cambio visivo al massimo ogni 2 s** (tagli, righe di titolo, scritte e fumetto che entrano): massimo misurato **1,86 s** (v2b);
 - loop: ultima inquadratura uguale alla prima, titolo "?" centrato come "470 €".
 
 Risultato sul video finale: **0 errori, 0 avvisi**. Con errori `monta.sh` si ferma (salvo `FORZA=1`).
 
 ### Controlli a occhio
 
-- [`anteprima_layout_v2.jpg`](anteprima_layout_v2.jpg): 0,0 s, ogni taglio +0,12 s e l'ultimo fotogramma, con le fasce sicure (magenta) e il box degli occhiali (azzurro). [`anteprima_video.jpg`](anteprima_video.jpg): un fotogramma a metà di ogni inquadratura. Guardati tutti, più a piena risoluzione l'ingresso di "470 €", la tenda (6,45 / 6,52 / 6,58 s) e lo scontrino completo (14,3 s): conto leggibile, occhiali sempre visibili e liberi, nessun testo nelle fasce, "?" nella posizione di "470 €".
+- [`anteprima_layout_v2.jpg`](anteprima_layout_v2.jpg): 0,0 s, ogni taglio +0,12 s e l'ultimo fotogramma, con le fasce sicure (magenta) e il box degli occhiali (azzurro). [`anteprima_video.jpg`](anteprima_video.jpg): un fotogramma a metà di ogni inquadratura. v2b: guardati anche i fotogrammi 0,0 · 0,3 · 0,7 · 1,5 · 2,4 · 4,0 · 5,5 · 6,9 s e l'ultimo (punch-in visibile, "470 €" pieno dal fotogramma 0, "ALL'ANNO" che non copre la testa, ultimo fotogramma uguale al primo con "?"). v2a: guardati tutti, più a piena risoluzione l'ingresso di "470 €", la tenda (6,45 / 6,52 / 6,58 s) e lo scontrino completo (14,3 s): conto leggibile, occhiali sempre visibili e liberi, nessun testo nelle fasce, "?" nella posizione di "470 €".
 
 ### Limiti noti
 
 - **Non ho potuto ascoltare** voce, tagli delle pause ed effetti: controllati solo con misure.
-- Tempi delle parole **stimati** dentro ogni frase (picchi di energia ≈ sillabe, errore atteso < 0,15 s): "470 €" entra all'inizio stimato di "quattrocentosettanta" (2,58 s), non al fotogramma garantito.
-- Inquadrature 16-18 (07): la testa dell'orso sfiora la fascia destra (gli occhiali no); nella 16 una parte del foglio con la lampadina è tagliata a sinistra, nella 17 la lampadina è fuori campo.
-- Inquadratura 3 (volto al 115%): la € della maglietta è in parte sotto il sottotitolo. Inquadratura 4 (0,9 s) è la più breve.
-- Inquadrature 2 (2,96 s), 7 (2,72 s) e 21 (2,05 s) durano più di 2 s: dentro ognuna entra qualcosa di grande ("470 €" e "ALL'ANNO"; "× 365"; il fumetto), quindi il cambio visivo più lontano resta 1,99 s. Se per M-1 vale solo il taglio d'inquadratura, vanno spezzate.
+- Tempi delle parole **stimati** dentro ogni frase (picchi di energia ≈ sillabe, errore atteso < 0,15 s), compreso l'ingresso di "ALL'ANNO" (1,39 s). "470 €" e lo scontrino invece sono a 0,0 s esatti; la voce parte a 0,05 s.
+- v2b: nel fotogramma 0 non c'è ancora il sottotitolo (entra con la prima parola, a 0,05 s). "ALL'ANNO" sfiora le orecchie dell'orso a fine punch-in (si toccano senza sovrapporsi, controllato a piena risoluzione).
+- Inquadrature 17-19 (07): la testa dell'orso sfiora la fascia destra (gli occhiali no); nella 16 una parte del foglio con la lampadina è tagliata a sinistra, nella 17 la lampadina è fuori campo.
+- Inquadratura 4 (volto al 115%): la € della maglietta è in parte sotto il sottotitolo. Inquadratura 5 (0,8 s) è la più breve.
+- Inquadrature 1 (2,28 s), 8 (2,72 s) e 22 (2,05 s) durano più di 2 s: dentro ognuna entra qualcosa di grande ("ALL'ANNO"; "× 365"; il fumetto), quindi il cambio visivo più lontano resta 1,86 s. Se per M-1 vale solo il taglio d'inquadratura, vanno spezzate.
 - Immagine 09: tratto dell'orso leggermente più liscio delle altre (vedi `immagini/README.md`).
 
 ### Varianti per l'A/B test (P-6)
 
-- **v1 contro v2:** `video_v1_24s.mp4` contro `video.mp4`.
-- **Domanda finale contro taglio netto:** in `script/scene_elevenlabs.json` togliere "E tu: qual è quella che non guardi mai?" dal testo della scena 7, in `script/config_video.py` togliere l'ultimo sottotitolo e le inquadrature 21-22 (il loop "?" si può tenere dopo "spese."), poi rilanciare `monta.sh` con la stessa voce tagliata dopo "spese." (da ~31,0 s del montato, ~33,1 s del file grezzo).
+- **v1 contro v2b:** `video_v1_24s.mp4` contro `video.mp4` (e, se serve, `video_v2a.mp4` per l'apertura).
+- **Domanda finale contro taglio netto:** in `script/scene_elevenlabs.json` togliere "E tu: qual è quella che non guardi mai?" dal testo della scena 7, in `script/config_video.py` togliere l'ultimo sottotitolo e le inquadrature 21-22 (il loop "?" si può tenere dopo "spese."), poi rilanciare `monta.sh` con la stessa voce tagliata dopo "spese." (~33,1 s del file `voce.mp3`).
 
 ## File
 
 | File | Contenuto |
 |---|---|
-| `video.mp4` | **v2**, 1080x1920, 30 fps, 33,74 s, -14,7 LUFS, true peak -1,5 dBFS |
-| `voce.mp3` | voce v2 così come registrata (35,63 s, non modificata; le pause si accorciano in montaggio) |
-| `tempi.json` | inquadrature, titoli, scritte, sottotitoli parola per parola, effetti, controlli, ritmo della voce, loudness |
+| `video.mp4` | **v2b**, 1080x1920, 30 fps, 34,10 s, -14,7 LUFS, true peak -1,6 dBFS |
+| `voce.mp3` | voce v2b: `voce_hook_v2b.mp3` fino a "Ma perché?" + `voce_v2a.mp3` da "Per Assoutenti" (35,68 s; le pause si accorciano in montaggio) |
+| `voce_hook_v2b.mp3` | apertura registrata di nuovo dall'utente (7,81 s, non modificata) |
+| `video_v2a.mp4`, `voce_v2a.mp3` | versione v2a (apertura "Se ti bevi…", 33,74 s) e la sua voce grezza (35,63 s) |
+| `tempi.json` | (v2b) inquadrature, titoli, scritte, sottotitoli parola per parola, effetti, controlli, ritmo della voce, loudness |
 | `trascrizione.md`, `sottotitoli.srt` | testo con i tempi del video v2 (SRT da caricare se servono sottotitoli chiusi) |
 | `copertina.png` | copertina 1080x1920 (P-2) |
 | `anteprima_video.jpg`, `anteprima_layout_v2.jpg` | contact sheet del video v2 (il secondo con fasce sicure e occhiali) |

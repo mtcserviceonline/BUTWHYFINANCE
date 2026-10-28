@@ -1,467 +1,477 @@
 [
 {
-"w": "Se",
+"w": "Quattrocentosettanta",
 "start": 0.05,
-"end": 0.176
-},
-{
-"w": "ti",
-"start": 0.176,
-"end": 0.309
-},
-{
-"w": "bevi",
-"start": 0.309,
-"end": 0.567
-},
-{
-"w": "un",
-"start": 0.567,
-"end": 0.702
-},
-{
-"w": "caffè",
-"start": 0.702,
-"end": 1.031
-},
-{
-"w": "al",
-"start": 1.031,
-"end": 1.171
-},
-{
-"w": "bar",
-"start": 1.171,
-"end": 1.281
-},
-{
-"w": "ogni",
-"start": 1.281,
-"end": 1.642
-},
-{
-"w": "giorno,",
-"start": 1.642,
-"end": 2.02
-},
-{
-"w": "spendi",
-"start": 2.02,
-"end": 2.284
-},
-{
-"w": "circa",
-"start": 2.284,
-"end": 2.58
-},
-{
-"w": "quattrocentosettanta",
-"start": 2.58,
-"end": 3.704
+"end": 1.064
 },
 {
 "w": "euro",
-"start": 3.704,
-"end": 4.122
-},
-{
-"w": "all'anno",
-"start": 4.122,
-"end": 4.725
-},
-{
-"w": "e",
-"start": 5.025,
-"end": 5.128
-},
-{
-"w": "non",
-"start": 5.128,
-"end": 5.27
-},
-{
-"w": "te",
-"start": 5.27,
-"end": 5.394
-},
-{
-"w": "ne",
-"start": 5.394,
-"end": 5.516
-},
-{
-"w": "accorgi.",
-"start": 5.516,
-"end": 6.139
-},
-{
-"w": "Ma",
-"start": 6.499,
-"end": 6.63
-},
-{
-"w": "perché?",
-"start": 6.63,
-"end": 7.088
-},
-{
-"w": "Per",
-"start": 7.388,
-"end": 7.472
-},
-{
-"w": "Assoutenti",
-"start": 7.472,
-"end": 7.979
-},
-{
-"w": "un",
-"start": 7.979,
-"end": 8.167
-},
-{
-"w": "espresso",
-"start": 8.167,
-"end": 8.59
-},
-{
-"w": "costa",
-"start": 8.59,
-"end": 8.837
-},
-{
-"w": "in",
-"start": 8.837,
-"end": 8.971
-},
-{
-"w": "media",
-"start": 8.971,
-"end": 9.275
-},
-{
-"w": "uno",
-"start": 9.275,
-"end": 9.599
-},
-{
-"w": "e",
-"start": 9.599,
-"end": 9.731
-},
-{
-"w": "ventinove.",
-"start": 9.731,
-"end": 10.183
-},
-{
-"w": "Moltiplicato",
-"start": 10.499,
-"end": 11.105
-},
-{
-"w": "per",
-"start": 11.105,
-"end": 11.255
-},
-{
-"w": "trecentosessantacinque",
-"start": 11.255,
-"end": 12.555
-},
-{
-"w": "giorni:",
-"start": 12.555,
-"end": 12.937
-},
-{
-"w": "quattrocentosettantuno",
-"start": 13.216,
-"end": 14.131
-},
-{
-"w": "euro.",
-"start": 14.131,
-"end": 14.601
-},
-{
-"w": "Sono",
-"start": 14.901,
-"end": 15.135
-},
-{
-"w": "piccole",
-"start": 15.135,
-"end": 15.585
-},
-{
-"w": "spese.",
-"start": 15.585,
-"end": 15.938
-},
-{
-"w": "E",
-"start": 16.238,
-"end": 16.332
-},
-{
-"w": "le",
-"start": 16.332,
-"end": 16.446
-},
-{
-"w": "piccole",
-"start": 16.446,
-"end": 16.905
-},
-{
-"w": "spese",
-"start": 16.905,
-"end": 17.192
-},
-{
-"w": "non",
-"start": 17.192,
-"end": 17.322
-},
-{
-"w": "le",
-"start": 17.322,
-"end": 17.434
-},
-{
-"w": "guardiamo",
-"start": 17.434,
-"end": 17.792
-},
-{
-"w": "mai.",
-"start": 17.792,
-"end": 18.03
-},
-{
-"w": "Primo:",
-"start": 18.33,
-"end": 18.657
-},
-{
-"w": "controlla",
-"start": 18.974,
-"end": 19.409
-},
-{
-"w": "gli",
-"start": 19.409,
-"end": 19.495
-},
-{
-"w": "abbonamenti",
-"start": 19.495,
-"end": 19.868
-},
-{
-"w": "che",
-"start": 19.868,
-"end": 19.95
-},
-{
-"w": "non",
-"start": 19.95,
-"end": 20.03
-},
-{
-"w": "usi.",
-"start": 20.03,
-"end": 20.637
-},
-{
-"w": "Secondo:",
-"start": 20.937,
-"end": 21.515
-},
-{
-"w": "fai",
-"start": 21.75,
-"end": 21.864
-},
-{
-"w": "la",
-"start": 21.864,
-"end": 22.004
-},
-{
-"w": "lista",
-"start": 22.004,
-"end": 22.31
-},
-{
-"w": "prima",
-"start": 22.31,
-"end": 22.541
-},
-{
-"w": "di",
-"start": 22.541,
-"end": 22.637
-},
-{
-"w": "andare",
-"start": 22.637,
-"end": 22.964
-},
-{
-"w": "al",
-"start": 22.964,
-"end": 23.082
-},
-{
-"w": "supermercato.",
-"start": 23.082,
-"end": 23.87
-},
-{
-"w": "Terzo:",
-"start": 24.17,
-"end": 24.61
-},
-{
-"w": "confronta",
-"start": 24.89,
-"end": 25.373
-},
-{
-"w": "le",
-"start": 25.373,
-"end": 25.485
-},
-{
-"w": "offerte",
-"start": 25.485,
-"end": 25.84
-},
-{
-"w": "di",
-"start": 25.84,
-"end": 25.915
-},
-{
-"w": "luce",
-"start": 25.915,
-"end": 26.138
-},
-{
-"w": "e",
-"start": 26.138,
-"end": 26.336
-},
-{
-"w": "gas",
-"start": 26.336,
-"end": 26.668
-},
-{
-"w": "una",
-"start": 26.772,
-"end": 26.955
-},
-{
-"w": "volta",
-"start": 26.955,
-"end": 27.189
+"start": 1.064,
+"end": 1.386
 },
 {
 "w": "all'anno.",
-"start": 27.189,
-"end": 27.675
+"start": 1.386,
+"end": 2.099
 },
 {
-"w": "Non",
-"start": 27.975,
-"end": 28.055
+"w": "È",
+"start": 2.364,
+"end": 2.582
 },
 {
-"w": "serve",
-"start": 28.055,
-"end": 28.375
+"w": "più",
+"start": 2.582,
+"end": 2.75
 },
 {
-"w": "cambiare",
-"start": 28.375,
-"end": 28.745
+"w": "o",
+"start": 2.75,
+"end": 2.885
 },
 {
-"w": "vita.",
-"start": 28.745,
-"end": 29.138
+"w": "meno",
+"start": 2.885,
+"end": 3.118
 },
 {
-"w": "Basta",
-"start": 29.468,
-"end": 29.763
+"w": "quanto",
+"start": 3.118,
+"end": 3.371
 },
 {
-"w": "guardare",
-"start": 29.763,
-"end": 30.115
+"w": "spendi",
+"start": 3.371,
+"end": 3.589
 },
 {
-"w": "le",
-"start": 30.115,
-"end": 30.225
+"w": "con",
+"start": 3.589,
+"end": 3.701
 },
 {
-"w": "piccole",
-"start": 30.225,
-"end": 30.673
+"w": "un",
+"start": 3.701,
+"end": 3.84
 },
 {
-"w": "spese.",
-"start": 30.673,
-"end": 31.024
+"w": "caffè",
+"start": 3.84,
+"end": 4.163
+},
+{
+"w": "al",
+"start": 4.163,
+"end": 4.289
+},
+{
+"w": "bar",
+"start": 4.289,
+"end": 4.391
+},
+{
+"w": "ogni",
+"start": 4.391,
+"end": 4.589
+},
+{
+"w": "giorno.",
+"start": 4.589,
+"end": 5.088
 },
 {
 "w": "E",
-"start": 31.324,
-"end": 31.492
-},
-{
-"w": "tu:",
-"start": 31.492,
-"end": 31.66
-},
-{
-"w": "qual",
-"start": 31.96,
-"end": 32.084
-},
-{
-"w": "è",
-"start": 32.084,
-"end": 32.201
-},
-{
-"w": "quella",
-"start": 32.201,
-"end": 32.385
-},
-{
-"w": "che",
-"start": 32.385,
-"end": 32.525
+"start": 5.403,
+"end": 5.538
 },
 {
 "w": "non",
-"start": 32.525,
-"end": 32.688
+"start": 5.538,
+"end": 5.692
+},
+{
+"w": "te",
+"start": 5.692,
+"end": 5.839
+},
+{
+"w": "ne",
+"start": 5.839,
+"end": 5.979
+},
+{
+"w": "accorgi.",
+"start": 5.979,
+"end": 6.579
+},
+{
+"w": "Ma",
+"start": 6.939,
+"end": 7.03
+},
+{
+"w": "perché?",
+"start": 7.03,
+"end": 7.461
+},
+{
+"w": "Per",
+"start": 7.751,
+"end": 7.85
+},
+{
+"w": "Assoutenti",
+"start": 7.85,
+"end": 8.359
+},
+{
+"w": "un",
+"start": 8.359,
+"end": 8.547
+},
+{
+"w": "espresso",
+"start": 8.547,
+"end": 8.972
+},
+{
+"w": "costa",
+"start": 8.972,
+"end": 9.222
+},
+{
+"w": "in",
+"start": 9.222,
+"end": 9.353
+},
+{
+"w": "media",
+"start": 9.353,
+"end": 9.655
+},
+{
+"w": "uno",
+"start": 9.655,
+"end": 9.979
+},
+{
+"w": "e",
+"start": 9.979,
+"end": 10.109
+},
+{
+"w": "ventinove.",
+"start": 10.109,
+"end": 10.545
+},
+{
+"w": "Moltiplicato",
+"start": 10.862,
+"end": 11.485
+},
+{
+"w": "per",
+"start": 11.485,
+"end": 11.635
+},
+{
+"w": "trecentosessantacinque",
+"start": 11.635,
+"end": 12.945
+},
+{
+"w": "giorni:",
+"start": 12.945,
+"end": 13.3
+},
+{
+"w": "quattrocentosettantuno",
+"start": 13.579,
+"end": 14.511
+},
+{
+"w": "euro.",
+"start": 14.511,
+"end": 14.963
+},
+{
+"w": "Sono",
+"start": 15.263,
+"end": 15.515
+},
+{
+"w": "piccole",
+"start": 15.515,
+"end": 15.97
+},
+{
+"w": "spese.",
+"start": 15.97,
+"end": 16.3
+},
+{
+"w": "E",
+"start": 16.6,
+"end": 16.708
+},
+{
+"w": "le",
+"start": 16.708,
+"end": 16.829
+},
+{
+"w": "piccole",
+"start": 16.829,
+"end": 17.291
+},
+{
+"w": "spese",
+"start": 17.291,
+"end": 17.572
+},
+{
+"w": "non",
+"start": 17.572,
+"end": 17.702
+},
+{
+"w": "le",
+"start": 17.702,
+"end": 17.814
+},
+{
+"w": "guardiamo",
+"start": 17.814,
+"end": 18.167
+},
+{
+"w": "mai.",
+"start": 18.167,
+"end": 18.392
+},
+{
+"w": "Primo:",
+"start": 18.692,
+"end": 19.019
+},
+{
+"w": "controlla",
+"start": 19.336,
+"end": 19.685
+},
+{
+"w": "gli",
+"start": 19.685,
+"end": 19.779
+},
+{
+"w": "abbonamenti",
+"start": 19.779,
+"end": 20.206
+},
+{
+"w": "che",
+"start": 20.206,
+"end": 20.3
+},
+{
+"w": "non",
+"start": 20.3,
+"end": 20.39
+},
+{
+"w": "usi.",
+"start": 20.39,
+"end": 20.999
+},
+{
+"w": "Secondo:",
+"start": 21.299,
+"end": 21.877
+},
+{
+"w": "fai",
+"start": 22.112,
+"end": 22.246
+},
+{
+"w": "la",
+"start": 22.246,
+"end": 22.389
+},
+{
+"w": "lista",
+"start": 22.389,
+"end": 22.695
+},
+{
+"w": "prima",
+"start": 22.695,
+"end": 22.921
+},
+{
+"w": "di",
+"start": 22.921,
+"end": 23.017
+},
+{
+"w": "andare",
+"start": 23.017,
+"end": 23.348
+},
+{
+"w": "al",
+"start": 23.348,
+"end": 23.468
+},
+{
+"w": "supermercato.",
+"start": 23.468,
+"end": 24.226
+},
+{
+"w": "Terzo:",
+"start": 24.526,
+"end": 24.966
+},
+{
+"w": "confronta",
+"start": 25.246,
+"end": 25.816
+},
+{
+"w": "le",
+"start": 25.816,
+"end": 25.971
+},
+{
+"w": "offerte",
+"start": 25.971,
+"end": 26.33
+},
+{
+"w": "di",
+"start": 26.33,
+"end": 26.46
+},
+{
+"w": "luce",
+"start": 26.46,
+"end": 27.024
+},
+{
+"w": "e",
+"start": 27.128,
+"end": 27.21
+},
+{
+"w": "gas",
+"start": 27.21,
+"end": 27.291
+},
+{
+"w": "una",
+"start": 27.291,
+"end": 27.456
+},
+{
+"w": "volta",
+"start": 27.456,
+"end": 27.668
+},
+{
+"w": "all'anno.",
+"start": 27.668,
+"end": 28.031
+},
+{
+"w": "Non",
+"start": 28.331,
+"end": 28.422
+},
+{
+"w": "serve",
+"start": 28.422,
+"end": 28.696
+},
+{
+"w": "cambiare",
+"start": 28.696,
+"end": 29.069
+},
+{
+"w": "vita.",
+"start": 29.069,
+"end": 29.493
+},
+{
+"w": "Basta",
+"start": 29.823,
+"end": 30.019
+},
+{
+"w": "guardare",
+"start": 30.019,
+"end": 30.414
+},
+{
+"w": "le",
+"start": 30.414,
+"end": 30.536
+},
+{
+"w": "piccole",
+"start": 30.536,
+"end": 31.004
+},
+{
+"w": "spese.",
+"start": 31.004,
+"end": 31.379
+},
+{
+"w": "E",
+"start": 31.679,
+"end": 31.846
+},
+{
+"w": "tu:",
+"start": 31.846,
+"end": 32.013
+},
+{
+"w": "qual",
+"start": 32.313,
+"end": 32.451
+},
+{
+"w": "è",
+"start": 32.451,
+"end": 32.573
+},
+{
+"w": "quella",
+"start": 32.573,
+"end": 32.764
+},
+{
+"w": "che",
+"start": 32.764,
+"end": 32.901
+},
+{
+"w": "non",
+"start": 32.901,
+"end": 33.06
 },
 {
 "w": "guardi",
-"start": 32.688,
-"end": 33.022
+"start": 33.06,
+"end": 33.389
 },
 {
 "w": "mai?",
-"start": 33.022,
-"end": 33.293
+"start": 33.389,
+"end": 33.646
 }
 ]

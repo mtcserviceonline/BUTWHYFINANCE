@@ -1,97 +1,102 @@
 [
  {
-  "text": "Se ti bevi un caffè al bar ogni giorno, spendi circa quattrocentosettanta euro all'anno",
+  "text": "Quattrocentosettanta euro all'anno.",
   "start": 0.05,
-  "end": 4.725
+  "end": 2.099
  },
  {
-  "text": "e non te ne accorgi.",
-  "start": 5.025,
-  "end": 6.139
+  "text": "È più o meno quanto spendi con un caffè al bar ogni giorno.",
+  "start": 2.364,
+  "end": 5.088
+ },
+ {
+  "text": "E non te ne accorgi.",
+  "start": 5.403,
+  "end": 6.579
  },
  {
   "text": "Ma perché?",
-  "start": 6.499,
-  "end": 7.088
+  "start": 6.939,
+  "end": 7.461
  },
  {
   "text": "Per Assoutenti un espresso costa in media uno e ventinove.",
-  "start": 7.388,
-  "end": 10.183
+  "start": 7.751,
+  "end": 10.545
  },
  {
   "text": "Moltiplicato per trecentosessantacinque giorni:",
-  "start": 10.499,
-  "end": 12.937
+  "start": 10.862,
+  "end": 13.3
  },
  {
   "text": "quattrocentosettantuno euro.",
-  "start": 13.216,
-  "end": 14.601
+  "start": 13.579,
+  "end": 14.963
  },
  {
   "text": "Sono piccole spese.",
-  "start": 14.901,
-  "end": 15.938
+  "start": 15.263,
+  "end": 16.3
  },
  {
   "text": "E le piccole spese non le guardiamo mai.",
-  "start": 16.238,
-  "end": 18.03
+  "start": 16.6,
+  "end": 18.392
  },
  {
   "text": "Primo:",
-  "start": 18.33,
-  "end": 18.657
+  "start": 18.692,
+  "end": 19.019
  },
  {
   "text": "controlla gli abbonamenti che non usi.",
-  "start": 18.974,
-  "end": 20.637
+  "start": 19.336,
+  "end": 20.999
  },
  {
   "text": "Secondo:",
-  "start": 20.937,
-  "end": 21.515
+  "start": 21.299,
+  "end": 21.877
  },
  {
   "text": "fai la lista prima di andare al supermercato.",
-  "start": 21.75,
-  "end": 23.87
+  "start": 22.112,
+  "end": 24.226
  },
  {
   "text": "Terzo:",
-  "start": 24.17,
-  "end": 24.61
+  "start": 24.526,
+  "end": 24.966
  },
  {
-  "text": "confronta le offerte di luce e gas",
-  "start": 24.89,
-  "end": 26.668
+  "text": "confronta le offerte di luce",
+  "start": 25.246,
+  "end": 27.024
  },
  {
-  "text": "una volta all'anno.",
-  "start": 26.772,
-  "end": 27.675
+  "text": "e gas una volta all'anno.",
+  "start": 27.128,
+  "end": 28.031
  },
  {
   "text": "Non serve cambiare vita.",
-  "start": 27.975,
-  "end": 29.138
+  "start": 28.331,
+  "end": 29.493
  },
  {
   "text": "Basta guardare le piccole spese.",
-  "start": 29.468,
-  "end": 31.024
+  "start": 29.823,
+  "end": 31.379
  },
  {
   "text": "E tu:",
-  "start": 31.324,
-  "end": 31.66
+  "start": 31.679,
+  "end": 32.013
  },
  {
   "text": "qual è quella che non guardi mai?",
-  "start": 31.96,
-  "end": 33.293
+  "start": 32.313,
+  "end": 33.646
  }
 ]

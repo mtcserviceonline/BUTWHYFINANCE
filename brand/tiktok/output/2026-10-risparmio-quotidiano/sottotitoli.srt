@@ -1,92 +1,96 @@
 1
-00:00:00,050 --> 00:00:02,020
-Se ti bevi un caffè al bar ogni giorno,
+00:00:00,050 --> 00:00:02,249
+Quattrocentosettanta euro all'anno.
 
 2
-00:00:02,020 --> 00:00:04,122
-spendi circa quattrocentosettanta euro
+00:00:02,364 --> 00:00:04,289
+È più o meno quanto spendi con un caffè al
 
 3
-00:00:04,122 --> 00:00:06,289
-all'anno e non te ne accorgi.
+00:00:04,289 --> 00:00:05,238
+bar ogni giorno.
 
 4
-00:00:06,499 --> 00:00:07,238
-Ma perché?
+00:00:05,403 --> 00:00:06,729
+E non te ne accorgi.
 
 5
-00:00:07,388 --> 00:00:09,275
-Per Assoutenti un espresso costa in media
+00:00:06,939 --> 00:00:07,611
+Ma perché?
 
 6
-00:00:09,275 --> 00:00:10,333
-uno e ventinove.
+00:00:07,751 --> 00:00:09,655
+Per Assoutenti un espresso costa in media
 
 7
-00:00:10,499 --> 00:00:12,555
-Moltiplicato per trecentosessantacinque
+00:00:09,655 --> 00:00:10,695
+uno e ventinove.
 
 8
-00:00:12,555 --> 00:00:13,087
-giorni:
+00:00:10,862 --> 00:00:12,945
+Moltiplicato per trecentosessantacinque
 
 9
-00:00:13,216 --> 00:00:14,751
-quattrocentosettantuno euro.
+00:00:12,945 --> 00:00:13,450
+giorni:
 
 10
-00:00:14,901 --> 00:00:16,088
-Sono piccole spese.
+00:00:13,579 --> 00:00:15,113
+quattrocentosettantuno euro.
 
 11
-00:00:16,238 --> 00:00:18,180
-E le piccole spese non le guardiamo mai.
+00:00:15,263 --> 00:00:16,450
+Sono piccole spese.
 
 12
-00:00:18,330 --> 00:00:18,807
-Primo:
+00:00:16,600 --> 00:00:18,542
+E le piccole spese non le guardiamo mai.
 
 13
-00:00:18,974 --> 00:00:20,787
-controlla gli abbonamenti che non usi.
+00:00:18,692 --> 00:00:19,169
+Primo:
 
 14
-00:00:20,937 --> 00:00:21,665
-Secondo:
+00:00:19,336 --> 00:00:21,149
+controlla gli abbonamenti che non usi.
 
 15
-00:00:21,750 --> 00:00:23,082
-fai la lista prima di andare al
+00:00:21,299 --> 00:00:22,027
+Secondo:
 
 16
-00:00:23,082 --> 00:00:24,020
-supermercato.
+00:00:22,112 --> 00:00:23,468
+fai la lista prima di andare al
 
 17
-00:00:24,170 --> 00:00:24,760
-Terzo:
+00:00:23,468 --> 00:00:24,376
+supermercato.
 
 18
-00:00:24,890 --> 00:00:26,955
-confronta le offerte di luce e gas una
+00:00:24,526 --> 00:00:25,116
+Terzo:
 
 19
-00:00:26,955 --> 00:00:27,825
-volta all'anno.
+00:00:25,246 --> 00:00:27,456
+confronta le offerte di luce e gas una
 
 20
-00:00:27,975 --> 00:00:29,288
-Non serve cambiare vita.
+00:00:27,456 --> 00:00:28,181
+volta all'anno.
 
 21
-00:00:29,468 --> 00:00:31,174
-Basta guardare le piccole spese.
+00:00:28,331 --> 00:00:29,643
+Non serve cambiare vita.
 
 22
-00:00:31,324 --> 00:00:31,810
-E tu:
+00:00:29,823 --> 00:00:31,529
+Basta guardare le piccole spese.
 
 23
-00:00:31,960 --> 00:00:33,443
+00:00:31,679 --> 00:00:32,163
+E tu:
+
+24
+00:00:32,313 --> 00:00:33,796
 qual è quella che non guardi mai?
 

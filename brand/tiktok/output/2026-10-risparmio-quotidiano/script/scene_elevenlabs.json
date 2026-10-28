@@ -3,15 +3,19 @@
     "id": 1,
     "nome": "hook",
     "secondi": "0-6",
-    "espressione_orso": "sorpreso, bocca a \"o\" (immagine 01), poi fila di tazzine (immagine 02) su \"Ma perché?\"",
-    "tono": "incredulo e curioso; enfasi su \"non te ne accorgi\"; pausa di 0,3-0,4 s prima di \"Ma perché?\", detto con la voce che sale",
+    "espressione_orso": "sorpreso, bocca a \"o\" (immagine 01, punch-in verso scontrino e tazzina), poi fila di tazzine (immagine 02) su \"Ma perché?\"",
+    "tono": "il numero subito, secco; poi incredulo e curioso; enfasi su \"non te ne accorgi\"; pausa di 0,3-0,4 s prima di \"Ma perché?\", detto con la voce che sale",
     "tag_v3": "[surprised]",
     "tag_it": "[sorpreso]",
     "stability": 0.35,
     "style": 0.45,
-    "text": "Se ti bevi un caffè al bar ogni giorno, spendi circa quattrocentosettanta euro all'anno e non te ne accorgi. Ma perché?",
-    "text_v3": "[surprised] Se ti bevi un caffè al bar ogni giorno, spendi circa quattrocentosettanta euro all'anno e NON TE NE ACCORGI… [curious] Ma perché?",
-    "immagini": [1, 2]
+    "text": "Quattrocentosettanta euro all'anno. È più o meno quanto spendi con un caffè al bar ogni giorno. E non te ne accorgi. Ma perché?",
+    "text_v3": "[surprised] Quattrocentosettanta euro all'anno. È più o meno quanto spendi con un caffè al bar ogni giorno… e NON TE NE ACCORGI. … [curious] Ma perché?",
+    "immagini": [
+      1,
+      2
+    ],
+    "versione": "v2b (28/10/2026): numero in apertura; testo v2a: \"Se ti bevi un caffè al bar ogni giorno, spendi circa quattrocentosettanta euro all'anno e non te ne accorgi. Ma perché?\""
   },
   {
     "id": 2,
@@ -25,7 +29,9 @@
     "style": 0.2,
     "text": "Per Assoutenti un espresso costa in media uno e ventinove. Moltiplicato per trecentosessantacinque giorni: quattrocentosettantuno euro.",
     "text_v3": "[matter-of-fact] Per Assoutenti un espresso costa in media uno e ventinove. Moltiplicato per trecentosessantacinque giorni: quattrocentosettantuno euro.",
-    "immagini": [9]
+    "immagini": [
+      9
+    ]
   },
   {
     "id": 3,
@@ -39,7 +45,10 @@
     "style": 0.3,
     "text": "Sono piccole spese. E le piccole spese non le guardiamo mai.",
     "text_v3": "[curious] Sono piccole spese. E le piccole spese non le guardiamo mai.",
-    "immagini": [3, 4]
+    "immagini": [
+      3,
+      4
+    ]
   },
   {
     "id": 4,
@@ -53,7 +62,9 @@
     "style": 0.1,
     "text": "Primo: controlla gli abbonamenti che non usi.",
     "text_v3": "[calm] Primo: controlla gli abbonamenti che non usi.",
-    "immagini": [5]
+    "immagini": [
+      5
+    ]
   },
   {
     "id": 5,
@@ -67,7 +78,9 @@
     "style": 0.1,
     "text": "Secondo: fai la lista prima di andare al supermercato.",
     "text_v3": "[calm] Secondo: fai la lista prima di andare al supermercato.",
-    "immagini": [6]
+    "immagini": [
+      6
+    ]
   },
   {
     "id": 6,
@@ -81,7 +94,9 @@
     "style": 0.1,
     "text": "Terzo: confronta le offerte di luce e gas una volta all'anno.",
     "text_v3": "[thoughtful] Terzo: confronta le offerte di luce e gas una volta all'anno.",
-    "immagini": [7]
+    "immagini": [
+      7
+    ]
   },
   {
     "id": 7,
@@ -95,6 +110,9 @@
     "style": 0.3,
     "text": "Non serve cambiare vita. Basta guardare le piccole spese. E tu: qual è quella che non guardi mai?",
     "text_v3": "[warm] Non serve cambiare vita. Basta guardare le piccole spese. [curious] E tu: qual è quella che non guardi mai?",
-    "immagini": [8, 1]
+    "immagini": [
+      8,
+      1
+    ]
   }
 ]

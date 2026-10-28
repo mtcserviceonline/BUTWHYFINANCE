@@ -78,7 +78,7 @@ json.dump(t, open("tempi.json", "w", encoding="utf-8"), ensure_ascii=False, inde
 EOF
 python3 fotogrammi.py video.mp4 tempi.json fotogrammi anteprima_video.jpg
 python3 copertina.py copertina.png                              # P-2: copertina con 470 € e orso intero
-python3 trascrizione.py parole.json "$D" trascrizione.md sottotitoli.srt --titolo "Trascrizione: risparmio quotidiano (v2)" \
+python3 trascrizione.py parole.json "$D" trascrizione.md sottotitoli.srt --titolo "Trascrizione: risparmio quotidiano" \
   --nota "Voce ElevenLabs ($(basename "$VOCE")), pause accorciate da ritmo.py (vedi tempi.json → voce.ritmo). Inizio di ogni frase dalle pause dell'audio; parole dentro le frasi stimate (errore atteso < 0,15 s)."
 cp video.mp4 tempi.json trascrizione.md sottotitoli.srt anteprima_video.jpg copertina.png "$POST/"
 cp frasi.json parole.json "$S/"

@@ -147,23 +147,41 @@ def source(img, visibili=()):
     return _src[key]
 
 
-def view_at(sh, p):
-    """(cx, cy, z) effettivi dell'inquadratura alla frazione p (0..1)."""
+def _zoom_about(v, f, anchor):
+    """Vista v=(cx, cy, z) ingrandita di f tenendo fermo il punto dello schermo `anchor`."""
+    cx, cy, z = v
+    ax, ay = anchor
+    sx, sy = cx + (ax - W / 2) / z, cy + (ay - H / 2) / z
+    z2 = z * f
+    return sx - (ax - W / 2) / z2, sy - (ay - H / 2) / z2, z2
+
+
+def _occhiali_schermo(img, v):
+    g = OCCHIALI[img]["occhiali"]
+    b = to_screen(g, v)
+    return (b[0] + b[2]) / 2, (b[1] + b[3]) / 2
+
+
+def view_at(sh, p, dur=None):
+    """(cx, cy, z) effettivi dell'inquadratura alla frazione p (0..1); dur = durata dell'inquadratura in s.
+    Zoom lento (moto) attorno a "ancora" o, se manca, al centro degli occhiali (che quindi restano fermi).
+    "punch": (zoom, secondi) = avvicinamento rapido iniziale con ease-out attorno ad "ancora"; dopo il punch
+    il moto lento cresce attorno agli occhiali, cosi' la testa non sale sotto il titolo."""
     cx, cy, z0 = sh["view"]
-    moto = sh.get("moto", "in")
-    zf = 1 + ZOOM_MOVE * (p if moto == "in" else (1 - p) if moto == "out" else 0)
-    z = z0 * zf
     dx, dy = sh.get("pan", (0, 0))
-    cx, cy = cx + dx * p, cy + dy * p
-    if "ancora" in sh:
-        ax, ay = sh["ancora"]
-    elif sh["img"] in OCCHIALI:
-        g = OCCHIALI[sh["img"]]["occhiali"]
-        ax, ay = ((g[0] + g[2]) / 2 - cx) * z0 + W / 2, ((g[1] + g[3]) / 2 - cy) * z0 + H / 2
-    else:
-        ax, ay = W / 2, H / 2
-    sx, sy = cx + (ax - W / 2) / z0, cy + (ay - H / 2) / z0
-    return sx - (ax - W / 2) / z, sy - (ay - H / 2) / z, z
+    v = (cx + dx * p, cy + dy * p, z0)
+    moto = sh.get("moto", "in")
+    fs = 1 + ZOOM_MOVE * (p if moto == "in" else (1 - p) if moto == "out" else 0)
+    occ = sh["img"] in OCCHIALI
+    if sh.get("punch") and dur:
+        zp, dp = sh["punch"]
+        a = min(1.0, p * dur / dp)
+        anc = sh.get("ancora") or (_occhiali_schermo(sh["img"], v) if occ else (W / 2, H / 2))
+        v = _zoom_about(v, 1 + (zp - 1) * (1 - (1 - a) ** 3), anc)
+        anc2 = _occhiali_schermo(sh["img"], v) if occ else anc
+        return _zoom_about(v, fs, anc2)
+    anc = sh.get("ancora") or (_occhiali_schermo(sh["img"], v) if occ else (W / 2, H / 2))
+    return _zoom_about(v, fs, anc)
 
 
 def to_screen(box, v):
@@ -443,8 +461,10 @@ def main():
         zmax = sh.get("zoom_max", ZOOM_MAX)
         shot_subs = [s for s in subs if s["start"] < ends[k] and s["end"] > starts[k]]
         info = {"n": k + 1, "img": sh["img"], "zoom_max_effettivo": 0}
-        for p in (0.0, 0.5, 1.0):
-            v = view_at(sh, p)
+        dur = ends[k] - starts[k]
+        pp = [0.0, 0.5, 1.0] + ([min(1.0, sh["punch"][1] / dur)] if sh.get("punch") else [])
+        for p in pp:
+            v = view_at(sh, p, dur)
             info["zoom_max_effettivo"] = max(info["zoom_max_effettivo"], round(v[2], 3))
             if v[2] > zmax + 1e-6:
                 errori.append(f"{nome}: zoom {v[2]:.2f} oltre il massimo {zmax:.2f}")
@@ -515,7 +535,7 @@ def main():
     def compose(i, t, fi, with_sub=True, p_override=None):
         sh = SHOTS[i]
         p = (t - starts[i]) / max(0.01, ends[i] - starts[i]) if p_override is None else p_override
-        v = view_at(sh, min(1.0, max(0.0, p)))
+        v = view_at(sh, min(1.0, max(0.0, p)), ends[i] - starts[i])
         frame = render_view(sh["img"], v, visibili(sh["img"], t)).convert("RGBA")
         if bubbles[i] is not None and t + 1e-6 >= bub_t[i]:
             age = t - bub_t[i]
@@ -524,7 +544,7 @@ def main():
             if t + 1e-6 < t_in:
                 continue
             age = t - t_in
-            frame.alpha_composite(pop(lay, bb, age) if fi > 0 else lay)
+            frame.alpha_composite(pop(lay, bb, age) if fi > 0 and t_in > 0 else lay)   # gia' piena al fotogramma 0
         if with_sub:
             cur = [s for s in subs if s["start"] <= t + 0.02 and t < s["end"]]
             if cur:
@@ -598,7 +618,8 @@ def main():
                     for img, lst in SCRITTE.items() for k, s in enumerate(lst)],
         "sottotitoli": [{"testo": s["text"], "parlato": s["spoken"], "da": round(s["start"], 3),
                          "a": round(s["end"], 3), "parole": [round(x, 3) for x in s["words"]]} for s in subs],
-        "effetti": [{"effetto": e, "parola": p, "t": round(words[trova(words, p)]["start"], 3)} for e, p in EFFETTI],
+        "effetti": [{"effetto": e, "parola": p if not isinstance(p, float) else None,
+                     "t": p if isinstance(p, float) else round(words[trova(words, p)]["start"], 3)} for e, p in EFFETTI],
         "controlli": controlli,
     }
     json.dump(tempi, open(os.path.splitext(out)[0] + "_tempi.json", "w", encoding="utf-8"), ensure_ascii=False,
