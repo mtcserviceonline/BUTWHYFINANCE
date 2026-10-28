@@ -1,6 +1,6 @@
 # Stile TikTok di But Why Finance
 
-> Nota: i due riferimenti (@furetto.furbo, @conigliofurbo) non erano accessibili da questa sessione. Questa guida parte dal brief; da verificare guardando i due video: ritmo di montaggio, durata dei plan, come entra il personaggio.
+> Aggiornato dopo l'analisi di quattro video di riferimento: vedi [`analisi-riferimenti.md`](analisi-riferimenti.md). Il modello principale è il Video 2 (@cashfoxclub0): una immagine illustrata ogni 2-3 secondi, una metafora concreta per ogni concetto.
 
 ## Perché cambiare
 I reel di Instagram riproposti uguali su TikTok non hanno funzionato. Su TikTok si guarda con l'audio acceso e si resta per una voce e un personaggio, non per un montaggio di grafiche. Quindi:
@@ -18,7 +18,7 @@ I reel di Instagram riproposti uguali su TikTok non hanno funzionato. Su TikTok 
 | 28-35 | Le due tesi | Presenta le posizioni contrapposte, senza schierarsi. |
 | 35-40 | Chiusura | Domanda aperta al lettore + orso con "But Why Finance?". |
 
-Regole: frasi corte, un concetto per frase, un cambio visivo ogni 3-4 secondi (non ogni secondo), calma e niente ritmo da meme.
+Regole: frasi corte, un concetto per frase, **una illustrazione nuova ogni 2-3 secondi** (i riferimenti tagliano ogni 2-5 s), voce calma e niente ritmo da meme: il passo lo dà il montaggio, non la fretta del parlato. Ogni concetto astratto diventa un oggetto concreto (una catena, un ingranaggio, uno scontrino). Altre persone (Stato, banca, cliente) = sagome grigie senza volto. Testi sempre aggiunti in montaggio, mai generati nell'immagine. Se le immagini sono generate con IA, attivare l'etichetta TikTok.
 
 ## L'orso
 - Presente in apertura e in chiusura, più 1-2 "reazioni" nel mezzo (sorpreso su un prezzo, pensieroso sul dilemma). Resta in un angolo, non occupa tutto lo schermo.
@@ -33,7 +33,7 @@ Regole: frasi corte, un concetto per frase, un cambio visivo ogni 3-4 secondi (n
 - Esempio di apertura: "Il caffè al bar costa di più. Ma perché?" → dato → chi incassa → chi paga → "E tu, quanto pagheresti un caffè?"
 
 ## Sottotitoli
-- Sempre presenti, grandi, 2 righe massimo, 4-6 parole alla volta, sincronizzati con la voce.
+- Sempre presenti, grandi, 2 righe massimo, 3-5 parole alla volta, sincronizzati con la voce; la frase prosegue da una immagine alla successiva.
 - IBM Plex Sans Condensed Bold; testo carta `#F4F1EA` su fondo inchiostro `#111418` semi-opaco, oppure inchiostro su carta nelle schermate chiare.
 - Una parola chiave per riga evidenziata col colore d'accento della rubrica (mai rosso accanto a verde).
 - Rispettare le zone sicure di TikTok: nessun testo nel 15% in basso né nella colonna destra (pulsanti) né nel 10% in alto.
