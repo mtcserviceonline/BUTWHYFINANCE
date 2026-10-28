@@ -1,0 +1,2 @@
+# BUTWHYFINANCE
+Finance note app
