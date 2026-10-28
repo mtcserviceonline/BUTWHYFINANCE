@@ -2,13 +2,14 @@
 
 Documento vivo. Parte da due video con ~30k like e ~3k salvataggi (rapporto salvataggi/like ≈ 10%, molto alto) e si aggiorna a ogni nuovo video analizzato. Complementa [`stile-tiktok.md`](stile-tiktok.md) (regole di produzione) e [`analisi-riferimenti.md`](analisi-riferimenti.md) (i primi quattro riferimenti).
 
-**Versione:** 1 · **Video analizzati:** 2 (Video 4 e Video 5) · **Ultimo aggiornamento:** 2026-10-28
+**Versione:** 2 (con trascrizioni) · **Video analizzati:** 2 (Video 4 e Video 5) · **Ultimo aggiornamento:** 2026-10-28
 
 ## Limiti di questa analisi (da leggere prima)
-- **Audio non trascritto.** Non avevo un modello di trascrizione raggiungibile e la quota ElevenLabs era esaurita. Le parole sono ricavate dai sottotitoli visibili, quindi il Video 5 (francese) è ricostruito in modo parziale. Quando serve un copione parola per parola, rimandare il video e ritrascrivere.
-- **Misurato:** durate, tagli di scena, colori, posizione e stile dei testi, pause audio.
-- **Dedotto:** il *perché* funziona. Non ho le analytics (retention, curve di abbandono). Le spiegazioni sul perché si salva sono **ipotesi**, segnate come tali, da confermare con i nostri numeri.
-- Il Video 4 usa il volto di un politico reale e un CTA alla propria newsletter; il Video 5 è un consiglio fiscale specifico per la Francia. Sono contenuti da cui si impara la struttura, non da copiare (vedi "Cosa non copiare").
+- **Parlato:** dalla v2 uso le trascrizioni con i tempi (file `.srt`) che mi hai fornito; la v1 era ricavata dai soli sottotitoli e il Video 5 era ricostruito male.
+- **Misurato:** durate, tagli di scena (fotogrammi a 1 fps), colori, posizione e stile dei testi, pause audio, parole al minuto.
+- **Dedotto:** il *perché* funziona. Non ho le analytics (curve di abbandono). Le spiegazioni sul perché si salva sono **ipotesi**, da confermare con i nostri numeri.
+- **Non ascoltato:** non so se c'è musica sotto la voce né come suonano gli effetti. Da segnare quando qualcuno lo ascolta.
+- Il Video 4 usa il volto di un politico reale e un CTA alla propria newsletter; il Video 5 è un consiglio fiscale specifico per la Francia, con cifre che non ho verificato. Sono contenuti da cui si impara la struttura, non da copiare (vedi "Cosa non copiare").
 
 ## Il metodo in una pagina
 
@@ -28,9 +29,9 @@ Documento vivo. Parte da due video con ~30k like e ~3k salvataggi (rapporto salv
 ### 1. Hook (0-5 s)
 | | Video 4 (@bl.finanza) | Video 5 (@lapinlafinance) |
 |---|---|---|
-| Frase | "L'ennesima cosa assurda in Italia" + timbro IN ITALIA, poi "potrebbe toccare anche te" | Una casa da 1 000 000 €, 200 000 € di successione "all'Stato", "normale…", poi "il coniglio…" (frase ricostruita in parte: il senso è che lui questa tassa la evita) |
-| Immagine | Mappa d'Italia; da 0:04 uomo che punta il dito alla camera | Coniglio in giacca davanti a una villa, braccia conserte, sguardo di sufficienza |
-| Leva | Minaccia personale + indignazione | Curiosità: c'è un trucco che gli altri non conoscono |
+| Frase | "Sta succedendo l'ennesima cosa assurda in Italia che devi sapere, perché tra un po' potrebbe toccare anche te" | "Come il coniglio dona la casa ai figli **senza pagare**" (titolo-promessa), poi "ha una casa da 1 000 000 €, se muore domani i figli pagano 200 000 € di successione allo Stato. Una persona normale la subisce, il coniglio no" |
+| Immagine | Mappa d'Italia; da 0:04 uomo che punta il dito alla camera | Coniglio in giacca davanti a una villa, braccia conserte, sguardo di sufficienza; poi cartellino prezzo e banco con 200 000 € |
+| Leva | Minaccia personale + indignazione | Promessa di un metodo + una cifra che fa male + "tu sei una persona normale che subisce" |
 | Dove parte la voce | Subito, a 0:00 | Subito, a 0:00 |
 
 Cosa tengono in comune: **parte subito il parlato**, la prima immagine è già "carica" (mappa con tratteggio forte / personaggio sicuro), c'è **un secondo "scatto" entro 4-5 s** (cambio di immagine + dito puntato / cambio di inquadratura da campo lungo a mezza figura). Nessuno dei due si presenta, non c'è logo, non c'è "ciao".
@@ -48,7 +49,7 @@ Video 4, mappa dei cicli:
 
 Regola ricavata: **un ciclo lungo (tutto il video) + un ciclo breve ogni ~10 s**. Il ciclo lungo è la promessa dell'hook.
 
-Video 5 fa lo stesso con una sola domanda lunga ("come evita i 200 000 €?") e una sequenza di passaggi: definizione → esempio con numeri → "ma il trucco è…" → risultato "160 000 € risparmiati".
+Video 5 fa lo stesso con una domanda lunga nel titolo ("come dona la casa senza pagare?") e una sequenza di passaggi, ognuno annunciato a voce: "il coniglio utilizza il démembrement" → definizione con due oggetti → **"e voilà l'astuce"** → esempio con numeri → **"ma la parte migliore"** (seconda sorpresa) → **"fate il calcolo: 160 000 € risparmiati legalmente con una firma dal notaio"**. Il ciclo lungo si chiude solo a 0:59.
 
 ### 3. Il colpo di scena a gradini ("buona notizia → clausola")
 Il Video 4 è costruito per **alternare sollievo e delusione**: il governo convoca → i soldi ci sono → sono già stanziati da mesi → non sono soldi ma credito d'imposta → arriva nel 2027 → intanto il gasolio lo paghi tu. Ogni gradino ribalta quello prima. È il motore principale della retention nel video più lungo (99 s).
@@ -116,17 +117,38 @@ Tratti comuni:
 - **Contenuto da "dopo"**: dice "mi servirà" (tasse, rincari, eredità), non "mi diverte".
 - Il Video 4 chiede esplicitamente un'azione che somiglia a un salvataggio ("Iscriviti… ogni mattina alle 7").
 
-### 9. Audio
-- Nessuna pausa del parlato sopra 0,25 s: **1 sola in 99 s** (Video 4) e **1 sola in 70 s** (Video 5), oltre alla coda finale.
-- Voce continua, passo sostenuto e diretto. Non posso dire se c'è musica sotto (non separabile senza ascolto).
-- Nel Video 4 i timbri/oggetti sono pensati per "colpi" sonori coincidenti con la comparsa (da verificare ascoltando il video).
+### 9. Audio e copione
+**Velocità del parlato (dalle trascrizioni):**
+| | Parole | Durata | **Parole/minuto** |
+|---|---|---|---|
+| Video 4 (it) | 302 | 97 s | **~186** |
+| Video 5 (fr) | 204 | 69 s | **~177** |
+| Nostra regola | — | — | 140-150 |
 
-**Conflitto da risolvere con le nostre regole:** `stile-tiktok.md` chiede voce "calma, 140-150 parole/min, pause brevi tra i concetti". I due video che hanno funzionato hanno un parlato più continuo. Da testare: stessa voce calma ma **senza pause lunghe tra le frasi**, e il passo dato dall'immagine.
+- Nessuna pausa del parlato oltre 0,25 s: **1 sola in 99 s** (Video 4) e **1 sola in 70 s** (Video 5). Voce continua e svelta; il testo scritto è lo stesso del parlato.
+- **Frasi da ~2-3 s e ~6-8 parole** per segmento; subito dopo parte la frase successiva.
+- Non posso dire se c'è musica sotto, né come suonano timbri/oggetti.
+
+**Il copione usa "frasi-segnale"** che dicono allo spettatore dove si trova (e perché restare):
+| Funzione | Italiano (V4) | Francese (V5) |
+|---|---|---|
+| Promessa rivolta a lui | "che devi sapere", "potrebbe toccare anche te" | "sans payer", "arrêter de te faire plumer" |
+| Richiamo | "ti ricordi i camionisti del sud…" | — |
+| Svolta | "e di colpo, magia" | "et voilà l'astuce" |
+| Pattern interrupt | **"ma fermati un attimo"** | **"mais la meilleure partie"** |
+| Tensione che continua | **"e non è finita"**, "infatti la protesta non è finita" | — |
+| Voce dello spettatore | **"cioè?"** → "non ti danno i soldi" | — |
+| Annuncio del payoff | **"e adesso la parte che riguarda te"** | **"faites le calcul"** |
+| Ritorno al quotidiano | "e quei rincari li paghi tu al supermercato" | "pendant que toi tu attends ta succession…" |
+
+**Struttura della frase:** frasi corte, soggetto-verbo-oggetto, una cifra per frase ("480 milioni per pagare le domande arrivate fino ad agosto"), elenchi da 3 ("camion fermi, distributori vuoti, supermercati senza frutta e verdura"), seconda persona (V4: *ti/te/tu/tuoi* ricorrono 12 volte in 97 s; la prima "te" è già a 0:04).
+
+**Conflitto con `stile-tiktok.md`:** la regola attuale chiede 140-150 parole/min con pause tra i concetti; i due video che hanno funzionato corrono a 177-186 e non hanno pause. Da testare: **voce nostra a ~170 parole/min, senza pause, con il passo dato anche dalle immagini**. Calma nel timbro, non nel ritmo.
 
 ### 10. Chiusura (CTA)
-- **Video 4:** domanda diretta sullo spettatore ("Vuoi sapere cosa succede ai tuoi soldi?") → promessa concreta con tre dettagli di abitudine ("ogni mattina alle 7", "mentre bevi il caffè", "in 5 minuti") → timbro LINK IN BIO. La chiusura **vende il prodotto con un'immagine della vita quotidiana**, non con un'etichetta.
-- **Video 5:** chiusura breve su una frase del personaggio, nessun CTA invadente.
-- Non c'è "commentate qui sotto" generico.
+- **Video 4:** parte **senza stacco** dall'ultimo payoff ("…li paghi tu al supermercato, vuoi sapere cosa succede ai tuoi soldi prima che te ne accorgi al supermercato?"): la domanda riprende l'oggetto appena nominato. Poi promessa concreta con tre dettagli di abitudine ("ogni mattina alle 7, mentre bevi il caffè, in 5 minuti") e timbro LINK IN BIO. Vende il prodotto con un'immagine della vita quotidiana, non con un'etichetta.
+- **Video 5:** chiude con un contrasto d'identità ("pendant que toi tu attends ta succession, le lapin a déjà tout transmis") e poi **"abonne-toi pour arrêter de te faire plumer"** (iscriviti per smettere di farti spennare). CTA breve di 1,5 s, fondato su una perdita, non su un favore.
+- Nessuno dei due chiude con un "commentate" generico: **chiedono un'azione che cambia la situazione dello spettatore**.
 
 ## Dove i riferimenti precedenti e questi due divergono
 | Aspetto | Prima (V0-V3) | Ora (V4-V5) |
@@ -134,6 +156,7 @@ Tratti comuni:
 | Durata | 60-80 s | 70-99 s |
 | Passo | 1 immagine ogni 2-6 s | **~1,8 s costante** |
 | Testo | 1 livello (V0-V2) / evidenziato (V3) | **V4: due livelli (etichetta + riga parlata)**; V5: 1-3 parole centrali |
+| Parlato | non misurato | **177-186 parole/min, senza pause** |
 | Svolta | non rilevata | **Sfondo nero/blu nei punti di svolta (V4)** |
 | Notizia | mai | **V4: attualità con conseguenza personale** |
 
@@ -147,7 +170,8 @@ Tratti comuni:
 7. Verificare se video più lunghi di 40 s funzionano per noi: fare un test A/B con 40 s contro 70 s sullo stesso tema.
 
 ## Cosa non copiare
-- **Consigli prescrittivi** ("fai così per non pagare"): presentiamo fatti e tesi; per un tema fiscale, spiegare **come funziona** e non "cosa fare".
+- **Consigli prescrittivi** ("fai così per non pagare", "legalmente"): presentiamo fatti e tesi; per un tema fiscale, spiegare **come funziona** e non "cosa fare". Le cifre del Video 5 (60% a 60 anni, 100 000 € a figlio, 20%) sono norme francesi che non ho verificato: non riusarle senza fonte.
+- **CTA basato sulla vergogna** ("smetti di farti spennare"): efficace ma non nel nostro tono.
 - **Volti reali di politici/persone** anche in stile incisione: rischio di parzialità e di uso del volto. Per notizie politiche usare simboli (edificio, scrivania, sagoma grigia).
 - **Immagini IA con testi interni** e marchi "Ai": il testo si aggiunge sempre in montaggio.
 - **Schieramento** (nel Video 4 si sente un tono di accusa verso "lo Stato"): noi manteniamo le due tesi.
@@ -169,11 +193,12 @@ Tratti comuni:
 | 10 | Un solo colore d'accento, solo per l'essenziale | |
 | 11 | Svolta segnalata da cambio di sfondo | |
 | 12 | Testi in zona sicura, ≤ 2 righe, parola-chiave evidenziata | |
-| 13 | Nessuna pausa del parlato oltre ~0,3 s | |
+| 13 | Nessuna pausa del parlato oltre ~0,3 s, ~170-185 parole/min | |
 | 14 | C'è un numero finale riassuntivo (cosa si porta a casa) | |
-| 15 | La chiusura riporta alla vita quotidiana o apre una domanda vera | |
+| 15 | La chiusura riporta alla vita quotidiana o apre una domanda vera, e nasce dall'ultimo payoff | |
+| 16 | Almeno 3 frasi-segnale a voce (svolta, "ma…", "e adesso la parte che riguarda te") | |
 
-**Punteggio:** 26-30 pubblica · 20-25 rivedi i punti a 0 · < 20 riscrivi l'hook e il passo.
+**Punteggio (max 32):** 27-32 pubblica · 21-26 rivedi i punti a 0 · < 21 riscrivi l'hook e il passo.
 
 ## Schede dei due video
 
@@ -206,29 +231,30 @@ Formato: notizia + conseguenza personale + CTA newsletter. Sfondo carta, illustr
 | 1:36-1:38 | Spiegata | in modo semplice. + LINK IN BIO | Nero | Promessa di marca |
 
 ### Video 5: @lapinlafinance, "démembrement" e tassa di successione (70 s)
-Formato: micro-lezione con numeri. Sfondo verde scuro uniforme, personaggio fisso, sagome grigie, testo giallo al centro. Parlato francese: ricostruzione parziale.
+Formato: micro-lezione con numeri. Sfondo verde scuro uniforme, personaggio fisso, sagome grigie, testo giallo al centro. Trascrizione dal file `.srt`; traduzione mia.
 
-| Tempo | Parole viste | Immagine | Leva |
+| Tempo | Parlato (traduzione) | Immagine | Leva |
 |---|---|---|---|
-| 0:00-0:05 | LAPIN… À SES… PAYER UN… MAISON (1 000 000 €) | Coniglio braccia conserte davanti a una villa; poi cartellino prezzo | Cifra enorme |
-| 0:06-0:09 | … 200 000 € DE SUCCESSION À L'ÉTAT. | Sagome in fila al banco con fascia tricolore | Tassa, ingiustizia |
-| 0:10-0:11 | NORMALE… LE LAPIN | Sagoma grigia seduta con un foglio in mano; poi il coniglio che si indica con il pollice | Contrasto |
-| 0:12-0:13 | UTILISE… DÉMEMBREMENT | Primo piano, sguardo d'intesa | **Il segreto** |
-| 0:14-0:16 | DÉMEMBREMENT, la propriété EN DEUX | Lavagna con casa, due casette sulla scrivania | Spiegazione con oggetti |
-| 0:17-0:23 | Il diritto di… (chiave + casa "à louer") / de l'autre… posséder LES MURS / garde d'habiter | Chiave, muri in sezione, atto | **Due concetti = due oggetti** |
-| 0:24-0:28 | USUFRUIT; NUE-PROPRIÉTÉ | Atto timbrato USUFRUIT, scrivania NOTAIRE | Termine tecnico mostrato |
-| 0:29-0:32 | ENFANTS… ET L'ASTUCE | Consegna di un atto a due sagome | **Gancio al trucco** |
-| 0:33-0:38 | L'Etat CONSIDÈRE SEULEMENT… DU 600 000 € | Sagoma "TAX", cartellino 1 000 000 barrato → 600 000 | **Numero chiave** |
-| 0:39-0:46 | CHAQUE 100 000 € / ENFANT / PARENTS ET… S'EFFACENT | Soldi passati alle sagome, banconote che svaniscono | Calcolo |
-| 0:47-0:51 | 200 000 € TAXÉS (20%) → 40 000 € | Banconota 200 000 con 20%; pila barrata | Risultato intermedio |
-| 0:52-0:58 | MAIS LA… À LA MORT, SES ENFANTS… AUTOMATIQUEMENT D'HABITER GRATUITEMENT, 0 € | Calendario, casa con chiavi che cadono, modulo 0 € | **Seconda sorpresa** |
-| 0:59-1:03 | CALCUL: 160 000 € ÉCONOMISÉS AVEC LE NOTAIRE | Calcolatrice, mazzette 160 000 | **Numero finale** |
-| 1:04-1:09 | PENDANT QUE… SUCCESSION… A DÉJÀ… DE TE… | Sagoma che aspetta sulle sedie, coniglio che si sistema la cravatta | Contrasto finale |
+| 0:00-0:03 | "Come il coniglio dona la sua casa ai figli **senza pagare**" | Coniglio a braccia conserte davanti a una villa | Titolo-promessa |
+| 0:03-0:06 | "Il coniglio ha una casa da 1 000 000 €" | Cartellino prezzo | Cifra |
+| 0:06-0:09 | "Se muore domani i figli pagano 200 000 € di successione allo Stato" | Sagome in fila al banco con fascia tricolore | **Perdita** |
+| 0:09-0:12 | "Una persona normale la subisce, il coniglio no" | Sagoma seduta con un foglio; il coniglio si indica | Identità |
+| 0:12-0:16 | "Utilizza il démembrement: tagliare la proprietà in due" | Primo piano, lavagna, due casette | **Il segreto** |
+| 0:16-0:21 | "Da un lato il diritto di abitare o affittare, dall'altro il diritto di possedere i muri" | Chiave + casa "à louer", muri in sezione + atto | **Due concetti = due oggetti** |
+| 0:21-0:30 | "Il coniglio tiene l'**usufrutto**, dà ai figli la **nuda proprietà** in vita" | Atto USUFRUIT, scrivania NOTAIRE, consegna a due sagome | Termine tecnico mostrato |
+| 0:30-0:34 | "**Ed ecco il trucco**: a 60 anni il fisco considera che i soli muri valgano il 60% del bene" | Sagoma "TAX" con casa e cartellino 0% | Svolta |
+| 0:36-0:39 | "…cioè 600 000 € invece di 1 000 000" | Cartellino 1 000 000 barrato → 600 000 | **Numero chiave** |
+| 0:39-0:46 | "Ogni genitore può dare 100 000 € a ogni figlio senza imposta: con 2 genitori e 2 figli, **400 000 € si cancellano**" | Mazzette passate alle sagome, banconote che svaniscono | Calcolo |
+| 0:46-0:52 | "Restano 200 000 € tassati al 20%: il coniglio paga **40 000 €** invece di 200 000" | Banconota 200 000 con 20%; pila barrata; 40 000 | Risultato |
+| 0:52-0:59 | "**Ma la parte migliore**: alla sua morte i figli recuperano automaticamente il diritto di abitare, gratuitamente, zero imposta supplementare" | Calendario, casa con chiavi, modulo 0 € | **Seconda sorpresa** |
+| 0:59-1:04 | "**Fate il calcolo**: 160 000 € risparmiati **legalmente** con una firma dal notaio" | Calcolatrice, mazzette 160 000, notaio che firma | **Numero finale** |
+| 1:04-1:07 | "Mentre tu aspetti la tua successione, il coniglio ha già trasmesso tutto" | Sagoma sulle sedie, coniglio che si aggiusta la cravatta | Contrasto d'identità |
+| 1:07-1:09 | "**Iscriviti per smettere di farti spennare**" | Coniglio | CTA |
 
 ## Come aggiornare la guida con un nuovo video
 Per ogni video che mi mandi:
 1. **Misuro**: durata, numero di cambi di immagine (e media), pause audio, colori, posizione del testo.
-2. **Mappo**: hook, cicli aperti/chiusi, svolte, CTA, timeline come nelle schede sopra.
+2. **Mappo**: hook, cicli aperti/chiusi, svolte, CTA, frasi-segnale, parole/minuto, timeline come nelle schede sopra (con la trascrizione `.srt`, se me la dai).
 3. **Aggiorno le tabelle di confronto** e la colonna "Visto in".
 4. **Promuovo o scarto le proposte da validare**: una regola diventa "confermata" quando compare in almeno 3 video, "scartata" se un video con ottimi risultati la contraddice.
 5. **Se hai i dati reali** (retention media, % fino alla fine, salvataggi per visualizzazione), li scrivo nella riga del video: un numero vero vale più di dieci ipotesi.
@@ -261,7 +287,10 @@ Cosa non copiare:
 | 9 | Etichetta in alto + riga parlata in basso | V4 | In osservazione (1) |
 | 10 | Timbro / cerchio / croce / sottolineatura come "movimento" | V4 | In osservazione (1) |
 | 11 | Numero finale riassuntivo | V4, V5 | Provvisoria (2/3) |
-| 12 | Parlato continuo, senza pause lunghe | V4, V5 | Provvisoria (2/3) |
+| 12 | Parlato continuo, senza pause lunghe, **~177-186 parole/min** | V4, V5 | Provvisoria (2/3); contraddice la nostra regola 140-150 |
 | 13 | Durata 70-99 s accettabile se il passo regge | V4, V5 | Da testare con i nostri video |
+| 14 | Frasi-segnale a voce ("ma fermati un attimo", "e non è finita", "cioè?", "la parte che riguarda te") | V4, V5 | Provvisoria (2/3) |
+| 15 | Seconda persona fin dai primi 5 s e ritorno al quotidiano a fine video | V4, V5 | Provvisoria (2/3) |
+| 16 | CTA che nasce dall'ultimo payoff e offre un cambiamento concreto | V4, V5 | Provvisoria (2/3) |
 
 *Nota:* V0-V3 sono i riferimenti di `analisi-riferimenti.md`; le colonne "Visto in" per quei video sono dedotte dalla loro scheda, non rimisurate.
