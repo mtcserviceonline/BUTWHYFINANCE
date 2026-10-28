@@ -1,0 +1,39 @@
+=== VERSIONE 1: eleven_v3, tag di tono in inglese (da incollare così) ===
+
+[surprised] Un caffè al bar ogni giorno costa circa quattrocentosettanta euro all'anno. Ma perché non ce ne accorgiamo?
+[curious] Perché sono piccole spese, e le piccole spese non le guardiamo mai.
+[calm] Primo: controlla gli abbonamenti che non usi.
+[calm] Secondo: fai la lista prima di andare al supermercato.
+[thoughtful] Terzo: confronta le offerte di luce e gas una volta all'anno.
+[warm] E tu, quale piccola spesa taglieresti per prima?
+
+
+=== VERSIONE 2: tag di tono in italiano ===
+
+[sorpreso] Un caffè al bar ogni giorno costa circa quattrocentosettanta euro all'anno. Ma perché non ce ne accorgiamo?
+[curioso] Perché sono piccole spese, e le piccole spese non le guardiamo mai.
+[calmo] Primo: controlla gli abbonamenti che non usi.
+[calmo] Secondo: fai la lista prima di andare al supermercato.
+[pensieroso] Terzo: confronta le offerte di luce e gas una volta all'anno.
+[caldo] E tu, quale piccola spesa taglieresti per prima?
+
+
+=== VERSIONE 3: eleven_multilingual_v2, una scena alla volta (senza tag) ===
+
+Scena 1 | stability 0.35 | style 0.45
+Un caffè al bar ogni giorno costa circa quattrocentosettanta euro all'anno. Ma perché non ce ne accorgiamo?
+
+Scena 2 | stability 0.5 | style 0.3
+Perché sono piccole spese, e le piccole spese non le guardiamo mai.
+
+Scena 3 | stability 0.7 | style 0.1
+Primo: controlla gli abbonamenti che non usi.
+
+Scena 4 | stability 0.7 | style 0.1
+Secondo: fai la lista prima di andare al supermercato.
+
+Scena 5 | stability 0.7 | style 0.1
+Terzo: confronta le offerte di luce e gas una volta all'anno.
+
+Scena 6 | stability 0.5 | style 0.3
+E tu, quale piccola spesa taglieresti per prima?
