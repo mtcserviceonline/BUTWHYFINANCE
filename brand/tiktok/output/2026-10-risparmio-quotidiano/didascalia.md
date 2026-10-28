@@ -1,29 +1,25 @@
-# Didascalia TikTok: risparmio quotidiano
+# Didascalia TikTok: risparmio quotidiano (v2)
 
-## Versione completa
+## Versione da pubblicare (P-3 + P-4, testo esatto)
 
-Come risparmiare sulle piccole spese di tutti i giorni ☕
+Se ti bevi un caffè al bar ogni giorno, spendi circa 470 euro all'anno. Per Assoutenti l'espresso costa in media 1,29 euro. Qual è la piccola spesa che non guardi mai? 👇
 
-Un caffè al bar ogni giorno costa circa 470 € all'anno (stima: 1,29 € a tazzina, prezzo medio secondo Assoutenti, per 365 giorni).
-
-Tre abitudini per iniziare:
-1️⃣ controlla gli abbonamenti che non usi
-2️⃣ fai la lista prima di andare al supermercato
-3️⃣ confronta le offerte di luce e gas (c'è il Portale Offerte pubblico di ARERA)
-
-Non serve cambiare vita: basta iniziare a guardare le piccole spese.
-
-E tu, quale piccola spesa taglieresti per prima? 👇
-
-#risparmio #risparmiaresoldi #finanzapersonale #consiglidirisparmio #imparacontiktok
+#caffè #prezzi #risparmio #finanzapersonale
 
 ## Versione breve
 
-Un caffè al giorno al bar = circa 470 € all'anno ☕ Da quale piccola spesa partiresti per risparmiare? 👇
-#risparmio #finanzapersonale #imparacontiktok
+Un caffè al bar al giorno = circa 470 € all'anno (1,29 € in media per Assoutenti). Qual è la piccola spesa che non guardi mai? 👇
+#caffè #risparmio #finanzapersonale
+
+## Note
+
+- **Fonte (P-5):** Assoutenti è nominata a voce ("Per Assoutenti un espresso costa in media uno e ventinove"), a schermo ("Fonte: Assoutenti (dati MIMIT)" sullo scontrino) e in didascalia.
+- **Il dato:** studio del Centro di formazione e ricerca sui consumi (CRC) con Assoutenti, 18 agosto 2026, su dati MIMIT: espresso al bar 1,29 € in media. 1,29 × 365 = 470,85 € → "circa 470" nell'apertura, "471" nel conto. Verificato su più testate; **il comunicato originale di Assoutenti va aperto dall'utente** prima di pubblicare (da qui assoutenti.it non si raggiunge). Vedi il copione.
+- La percentuale di aumento non si usa: le testate non concordano (+24,2% sul 2021 in un articolo, "+24,5% sul 2025" nel titolo di un altro).
+- La versione 1 della didascalia (con i tre consigli e il Portale Offerte ARERA) è nella storia git del file; per la v2 l'utente ha chiesto il testo sopra.
 
 ## Prima di pubblicare
 
-- Verificare il prezzo medio di 1,29 € sulla fonte Assoutenti/MIMIT.
-- Attivare l'etichetta "contenuto generato da IA".
-- Da decidere: aggiungere #butwhyfinance a tutti i post.
+- Etichetta **"contenuto generato da IA"** attiva (P-1, A7: immagini generate, voce sintetica).
+- Copertina: `copertina.png` (P-2).
+- Checklist completa nel `README.md` del post.

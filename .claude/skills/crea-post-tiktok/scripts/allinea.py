@@ -21,8 +21,8 @@ def sillabe(w):
     return max(1, n)
 
 
-def main():
-    x, sr = sf.read(sys.argv[1])
+def picchi(x, sr):
+    """Istanti (s) dei picchi di energia 300-2500 Hz, che approssimano i nuclei sillabici."""
     if x.ndim > 1:
         x = x.mean(axis=1)
     y = sosfiltfilt(butter(4, [300, 2500], btype="band", fs=sr, output="sos"), x)
@@ -31,7 +31,12 @@ def main():
     env = np.convolve(env, np.hanning(7) / np.hanning(7).sum(), mode="same")
     db = 20 * np.log10(env + 1e-6)
     pk, _ = find_peaks(db, prominence=2.5, height=db.max() - 30, distance=8)
-    pk = pk / 100.0
+    return pk / 100.0
+
+
+def main():
+    x, sr = sf.read(sys.argv[1])
+    pk = picchi(x, sr)
     frasi = json.load(open(sys.argv[2], encoding="utf-8"))
     out = []
     for fr in frasi:

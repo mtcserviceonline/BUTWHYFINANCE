@@ -1,655 +1,1361 @@
 {
- "nota": "Tempi in secondi. Inquadrature e titoli: tagli netti calcolati da montage.py subito prima della parola indicata in script/config_video.py. Sottotitoli: inizio di ogni frase esatto (pause rilevate con silencedetect), parole dentro la frase stimate con script/allinea.py (picchi di energia ~ sillabe, errore atteso <0,15 s). Effetti: istante d'inizio e picco in dB rispetto al picco della voce.",
- "voce": {
-  "file": "voce.mp3",
-  "durata": 24.03,
-  "testo": "Un caffè al bar ogni giorno costa circa quattrocentosettanta euro all'anno. Ma perché non ce ne accorgiamo? Perché sono piccole spese, e le piccole spese non le guardiamo mai. Primo, controlla gli abbonamenti che non usi. Secondo, fai la lista prima di andare al supermercato. Terzo, confronta le offerte di luce e gas una volta all'anno. Non serve cambiare vita, basta iniziare a guardare le piccole spese.",
-  "frasi": [
-   {
-    "text": "Un caffè al bar ogni giorno costa circa quattrocentosettanta",
-    "start": 0.0,
-    "end": 3.014
-   },
-   {
-    "text": "euro all'anno.",
-    "start": 3.097,
-    "end": 4.127
-   },
-   {
-    "text": "Ma perché non ce ne accorgiamo?",
-    "start": 4.518,
-    "end": 5.859
-   },
-   {
-    "text": "Perché sono piccole spese,",
-    "start": 6.361,
-    "end": 7.675
-   },
-   {
-    "text": "e le piccole spese non le guardiamo mai.",
-    "start": 7.938,
-    "end": 9.829
-   },
-   {
-    "text": "Primo,",
-    "start": 10.368,
-    "end": 10.7
-   },
-   {
-    "text": "controlla gli abbonamenti che non usi.",
-    "start": 11.07,
-    "end": 12.709
-   },
-   {
-    "text": "Secondo,",
-    "start": 13.11,
-    "end": 13.723
-   },
-   {
-    "text": "fai la lista prima di andare al supermercato.",
-    "start": 13.923,
-    "end": 16.099
-   },
-   {
-    "text": "Terzo,",
-    "start": 16.564,
-    "end": 16.972
-   },
-   {
-    "text": "confronta le offerte di luce e gas una volta all'anno.",
-    "start": 17.229,
-    "end": 20.028
-   },
-   {
-    "text": "Non serve cambiare vita,",
-    "start": 20.471,
-    "end": 21.664
-   },
-   {
-    "text": "basta iniziare a guardare le piccole spese.",
-    "start": 21.929,
-    "end": 23.858
-   }
-  ]
- },
- "durata": 24.333,
+ "durata": 33.743,
  "fps": 30,
  "inquadrature": [
   {
    "n": 1,
    "img": "01",
    "inizio": 0.0,
-   "fine": 1.979,
-   "durata": 1.979,
+   "fine": 1.99,
+   "durata": 1.99,
    "vista": [
-    540,
-    885,
-    0.76
+    515,
+    760,
+    0.7
    ],
    "moto": "in",
-   "titolo": "hook"
+   "titolo": "hook",
+   "transizione": null
   },
   {
    "n": 2,
    "img": "01",
-   "inizio": 1.979,
-   "fine": 4.438,
-   "durata": 2.459,
+   "inizio": 1.99,
+   "fine": 4.945,
+   "durata": 2.955,
    "vista": [
-    520,
-    1290,
-    1.42
+    515,
+    690,
+    0.9
    ],
    "moto": "in",
-   "titolo": null
+   "titolo": "hook",
+   "transizione": null
   },
   {
    "n": 3,
-   "img": "02",
-   "inizio": 4.438,
-   "fine": 6.281,
-   "durata": 1.843,
+   "img": "01",
+   "inizio": 4.945,
+   "fine": 6.419,
+   "durata": 1.474,
    "vista": [
-    560,
-    980,
-    1.0
+    505,
+    690,
+    1.15
    ],
    "moto": "in",
-   "titolo": "perche"
+   "titolo": null,
+   "transizione": null
   },
   {
    "n": 4,
-   "img": "03",
-   "inizio": 6.281,
-   "fine": 7.858,
-   "durata": 1.577,
+   "img": "02",
+   "inizio": 6.419,
+   "fine": 7.308,
+   "durata": 0.889,
    "vista": [
-    540,
+    700,
     960,
-    0.86
+    1.0
    ],
    "moto": "in",
-   "titolo": "piccole"
+   "titolo": null,
+   "transizione": "tenda"
   },
   {
    "n": 5,
-   "img": "04",
-   "inizio": 7.858,
-   "fine": 8.958,
-   "durata": 1.1,
+   "img": "09",
+   "inizio": 7.308,
+   "fine": 9.245,
+   "durata": 1.937,
    "vista": [
-    540,
-    1120,
-    0.92
+    560,
+    1010,
+    0.8
    ],
    "moto": "in",
-   "titolo": "piccole"
+   "titolo": null,
+   "transizione": null
   },
   {
    "n": 6,
-   "img": "04",
-   "inizio": 8.958,
-   "fine": 10.288,
-   "durata": 1.33,
+   "img": "09",
+   "inizio": 9.245,
+   "fine": 10.419,
+   "durata": 1.174,
    "vista": [
-    610,
-    1260,
-    1.5
+    606,
+    900,
+    0.97
    ],
    "moto": "in",
-   "titolo": "piccole"
+   "titolo": null,
+   "transizione": null
   },
   {
    "n": 7,
-   "img": "05",
-   "inizio": 10.288,
-   "fine": 11.498,
-   "durata": 1.21,
+   "img": "09",
+   "inizio": 10.419,
+   "fine": 13.136,
+   "durata": 2.717,
    "vista": [
-    540,
-    985,
-    0.82
+    565,
+    990,
+    0.88
    ],
    "moto": "in",
-   "titolo": "uno"
+   "titolo": null,
+   "transizione": null
   },
   {
    "n": 8,
-   "img": "05",
-   "inizio": 11.498,
-   "fine": 13.03,
-   "durata": 1.532,
+   "img": "09",
+   "inizio": 13.136,
+   "fine": 14.821,
+   "durata": 1.685,
    "vista": [
-    740,
-    1000,
-    1.5
+    610,
+    870,
+    0.97
    ],
    "moto": "in",
-   "titolo": "uno"
+   "titolo": null,
+   "transizione": null
   },
   {
    "n": 9,
-   "img": "06",
-   "inizio": 13.03,
-   "fine": 14.535,
-   "durata": 1.505,
+   "img": "03",
+   "inizio": 14.821,
+   "fine": 16.158,
+   "durata": 1.337,
    "vista": [
-    520,
-    960,
-    1.0
+    500,
+    1000,
+    0.86
    ],
    "moto": "in",
-   "titolo": "due"
+   "titolo": "piccole",
+   "transizione": null
   },
   {
    "n": 10,
-   "img": "06",
-   "inizio": 14.535,
-   "fine": 16.484,
-   "durata": 1.949,
+   "img": "04",
+   "inizio": 16.158,
+   "fine": 17.162,
+   "durata": 1.004,
    "vista": [
-    700,
-    1080,
-    1.5
+    560,
+    1100,
+    0.92
    ],
    "moto": "in",
-   "titolo": "due"
+   "titolo": "piccole",
+   "transizione": null
   },
   {
    "n": 11,
-   "img": "07",
-   "inizio": 16.484,
-   "fine": 18.17,
-   "durata": 1.686,
+   "img": "04",
+   "inizio": 17.162,
+   "fine": 18.25,
+   "durata": 1.088,
    "vista": [
-    540,
-    960,
-    1.0
+    700,
+    1060,
+    1.08
    ],
    "moto": "in",
-   "titolo": "tre"
+   "titolo": "piccole",
+   "transizione": null
   },
   {
    "n": 12,
-   "img": "07",
-   "inizio": 18.17,
-   "fine": 20.391,
-   "durata": 2.221,
+   "img": "05",
+   "inizio": 18.25,
+   "fine": 19.465,
+   "durata": 1.215,
    "vista": [
-    330,
-    1150,
-    1.55
+    450,
+    1070,
+    0.75
    ],
    "moto": "in",
-   "titolo": "tre"
+   "titolo": "uno",
+   "transizione": null
   },
   {
    "n": 13,
-   "img": "08",
-   "inizio": 20.391,
-   "fine": 21.849,
-   "durata": 1.458,
+   "img": "05",
+   "inizio": 19.465,
+   "fine": 20.857,
+   "durata": 1.392,
    "vista": [
-    830,
-    1300,
-    1.5
+    470,
+    880,
+    1.0
    ],
    "moto": "in",
-   "titolo": null
+   "titolo": "uno",
+   "transizione": null
   },
   {
    "n": 14,
-   "img": "08",
-   "inizio": 21.849,
-   "fine": 24.333,
-   "durata": 2.484,
+   "img": "06",
+   "inizio": 20.857,
+   "fine": 22.28,
+   "durata": 1.423,
    "vista": [
-    540,
-    1010,
-    0.82
+    500,
+    1080,
+    1.0
+   ],
+   "moto": "in",
+   "titolo": "due",
+   "transizione": null
+  },
+  {
+   "n": 15,
+   "img": "06",
+   "inizio": 22.28,
+   "fine": 24.09,
+   "durata": 1.81,
+   "vista": [
+    455,
+    1040,
+    1.12
+   ],
+   "moto": "in",
+   "titolo": "due",
+   "transizione": null
+  },
+  {
+   "n": 16,
+   "img": "07",
+   "inizio": 24.09,
+   "fine": 25.455,
+   "durata": 1.365,
+   "vista": [
+    590,
+    1150,
+    0.95
+   ],
+   "moto": "in",
+   "titolo": "tre",
+   "transizione": null
+  },
+  {
+   "n": 17,
+   "img": "07",
+   "inizio": 25.455,
+   "fine": 26.742,
+   "durata": 1.287,
+   "vista": [
+    700,
+    1160,
+    1.12
+   ],
+   "moto": "in",
+   "titolo": "tre",
+   "transizione": null
+  },
+  {
+   "n": 18,
+   "img": "07",
+   "inizio": 26.742,
+   "fine": 27.895,
+   "durata": 1.153,
+   "vista": [
+    640,
+    1170,
+    1.0
+   ],
+   "moto": "in",
+   "titolo": "tre",
+   "transizione": null
+  },
+  {
+   "n": 19,
+   "img": "08",
+   "inizio": 27.895,
+   "fine": 29.388,
+   "durata": 1.493,
+   "vista": [
+    565,
+    1080,
+    1.12
+   ],
+   "moto": "in",
+   "titolo": null,
+   "transizione": null
+  },
+  {
+   "n": 20,
+   "img": "08",
+   "inizio": 29.388,
+   "fine": 31.244,
+   "durata": 1.856,
+   "vista": [
+    560,
+    990,
+    0.85
    ],
    "moto": "out",
-   "titolo": "fine"
+   "titolo": "fine",
+   "transizione": null
+  },
+  {
+   "n": 21,
+   "img": "08",
+   "inizio": 31.244,
+   "fine": 33.293,
+   "durata": 2.049,
+   "vista": [
+    560,
+    1010,
+    0.92
+   ],
+   "moto": "in",
+   "titolo": null,
+   "transizione": null
+  },
+  {
+   "n": 22,
+   "img": "01",
+   "inizio": 33.293,
+   "fine": 33.743,
+   "durata": 0.45,
+   "vista": [
+    515,
+    760,
+    0.7
+   ],
+   "moto": "fermo",
+   "titolo": "loop",
+   "transizione": null
   }
  ],
  "titoli": [
   {
    "titolo": "hook",
-   "da": 0.0
+   "riga": 1,
+   "da": 2.58
   },
   {
-   "titolo": null,
-   "da": 1.979
-  },
-  {
-   "titolo": "perche",
-   "da": 4.438
+   "titolo": "hook",
+   "riga": 2,
+   "da": 4.122
   },
   {
    "titolo": "piccole",
-   "da": 6.281
+   "riga": 1,
+   "da": 14.821
   },
   {
    "titolo": "uno",
-   "da": 10.288
+   "riga": 1,
+   "da": 18.25
   },
   {
    "titolo": "due",
-   "da": 13.03
+   "riga": 1,
+   "da": 20.857
   },
   {
    "titolo": "tre",
-   "da": 16.484
-  },
-  {
-   "titolo": null,
-   "da": 20.391
+   "riga": 1,
+   "da": 24.09
   },
   {
    "titolo": "fine",
-   "da": 21.849
+   "riga": 1,
+   "da": 29.388
+  },
+  {
+   "titolo": "fine",
+   "riga": 2,
+   "da": 30.225
+  },
+  {
+   "titolo": "loop",
+   "riga": 1,
+   "da": 33.293
+  }
+ ],
+ "scritte": [
+  {
+   "img": "09",
+   "testo": "1,29 €",
+   "da": 9.275
+  },
+  {
+   "img": "09",
+   "testo": "× 365",
+   "da": 11.255
+  },
+  {
+   "img": "09",
+   "testo": "linea",
+   "da": 13.216
+  },
+  {
+   "img": "09",
+   "testo": "= 471 €",
+   "da": 13.216
+  },
+  {
+   "img": "09",
+   "testo": "Fonte: Assoutenti",
+   "da": 7.472
+  },
+  {
+   "img": "09",
+   "testo": "(dati MIMIT)",
+   "da": 7.472
   }
  ],
  "sottotitoli": [
   {
+   "testo": "SE TI BEVI",
+   "parlato": "Se ti bevi",
+   "da": 0.05,
+   "a": 0.567,
+   "parole": [
+    0.05,
+    0.176,
+    0.309
+   ]
+  },
+  {
    "testo": "UN CAFFÈ AL BAR",
-   "parlato": "Un caffè al bar",
-   "da": 0.0,
-   "a": 0.775,
+   "parlato": "un caffè al bar",
+   "da": 0.567,
+   "a": 1.281,
    "parole": [
-    0.0,
-    0.156,
-    0.471,
-    0.635
+    0.567,
+    0.702,
+    1.031,
+    1.171
    ]
   },
   {
-   "testo": "OGNI GIORNO",
-   "parlato": "ogni giorno",
-   "da": 0.775,
-   "a": 1.455,
+   "testo": "OGNI GIORNO,",
+   "parlato": "ogni giorno,",
+   "da": 1.281,
+   "a": 2.02,
    "parole": [
-    0.775,
-    1.157
+    1.281,
+    1.642
    ]
   },
   {
-   "testo": "COSTA CIRCA *470 EURO*",
-   "parlato": "costa circa quattrocentosettanta euro",
-   "da": 1.455,
-   "a": 3.515,
+   "testo": "SPENDI CIRCA",
+   "parlato": "spendi circa",
+   "da": 2.02,
+   "a": 2.58,
    "parole": [
-    1.455,
-    1.727,
-    2.009,
-    3.097
+    2.02,
+    2.284
    ]
   },
   {
-   "testo": "ALL'ANNO.",
-   "parlato": "all'anno.",
-   "da": 3.515,
-   "a": 4.518,
+   "testo": "*470 EURO*",
+   "parlato": "quattrocentosettanta euro",
+   "da": 2.58,
+   "a": 4.122,
    "parole": [
-    3.515
+    2.58,
+    3.704
    ]
   },
   {
-   "testo": "MA *PERCHÉ*",
-   "parlato": "Ma perché",
-   "da": 4.518,
-   "a": 4.823,
+   "testo": "ALL'ANNO",
+   "parlato": "all'anno",
+   "da": 4.122,
+   "a": 5.025,
    "parole": [
-    4.518,
-    4.596
+    4.122
    ]
   },
   {
-   "testo": "NON CE NE ACCORGIAMO?",
-   "parlato": "non ce ne accorgiamo?",
-   "da": 4.823,
-   "a": 6.361,
+   "testo": "E *NON TE NE ACCORGI*.",
+   "parlato": "e non te ne accorgi.",
+   "da": 5.025,
+   "a": 6.499,
    "parole": [
-    4.823,
-    5.019,
-    5.21,
-    5.386
+    5.025,
+    5.128,
+    5.27,
+    5.394,
+    5.516
    ]
   },
   {
-   "testo": "PERCHÉ SONO",
-   "parlato": "Perché sono",
-   "da": 6.361,
-   "a": 6.875,
+   "testo": "MA *PERCHÉ?*",
+   "parlato": "Ma perché?",
+   "da": 6.499,
+   "a": 7.388,
    "parole": [
-    6.361,
-    6.579
+    6.499,
+    6.63
    ]
   },
   {
-   "testo": "*PICCOLE SPESE*,",
-   "parlato": "piccole spese,",
-   "da": 6.875,
-   "a": 7.938,
+   "testo": "PER *ASSOUTENTI*",
+   "parlato": "Per Assoutenti",
+   "da": 7.388,
+   "a": 7.979,
    "parole": [
-    6.875,
-    7.36
+    7.388,
+    7.472
+   ]
+  },
+  {
+   "testo": "UN ESPRESSO COSTA",
+   "parlato": "un espresso costa",
+   "da": 7.979,
+   "a": 8.837,
+   "parole": [
+    7.979,
+    8.167,
+    8.59
+   ]
+  },
+  {
+   "testo": "IN MEDIA *1,29_€*{3}.",
+   "parlato": "in media uno e ventinove.",
+   "da": 8.837,
+   "a": 10.499,
+   "parole": [
+    8.837,
+    8.971,
+    9.275
+   ]
+  },
+  {
+   "testo": "MOLTIPLICATO PER",
+   "parlato": "Moltiplicato per",
+   "da": 10.499,
+   "a": 11.255,
+   "parole": [
+    10.499,
+    11.105
+   ]
+  },
+  {
+   "testo": "*365* GIORNI:",
+   "parlato": "trecentosessantacinque giorni:",
+   "da": 11.255,
+   "a": 13.216,
+   "parole": [
+    11.255,
+    12.555
+   ]
+  },
+  {
+   "testo": "*471 EURO*.",
+   "parlato": "quattrocentosettantuno euro.",
+   "da": 13.216,
+   "a": 14.901,
+   "parole": [
+    13.216,
+    14.131
+   ]
+  },
+  {
+   "testo": "SONO *PICCOLE SPESE*.",
+   "parlato": "Sono piccole spese.",
+   "da": 14.901,
+   "a": 16.238,
+   "parole": [
+    14.901,
+    15.135,
+    15.585
    ]
   },
   {
    "testo": "E LE PICCOLE SPESE",
-   "parlato": "e le piccole spese",
-   "da": 7.938,
-   "a": 8.988,
+   "parlato": "E le piccole spese",
+   "da": 16.238,
+   "a": 17.192,
    "parole": [
-    7.938,
-    8.014,
-    8.105,
-    8.625
+    16.238,
+    16.332,
+    16.446,
+    16.905
    ]
   },
   {
-   "testo": "NON LE *GUARDIAMO* MAI.",
+   "testo": "NON LE GUARDIAMO *MAI*.",
    "parlato": "non le guardiamo mai.",
-   "da": 8.988,
-   "a": 10.368,
+   "da": 17.192,
+   "a": 18.33,
    "parole": [
-    8.988,
-    9.124,
-    9.238,
-    9.627
+    17.192,
+    17.322,
+    17.434,
+    17.792
    ]
   },
   {
    "testo": "*PRIMO*:",
-   "parlato": "Primo,",
-   "da": 10.368,
-   "a": 11.07,
+   "parlato": "Primo:",
+   "da": 18.33,
+   "a": 18.974,
    "parole": [
-    10.368
+    18.33
    ]
   },
   {
    "testo": "CONTROLLA GLI",
    "parlato": "controlla gli",
-   "da": 11.07,
-   "a": 11.528,
+   "da": 18.974,
+   "a": 19.495,
    "parole": [
-    11.07,
-    11.431
+    18.974,
+    19.409
    ]
   },
   {
    "testo": "*ABBONAMENTI*",
    "parlato": "abbonamenti",
-   "da": 11.528,
-   "a": 11.931,
+   "da": 19.495,
+   "a": 19.868,
    "parole": [
-    11.528
+    19.495
    ]
   },
   {
    "testo": "CHE NON USI.",
    "parlato": "che non usi.",
-   "da": 11.931,
-   "a": 13.11,
+   "da": 19.868,
+   "a": 20.937,
    "parole": [
-    11.931,
-    12.025,
-    12.118
+    19.868,
+    19.95,
+    20.03
    ]
   },
   {
    "testo": "*SECONDO*:",
-   "parlato": "Secondo,",
-   "da": 13.11,
-   "a": 13.923,
+   "parlato": "Secondo:",
+   "da": 20.937,
+   "a": 21.75,
    "parole": [
-    13.11
+    20.937
    ]
   },
   {
    "testo": "FAI LA *LISTA*",
    "parlato": "fai la lista",
-   "da": 13.923,
-   "a": 14.565,
+   "da": 21.75,
+   "a": 22.31,
    "parole": [
-    13.923,
-    14.004,
-    14.131
+    21.75,
+    21.864,
+    22.004
    ]
   },
   {
    "testo": "PRIMA DI ANDARE",
    "parlato": "prima di andare",
-   "da": 14.565,
-   "a": 15.289,
+   "da": 22.31,
+   "a": 22.964,
    "parole": [
-    14.565,
-    14.837,
-    14.938
+    22.31,
+    22.541,
+    22.637
    ]
   },
   {
    "testo": "AL *SUPERMERCATO*.",
    "parlato": "al supermercato.",
-   "da": 15.289,
-   "a": 16.564,
+   "da": 22.964,
+   "a": 24.17,
    "parole": [
-    15.289,
-    15.401
+    22.964,
+    23.082
    ]
   },
   {
    "testo": "*TERZO*:",
-   "parlato": "Terzo,",
-   "da": 16.564,
-   "a": 17.229,
+   "parlato": "Terzo:",
+   "da": 24.17,
+   "a": 24.89,
    "parole": [
-    16.564
+    24.17
    ]
   },
   {
    "testo": "CONFRONTA LE *OFFERTE*",
    "parlato": "confronta le offerte",
-   "da": 17.229,
-   "a": 18.2,
+   "da": 24.89,
+   "a": 25.84,
    "parole": [
-    17.229,
-    17.664,
-    17.792
+    24.89,
+    25.373,
+    25.485
    ]
   },
   {
    "testo": "DI *LUCE E GAS*",
    "parlato": "di luce e gas",
-   "da": 18.2,
-   "a": 18.926,
+   "da": 25.84,
+   "a": 26.772,
    "parole": [
-    18.2,
-    18.296,
-    18.567,
-    18.738
+    25.84,
+    25.915,
+    26.138,
+    26.336
    ]
   },
   {
    "testo": "UNA VOLTA ALL'ANNO.",
    "parlato": "una volta all'anno.",
-   "da": 18.926,
-   "a": 20.471,
+   "da": 26.772,
+   "a": 27.975,
    "parole": [
-    18.926,
-    19.279,
-    19.553
+    26.772,
+    26.955,
+    27.189
    ]
   },
   {
    "testo": "NON SERVE",
    "parlato": "Non serve",
-   "da": 20.471,
-   "a": 20.914,
+   "da": 27.975,
+   "a": 28.375,
    "parole": [
-    20.471,
-    20.614
+    27.975,
+    28.055
    ]
   },
   {
-   "testo": "*CAMBIARE VITA*,",
-   "parlato": "cambiare vita,",
-   "da": 20.914,
-   "a": 21.929,
+   "testo": "*CAMBIARE VITA*.",
+   "parlato": "cambiare vita.",
+   "da": 28.375,
+   "a": 29.468,
    "parole": [
-    20.914,
-    21.289
+    28.375,
+    28.745
    ]
   },
   {
-   "testo": "BASTA INIZIARE",
-   "parlato": "basta iniziare",
-   "da": 21.929,
-   "a": 22.69,
+   "testo": "BASTA GUARDARE",
+   "parlato": "Basta guardare",
+   "da": 29.468,
+   "a": 30.115,
    "parole": [
-    21.929,
-    22.184
+    29.468,
+    29.763
    ]
   },
   {
-   "testo": "A GUARDARE LE",
-   "parlato": "a guardare le",
-   "da": 22.69,
-   "a": 23.201,
+   "testo": "LE *PICCOLE SPESE*.",
+   "parlato": "le piccole spese.",
+   "da": 30.115,
+   "a": 31.324,
    "parole": [
-    22.69,
-    22.8,
-    23.082
+    30.115,
+    30.225,
+    30.673
    ]
   },
   {
-   "testo": "*PICCOLE SPESE*.",
-   "parlato": "piccole spese.",
-   "da": 23.201,
-   "a": 24.008,
+   "testo": "E TU: QUAL È QUELLA CHE NON GUARDI *MAI?*",
+   "parlato": "E tu: qual è quella che non guardi mai?",
+   "da": 31.324,
+   "a": 33.743,
    "parole": [
-    23.201,
-    23.646
+    31.324,
+    31.492,
+    31.96,
+    32.084,
+    32.201,
+    32.385,
+    32.525,
+    32.688,
+    33.022
    ]
   }
  ],
  "effetti": [
   {
-   "effetto": "colpo",
-   "t": 0.0,
-   "livello_db_picco_voce": -12
+   "effetto": "scontrino",
+   "parola": "quattrocentosettanta",
+   "t": 2.58,
+   "livello_db_picco_voce": -13
   },
   {
-   "effetto": "moneta",
-   "t": 1.979,
-   "livello_db_picco_voce": -17
+   "effetto": "tick",
+   "parola": "uno",
+   "t": 9.275,
+   "livello_db_picco_voce": -22
   },
   {
-   "effetto": "pop",
-   "t": 4.438,
-   "livello_db_picco_voce": -17
+   "effetto": "tick",
+   "parola": "trecentosessantacinque",
+   "t": 11.255,
+   "livello_db_picco_voce": -22
   },
   {
-   "effetto": "monetine",
-   "t": 8.958,
-   "livello_db_picco_voce": -19
-  },
-  {
-   "effetto": "pop",
-   "t": 10.288,
-   "livello_db_picco_voce": -17
-  },
-  {
-   "effetto": "forbici",
-   "t": 11.498,
-   "livello_db_picco_voce": -11
+   "effetto": "tick",
+   "parola": "quattrocentosettantuno",
+   "t": 13.216,
+   "livello_db_picco_voce": -22
   },
   {
    "effetto": "pop",
-   "t": 13.03,
-   "livello_db_picco_voce": -17
-  },
-  {
-   "effetto": "carta",
-   "t": 14.535,
+   "parola": "Primo",
+   "t": 18.33,
    "livello_db_picco_voce": -20
   },
   {
    "effetto": "pop",
-   "t": 16.484,
-   "livello_db_picco_voce": -17
-  },
-  {
-   "effetto": "salvadanaio",
-   "t": 20.391,
-   "livello_db_picco_voce": -15
+   "parola": "Secondo",
+   "t": 20.937,
+   "livello_db_picco_voce": -20
   },
   {
    "effetto": "pop",
-   "t": 21.849,
-   "livello_db_picco_voce": -17
+   "parola": "Terzo",
+   "t": 24.17,
+   "livello_db_picco_voce": -20
   }
- ]
+ ],
+ "controlli": {
+  "errori": [],
+  "avvisi": [],
+  "cambio_visivo_max_s": 1.99,
+  "fine_dopo_ultima_parola_s": 0.45,
+  "loop": {
+   "centro_titolo_apertura": [
+    504,
+    384
+   ],
+   "centro_titolo_loop": [
+    504,
+    384
+   ],
+   "baseline_uguale": 0
+  },
+  "inquadrature": [
+   {
+    "n": 1,
+    "img": "01",
+    "zoom_max_effettivo": 0.728,
+    "occhiali": [
+     376,
+     729,
+     676,
+     855
+    ]
+   },
+   {
+    "n": 2,
+    "img": "01",
+    "zoom_max_effettivo": 0.936,
+    "occhiali": [
+     328,
+     726,
+     716,
+     888
+    ]
+   },
+   {
+    "n": 3,
+    "img": "01",
+    "zoom_max_effettivo": 1.196,
+    "occhiali": [
+     281,
+     661,
+     776,
+     868
+    ]
+   },
+   {
+    "n": 4,
+    "img": "02",
+    "zoom_max_effettivo": 1.04,
+    "occhiali": [
+     460,
+     680,
+     680,
+     790
+    ]
+   },
+   {
+    "n": 5,
+    "img": "09",
+    "zoom_max_effettivo": 0.832,
+    "occhiali": [
+     292,
+     600,
+     500,
+     732
+    ]
+   },
+   {
+    "n": 6,
+    "img": "09",
+    "zoom_max_effettivo": 1.009,
+    "occhiali": [
+     195,
+     630,
+     447,
+     790
+    ]
+   },
+   {
+    "n": 7,
+    "img": "09",
+    "zoom_max_effettivo": 0.915,
+    "occhiali": [
+     263,
+     582,
+     492,
+     727
+    ]
+   },
+   {
+    "n": 8,
+    "img": "09",
+    "zoom_max_effettivo": 1.009,
+    "occhiali": [
+     191,
+     659,
+     443,
+     819
+    ]
+   },
+   {
+    "n": 9,
+    "img": "03",
+    "zoom_max_effettivo": 0.894,
+    "occhiali": [
+     308,
+     582,
+     712,
+     732
+    ]
+   },
+   {
+    "n": 10,
+    "img": "04",
+    "zoom_max_effettivo": 0.957,
+    "occhiali": [
+     683,
+     799,
+     899,
+     891
+    ]
+   },
+   {
+    "n": 11,
+    "img": "04",
+    "zoom_max_effettivo": 1.123,
+    "occhiali": [
+     556,
+     814,
+     810,
+     922
+    ]
+   },
+   {
+    "n": 12,
+    "img": "05",
+    "zoom_max_effettivo": 0.78,
+    "occhiali": [
+     330,
+     499,
+     652,
+     630
+    ]
+   },
+   {
+    "n": 13,
+    "img": "05",
+    "zoom_max_effettivo": 1.04,
+    "occhiali": [
+     240,
+     535,
+     670,
+     710
+    ]
+   },
+   {
+    "n": 14,
+    "img": "06",
+    "zoom_max_effettivo": 1.04,
+    "occhiali": [
+     305,
+     520,
+     650,
+     655
+    ]
+   },
+   {
+    "n": 15,
+    "img": "06",
+    "zoom_max_effettivo": 1.165,
+    "occhiali": [
+     327,
+     512,
+     714,
+     663
+    ]
+   },
+   {
+    "n": 16,
+    "img": "07",
+    "zoom_max_effettivo": 0.988,
+    "occhiali": [
+     668,
+     846,
+     906,
+     950
+    ]
+   },
+   {
+    "n": 17,
+    "img": "07",
+    "zoom_max_effettivo": 1.165,
+    "occhiali": [
+     568,
+     814,
+     848,
+     938
+    ]
+   },
+   {
+    "n": 18,
+    "img": "07",
+    "zoom_max_effettivo": 1.04,
+    "occhiali": [
+     625,
+     820,
+     875,
+     930
+    ]
+   },
+   {
+    "n": 19,
+    "img": "08",
+    "zoom_max_effettivo": 1.165,
+    "occhiali": [
+     120,
+     394,
+     568,
+     568
+    ]
+   },
+   {
+    "n": 20,
+    "img": "08",
+    "zoom_max_effettivo": 0.884,
+    "occhiali": [
+     219,
+     605,
+     572,
+     742
+    ]
+   },
+   {
+    "n": 21,
+    "img": "08",
+    "zoom_max_effettivo": 0.957,
+    "occhiali": [
+     200,
+     560,
+     568,
+     702
+    ]
+   },
+   {
+    "n": 22,
+    "img": "01",
+    "zoom_max_effettivo": 0.7,
+    "occhiali": [
+     376,
+     729,
+     676,
+     855
+    ]
+   }
+  ]
+ },
+ "voce": {
+  "file": "voce.mp3",
+  "ritmo": {
+   "durata_originale": 35.631,
+   "durata_finale": 33.388,
+   "parole": 93,
+   "wpm_originale": 158.0,
+   "wpm_dopo_pause": 167.9,
+   "velocita": 1.0,
+   "wpm_finale": 167.9,
+   "filtro": "anull",
+   "tagli": [
+    [
+     0.0,
+     0.068
+    ],
+    [
+     4.943,
+     5.087
+    ],
+    [
+     6.531,
+     6.587
+    ],
+    [
+     7.506,
+     7.745
+    ],
+    [
+     15.258,
+     15.53
+    ],
+    [
+     16.867,
+     16.972
+    ],
+    [
+     19.064,
+     19.415
+    ],
+    [
+     22.022,
+     22.217
+    ],
+    [
+     25.45,
+     25.658
+    ],
+    [
+     29.463,
+     29.63
+    ],
+    [
+     32.979,
+     33.169
+    ],
+    [
+     33.805,
+     33.943
+    ]
+   ],
+   "modifiche": [
+    "attacco 0.12 -> 0.05 s",
+    "pausa 4.79-5.24 (0.44 s) -> 0.30 s  prima di \"e non te ne accorgi.\"",
+    "pausa 6.35-6.77 (0.42 s) -> 0.36 s  prima di \"Ma perché?\"",
+    "pausa 7.36-7.89 (0.54 s) -> 0.30 s  prima di \"Per Assoutenti un espresso cos\"",
+    "pausa 15.11-15.68 (0.57 s) -> 0.30 s  prima di \"Sono piccole spese.\"",
+    "pausa 16.72-17.12 (0.41 s) -> 0.30 s  prima di \"E le piccole spese non le guar\"",
+    "pausa 18.91-19.57 (0.65 s) -> 0.30 s  prima di \"Primo:\"",
+    "pausa 21.87-22.37 (0.50 s) -> 0.30 s  prima di \"Secondo:\"",
+    "pausa 25.30-25.81 (0.51 s) -> 0.30 s  prima di \"Terzo:\"",
+    "pausa 29.31-29.78 (0.47 s) -> 0.30 s  prima di \"Non serve cambiare vita.\"",
+    "pausa 32.83-33.32 (0.49 s) -> 0.30 s  prima di \"E tu:\"",
+    "pausa 33.66-34.09 (0.44 s) -> 0.30 s  prima di \"qual è quella che non guardi m\""
+   ]
+  },
+  "frasi_originali": [
+   {
+    "text": "Se ti bevi un caffè al bar ogni giorno, spendi circa quattrocentosettanta euro all'anno",
+    "start": 0.118,
+    "end": 4.793
+   },
+   {
+    "text": "e non te ne accorgi.",
+    "start": 5.237,
+    "end": 6.351
+   },
+   {
+    "text": "Ma perché?",
+    "start": 6.767,
+    "end": 7.356
+   },
+   {
+    "text": "Per Assoutenti un espresso costa in media uno e ventinove.",
+    "start": 7.895,
+    "end": 10.69
+   },
+   {
+    "text": "Moltiplicato per trecentosessantacinque giorni:",
+    "start": 11.006,
+    "end": 13.444
+   },
+   {
+    "text": "quattrocentosettantuno euro.",
+    "start": 13.723,
+    "end": 15.108
+   },
+   {
+    "text": "Sono piccole spese.",
+    "start": 15.68,
+    "end": 16.717
+   },
+   {
+    "text": "E le piccole spese non le guardiamo mai.",
+    "start": 17.122,
+    "end": 18.914
+   },
+   {
+    "text": "Primo:",
+    "start": 19.565,
+    "end": 19.892
+   },
+   {
+    "text": "controlla gli abbonamenti che non usi.",
+    "start": 20.209,
+    "end": 21.872
+   },
+   {
+    "text": "Secondo:",
+    "start": 22.367,
+    "end": 22.945
+   },
+   {
+    "text": "fai la lista prima di andare al supermercato.",
+    "start": 23.18,
+    "end": 25.3
+   },
+   {
+    "text": "Terzo:",
+    "start": 25.808,
+    "end": 26.248
+   },
+   {
+    "text": "confronta le offerte di luce e gas",
+    "start": 26.528,
+    "end": 28.306
+   },
+   {
+    "text": "una volta all'anno.",
+    "start": 28.41,
+    "end": 29.313
+   },
+   {
+    "text": "Non serve cambiare vita.",
+    "start": 29.78,
+    "end": 30.943
+   },
+   {
+    "text": "Basta guardare le piccole spese.",
+    "start": 31.273,
+    "end": 32.829
+   },
+   {
+    "text": "E tu:",
+    "start": 33.319,
+    "end": 33.655
+   },
+   {
+    "text": "qual è quella che non guardi mai?",
+    "start": 34.093,
+    "end": 35.426
+   }
+  ],
+  "frasi": [
+   {
+    "text": "Se ti bevi un caffè al bar ogni giorno, spendi circa quattrocentosettanta euro all'anno",
+    "start": 0.05,
+    "end": 4.725
+   },
+   {
+    "text": "e non te ne accorgi.",
+    "start": 5.025,
+    "end": 6.139
+   },
+   {
+    "text": "Ma perché?",
+    "start": 6.499,
+    "end": 7.088
+   },
+   {
+    "text": "Per Assoutenti un espresso costa in media uno e ventinove.",
+    "start": 7.388,
+    "end": 10.183
+   },
+   {
+    "text": "Moltiplicato per trecentosessantacinque giorni:",
+    "start": 10.499,
+    "end": 12.937
+   },
+   {
+    "text": "quattrocentosettantuno euro.",
+    "start": 13.216,
+    "end": 14.601
+   },
+   {
+    "text": "Sono piccole spese.",
+    "start": 14.901,
+    "end": 15.938
+   },
+   {
+    "text": "E le piccole spese non le guardiamo mai.",
+    "start": 16.238,
+    "end": 18.03
+   },
+   {
+    "text": "Primo:",
+    "start": 18.33,
+    "end": 18.657
+   },
+   {
+    "text": "controlla gli abbonamenti che non usi.",
+    "start": 18.974,
+    "end": 20.637
+   },
+   {
+    "text": "Secondo:",
+    "start": 20.937,
+    "end": 21.515
+   },
+   {
+    "text": "fai la lista prima di andare al supermercato.",
+    "start": 21.75,
+    "end": 23.87
+   },
+   {
+    "text": "Terzo:",
+    "start": 24.17,
+    "end": 24.61
+   },
+   {
+    "text": "confronta le offerte di luce e gas",
+    "start": 24.89,
+    "end": 26.668
+   },
+   {
+    "text": "una volta all'anno.",
+    "start": 26.772,
+    "end": 27.675
+   },
+   {
+    "text": "Non serve cambiare vita.",
+    "start": 27.975,
+    "end": 29.138
+   },
+   {
+    "text": "Basta guardare le piccole spese.",
+    "start": 29.468,
+    "end": 31.024
+   },
+   {
+    "text": "E tu:",
+    "start": 31.324,
+    "end": 31.66
+   },
+   {
+    "text": "qual è quella che non guardi mai?",
+    "start": 31.96,
+    "end": 33.293
+   }
+  ]
+ },
+ "audio": {
+  "lufs_integrati": -14.7,
+  "true_peak_dbfs": -1.5,
+  "musica": null
+ }
 }

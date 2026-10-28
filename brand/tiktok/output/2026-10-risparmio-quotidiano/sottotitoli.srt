@@ -1,51 +1,92 @@
 1
-00:00:00,000 --> 00:00:03,014
-Un caffè al bar ogni giorno costa circa quattrocentosettanta
+00:00:00,050 --> 00:00:02,020
+Se ti bevi un caffè al bar ogni giorno,
 
 2
-00:00:03,097 --> 00:00:04,127
-euro all'anno.
+00:00:02,020 --> 00:00:04,122
+spendi circa quattrocentosettanta euro
 
 3
-00:00:04,518 --> 00:00:05,859
-Ma perché non ce ne accorgiamo?
+00:00:04,122 --> 00:00:06,289
+all'anno e non te ne accorgi.
 
 4
-00:00:06,361 --> 00:00:07,675
-Perché sono piccole spese,
+00:00:06,499 --> 00:00:07,238
+Ma perché?
 
 5
-00:00:07,938 --> 00:00:09,829
-e le piccole spese non le guardiamo mai.
+00:00:07,388 --> 00:00:09,275
+Per Assoutenti un espresso costa in media
 
 6
-00:00:10,368 --> 00:00:10,700
-Primo,
+00:00:09,275 --> 00:00:10,333
+uno e ventinove.
 
 7
-00:00:11,070 --> 00:00:12,709
-controlla gli abbonamenti che non usi.
+00:00:10,499 --> 00:00:12,555
+Moltiplicato per trecentosessantacinque
 
 8
-00:00:13,110 --> 00:00:13,723
-Secondo,
+00:00:12,555 --> 00:00:13,087
+giorni:
 
 9
-00:00:13,923 --> 00:00:16,099
-fai la lista prima di andare al supermercato.
+00:00:13,216 --> 00:00:14,751
+quattrocentosettantuno euro.
 
 10
-00:00:16,564 --> 00:00:16,972
-Terzo,
+00:00:14,901 --> 00:00:16,088
+Sono piccole spese.
 
 11
-00:00:17,229 --> 00:00:20,028
-confronta le offerte di luce e gas una volta all'anno.
+00:00:16,238 --> 00:00:18,180
+E le piccole spese non le guardiamo mai.
 
 12
-00:00:20,471 --> 00:00:21,664
-Non serve cambiare vita,
+00:00:18,330 --> 00:00:18,807
+Primo:
 
 13
-00:00:21,929 --> 00:00:23,858
-basta iniziare a guardare le piccole spese.
+00:00:18,974 --> 00:00:20,787
+controlla gli abbonamenti che non usi.
+
+14
+00:00:20,937 --> 00:00:21,665
+Secondo:
+
+15
+00:00:21,750 --> 00:00:23,082
+fai la lista prima di andare al
+
+16
+00:00:23,082 --> 00:00:24,020
+supermercato.
+
+17
+00:00:24,170 --> 00:00:24,760
+Terzo:
+
+18
+00:00:24,890 --> 00:00:26,955
+confronta le offerte di luce e gas una
+
+19
+00:00:26,955 --> 00:00:27,825
+volta all'anno.
+
+20
+00:00:27,975 --> 00:00:29,288
+Non serve cambiare vita.
+
+21
+00:00:29,468 --> 00:00:31,174
+Basta guardare le piccole spese.
+
+22
+00:00:31,324 --> 00:00:31,810
+E tu:
+
+23
+00:00:31,960 --> 00:00:33,443
+qual è quella che non guardi mai?
+

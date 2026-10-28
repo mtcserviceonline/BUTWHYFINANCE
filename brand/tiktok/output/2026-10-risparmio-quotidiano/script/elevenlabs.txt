@@ -1,44 +1,55 @@
-NOTA (28/10/2026): la voce registrata (ElevenLabs, voce "Valerio - Warm Italian Storyteller", file ../voce.mp3)
-chiude con "Non serve cambiare vita, basta iniziare a guardare le piccole spese."
-invece della domanda "E tu, quale piccola spesa taglieresti per prima?" prevista prima. Testo verificato
-trascrivendo l'audio (muse-spark-1.3). La domanda per i commenti resta nella didascalia.
+TESTO v2 (28/10/2026) - correzioni A1-A5. Numeri sempre per esteso (A5). Ritmo voluto: 165-175 parole/min,
+pause solo a fine frase (A3); 0,3-0,4 s di pausa prima di "Ma perché?", voce che sale, enfasi su
+"non te ne accorgi" (A2). La versione registrata il 28/10 (voce.mp3, "Valerio - Warm Italian Storyteller")
+usa questo testo: 93 parole, 35,6 s grezza (158 parole/min); in montaggio ritmo.py accorcia le pause oltre
+0,4 s a 0,3 s (0,36 s prima di "Ma perché?") -> 33,4 s, 168 parole/min.
+Attenzione: con 93 parole, 27 s vorrebbero dire ~205 parole/min, fuori da A3. A 165-175 parole/min il testo
+dura 32-34 s.
 
 === VERSIONE 1: eleven_v3, tag di tono in inglese (da incollare così) ===
 
-[surprised] Un caffè al bar ogni giorno costa circa quattrocentosettanta euro all'anno. Ma perché non ce ne accorgiamo?
-[curious] Perché sono piccole spese, e le piccole spese non le guardiamo mai.
+[surprised] Se ti bevi un caffè al bar ogni giorno, spendi circa quattrocentosettanta euro all'anno e NON TE NE ACCORGI… [curious] Ma perché?
+[matter-of-fact] Per Assoutenti un espresso costa in media uno e ventinove. Moltiplicato per trecentosessantacinque giorni: quattrocentosettantuno euro.
+[curious] Sono piccole spese. E le piccole spese non le guardiamo mai.
 [calm] Primo: controlla gli abbonamenti che non usi.
 [calm] Secondo: fai la lista prima di andare al supermercato.
 [thoughtful] Terzo: confronta le offerte di luce e gas una volta all'anno.
-[warm] Non serve cambiare vita, basta iniziare a guardare le piccole spese.
+[warm] Non serve cambiare vita. Basta guardare le piccole spese. [curious] E tu: qual è quella che non guardi mai?
 
 
 === VERSIONE 2: tag di tono in italiano ===
 
-[sorpreso] Un caffè al bar ogni giorno costa circa quattrocentosettanta euro all'anno. Ma perché non ce ne accorgiamo?
-[curioso] Perché sono piccole spese, e le piccole spese non le guardiamo mai.
+[sorpreso] Se ti bevi un caffè al bar ogni giorno, spendi circa quattrocentosettanta euro all'anno e NON TE NE ACCORGI… [curioso] Ma perché?
+[chiaro] Per Assoutenti un espresso costa in media uno e ventinove. Moltiplicato per trecentosessantacinque giorni: quattrocentosettantuno euro.
+[curioso] Sono piccole spese. E le piccole spese non le guardiamo mai.
 [calmo] Primo: controlla gli abbonamenti che non usi.
 [calmo] Secondo: fai la lista prima di andare al supermercato.
 [pensieroso] Terzo: confronta le offerte di luce e gas una volta all'anno.
-[caldo] Non serve cambiare vita, basta iniziare a guardare le piccole spese.
+[caldo] Non serve cambiare vita. Basta guardare le piccole spese. [curioso] E tu: qual è quella che non guardi mai?
+
+(Se il modello legge ad alta voce i tag italiani, usa la versione 1 o la 3.)
 
 
 === VERSIONE 3: eleven_multilingual_v2, una scena alla volta (senza tag) ===
+(stability/style per scena; secondi del piano A1, la durata reale la decide la voce)
 
-Scena 1 | stability 0.35 | style 0.45
-Un caffè al bar ogni giorno costa circa quattrocentosettanta euro all'anno. Ma perché non ce ne accorgiamo?
+Scena 1 - hook (0-6 s) | stability 0.35 | style 0.45
+Se ti bevi un caffè al bar ogni giorno, spendi circa quattrocentosettanta euro all'anno e non te ne accorgi… Ma perché?
 
-Scena 2 | stability 0.5 | style 0.3
-Perché sono piccole spese, e le piccole spese non le guardiamo mai.
+Scena 2 - numero e fonte (6-10 s) | stability 0.6 | style 0.2
+Per Assoutenti un espresso costa in media uno e ventinove. Moltiplicato per trecentosessantacinque giorni: quattrocentosettantuno euro.
 
-Scena 3 | stability 0.7 | style 0.1
+Scena 3 - piccole spese (10-13 s) | stability 0.5 | style 0.3
+Sono piccole spese. E le piccole spese non le guardiamo mai.
+
+Scena 4 - primo (13-16,3 s) | stability 0.7 | style 0.1
 Primo: controlla gli abbonamenti che non usi.
 
-Scena 4 | stability 0.7 | style 0.1
+Scena 5 - secondo (16,3-19,7 s) | stability 0.7 | style 0.1
 Secondo: fai la lista prima di andare al supermercato.
 
-Scena 5 | stability 0.7 | style 0.1
+Scena 6 - terzo (19,7-23 s) | stability 0.7 | style 0.1
 Terzo: confronta le offerte di luce e gas una volta all'anno.
 
-Scena 6 | stability 0.5 | style 0.3
-Non serve cambiare vita, basta iniziare a guardare le piccole spese.
+Scena 7 - chiusura (23-27 s) | stability 0.5 | style 0.3
+Non serve cambiare vita. Basta guardare le piccole spese. E tu: qual è quella che non guardi mai?

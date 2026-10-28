@@ -1,83 +1,100 @@
 [
   {
     "id": 1,
+    "nome": "hook",
     "secondi": "0-6",
-    "espressione_orso": "sorpreso, bocca a \"o\"",
-    "tono": "incredulo e curioso, come davanti a un conto che non ti aspettavi; \"circa\" detto chiaro, senza enfasi allarmista",
+    "espressione_orso": "sorpreso, bocca a \"o\" (immagine 01), poi fila di tazzine (immagine 02) su \"Ma perché?\"",
+    "tono": "incredulo e curioso; enfasi su \"non te ne accorgi\"; pausa di 0,3-0,4 s prima di \"Ma perché?\", detto con la voce che sale",
     "tag_v3": "[surprised]",
+    "tag_it": "[sorpreso]",
     "stability": 0.35,
     "style": 0.45,
-    "text": "Un caffè al bar ogni giorno costa circa quattrocentosettanta euro all'anno. Ma perché non ce ne accorgiamo?",
-    "immagini": [
-      1,
-      2
-    ]
+    "text": "Se ti bevi un caffè al bar ogni giorno, spendi circa quattrocentosettanta euro all'anno e non te ne accorgi. Ma perché?",
+    "text_v3": "[surprised] Se ti bevi un caffè al bar ogni giorno, spendi circa quattrocentosettanta euro all'anno e NON TE NE ACCORGI… [curious] Ma perché?",
+    "immagini": [1, 2]
   },
   {
     "id": 2,
+    "nome": "numero e fonte",
     "secondi": "6-10",
-    "espressione_orso": "ho un'idea / spiegazione, lente d'ingrandimento in mano",
-    "tono": "curioso e complice, risponde alla domanda senza giudicare chi ascolta",
-    "tag_v3": "[curious]",
-    "stability": 0.5,
-    "style": 0.3,
-    "text": "Perché sono piccole spese, e le piccole spese non le guardiamo mai.",
-    "immagini": [
-      3,
-      4
-    ]
+    "espressione_orso": "curioso, tiene uno scontrino lungo (immagine 09: larga, poi primo piano sullo scontrino)",
+    "tono": "chiaro e preciso, da conto fatto sul tovagliolo; numeri scanditi",
+    "tag_v3": "[matter-of-fact]",
+    "tag_it": "[chiaro]",
+    "stability": 0.6,
+    "style": 0.2,
+    "text": "Per Assoutenti un espresso costa in media uno e ventinove. Moltiplicato per trecentosessantacinque giorni: quattrocentosettantuno euro.",
+    "text_v3": "[matter-of-fact] Per Assoutenti un espresso costa in media uno e ventinove. Moltiplicato per trecentosessantacinque giorni: quattrocentosettantuno euro.",
+    "immagini": [9]
   },
   {
     "id": 3,
+    "nome": "piccole spese",
     "secondi": "10-13",
-    "espressione_orso": "ho un'idea / spiegazione, smartphone in mano",
-    "tono": "calmo e pratico, primo consiglio detto come un promemoria tra amici",
-    "tag_v3": "[calm]",
-    "stability": 0.7,
-    "style": 0.1,
-    "text": "Primo: controlla gli abbonamenti che non usi.",
-    "immagini": [
-      5
-    ]
+    "espressione_orso": "curioso con la lente (03), incredulo davanti alla sagoma che perde monetine (04)",
+    "tono": "complice, senza giudicare chi ascolta",
+    "tag_v3": "[curious]",
+    "tag_it": "[curioso]",
+    "stability": 0.5,
+    "style": 0.3,
+    "text": "Sono piccole spese. E le piccole spese non le guardiamo mai.",
+    "text_v3": "[curious] Sono piccole spese. E le piccole spese non le guardiamo mai.",
+    "immagini": [3, 4]
   },
   {
     "id": 4,
-    "secondi": "13-17",
-    "espressione_orso": "felice, lista della spesa in mano",
-    "tono": "calmo e pratico, stesso passo del primo consiglio",
+    "nome": "primo",
+    "secondi": "13-16,3",
+    "espressione_orso": "ho un'idea, smartphone e forbici (05)",
+    "tono": "calmo e pratico, promemoria tra amici",
     "tag_v3": "[calm]",
+    "tag_it": "[calmo]",
     "stability": 0.7,
     "style": 0.1,
-    "text": "Secondo: fai la lista prima di andare al supermercato.",
-    "immagini": [
-      6
-    ]
+    "text": "Primo: controlla gli abbonamenti che non usi.",
+    "text_v3": "[calm] Primo: controlla gli abbonamenti che non usi.",
+    "immagini": [5]
   },
   {
     "id": 5,
-    "secondi": "17-21",
-    "espressione_orso": "pensieroso, mano al mento",
-    "tono": "riflessivo, da commercialista al bar: un'abitudine da prendere, non un'urgenza",
-    "tag_v3": "[thoughtful]",
+    "nome": "secondo",
+    "secondi": "16,3-19,7",
+    "espressione_orso": "felice, lista della spesa in mano (06)",
+    "tono": "calmo e pratico, stesso passo del primo consiglio",
+    "tag_v3": "[calm]",
+    "tag_it": "[calmo]",
     "stability": 0.7,
     "style": 0.1,
-    "text": "Terzo: confronta le offerte di luce e gas una volta all'anno.",
-    "immagini": [
-      7
-    ]
+    "text": "Secondo: fai la lista prima di andare al supermercato.",
+    "text_v3": "[calm] Secondo: fai la lista prima di andare al supermercato.",
+    "immagini": [6]
   },
   {
     "id": 6,
-    "secondi": "21-25",
-    "espressione_orso": "occhiolino, sorriso complice",
-    "tono": "caldo e rassicurante, chiude con un invito semplice (testo effettivamente registrato, al posto della domanda iniziale)",
+    "nome": "terzo",
+    "secondi": "19,7-23",
+    "espressione_orso": "pensieroso, mano al mento, bilancia con le due offerte (07)",
+    "tono": "riflessivo: un'abitudine da prendere, non un'urgenza",
+    "tag_v3": "[thoughtful]",
+    "tag_it": "[pensieroso]",
+    "stability": 0.7,
+    "style": 0.1,
+    "text": "Terzo: confronta le offerte di luce e gas una volta all'anno.",
+    "text_v3": "[thoughtful] Terzo: confronta le offerte di luce e gas una volta all'anno.",
+    "immagini": [7]
+  },
+  {
+    "id": 7,
+    "nome": "chiusura",
+    "secondi": "23-27",
+    "espressione_orso": "occhiolino, moneta nel salvadanaio (08); ultimo mezzo secondo: orso sorpreso dell'apertura (01) con \"?\" per il loop",
+    "tono": "caldo e rassicurante, poi domanda diretta e aperta a chi guarda",
     "tag_v3": "[warm]",
+    "tag_it": "[caldo]",
     "stability": 0.5,
     "style": 0.3,
-    "text": "Non serve cambiare vita, basta iniziare a guardare le piccole spese.",
-    "immagini": [
-      8
-    ],
-    "testo_precedente": "E tu, quale piccola spesa taglieresti per prima?"
+    "text": "Non serve cambiare vita. Basta guardare le piccole spese. E tu: qual è quella che non guardi mai?",
+    "text_v3": "[warm] Non serve cambiare vita. Basta guardare le piccole spese. [curious] E tu: qual è quella che non guardi mai?",
+    "immagini": [8, 1]
   }
 ]

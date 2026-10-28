@@ -2,110 +2,190 @@
 
 Realizzazione del copione [`../../copioni/2026-10-risparmio-quotidiano.md`](../../copioni/2026-10-risparmio-quotidiano.md).
 
-## Stato del post
+Ci sono **due versioni** del video, da mettere a confronto (P-6):
+
+- **v2** (`video.mp4`, 33,7 s): testo nuovo con la fonte Assoutenti, il conto sullo scontrino e la domanda finale, montaggio rifatto con tutte le correzioni dell'utente (28/10/2026).
+- **v1** (`video_v1_24s.mp4`, 24,3 s): la prima versione, conservata per l'A/B test.
+
+## Stato
 
 | Cosa | Stato |
 |---|---|
-| Copione, fatti e didascalia | pronti (nel copione) |
-| 8 immagini | pronte ([`immagini/`](immagini/README.md)) |
-| Voce | **registrata** con ElevenLabs (voce "Valerio – Warm Italian Storyteller"), 24,0 s |
-| Video | **montato** (`video.mp4`, 24,3 s) |
-| Da fare prima di pubblicare | 1) verificare il prezzo medio dell'espresso (1,29 €) sulla fonte originale Assoutenti/MIMIT (vedi copione); 2) attivare su TikTok l'etichetta **"contenuto generato da IA"** (immagini generate, voce sintetica); 3) guardare e **ascoltare** il video almeno una volta (io non ho potuto ascoltarlo) |
+| Testo v2, scene ElevenLabs | pronti (`script/elevenlabs.txt`, `script/scene_elevenlabs.json`) |
+| Voce v2 | **registrata** dall'utente su ElevenLabs ("Valerio – Warm Italian Storyteller"), `voce.mp3` (35,6 s grezza) |
+| Video v2 | **montato** (`video.mp4`, 33,74 s, 1080x1920, 30 fps, H.264 + AAC 48 kHz), -14,7 LUFS, true peak -1,5 dBFS |
+| Copertina | `copertina.png` (P-2) |
+| Didascalia | `didascalia.md` (P-3 e P-4 alla lettera) |
+| Fonte del 1,29 € | concordante su più testate; **comunicato originale da aprire a cura dell'utente** (vedi sotto) |
+| Da fare | ascoltare il video (io non posso), aprire la fonte originale, checklist di pubblicazione qui sotto |
 
-**Testo cambiato rispetto al copione:** la voce registrata chiude con *"Non serve cambiare vita, basta iniziare a guardare le piccole spese."* invece di *"E tu, quale piccola spesa taglieresti per prima?"*. Ho aggiornato copione, `script/elevenlabs.txt` e `script/scene_elevenlabs.json`. La domanda per i commenti non è più nel video: resta nella didascalia (bozza nel copione).
+## Checklist di pubblicazione
+
+- [ ] **P-1 / A7 Etichetta IA:** su TikTok attivare "Contenuto generato dall'IA" (immagini generate, voce sintetica).
+- [ ] **P-2 Copertina:** caricare `copertina.png` (fondo inchiostro, orso intero sorpreso, "470 €" in ambra e "ALL'ANNO"; tutto tra y=260 e y=1650, quindi visibile anche nel ritaglio 3:4 della griglia del profilo).
+- [ ] **P-3 Didascalia:** il testo esatto in `didascalia.md` ("Se ti bevi un caffè al bar ogni giorno, spendi circa 470 euro all'anno. Per Assoutenti l'espresso costa in media 1,29 euro. Qual è la piccola spesa che non guardi mai? 👇").
+- [ ] **P-4 Hashtag:** `#caffè #prezzi #risparmio #finanzapersonale`.
+- [ ] **P-5 Assoutenti nominata** a voce (0:07,4 "Per Assoutenti…"), a schermo ("Fonte: Assoutenti (dati MIMIT)" sullo scontrino, 7,5-14,8 s) e in didascalia: fatto nel video e nella didascalia.
+- [ ] **Fonte:** aprire il comunicato originale Assoutenti/CRC (18/08/2026) e confermare 1,29 €. Se è diverso: correggere testo, rifare la voce e rilanciare `monta.sh`.
+- [ ] **A8 Musica:** nessuna base nel file (vedi "Musica"). Se si vuole, aggiungerla in app.
+- [ ] **P-6 A/B test:** (1) v1 da 24 s contro v2 da 33,7 s; (2) finale con domanda (v2) contro taglio netto sull'ultima frase. Per la variante (2) basta rimontare la v2 fermandola dopo "Basta guardare le piccole spese." (vedi "Varianti per l'A/B test").
+- [ ] Ascoltare il video almeno una volta: voce, pause accorciate, effetti (vedi "Limiti").
+
+## Verifica della fonte (prima di registrare)
+
+- **Dato:** espresso al bar **1,29 € in media**, studio del *Centro di formazione e ricerca sui consumi (CRC) con Assoutenti*, 18 agosto 2026, su dati del Ministero delle Imprese e del Made in Italy (MIMIT).
+- **Dove:** [Teleborsa, 18/08/2026](https://www.teleborsa.it/News/2026/08/18/prezzi_caffe_al_bar_%2b_24_2percento_in_cinque_anni-115.html) e ANSA ripresa da [il NordEst](https://www.ilnordest.it/italia-ed-esteri/e-caro-tazzina-espresso-in-media-a-1-29-euro-24-5-sul-2025-e7o8qk6d). Le due fonti concordano su 1,29 €; sulla percentuale no (+24,2% sul 2021 in Teleborsa, "+24,5% sul 2025" nel titolo dell'altra): **la percentuale non si usa**.
+- **Stato:** concordante su più testate, **comunicato originale da aprire a cura dell'utente** (assoutenti.it da questa sessione risponde 403 del proxy).
+- **Conto:** 1,29 × 365 = 470,85 € → "circa quattrocentosettanta" nell'apertura e "quattrocentosettantuno" nel conto (arrotondamento), regge.
+- **T-5 / M-6 (cifre accanto ai consigli, frase di colpo di scena):** **non applicati**. Per "abbonamenti non usati", "lista della spesa" e "confronto luce e gas una volta all'anno" non ho una cifra con fonte verificata, quindi i tre passi restano senza numero e non c'è la frase di colpo di scena prima dei consigli.
+
+## Voce v2 e ritmo
+
+Trascrizione di controllo (`muse-spark-1.3`, intero e a spezzoni): testo **quello nuovo**, nessun tag letto ad alta voce, nessuna parola aggiunta. Due punti da ascoltare: il "Se" iniziale è breve e debole (il trascrittore ha sentito "Ti bevi" / "Te ti bevi"; nell'audio c'è una sillaba a 0,12-0,22 s con la "s" iniziale) e "Assoutenti" è stato trascritto una volta "assurdo è" e una volta "assutenti".
+
+| | Prima | Dopo |
+|---|---|---|
+| Durata | 35,63 s | 33,39 s (video 33,74 s) |
+| Parole | 93 | 93 |
+| Parole/min (prima → ultima parola) | 158 | **168** (A3: 165-175) |
+
+- `script/ritmo.py`: le 10 pause tra frasi oltre 0,4 s portate a 0,30 s, la pausa prima di "Ma perché?" da 0,42 a **0,36 s** (A2), attacco da 0,12 a 0,05 s. Si tolgono solo pezzi di silenzio dal centro delle pause (dissolvenze di 10 ms; ai tagli il livello è sotto -85 dB, nessun clic). Nessuna parola tagliata.
+- **Nessuna accelerazione:** dopo le pause la voce è già a 168 parole/min, dentro A3. Per arrivare a ~27 s servirebbero ~205 parole/min (1,24x, oltre il massimo di 1,12x e fuori da A3): con 93 parole il testo a 165-175 parole/min dura 32-34 s. `ritmo.py` accelera (rubberband di ffmpeg, formanti preservate) solo se dopo le pause si resta sotto 165 parole/min.
+- A2 (voce che sale su "Ma perché?", enfasi su "non te ne accorgi"): dipende dalla registrazione, non verificabile senza ascolto.
+
+## Musica (A8)
+
+Nel video **non c'è musica**: non abbiamo una traccia con licenza commerciale e non si scarica musica dal web. Due strade:
+
+1. **In app:** su TikTok, con account Business, scegliere un brano dalla **Libreria musicale commerciale** (Commercial Music Library) e abbassarne il volume al minimo utile (la voce deve restare chiaramente sopra; l'obiettivo è circa -20 dB).
+2. **File con licenza fornito dall'utente:** rilanciare il montaggio con `MUSICA=percorso/base.mp3` (vedi "Come rifarlo"). `script/musica.py` misura voce e musica in LUFS, mette la musica **20 dB sotto la voce**, la ripete o taglia alla durata del video, con dissolvenze, e aggiunge un **ducking leggero** (compressore sidechain pilotato dalla voce, 3:1). Provato con un file di prova: guadagno calcolato e mix corretti.
+
+## Montaggio v2
+
+### Correzioni applicate
+
+| Punto | Cosa è stato fatto |
+|---|---|
+| A1 | testo nuovo, 7 scene (`script/scene_elevenlabs.json`) |
+| A4 | -14,7 LUFS integrati, true peak -1,5 dBFS misurati sul `video.mp4` finale (loudnorm a -14 LUFS con tetto -2 dBTP: con -1,5 dBTP, dopo l'AAC il picco risaliva a -1,1) |
+| A5 | numeri per esteso nel testo per la voce; a schermo in cifre ("470 EURO", "1,29 €", "365", "471 EURO") |
+| A6 | il video finisce **0,45 s** dopo l'ultima parola ("mai?" finisce a 33,29 s) |
+| A8 | effetti solo sui numeri: "scontrino" (stampante + strappo) su "quattrocentosettanta", tre "tick" leggeri su "uno e ventinove", "trecentosessantacinque", "quattrocentosettantuno", tre "pop" leggeri su Primo/Secondo/Terzo. Tolti forbici, monete, monetine, carta, salvadanaio. Effetti nel complesso a -36 LUFS contro -19,5 della voce. Musica: vedi sopra |
+| T-1 / M-5 | apertura senza titolo; **"470 €"** (IBM Plex Mono, ambra, gigante) entra con il colpo di scontrino all'inizio di "quattrocentosettanta" (2,58 s); **"ALL'ANNO"** entra su "all'anno" (4,12 s); in basso solo la riga parlata |
+| T-2 | da "e non te ne accorgi" (4,95 s) fino ai consigli nessun titolo in alto: "Ma perché?" è solo nel sottotitolo |
+| T-3 / I-4 | immagine nuova **09** (orso con scontrino vuoto); sullo scontrino, in Mono, compaiono "1,29 €" (su "uno"), "× 365" (su "trecentosessantacinque"), riga e "= 471 €" (su "quattrocentosettantuno"); "Fonte: Assoutenti (dati MIMIT)" dall'inizio della scena, sopra il 15% in basso |
+| T-4 | "1 ·", "2 ·", "3 ·" sopra la testa dell'orso in tutte le inquadrature (vista scelta perché la testa stia sotto il titolo) |
+| T-6 | domanda finale intera nel sottotitolo, su due righe, con **"MAI?"** in ambra; resta fino all'ultimo fotogramma |
+| T-7 | sottotitoli ancorati in basso: bordo basso del testo (contorno compreso) ≤ y=1632 in tutti, controllato |
+| I-1 | apertura: orso intero sorpreso (01 al 70%), occhiali ben visibili, fondo inchiostro |
+| I-2 | avvicinamenti sull'01: 90% su "spendi", **115%** sul volto per "e non te ne accorgi"; volto sempre intero |
+| I-5 | 04 al massimo al 108% (+4% di movimento = 112%), titolo sopra la scena |
+| I-6 | 06: due inquadrature con l'orso intero e la lista (100% e 112%), titolo sopra la testa |
+| I-7 | 08: volto e salvadanaio insieme (112%) |
+| I-8 | ultimi 0,45 s: **stessa vista del primo fotogramma** (01 al 70%, ferma), con **"?"** al posto di "470 €" (centro del titolo identico: 504, 384) |
+| I-9 / M-1 / M-2 | vedi "Controlli automatici". Un solo effetto di passaggio: la "tenda" da inchiostro a carta (0,2 s) su "Ma perché?" (6,42 s); il resto tagli netti |
+| M-3 | fondo inchiostro in apertura e chiusura |
+
+**Non applicati:** T-5 e M-6 (nessuna cifra verificata per i consigli, vedi sopra). Durata ~27 s (A1): vedi "Voce v2 e ritmo".
+
+### Inquadrature (22 in 33,7 s, una ogni 1,53 s in media)
+
+| # | Tempo (s) | Img | Vista (zoom) | Titolo | Voce |
+|---|---|---|---|---|---|
+| 1 | 0,00-1,99 | 01 | orso intero (70%) | — | Se ti bevi un caffè al bar ogni giorno, |
+| 2 | 1,99-4,95 | 01 | 90% | **470 €** (2,58) + ALL'ANNO (4,12) | spendi circa quattrocentosettanta euro all'anno |
+| 3 | 4,95-6,42 | 01 | volto 115% | — | e non te ne accorgi. |
+| 4 | 6,42-7,31 | 02 | 100%, entra con la tenda | — | Ma perché? |
+| 5 | 7,31-9,25 | 09 | larga (80%) | scontrino: Fonte | Per Assoutenti un espresso costa in media |
+| 6 | 9,25-10,42 | 09 | scontrino + orso (97%) | scontrino: 1,29 € | uno e ventinove. |
+| 7 | 10,42-13,14 | 09 | 88% | scontrino: × 365 (11,26) | Moltiplicato per trecentosessantacinque giorni: |
+| 8 | 13,14-14,82 | 09 | scontrino + orso (97%) | scontrino: = 471 € | quattrocentosettantuno euro. |
+| 9 | 14,82-16,16 | 03 | 86% | PICCOLE SPESE | Sono piccole spese. |
+| 10 | 16,16-17,16 | 04 | 92% | PICCOLE SPESE | E le piccole spese |
+| 11 | 17,16-18,25 | 04 | 108% | PICCOLE SPESE | non le guardiamo mai. |
+| 12 | 18,25-19,47 | 05 | 75% | 1 · ABBONAMENTI | Primo: controlla gli |
+| 13 | 19,47-20,86 | 05 | 100% | 1 · ABBONAMENTI | abbonamenti che non usi. |
+| 14 | 20,86-22,28 | 06 | 100% | 2 · LISTA DELLA SPESA | Secondo: fai la lista |
+| 15 | 22,28-24,09 | 06 | orso intero + lista (112%) | 2 · LISTA DELLA SPESA | prima di andare al supermercato. |
+| 16 | 24,09-25,46 | 07 | 95% | 3 · LUCE E GAS | Terzo: confronta le |
+| 17 | 25,46-26,74 | 07 | orso + fiammella (112%) | 3 · LUCE E GAS | offerte di luce e gas |
+| 18 | 26,74-27,90 | 07 | 100% | 3 · LUCE E GAS | una volta all'anno. |
+| 19 | 27,90-29,39 | 08 | volto + salvadanaio (112%) | — | Non serve cambiare vita. |
+| 20 | 29,39-31,24 | 08 | 85%, zoom all'indietro | BASTA GUARDARE LE + PICCOLE SPESE (30,23) | Basta guardare le piccole spese. |
+| 21 | 31,24-33,29 | 08 | 92% | fumetto "But Why Finance?" (31,96) | E tu: qual è quella che non guardi mai? |
+| 22 | 33,29-33,74 | 01 | **come il fotogramma 0** | **?** | — (ultima parola finita) |
+
+Tempi esatti, sottotitoli parola per parola, effetti, controlli e ritmo della voce in `tempi.json`.
+
+### Controlli automatici (in `montage.py`, prima di ogni render)
+
+Per ogni inquadratura, all'inizio, a metà e alla fine (lo zoom si muove):
+
+- **volto dell'orso tutto in campo** e **occhiali** fuori dalla fascia destra di 120 px e mai coperti da titolo, sottotitoli, fumetto o scritte sullo scontrino (box di occhiali e volto per ogni immagine in `script/config_video.py` → `OCCHIALI`, misurati a mano e verificati disegnandoli; lo zoom lento cresce attorno agli occhiali, che quindi non si spostano);
+- zoom effettivo ≤ 120% (≤ 115% dove indicato);
+- testi nelle zone sicure: niente nel 10% in alto (y < 192), nel 15% in basso (y > 1632), nella fascia destra (x > 960);
+- **cambio visivo al massimo ogni 2 s** (tagli, righe di titolo, scritte e fumetto che entrano): massimo misurato **1,99 s**;
+- loop: ultima inquadratura uguale alla prima, titolo "?" centrato come "470 €".
+
+Risultato sul video finale: **0 errori, 0 avvisi**. Con errori `monta.sh` si ferma (salvo `FORZA=1`).
+
+### Controlli a occhio
+
+- [`anteprima_layout_v2.jpg`](anteprima_layout_v2.jpg): 0,0 s, ogni taglio +0,12 s e l'ultimo fotogramma, con le fasce sicure (magenta) e il box degli occhiali (azzurro). [`anteprima_video.jpg`](anteprima_video.jpg): un fotogramma a metà di ogni inquadratura. Guardati tutti, più a piena risoluzione l'ingresso di "470 €", la tenda (6,45 / 6,52 / 6,58 s) e lo scontrino completo (14,3 s): conto leggibile, occhiali sempre visibili e liberi, nessun testo nelle fasce, "?" nella posizione di "470 €".
+
+### Limiti noti
+
+- **Non ho potuto ascoltare** voce, tagli delle pause ed effetti: controllati solo con misure.
+- Tempi delle parole **stimati** dentro ogni frase (picchi di energia ≈ sillabe, errore atteso < 0,15 s): "470 €" entra all'inizio stimato di "quattrocentosettanta" (2,58 s), non al fotogramma garantito.
+- Inquadrature 16-18 (07): la testa dell'orso sfiora la fascia destra (gli occhiali no); nella 16 una parte del foglio con la lampadina è tagliata a sinistra, nella 17 la lampadina è fuori campo.
+- Inquadratura 3 (volto al 115%): la € della maglietta è in parte sotto il sottotitolo. Inquadratura 4 (0,9 s) è la più breve.
+- Inquadrature 2 (2,96 s), 7 (2,72 s) e 21 (2,05 s) durano più di 2 s: dentro ognuna entra qualcosa di grande ("470 €" e "ALL'ANNO"; "× 365"; il fumetto), quindi il cambio visivo più lontano resta 1,99 s. Se per M-1 vale solo il taglio d'inquadratura, vanno spezzate.
+- Immagine 09: tratto dell'orso leggermente più liscio delle altre (vedi `immagini/README.md`).
+
+### Varianti per l'A/B test (P-6)
+
+- **v1 contro v2:** `video_v1_24s.mp4` contro `video.mp4`.
+- **Domanda finale contro taglio netto:** in `script/scene_elevenlabs.json` togliere "E tu: qual è quella che non guardi mai?" dal testo della scena 7, in `script/config_video.py` togliere l'ultimo sottotitolo e le inquadrature 21-22 (il loop "?" si può tenere dopo "spese."), poi rilanciare `monta.sh` con la stessa voce tagliata dopo "spese." (da ~31,0 s del montato, ~33,1 s del file grezzo).
 
 ## File
 
 | File | Contenuto |
 |---|---|
-| `video.mp4` | Video finale: 1080x1920, 30 fps, H.264 + AAC 48 kHz, **24,33 s** (voce + 0,3 s), audio a **-14,4 LUFS**, picco -1,4 dBFS |
-| `voce.mp3` | La voce ElevenLabs così come caricata (24,03 s, non modificata) |
-| `tempi.json` | Testo e frasi della voce, inquadrature (immagine, vista, inizio/fine), titoli, sottotitoli (con i tempi di ogni parola), effetti sonori |
-| `anteprima_video.jpg` | Contact sheet: 0,0 s, un fotogramma per inquadratura e l'ultimo |
-| `immagini/` | Le 8 illustrazioni (1080x1920), con il loro README |
-| `script/` | Script di montaggio riutilizzabili (vedi "Come rifarlo") e testi per ElevenLabs |
+| `video.mp4` | **v2**, 1080x1920, 30 fps, 33,74 s, -14,7 LUFS, true peak -1,5 dBFS |
+| `voce.mp3` | voce v2 così come registrata (35,63 s, non modificata; le pause si accorciano in montaggio) |
+| `tempi.json` | inquadrature, titoli, scritte, sottotitoli parola per parola, effetti, controlli, ritmo della voce, loudness |
+| `trascrizione.md`, `sottotitoli.srt` | testo con i tempi del video v2 (SRT da caricare se servono sottotitoli chiusi) |
+| `copertina.png` | copertina 1080x1920 (P-2) |
+| `anteprima_video.jpg`, `anteprima_layout_v2.jpg` | contact sheet del video v2 (il secondo con fasce sicure e occhiali) |
+| `didascalia.md` | didascalia v2 |
+| `*_v1.*`, `video_v1_24s.mp4`, `voce_v1.mp3` | la versione 1 (24 s), per l'A/B test |
+| `immagini/` | 9 illustrazioni con README, prompt e anteprima |
+| `script/` | testi per ElevenLabs e catena di montaggio |
 
-## Testo parlato (trascritto dall'audio)
+## Come rifarlo (un comando)
 
-> Un caffè al bar ogni giorno costa circa quattrocentosettanta euro all'anno. Ma perché non ce ne accorgiamo? Perché sono piccole spese, e le piccole spese non le guardiamo mai. Primo, controlla gli abbonamenti che non usi. Secondo, fai la lista prima di andare al supermercato. Terzo, confronta le offerte di luce e gas una volta all'anno. Non serve cambiare vita, basta iniziare a guardare le piccole spese.
+Dalla radice del repository, con la voce in `voce.mp3`:
 
-Trascrizione con `muse-spark-1.3` (API Meta, `script/transcribe.py`), ripetuta due volte sull'intero audio e su spezzoni di 4-6 s per controllare i punti dubbi: testo identico. faster-whisper non è utilizzabile qui (il download del modello da Hugging Face è bloccato dalla rete) e `muse-voice-transcribe-1.0` risponde `model_not_found`.
+```bash
+bash brand/tiktok/output/2026-10-risparmio-quotidiano/script/monta.sh brand/tiktok/output/2026-10-risparmio-quotidiano/voce.mp3
+# con una base musicale con licenza commerciale:
+MUSICA=percorso/base.mp3 bash brand/tiktok/output/2026-10-risparmio-quotidiano/script/monta.sh brand/tiktok/output/2026-10-risparmio-quotidiano/voce.mp3
+```
 
-## Montaggio
-
-### Cosa ho preso dai riferimenti
-
-Ho riguardato i quattro video di riferimento a 4 fotogrammi al secondo (primi 5 s) e a 2 al secondo (5-15 s), con il rilevamento dei tagli di ffmpeg e l'analisi del volume:
-
-- **Video 2 (@cashfoxclub0, riferimento principale):** 37 tagli in 66 s, **un taglio ogni ~1,8 s**; immagini ferme o quasi, tagli netti; sottotitoli al centro-basso (~70-75% dell'altezza), bianchi con contorno scuro, 2 righe al massimo, e **le parole non ancora dette sono spente** (grigie) e si "accendono" mentre la voce le dice; ogni tanto una parola gigante in alto ("Asset"). Audio: solo voce, **nessuna musica** (19 pause in silenzio vero).
-- **Video 0 e 1 (Coniglio/Furetto furbo):** una parola alla volta, base musicale continua ~8-10 dB sotto la voce.
-- **Video 3 (Primo Milione):** parole chiave in giallo, ritmo lento (un taglio ogni ~6 s), musica di sottofondo.
-
-### Scelte per la ritenzione
-
-- **Primo fotogramma = hook pieno:** a 0,00 s ci sono già l'immagine 01, il titolo "CAFFÈ AL GIORNO / **~470 €** ALL'ANNO" (numero gigante in ambra, IBM Plex Mono) e il primo sottotitolo; la voce parte subito. Nessuna dissolvenza, nessun logo.
-- **14 inquadrature in 24,3 s: un taglio ogni 1,74 s in media** (da 1,1 a 2,5 s), come il riferimento principale. Da ogni immagine ricavo due inquadrature (02 e 03 una sola, perché le loro frasi durano meno di 2 s): **larga** + **primo piano ritagliato** sul dettaglio che la voce sta nominando. Tagli netti all'inizio della frase o della parola chiave, mai a metà parola (il taglio cade 0,08 s prima della parola, nella pausa se c'è).
-- **Primi piani senza sgranare:** ogni fotogramma è ricampionato una sola volta dall'originale 1080x1920 (Lanczos), zoom massimo 1,55x (+6% di movimento = 1,64x); ricontrollati a piena risoluzione: contorni puliti.
-- **Movimento continuo lento** su ogni inquadratura (zoom 100→106%, in due casi un piccolo pan); niente shake, glitch o zoom bruschi.
-- **Sottotitoli** IBM Plex Sans Condensed Bold 90 px, bianchi con contorno inchiostro di 10 px, 2-4 parole (al massimo 2 righe), parola chiave in ambra `#E9A400`, comparsa "pop" (90→100% in 3 fotogrammi) e, come nel riferimento principale, **parole non ancora dette spente** che si accendono a tempo di voce. Centro a y=1535: per ogni inquadratura ho scelto vista e scala in modo che lì ci sia fondo, pavimento o un dettaglio secondario, **mai la € della maglietta** (controllato in tutti i fotogrammi). Sempre dentro le zone sicure: sotto y=1628 (15% in basso libero), x tra 60 e 950 (fascia destra libera).
-- **Titoli** del copione in alto (da y=215, sotto il 10%), con comparsa "pop" solo quando cambiano: "~470 €", "MA PERCHÉ?", "PICCOLE SPESE", "**1** · ABBONAMENTI", "**2** · LISTA DELLA SPESA", "**3** · LUCE E GAS" (numeri in IBM Plex Mono ambra), "BASTA GUARDARE LE **PICCOLE SPESE**". Nei primi piani, dove dietro c'è il disegno, il titolo sta su una targhetta del colore del fondo. Nel primo piano della tazzina (1,98-4,44 s) il titolo dell'hook è tolto, perché avrebbe coperto la €: il "470 EURO" resta nel sottotitolo, in ambra.
-- **Chiusura e loop:** immagine 08 (occhiolino) con fumetto "But Why Finance?" (verde `#006B3C`, testo bianco) nello spazio libero in alto a destra e la frase finale come titolo (carta + ambra su inchiostro: leggibile). L'ultima inquadratura fa lo zoom al contrario (106→100%) e si ferma sulla stessa scala e posizione dell'apertura (orso intero al centro, fondo inchiostro, titolo in alto): negli ultimi 0,3 s non c'è sottotitolo, poi il video riparte dal primo fotogramma senza strappo.
-- **Effetti sonori** sintetizzati in numpy (`script/effetti.py`, nessun campione esterno), sotto la voce: colpo morbido + fruscio di scontrino a 0,0 s; due tocchi di moneta sul primo piano "470 euro" (1,98 s); "pop" morbido su "Ma perché?" e sui tre consigli e sul finale (4,44 / 10,29 / 13,03 / 16,48 / 21,85 s); monetine che cadono (8,96 s); forbici (11,50 s); fruscio di carta (14,54 s); moneta nel salvadanaio (20,39 s). Livelli misurati: 8-26 dB sotto la voce (RMS su 150 ms), solo effetti -35 LUFS contro -18,9 LUFS della voce.
-- **Niente base musicale**, per scelta: il riferimento principale non ne ha, e una base sintetizzata senza poterla ascoltare rischiava di suonare male. Se si vuole, si aggiunge su TikTok dalla Commercial Music Library a volume molto basso.
-- **Voce intatta:** né tagliata né accelerata; solo normalizzazione dell'intero mix a -14 LUFS (loudnorm a due passaggi, true peak -1,5 dBTP).
-
-### Inquadrature
-
-| # | Tempo (s) | Immagine | Inquadratura | Titolo | Voce |
-|---|---|---|---|---|---|
-| 1 | 0,00-1,98 | 01 | larga (orso intero, 76%) | CAFFÈ AL GIORNO ~470 € ALL'ANNO | Un caffè al bar ogni giorno costa circa |
-| 2 | 1,98-4,44 | 01 | primo piano tazzina, scontrino, € | — | quattrocentosettanta euro all'anno. |
-| 3 | 4,44-6,28 | 02 | larga | MA PERCHÉ? | Ma perché non ce ne accorgiamo? |
-| 4 | 6,28-7,86 | 03 | larga | PICCOLE SPESE | Perché sono piccole spese, |
-| 5 | 7,86-8,96 | 04 | larga | PICCOLE SPESE | e le piccole spese |
-| 6 | 8,96-10,29 | 04 | primo piano monetine che cadono | PICCOLE SPESE (targhetta) | non le guardiamo mai. |
-| 7 | 10,29-11,50 | 05 | larga | 1 · ABBONAMENTI | Primo, controlla gli |
-| 8 | 11,50-13,03 | 05 | primo piano forbici e tessera | 1 · ABBONAMENTI (targhetta) | abbonamenti che non usi. |
-| 9 | 13,03-14,54 | 06 | larga | 2 · LISTA DELLA SPESA | Secondo, fai la lista |
-| 10 | 14,54-16,48 | 06 | primo piano carrello | 2 · LISTA DELLA SPESA (targhetta) | prima di andare al supermercato. |
-| 11 | 16,48-18,17 | 07 | larga | 3 · LUCE E GAS | Terzo, confronta le offerte |
-| 12 | 18,17-20,39 | 07 | primo piano bilancia, lampadina e fiammella | 3 · LUCE E GAS (targhetta) | di luce e gas una volta all'anno. |
-| 13 | 20,39-21,85 | 08 | primo piano moneta e salvadanaio | — | Non serve cambiare vita, |
-| 14 | 21,85-24,33 | 08 | larga, zoom all'indietro fino alla scala dell'apertura | BASTA GUARDARE LE PICCOLE SPESE + fumetto | basta iniziare a guardare le piccole spese. |
-
-### Sincronia dei sottotitoli
-
-La voce non ha l'allineamento parola per parola di ElevenLabs (è stata caricata come mp3). Ho diviso il testo trascritto in 13 frasi usando le pause rilevate (silencedetect -35 dB, 0,08 s) e, dentro ogni frase, ho stimato l'inizio di ogni parola con `script/allinea.py`: i picchi di energia nella banda 300-2500 Hz approssimano le sillabe, e le sillabe del testo vengono distribuite sui picchi. Il conteggio dei picchi torna con le sillabe nelle frasi brevi ("Primo" 2/2, "Secondo" 3/3, "Terzo" 2/2, "Non serve cambiare vita" 7/7). L'inizio di ogni frase è esatto; dentro la frase l'errore atteso è sotto 0,15 s. Controllo sul video finale: le pause dell'audio cadono agli stessi istanti della voce originale (±0,03 s).
-
-### Controlli fatti
-
-- 28 fotogrammi estratti dal video finale (0,0 s, ogni taglio +0,12 s, il 60% di ogni inquadratura, l'ultimo) e guardati, alcuni a piena risoluzione: titoli e sottotitoli leggibili e nelle zone sicure, nessun sottotitolo sulla €, orso coerente, primi piani nitidi, titolo finale leggibile, nessun sottotitolo negli ultimi 0,3 s.
-- Bordo delle immagini rimpicciolite: la grana del fondo delle illustrazioni sfuma nel colore pieno (prima si vedeva un leggero rettangolo).
-- Durata 24,333 s = voce (24,03 s) + 0,3 s; 730 fotogrammi; audio e video della stessa lunghezza.
-- Loudness: -14,4 LUFS integrati, picco -1,4 dBFS.
-
-### Limiti noti
-
-- **Non ho potuto ascoltare** né la voce né gli effetti: livelli e timbri sono controllati solo con le misure (ebur128, RMS). Da ascoltare, soprattutto il "colpo" all'inizio e le forbici.
-- I tempi delle parole dentro le frasi sono stimati (vedi sopra): l'accensione parola per parola può anticipare o ritardare di un paio di fotogrammi.
-- Inquadrature 8, 10 e 13: il primo piano taglia l'orso al bordo (si vedono metà muso o metà maglietta). È una scelta di inquadratura, ma l'orso intero si vede solo nelle larghe.
-- Inquadratura 5 dura 1,1 s (la più breve): si legge, ma è al limite.
-- Immagine 03 rimpicciolita (86%): il piano grigio del tavolo finisce prima dei bordi dello schermo.
-- Testo a schermo "~470 €": stima (1,29 € × 365), da verificare sulla fonte prima di pubblicare (vedi copione).
-
-## Come rifarlo
-
-In una cartella di lavoro **fuori dal repository**: copia tutti i file di `script/`, `voce.mp3`, le immagini in `img/01.png`…`08.png` e i font IBM Plex Sans Condensed (Bold, SemiBold) e IBM Plex Mono (Bold) dal repository GitHub `google/fonts` (licenza OFL) in `fonts/`. Poi `./monta.sh` (circa 1,5 minuti).
+Circa 2 minuti. Lavora in una cartella temporanea (script, immagini, font IBM Plex scaricati da `google/fonts`, licenza OFL, una volta sola in `~/.cache/butwhy-fonts`) e riscrive nella cartella del post `video.mp4`, `tempi.json`, `trascrizione.md`, `sottotitoli.srt`, `anteprima_video.jpg`, `copertina.png` e `script/frasi.json` + `script/parole.json`. Se si registra di nuovo con un testo diverso, aggiornare prima `script/scene_elevenlabs.json` (campo `text`) e `SUBS` in `script/config_video.py`.
 
 | Script | Cosa fa |
 |---|---|
-| `monta.sh` | catena completa: wav → `allinea.py` → `montage.py` → `effetti.py` → `norm.sh` → unione audio/video → `fotogrammi.py` |
-| `transcribe.py` | trascrizione dell'audio con `muse-spark-1.3` (API Meta, autenticazione del proxy) |
-| `frasi.json` | testo trascritto diviso in frasi, con inizio/fine presi dalle pause |
-| `allinea.py` | tempi stimati di ogni parola → `parole.json` |
-| `config_video.py` | inquadrature (immagine, parola d'inizio, vista, zoom, titolo, effetto), titoli e sottotitoli |
-| `montage.py` | rende i fotogrammi (Pillow) e li passa a ffmpeg; `--preview DIR [tempi]` salva solo alcuni fotogrammi |
-| `effetti.py` | effetti sonori sintetizzati e mix con la voce |
-| `norm.sh` | loudnorm a due passaggi: -14 LUFS, true peak -1,5 dBTP, 48 kHz |
-| `fotogrammi.py` | fotogrammi di controllo e `anteprima_video.jpg` |
-| `elevenlabs.txt`, `scene_elevenlabs.json` | testi per ElevenLabs (aggiornati con la frase finale registrata) |
+| `monta.sh` | catena completa (sopra) |
+| `frasi.py` | divide il **testo noto** (da `scene_elevenlabs.json`) in frasi allineate alle pause dell'audio (silencedetect + picchi ≈ sillabe, programmazione dinamica) → `frasi.json`; provato anche sulla voce v1: stesse 13 frasi della trascrizione fatta a mano |
+| `ritmo.py` | accorcia le pause lunghe, pausa prima di "Ma perché?", accelera solo se sotto 165 parole/min (max 1,12x) |
+| `allinea.py` | tempi stimati di ogni parola dentro le frasi → `parole.json` |
+| `config_video.py` | inquadrature (parole d'inizio per testo), titoli riga per riga, scritte sullo scontrino, sottotitoli, box degli occhiali, effetti |
+| `montage.py` | controlli automatici + rendering (Pillow → ffmpeg); `--preview DIR` per alcuni fotogrammi, `--solo-controlli` |
+| `effetti.py` | effetti sintetizzati in numpy (scontrino, tick, pop…) sotto la voce |
+| `musica.py` | base musicale facoltativa a -20 dB con ducking |
+| `norm.sh` | loudnorm a due passaggi: -14 LUFS, true peak -2 dBTP |
+| `fotogrammi.py`, `copertina.py`, `trascrizione.py` | contact sheet, copertina, trascrizione e SRT |
+| `transcribe.py` | trascrizione di controllo con `muse-spark-1.3` (API Meta), da lanciare a mano sulla voce nuova |
+| `elevenlabs.txt`, `scene_elevenlabs.json` | testi per ElevenLabs (v3 con tag inglesi, tag italiani, per scene con stability/style) |
+| `*_v1.*` | dati della v1; la v1 si rifà esattamente dal commit `f1e5c40` |

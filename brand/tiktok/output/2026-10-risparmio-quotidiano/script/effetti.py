@@ -3,7 +3,9 @@
 Uso: effetti.py VOCE.wav TEMPI.json MIX.wav EFFETTI.wav
 TEMPI.json e' quello scritto da montage.py: la lista "effetti" ha {"effetto", "t"}.
 La voce non viene toccata (ne' tagliata ne' compressa): gli effetti si sommano sotto, a volume basso.
-Effetti disponibili: colpo, moneta, monetine, pop, forbici, carta, salvadanaio."""
+Effetti disponibili: scontrino, tick, colpo, moneta, monetine, pop, forbici, carta, salvadanaio.
+Regola v2 (A8): effetti leggeri solo sui numeri (scontrino sul "470", tick sugli altri numeri, pop su
+Primo/Secondo/Terzo); quali e dove lo decide EFFETTI in config_video.py."""
 import json, sys
 import numpy as np, soundfile as sf
 
@@ -58,6 +60,24 @@ def sfx(name, sr):
         thud = np.sin(2 * np.pi * np.cumsum(f) / sr) * np.exp(-t / 0.07)
         click = np.diff(noise(0.35, sr), prepend=0) * np.exp(-t / 0.012) * 0.35
         return fade_in(thud * 0.8 + click, sr), 0.0
+    if name == "scontrino":        # stampante di scontrini: raffica di scatti + strappo, con un colpo morbido sotto
+        out = np.zeros(int(0.45 * sr))
+        t = np.arange(int(0.3 * sr)) / sr
+        f = 60 + 80 * np.exp(-t / 0.05)
+        place(out, np.sin(2 * np.pi * np.cumsum(f) / sr) * np.exp(-t / 0.06) * 0.7, 0, sr)
+        for k in range(14):                       # scatti della testina, 18 ms l'uno
+            n = noise(0.006, sr)
+            place(out, bandpass(n, sr, 1800, 7000) * env_exp(len(n), sr, 0.0015) * (0.55 + 0.03 * k), 0.012 + k * 0.018, sr)
+        n = noise(0.09, sr)                       # strappo della carta
+        tear = bandpass(n, sr, 1500, 8000) * np.sin(np.linspace(0, np.pi, len(n))) * 0.6
+        place(out, tear, 0.29, sr)
+        return fade_in(out, sr, 1), 0.0
+    if name == "tick":             # tasto di cassa/calcolatrice: clic breve e leggero (numeri)
+        n = noise(0.012, sr)
+        s = bandpass(n, sr, 2500, 9000) * env_exp(len(n), sr, 0.002)
+        s = np.concatenate([s, np.zeros(int(0.02 * sr))])
+        place(s, tone([1900], [0.4], 0.025, sr, 0.006), 0.0, sr)
+        return fade_in(s, sr, 0.5), 0.0
     if name == "moneta":           # due tocchi di moneta
         out = np.zeros(int(0.5 * sr))
         place(out, clink(sr, 2600), 0, sr)
@@ -97,7 +117,7 @@ def sfx(name, sr):
 
 
 # livello di ogni effetto: picco in dB rispetto al picco della voce
-LIVELLO = {"colpo": -12, "moneta": -17, "monetine": -19, "pop": -17, "forbici": -11, "carta": -20,
+LIVELLO = {"scontrino": -13, "tick": -22, "colpo": -12, "moneta": -17, "monetine": -19, "pop": -20, "forbici": -11, "carta": -20,
            "salvadanaio": -15}
 
 
