@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "secondi": "0-6",
+    "espressione_orso": "sorpreso, bocca a \"o\"",
+    "tono": "incredulo e curioso, come davanti a un conto che non ti aspettavi; \"circa\" detto chiaro, senza enfasi allarmista",
+    "tag_v3": "[surprised]",
+    "stability": 0.35,
+    "style": 0.45,
+    "text": "Un caffè al bar ogni giorno costa circa quattrocentosettanta euro all'anno. Ma perché non ce ne accorgiamo?",
+    "immagini": [1, 2]
+  },
+  {
+    "id": 2,
+    "secondi": "6-10",
+    "espressione_orso": "ho un'idea / spiegazione, lente d'ingrandimento in mano",
+    "tono": "curioso e complice, risponde alla domanda senza giudicare chi ascolta",
+    "tag_v3": "[curious]",
+    "stability": 0.5,
+    "style": 0.3,
+    "text": "Perché sono piccole spese, e le piccole spese non le guardiamo mai.",
+    "immagini": [3, 4]
+  },
+  {
+    "id": 3,
+    "secondi": "10-13",
+    "espressione_orso": "ho un'idea / spiegazione, smartphone in mano",
+    "tono": "calmo e pratico, primo consiglio detto come un promemoria tra amici",
+    "tag_v3": "[calm]",
+    "stability": 0.7,
+    "style": 0.1,
+    "text": "Primo: controlla gli abbonamenti che non usi.",
+    "immagini": [5]
+  },
+  {
+    "id": 4,
+    "secondi": "13-17",
+    "espressione_orso": "felice, lista della spesa in mano",
+    "tono": "calmo e pratico, stesso passo del primo consiglio",
+    "tag_v3": "[calm]",
+    "stability": 0.7,
+    "style": 0.1,
+    "text": "Secondo: fai la lista prima di andare al supermercato.",
+    "immagini": [6]
+  },
+  {
+    "id": 5,
+    "secondi": "17-21",
+    "espressione_orso": "pensieroso, mano al mento",
+    "tono": "riflessivo, da commercialista al bar: un'abitudine da prendere, non un'urgenza",
+    "tag_v3": "[thoughtful]",
+    "stability": 0.7,
+    "style": 0.1,
+    "text": "Terzo: confronta le offerte di luce e gas una volta all'anno.",
+    "immagini": [7]
+  },
+  {
+    "id": 6,
+    "secondi": "21-25",
+    "espressione_orso": "occhiolino, sorriso complice",
+    "tono": "caldo, invita a rispondere nei commenti, senza dare la risposta",
+    "tag_v3": "[warm]",
+    "stability": 0.5,
+    "style": 0.3,
+    "text": "E tu, quale piccola spesa taglieresti per prima?",
+    "immagini": [8]
+  }
+]
