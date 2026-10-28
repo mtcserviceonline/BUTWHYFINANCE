@@ -325,9 +325,13 @@ Il voto misura **quanto il video assomiglia ai riferimenti che hanno funzionato*
 ### I nostri video: registro
 | Video | Data | Durata | Punteggio | Fascia | Visualizzazioni | Retention media | % fino alla fine | Salvataggi / like | Condivisioni | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Il prezzo di… un caffè, **versione 24 s (470 €)** | 2026-10-28 | 24 s | **29 / 42** | Rivedi | — | — | — | — | — | Valutazione sotto; metriche da inserire dopo la pubblicazione |
+| Il prezzo di… un caffè, **versione 24 s (470 €)** (versione pubblicata da confermare: originale o corretta) | 2026-10-28 | 24 s | **29 / 42** (originale) | Rivedi | 110 dopo ~1 h | — | — | 5 like (4,5% delle visualizzazioni) | — | Prime metriche (1 h, campione piccolo): **picco di abbandono a 0:01**. Da completare con retention a 0:03 e 0:06, % fino alla fine, fonte del traffico |
 
 *(Copia la riga per ogni nuovo video. Una versione modificata dello stesso video si aggiunge come nuova riga, con la dicitura "v2".)*
+
+### Primo segnale dalle metriche reali
+- **Caffè 470 €, dopo ~1 ora (110 visualizzazioni, 5 like):** TikTok indica che la maggior parte degli spettatori smette di guardare a **0:01**. Il campione è troppo piccolo per concludere; l'abbandono nel primo secondo è comune, e conta quanti spettatori restano a 0:03 e a 0:06. Ipotesi da verificare: nel primo secondo la voce non ha ancora detto la posta in gioco (la cifra arriva dopo ~2 s).
+- **Regola candidata (in osservazione):** nei riferimenti il bersaglio o il paradosso è **già a schermo e/o in voce entro 1 s** (V7: MILLIONNAIRE a 0:00; V6: "Hai" a 0:00 e "14 E 20" a 0:00,5). Da confermare con più video con metriche.
 
 ### Valutazione compilata: "Il prezzo di… un caffè" (versione 24 s, 470 €)
 Misure (script `misura_video.py`): 24,3 s · 13 cambi medi/grandi (uno ogni ~1,9 s; 21 contando ogni elemento) · nessun fotogramma fermo (86% in piccolo movimento) · 168 parole/min · 9 pause brevi a fine frase · audio -14,4 LUFS, picco -1,4 dB.
