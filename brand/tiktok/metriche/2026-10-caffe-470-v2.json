@@ -1,0 +1,31 @@
+{
+  "video": "Il prezzo di… un caffè, v2 (34 s, numero in voce a 0:00)",
+  "file_valutazione": "brand/tiktok/guida-retention.md (sezione 'Versione 2')",
+  "durata_s": 34,
+  "rilevazione": {"quando": "2026-10-28, circa 2 h dopo la pubblicazione", "fonte": "TikTok Studio, dettagli del post (screenshot)"},
+  "panoramica": {
+    "visualizzazioni": 116,
+    "tempo_riproduzione_totale": "0h12m45s",
+    "tempo_medio_visualizzazione_s": 6.6,
+    "tempo_medio_su_durata_%": 19,
+    "guarda_video_completo_%": 4.3,
+    "nuovi_follower": 0,
+    "visualizzazioni_per_ora_lettura_grafico": {"0h": 0, "1h": 95, "2h": 22}
+  },
+  "retention": {
+    "picco_abbandono_s": 1,
+    "note": "Il grafico scende subito dopo 0:00 e poi decresce lentamente fino a 0:33. Valori esatti a 0:01, 0:02, 0:03, 0:05 non disponibili negli screenshot (serve il tooltip)."
+  },
+  "fonti_traffico_%": {"Per te": 96.6, "Profilo personale": 3.4, "Seguiti": 0.1, "Messaggi diretti": 0.1, "Suono": 0.1, "Cerca": 0.1, "Altro": 0.1, "nota": "le ultime cinque voci sono '<0,1%'"},
+  "spettatori": {
+    "sesso_%": {"uomini": 82, "donne": 18, "altro": 0},
+    "eta_%": {"18-24": 41, "25-34": 47, "35-44": 4, "45-54": 4},
+    "posizioni_%": {"Italia": 96.5, "Brasile": 2.6, "Filippine": "<1"},
+    "tipi_spettatori": "in elaborazione"
+  },
+  "coinvolgimento": {
+    "mi_piace_picco_s": 2,
+    "picchi_mi_piace_lettura_grafico_s": [2, 6, 28],
+    "parole_nei_commenti": "in elaborazione"
+  }
+}

@@ -326,12 +326,15 @@ Il voto misura **quanto il video assomiglia ai riferimenti che hanno funzionato*
 | Video | Data | Durata | Punteggio | Fascia | Visualizzazioni | Retention media | % fino alla fine | Salvataggi / like | Condivisioni | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Il prezzo di… un caffè, **versione 24 s (470 €)** (versione pubblicata da confermare: originale o corretta) | 2026-10-28 | 24 s | **29 / 42** (originale) | Rivedi | 110 dopo ~1 h | — | — | 5 like (4,5% delle visualizzazioni) | — | Prime metriche (1 h, campione piccolo): **picco di abbandono a 0:01**. Da completare con retention a 0:03 e 0:06, % fino alla fine, fonte del traffico |
-| Il prezzo di… un caffè, **v2 (34 s, numero in voce a 0:00)** | 2026-10-28 | 34 s | **34 / 42** | Rivedi (limite alto) | — | — | — | — | — | Valutazione sotto; da pubblicare e confrontare con la v1 (110 visualizzazioni in 1 h, picco di abbandono a 0:01) |
+| Il prezzo di… un caffè, **v2 (34 s, numero in voce a 0:00)** | 2026-10-28 | 34 s | **34 / 42** | Rivedi (limite alto) | 116 dopo ~2 h | Tempo medio **6,6 s (19% di 34 s)** | **4,3%** | n.d. | n.d. | Picco di abbandono ancora a **0:01** nonostante il numero in voce a 0:00. Traffico 96,6% Per te, 0 nuovi follower. Dettagli in `metriche/2026-10-caffe-470-v2.json` |
 
 *(Copia la riga per ogni nuovo video. Una versione modificata dello stesso video si aggiunge come nuova riga, con la dicitura "v2".)*
 
 ### Primo segnale dalle metriche reali
 - **Caffè 470 €, dopo ~1 ora (110 visualizzazioni, 5 like):** TikTok indica che la maggior parte degli spettatori smette di guardare a **0:01**. Il campione è troppo piccolo per concludere; l'abbandono nel primo secondo è comune, e conta quanti spettatori restano a 0:03 e a 0:06. Ipotesi da verificare: nel primo secondo la voce non ha ancora detto la posta in gioco (la cifra arriva dopo ~2 s).
+- **Versione 2 (numero in voce a 0:00), dopo ~2 ore:** 116 visualizzazioni, tempo medio 6,6 s su 34 s, 4,3% guarda fino in fondo, 0 nuovi follower. Le visualizzazioni sono ~95 nella prima ora e ~22 nella seconda (lettura del grafico): il pubblico di prova si è esaurito. **Il picco di abbandono è ancora a 0:01.** Quindi "dire la cifra nel primo secondo" **non basta** da solo. Altre ipotesi, da testare una alla volta: hook a numero senza *curiosity gap* (nessuna domanda né paradosso nel primo secondo), primo fotogramma statico e senza movimento, frase iniziale priva di soggetto ("470 euro all'anno" senza contesto fino a 2,4 s).
+- **Pubblico (v2):** 96,5% Italia, 88% tra 18 e 34 anni, 82% uomini; 96,6% del traffico da "Per te". Il pubblico è in linea con il target.
+- **Mi piace (v2):** picchi a ~0:02, ~0:06 e ~0:28 (lettura del grafico), cioè sul numero, su "Ma perché?" e sulla conclusione.
 - **Regola candidata (in osservazione):** nei riferimenti il bersaglio o il paradosso è **già a schermo e/o in voce entro 1 s** (V7: MILLIONNAIRE a 0:00; V6: "Hai" a 0:00 e "14 E 20" a 0:00,5). Da confermare con più video con metriche.
 
 ### Valutazione compilata: "Il prezzo di… un caffè" (versione 24 s, 470 €)
