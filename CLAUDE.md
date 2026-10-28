@@ -11,4 +11,4 @@ Usala sempre quando si creano contenuti, grafiche o prompt per immagini del bran
 ## TikTok
 
 Stile e regole per i video e i caroselli TikTok in `brand/tiktok/stile-tiktok.md` (non riusare i reel di Instagram).
-Guida alla retention (cosa fa guardare e salvare un video, checklist pre-pubblicazione, registro regole) in `brand/tiktok/guida-retention.md`: aggiornarla ogni volta che si analizza un nuovo video di riferimento. Prima di pubblicare un nostro video, valutarlo con la sezione "Valutare un nostro video prima di pubblicarlo" e registrarlo in "I nostri video".
+Guida alla retention (cosa fa guardare e salvare un video, checklist pre-pubblicazione, registro regole) in `brand/tiktok/guida-retention.md`: aggiornarla ogni volta che si analizza un nuovo video di riferimento. Prima di pubblicare un nostro video, valutarlo con la sezione "Valutare un nostro video prima di pubblicarlo" e registrarlo in "I nostri video". La skill `valuta-video-tiktok` (`.claude/skills/valuta-video-tiktok/`) esegue misure, punteggio e correzioni.

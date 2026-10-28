@@ -288,6 +288,8 @@ Tratti comuni:
 
 Serve a dare un voto **prima** di inserire il video su TikTok, e poi a confrontare il voto con i risultati reali per capire se la guida prevede bene.
 
+**Skill:** tutto questo è automatizzato dalla skill `valuta-video-tiktok` (`.claude/skills/valuta-video-tiktok/`), che contiene la rubrica 0/1/2 e lo script di misura. Basta allegare il video e la trascrizione e chiedere "valuta questo video".
+
 ### Cosa mi serve per valutare
 1. Il file video (`.mp4`).
 2. La trascrizione con i tempi (`.srt` o tabella Da/A/Testo).
@@ -328,7 +330,7 @@ Il voto misura **quanto il video assomiglia ai riferimenti che hanno funzionato*
 *(Copia la riga per ogni nuovo video. Una versione modificata dello stesso video si aggiunge come nuova riga, con la dicitura "v2".)*
 
 ### Valutazione compilata: "Il prezzo di… un caffè" (versione 24 s, 470 €)
-Misure: 24,3 s · 14 cambi grandi (uno ogni ~1,7 s) · 7% di fotogrammi fermi · 168 parole/min · 9 pause brevi a fine frase · audio medio -14,4 dB, picco -1,4 dB.
+Misure (script `misura_video.py`): 24,3 s · 13 cambi medi/grandi (uno ogni ~1,9 s; 21 contando ogni elemento) · nessun fotogramma fermo (86% in piccolo movimento) · 168 parole/min · 9 pause brevi a fine frase · audio -14,4 LUFS, picco -1,4 dB.
 
 | # | Voce | Punti | Note |
 |---|---|---|---|
