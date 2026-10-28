@@ -1,0 +1,337 @@
+{
+ "shots": [
+  {
+   "n": 1,
+   "img": "01",
+   "start": 0.0,
+   "end": 4.399
+  },
+  {
+   "n": 2,
+   "img": "02",
+   "start": 4.399,
+   "end": 5.503
+  },
+  {
+   "n": 3,
+   "img": "03",
+   "start": 5.503,
+   "end": 9.551
+  },
+  {
+   "n": 4,
+   "img": "04",
+   "start": 9.551,
+   "end": 11.919
+  },
+  {
+   "n": 5,
+   "img": "05",
+   "start": 11.919,
+   "end": 14.449
+  },
+  {
+   "n": 6,
+   "img": "06",
+   "start": 14.449,
+   "end": 16.47
+  },
+  {
+   "n": 7,
+   "img": "07",
+   "start": 16.47,
+   "end": 18.452
+  },
+  {
+   "n": 8,
+   "img": "08",
+   "start": 18.452,
+   "end": 20.9
+  },
+  {
+   "n": 9,
+   "img": "09",
+   "start": 20.9,
+   "end": 23.686
+  },
+  {
+   "n": 10,
+   "img": "10",
+   "start": 23.686,
+   "end": 26.967
+  },
+  {
+   "n": 11,
+   "img": "11",
+   "start": 26.967,
+   "end": 30.399
+  },
+  {
+   "n": 12,
+   "img": "12",
+   "start": 30.399,
+   "end": 32.997
+  },
+  {
+   "n": 13,
+   "img": "13",
+   "start": 32.997,
+   "end": 37.151
+  },
+  {
+   "n": 14,
+   "img": "14",
+   "start": 37.151,
+   "end": 39.716
+  },
+  {
+   "n": 15,
+   "img": "15",
+   "start": 39.716,
+   "end": 42.97
+  },
+  {
+   "n": 16,
+   "img": "16",
+   "start": 42.97,
+   "end": 47.0
+  },
+  {
+   "n": 17,
+   "img": "17",
+   "start": 47.0,
+   "end": 50.461
+  },
+  {
+   "n": 18,
+   "img": "18",
+   "start": 50.461,
+   "end": 52.164
+  },
+  {
+   "n": 19,
+   "img": "19",
+   "start": 52.164,
+   "end": 54.724
+  },
+  {
+   "n": 20,
+   "img": "20",
+   "start": 54.724,
+   "end": 57.461
+  },
+  {
+   "n": 21,
+   "img": "01",
+   "start": 57.461,
+   "end": 60.579
+  }
+ ],
+ "subs": [
+  {
+   "t": 0.25,
+   "text": "IL CAFFÈ AL BAR"
+  },
+  {
+   "t": 1.089,
+   "text": "COSTA IL *24%* IN PIÙ"
+  },
+  {
+   "t": 3.101,
+   "text": "DI CINQUE ANNI FA."
+  },
+  {
+   "t": 4.479,
+   "text": "MA *PERCHÉ?*"
+  },
+  {
+   "t": 5.583,
+   "text": "NEL *2021* UNA TAZZINA"
+  },
+  {
+   "t": 7.362,
+   "text": "COSTAVA *1,04 EURO*."
+  },
+  {
+   "t": 9.631,
+   "text": "OGGI, IN MEDIA,"
+  },
+  {
+   "t": 10.471,
+   "text": "*1,29*."
+  },
+  {
+   "t": 11.999,
+   "text": "SONO *25 CENTESIMI* IN PIÙ."
+  },
+  {
+   "t": 14.529,
+   "text": "CHI *INCASSA*"
+  },
+  {
+   "t": 15.19,
+   "text": "QUESTA DIFFERENZA?"
+  },
+  {
+   "t": 16.55,
+   "text": "CI SONO *DUE* SPIEGAZIONI."
+  },
+  {
+   "t": 18.532,
+   "text": "PRIMA TESI:"
+  },
+  {
+   "t": 19.285,
+   "text": "COSTA DI PIÙ"
+  },
+  {
+   "t": 19.833,
+   "text": "LA *MATERIA PRIMA*."
+  },
+  {
+   "t": 20.98,
+   "text": "L'ARABICA È SALITA"
+  },
+  {
+   "t": 22.185,
+   "text": "DELL'*80%*."
+  },
+  {
+   "t": 23.766,
+   "text": "MA LA TAZZINA"
+  },
+  {
+   "t": 24.537,
+   "text": "È SALITA SOLO"
+  },
+  {
+   "t": 25.462,
+   "text": "DEL *24%*."
+  },
+  {
+   "t": 27.047,
+   "text": "PER *ILLYCAFFÈ*,"
+  },
+  {
+   "t": 27.972,
+   "text": "PARTE DELL'AUMENTO"
+  },
+  {
+   "t": 28.827,
+   "text": "L'HANNO ASSORBITA *I BAR*."
+  },
+  {
+   "t": 30.479,
+   "text": "SECONDA TESI:"
+  },
+  {
+   "t": 31.426,
+   "text": "COSTA DI PIÙ"
+  },
+  {
+   "t": 32.01,
+   "text": "*GESTIRE* UN BAR."
+  },
+  {
+   "t": 33.077,
+   "text": "PER *ASSOUTENTI*"
+  },
+  {
+   "t": 33.966,
+   "text": "PESANO *ENERGIA*"
+  },
+  {
+   "t": 34.856,
+   "text": "E COSTI DI GESTIONE,"
+  },
+  {
+   "t": 36.116,
+   "text": "NON IL CAFFÈ."
+  },
+  {
+   "t": 37.231,
+   "text": "LE DUE COSE"
+  },
+  {
+   "t": 37.824,
+   "text": "POSSONO ESSERE *VERE INSIEME*."
+  },
+  {
+   "t": 39.796,
+   "text": "DIPENDE DA QUANTO *PESA*"
+  },
+  {
+   "t": 41.073,
+   "text": "OGNI VOCE"
+  },
+  {
+   "t": 41.712,
+   "text": "SUL CONTO DEL BAR."
+  },
+  {
+   "t": 43.05,
+   "text": "E OGGI IL CAFFÈ CRUDO"
+  },
+  {
+   "t": 44.277,
+   "text": "VALE *MENO*"
+  },
+  {
+   "t": 44.89,
+   "text": "DELLA MEDIA DEL *2025*."
+  },
+  {
+   "t": 47.08,
+   "text": "MA IL PREZZO"
+  },
+  {
+   "t": 47.697,
+   "text": "ALLA TAZZINA"
+  },
+  {
+   "t": 48.468,
+   "text": "POTREBBE *NON SEGUIRLO*"
+  },
+  {
+   "t": 49.547,
+   "text": "SUBITO."
+  },
+  {
+   "t": 50.541,
+   "text": "ALLA FINE,"
+  },
+  {
+   "t": 51.294,
+   "text": "*QUALCUNO PAGA*:"
+  },
+  {
+   "t": 52.244,
+   "text": "IL *CLIENTE*, IL *BAR*"
+  },
+  {
+   "t": 53.063,
+   "text": "O IL *TORREFATTORE*."
+  },
+  {
+   "t": 54.804,
+   "text": "E PER TE?"
+  },
+  {
+   "t": 55.417,
+   "text": "QUANTO DOVREBBE COSTARE"
+  },
+  {
+   "t": 56.506,
+   "text": "UN *CAFFÈ* AL BAR?"
+  },
+  {
+   "t": 57.541,
+   "text": "E CHI DOVREBBE"
+  },
+  {
+   "t": 58.296,
+   "text": "*ASSORBIRE* L'AUMENTO?"
+  }
+ ],
+ "duration": 60.579125
+}
