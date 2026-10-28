@@ -41,6 +41,7 @@ Le voci sono quelle della checklist in `brand/tiktok/guida-retention.md`. Qui i 
 | T7 | Prima e ultima inquadratura si agganciano (loop) | Fotogrammi 0 e finale; `scarto_fine_video_s` vicino a 0 se il taglio è sull'ultima parola |
 
 ## Note di misura
+- `primo_riferimento_a_te_s` cerca pronomi e alcuni verbi alla seconda persona: controllalo a mano sulla trascrizione.
 - "Cambi medi" (soglia 8) è la metrica da confrontare con la soglia di 1,7-2,0 s; "totali" conta anche gli elementi che entrano uno a uno (utile per i video a tela bianca); "grandi" sono i tagli di scena.
 - I fotogrammi in piccolo movimento sono respiro, rimbalzo e zoom lenti; i video con zoom continuo risultano quasi senza fotogrammi fermi.
 - Le misure sono su fotogrammi a 15 al secondo ridotti: cambi molto brevi o sfumati possono sfuggire. Confrontale con le tavole.

@@ -326,6 +326,7 @@ Il voto misura **quanto il video assomiglia ai riferimenti che hanno funzionato*
 | Video | Data | Durata | Punteggio | Fascia | Visualizzazioni | Retention media | % fino alla fine | Salvataggi / like | Condivisioni | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Il prezzo di… un caffè, **versione 24 s (470 €)** (versione pubblicata da confermare: originale o corretta) | 2026-10-28 | 24 s | **29 / 42** (originale) | Rivedi | 110 dopo ~1 h | — | — | 5 like (4,5% delle visualizzazioni) | — | Prime metriche (1 h, campione piccolo): **picco di abbandono a 0:01**. Da completare con retention a 0:03 e 0:06, % fino alla fine, fonte del traffico |
+| Il prezzo di… un caffè, **v2 (34 s, numero in voce a 0:00)** | 2026-10-28 | 34 s | **34 / 42** | Rivedi (limite alto) | — | — | — | — | — | Valutazione sotto; da pubblicare e confrontare con la v1 (110 visualizzazioni in 1 h, picco di abbandono a 0:01) |
 
 *(Copia la riga per ogni nuovo video. Una versione modificata dello stesso video si aggiunge come nuova riga, con la dicitura "v2".)*
 
@@ -362,6 +363,33 @@ Misure (script `misura_video.py`): 24,3 s · 13 cambi medi/grandi (uno ogni ~1,9
 | | **Totale** | **29 / 42** | **Rivedi** |
 
 **Controlli tecnici:** T1 **NO** (a 0:02-0:04 l'orso è tagliato dallo zoom e gli occhiali sono fuori campo; a 0:11,5-0:12,5 l'etichetta "1 · ABBONAMENTI" copre il viso) · T2 **NO** (nei primi 3 s lo stesso concetto è sia in alto sia nel sottotitolo; a 0:04,5 "MA PERCHÉ?" sia in alto sia in basso) · T3 sì · T4 **da verificare** (470 € = 1,29 € × 365 ≈ 471 €: coerente con il prezzo medio Assoutenti/MIMIT del copione, ancora da controllare sulla fonte originale; nessuna fonte a schermo) · T5 sì · T6 da ricordare · T7 **NO** (il finale non richiama il primo fotogramma).
+
+### Versione 2 (34 s): confronto con la versione 1
+Misure: 34,1 s · 22 cambi medi (uno ogni ~1,55 s; 25 contando ogni elemento) · 1% di fotogrammi fermi · 170 parole/min · 16 pause brevi · audio -14,6 LUFS, picco -1,8 dBFS · fine video 0,45 s dopo l'ultima parola.
+
+| Voce | v1 | v2 | Perché cambia |
+|---|---|---|---|
+| 1 Prima frase su di te / dato | 1 | **2** | "470 euro all'anno" a 0:00, "quanto spendi" a 2,4 s |
+| 4 Ciclo lungo | 0 | **1** | "Ma perché?" a 6,9 s, risposta ("piccole spese") a 15,3-18,4 s (45-54% del video) |
+| 11 Svolta con cambio di sfondo | 1 | **2** | Inchiostro → carta a 6,9 s, ritorno all'inchiostro a 28,3 s |
+| 15 Chiusura | 1 | **2** | Domanda vera ("qual è quella che non guardi mai?") + ultima inquadratura = prima con "?" |
+| 21 Autorità | 0 | **1** | Assoutenti a voce e a schermo, ma a 7,8-10,5 s (23-31%), non a due terzi |
+| Altre 16 voci | invariate | | |
+| **Totale** | **29** | **34** | Fascia **Rivedi**, a 1 punto da "Pubblica" |
+
+**Controlli tecnici v2:** T1 sì (orso intero, occhiali sempre visibili) · T2 **NO** (0:00-2,5 s: "470 €" e "ALL'ANNO" in alto e di nuovo nel sottotitolo) · T3 sì (la scritta "Fonte" sulla ricevuta è nella colonna destra e troppo piccola) · T4 da verificare (Assoutenti/MIMIT) · T5 sì · T6 da ricordare · T7 sì.
+
+**Correzioni residue (per salire sopra 35):**
+1. **Nel primo secondo non succede nulla.** A 0:00-1,5 s il fotogramma è fermo (solo zoom lento); il primo evento è "ALL'ANNO" a 1,5 s. Far entrare **"470 €" con un colpo** (da 140% a 100% in 0,2 s) con effetto di scontrino già a 0:00-0:00,3, e un movimento dell'orso (spalle che si alzano). Il picco di abbandono a 0:01 della v1 è il segnale da risolvere.
+2. **Testo doppio a 0:00-2,5 s:** togliere dal sottotitolo "470 EURO" e "ALL'ANNO" mentre sono già in alto, oppure togliere il titolo in alto. T2.
+3. **"Ma perché?" ha 0,5 s di voce e ~0,8 s di immagine** (6,9-7,7 s). Allargare la pausa dopo la domanda da 0,29 s a ~0,5 s e tenere l'inquadratura ≥ 1,2 s.
+4. **Fonte illeggibile sulla ricevuta** ("Fonte: Assoutenti (dati MIMIT)" è minuscola): metterla come etichetta separata ≥ 3% dell'altezza, **fuori dalla colonna destra**. Verificare "dati MIMIT" sulla fonte originale.
+5. **Numero nel finale:** mostrare "471 €" (o "470 €") sul salvadanaio a 30-31,5 s come eco del dato → voci 14 e 9.
+6. **Autorità a due terzi:** dopo il passo 2 (~22 s) ripetere "Fonte: Assoutenti" o aggiungere una seconda fonte *solo se verificata* (es. per luce e gas) → voce 21.
+7. **Più cifre per schermata nella ricevuta** (1,29 € / × 365 / = 471 €): ingrandire il numero e farlo entrare uno alla volta (già progressivo, ma piccolo) → voce 9.
+8. **Opzionale, solo con fonte:** un colpo di scena prima dei consigli → voce 6.
+
+Stima dopo le correzioni 1-7: circa **36-38 / 42** (fascia **Pubblica**). È una stima, da ricalcolare sul montaggio.
 
 ### Correzioni da applicare a questo video (in ordine di impatto)
 | # | Dove | Problema | Correzione | Voci toccate |

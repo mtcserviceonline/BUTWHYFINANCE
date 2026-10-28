@@ -118,7 +118,7 @@ def transcript_metrics(seg):
     words = sum(len(s[2].split()) for s in seg)
     dur = seg[-1][1] - seg[0][0]
     gaps = [round(b[0] - a[1], 2) for a, b in zip(seg, seg[1:])]
-    first_you = next((round(s[0], 1) for s in seg if re.search(r"\b(te|tu|tuo|tua|tuoi|tue|ti|ci|vuoi|hai|se bevi)\b", s[2], re.I)), None)
+    first_you = next((round(s[0], 1) for s in seg if re.search(r"\b(te|tu|tuo|tua|tuoi|tue|ti|vuoi|hai|sai|devi|puoi|spendi|bevi|guardi|usi|paghi|compri|risparmi)\b", s[2], re.I)), None)
     txt = " ".join(s[2] for s in seg).lower()
     return {
         "parole": words, "durata_parlato_s": round(dur, 1), "parole_al_minuto": round(words / dur * 60),
