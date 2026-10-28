@@ -1,15 +1,28 @@
 # Guida alla retention: cosa fa guardare e salvare un video
 
-Documento vivo. Parte da due video con ~30k like e ~3k salvataggi (rapporto salvataggi/like ≈ 10%, molto alto) e si aggiorna a ogni nuovo video analizzato. Complementa [`stile-tiktok.md`](stile-tiktok.md) (regole di produzione) e [`analisi-riferimenti.md`](analisi-riferimenti.md) (i primi quattro riferimenti).
+Documento vivo. Parte da video con ~30k like e ~3k salvataggi (rapporto salvataggi/like ≈ 10%, molto alto) e si aggiorna a ogni nuovo video analizzato. Complementa [`stile-tiktok.md`](stile-tiktok.md) (regole di produzione) e [`analisi-riferimenti.md`](analisi-riferimenti.md) (i primi quattro riferimenti).
 
-**Versione:** 2 (con trascrizioni) · **Video analizzati:** 2 (Video 4 e Video 5) · **Ultimo aggiornamento:** 2026-10-28
+**Versione:** 3 (con analisi dell'editing) · **Video analizzati:** 4 (Video 4, 5, 6, 7) · **Ultimo aggiornamento:** 2026-10-28
 
 ## Limiti di questa analisi (da leggere prima)
 - **Parlato:** dalla v2 uso le trascrizioni con i tempi (file `.srt`) che mi hai fornito; la v1 era ricavata dai soli sottotitoli e il Video 5 era ricostruito male.
-- **Misurato:** durate, tagli di scena (fotogrammi a 1 fps), colori, posizione e stile dei testi, pause audio, parole al minuto.
+- **Misurato:** durate, tagli di scena (fotogrammi a 1 fps, e per i Video 6 e 7 anche la differenza tra fotogrammi a 15 al secondo e fotogrammi ogni 0,5 s), colori, posizione e stile dei testi, pause audio, parole al minuto.
 - **Dedotto:** il *perché* funziona. Non ho le analytics (curve di abbandono). Le spiegazioni sul perché si salva sono **ipotesi**, da confermare con i nostri numeri.
 - **Non ascoltato:** non so se c'è musica sotto la voce né come suonano gli effetti. Da segnare quando qualcuno lo ascolta.
 - Il Video 4 usa il volto di un politico reale e un CTA alla propria newsletter; il Video 5 è un consiglio fiscale specifico per la Francia, con cifre che non ho verificato. Sono contenuti da cui si impara la struttura, non da copiare (vedi "Cosa non copiare").
+
+## I quattro video a colpo d'occhio
+| | Video 4 | Video 5 | Video 6 | Video 7 |
+|---|---|---|---|---|
+| Account | @bl.finanza | @lapinlafinance | @finance.guy.0 | @louisinvestfr |
+| Lingua / tema | it, notizia: camionisti e fondi | fr, successione e démembrement | it, regola 20/30/50 per i 14-20 anni | fr, "Louis è milionario ma ufficialmente povero" (società e holding) |
+| Durata | 99 s | 70 s | 75 s | 62 s |
+| Parole/minuto | ~186 | ~177 | ~158 | ~237 |
+| Cambio visivo (scena o elemento) | 1 ogni ~1,8 s | 1 ogni ~1,8 s | 1 ogni ~1,7 s | 1 ogni ~1,7 s (1,1 s contando ogni elemento) |
+| Stile | incisione/matita su carta | cartoon, fondo verde | cartoon 3D-ish, fondo azzurro | omino a mano su fondo bianco + emoji e foto ritagliate |
+| Testo | etichetta + riga serif | 1-3 parole gialle al centro | **una parola alla volta**, gialla, in basso | solo parole-chiave sparse, niente sottotitoli continui |
+| Protagonista | omini "proxy" | coniglio | uomo in completo | omino col cappello da cowboy ("Louis") |
+| Chiusura | CTA newsletter | CTA iscrizione | **nessuna, finisce sull'ultima frase** | **nessuna, finisce sull'ultima frase** |
 
 ## Il metodo in una pagina
 
@@ -21,8 +34,9 @@ Documento vivo. Parte da due video con ~30k like e ~3k salvataggi (rapporto salv
 6. **Ogni concetto astratto diventa un oggetto fisico** (promesse mancate = cassetta della posta con ragnatela; burocrazia = scrivania con pile di carte; nuda proprietà = muri + atto; usufrutto = chiave).
 7. **Un solo numero per schermata, e il numero è l'immagine** (480, 2027, 1 miliardo, 600 000 € sul cartellino).
 8. **Testo che anticipa o accompagna la voce, mai in ritardo**, con una sola parola-chiave in colore.
-9. **Nessuna pausa nel parlato** (vedi misure): il video non dà mai il permesso di scorrere via.
-10. **Chiusura che sposta lo spettatore verso qualcosa** (iscriviti, commenta), mai un "inizia piccolo" generico.
+9. **Nessun tempo morto**: il parlato può respirare (Video 6) o correre senza pause (Video 4, 5, 7), ma l'immagine non resta mai ferma più di ~2 s.
+10. **Chiusura che sposta lo spettatore verso qualcosa** (iscriviti, commenta) **oppure taglio netto sull'ultima frase** (Video 6 e 7): mai un "inizia piccolo" generico.
+11. **Ogni parola-chiave ha la sua immagine nel momento esatto in cui è pronunciata** (vedi sezione Editing).
 
 ## Elementi chiave, uno per uno
 
@@ -35,6 +49,16 @@ Documento vivo. Parte da due video con ~30k like e ~3k salvataggi (rapporto salv
 | Dove parte la voce | Subito, a 0:00 | Subito, a 0:00 |
 
 Cosa tengono in comune: **parte subito il parlato**, la prima immagine è già "carica" (mappa con tratteggio forte / personaggio sicuro), c'è **un secondo "scatto" entro 4-5 s** (cambio di immagine + dito puntato / cambio di inquadratura da campo lungo a mezza figura). Nessuno dei due si presenta, non c'è logo, non c'è "ciao".
+
+**Video 6 e 7 (stessa logica, altri ingredienti):**
+| | Video 6 (@finance.guy.0) | Video 7 (@louisinvestfr) |
+|---|---|---|
+| Frase | "Se hai tra i 14 e i 20 anni, segui questa regola e sarai avanti al 95% degli adulti" | "Louis è milionario, ma ufficialmente Louis è povero" |
+| Immagine | Uomo in completo che **corre verso la camera e la indica**; titolo rosso "14 E 20" a 0:00,5; poi teenager che corre davanti a una folla di adulti | Omino col cappello da cowboy, pila di banconote e auto di lusso ai lati, pillola gialla **MILLIONNAIRE** |
+| Leva | **Bersaglio preciso** (14-20 anni) + **promessa di status** (davanti al 95%) + "regola" semplice | **Paradosso** (milionario/povero) + personaggio con un nome |
+| Primo elemento a 0:00 | La parola "Hai" già in sovrimpressione | La parola MILLIONNAIRE già in sovrimpressione |
+
+Regola: **nei primi 3 s lo spettatore deve sapere a chi parla (V6) o quale paradosso verrà sciolto (V7)**.
 
 ### 2. Cicli aperti e payoff ritardato
 Video 4, mappa dei cicli:
@@ -56,26 +80,48 @@ Il Video 4 è costruito per **alternare sollievo e delusione**: il governo convo
 
 *Ipotesi:* funziona perché lo spettatore non riesce a prevedere l'esito e vuole sapere "qual è la fregatura".
 
-### 4. Ritmo visivo
-Misurato (conteggio dei fotogrammi a 1 fps, ±3 cambi):
-| | Video 4 | Video 5 |
-|---|---|---|
-| Durata | 99 s | 70 s |
-| Cambi di immagine | ~55 | ~38 |
-| Media | **~1,8 s per immagine** | **~1,8 s per immagine** |
-| Cambi di testo/stato dentro la stessa immagine | molti (ogni ~1 s) | ogni ~0,5-1 s (1-3 parole) |
+### 4. Editing: ritmo, animazioni, transizioni
 
-Importante: i due video durano molto più dei 20-40 s previsti nelle nostre regole e hanno comunque funzionato. **La durata non è il problema, lo è il passo.** Anche in 99 s nessuna schermata resta ferma: se l'immagine è la stessa per più di ~2 s, cambia qualcosa (appare un timbro, il testo si sottolinea in rosso, la mappa si sposta, il personaggio cambia inquadratura).
+**Misure (conteggio dei cambi visivi; per V6 e V7 differenza tra fotogrammi a 15 al secondo):**
+| | Video 4 | Video 5 | Video 6 | Video 7 |
+|---|---|---|---|---|
+| Durata | 99 s | 70 s | 75 s | 62 s |
+| Cambi visivi totali | ~55 | ~38 | 44 (30 cambi di scena grandi) | 54 contando ogni elemento; 35 cambi medi |
+| **Media tra un cambio e il successivo** | **~1,8 s** | **~1,8 s** | **~1,7 s** (mediana) | **~1,7 s** (e 0,87 s mediana se si contano anche gli elementi che entrano uno a uno) |
+| Intervallo massimo tra due cambi | ~3 s (a occhio) | ~3 s (a occhio) | 5 s | 2,5 s (elementi) / 4,2 s (scene) |
+| Fotogrammi con piccolo movimento (respiro, ondeggiamento, rimbalzo) | n.m. | n.m. | **56%** | 18% |
+| Fotogrammi del tutto fermi | n.m. | n.m. | 37% | 69% (ma con eventi ogni ~1 s) |
+| Parole che cambiano sullo schermo | ogni ~1 s | ogni ~0,5-1 s | **ogni ~0,4 s** (una parola) | solo alla comparsa delle parole-chiave |
 
-Tecniche per "muovere" senza nuove immagini (viste nel Video 4):
-- **Timbro** che compare sopra l'immagine (IN ITALIA, MAI ARRIVATI, GIÀ STANZIATI, FERMI, SCONTO, REVOCATO, VA AVANTI, LINK IN BIO).
-- **Sottolineatura rossa** disegnata sotto la riga chiave.
-- **Cerchio rosso** attorno al numero (1 miliardo, 2027).
-- **Croce rossa** su un oggetto (sacco di soldi barrato = "non ti danno i soldi").
-- **Entrata dell'oggetto** da un lato (camion, edificio) che scorre dentro l'inquadratura.
-- **Stessa composizione con elemento nuovo** (busta → compare la clessidra accanto).
+(n.m. = non misurato con la differenza tra fotogrammi: i Video 4 e 5 li avevo guardati solo a 1 fps.)
 
-Tecniche del Video 5: **alternanza di inquadratura** sullo stesso personaggio (figura intera, mezza figura, primissimo piano con gli occhi socchiusi), comparsa di un **oggetto in mano** per ogni concetto (chiave, atto, calcolatrice, cartellino prezzo), **sagome grigie** come terzi.
+**Convergenza forte:** nei quattro video c'è **un cambio visivo ogni 1,7-1,8 s**. Non è la durata a fare la differenza (62-99 s), è che l'occhio trova sempre qualcosa di nuovo.
+
+**Due modi di ottenere lo stesso ritmo:**
+1. **Sostituzione di scena** (V4, V5, V6): ogni frase ha la sua immagine; personaggio e sfondo restano gli stessi, cambiano oggetti e posa.
+2. **Costruzione sulla tela** (V7): lo sfondo bianco resta; gli elementi **entrano uno alla volta** (casa, auto, X rossa, "BOÎTE", freccia) e a fine blocco si "pulisce" la tela. Ogni sostantivo pronunciato compare nel momento in cui viene detto: "pas de maison" → casa con X rossa; "pas de voiture" → auto con X; "presque aucune épargne" → ÉPARGNE 170 €. Per questo il ritmo è alto anche a 237 parole/minuto.
+
+**Sincronia parola-immagine (il punto più importante dell'editing).** In tutti e quattro il montaggio segue la voce al parlato: l'elenco "regali di compleanno, paghetta, mance, il primo stipendio" (V6) mostra quattro oggetti in ~4 s, e ogni parola grande compare quando è detta; "divorce, dette, procès" (V7) compaiono come tre righe una alla volta; "camion fermi, distributori vuoti, supermercati" (V4) sono tre immagini di fila. **Un elenco = tante immagini quante sono le voci, ognuna nel suo istante.**
+
+**Transizioni.** Quasi tutto è **taglio netto**. Le transizioni speciali compaiono **solo ai cambi di blocco**, mai a caso:
+- V6: **flash bianco sfocato** a 0:06,5 (dal "95% degli adulti" a "riguarda i soldi che ricevi"), **trascinamento orizzontale sfocato (whip)** a 0:13,5 e a 0:48,0 (quando entra il ricercatore), e a **1:13,5 un "punch-in" a primo piano** sull'ultima frase.
+- V4: **tendina orizzontale** a 0:30 (dopo "Fermati"), **strappo di carta** a 1:22 prima della CTA, passaggio a nero per le svolte.
+- V7: nessuna transizione; la tela viene svuotata e si riparte.
+- V5: alternanza di inquadratura sullo stesso personaggio (figura intera → mezza figura → primissimo piano).
+
+**Animazione di entrata.** Gli oggetti **entrano** con un piccolo movimento (scorrimento dal lato, comparsa con scala, pop), non appaiono di colpo; i personaggi hanno un **movimento di riposo** (respiro, ondeggiamento) e **cambiano posa a ogni frase** (indica, alza le spalle, tiene un oggetto, pensa). Nel V6 il personaggio **corre verso la camera e indica lo spettatore** nel primo secondo.
+
+**Primo piano come segnale.** Il V5 inizia con un primissimo piano del coniglio che socchiude gli occhi; il V6 chiude con un primo piano e una moneta luminosa sul palmo ("un'unica abitudine"): il **salto di scala** segnala "questo è il punto".
+
+**Tecniche per far "muovere" una immagine ferma (V4):** timbro, sottolineatura rossa disegnata, cerchio rosso, croce rossa, oggetto che scorre dentro l'inquadratura, elemento che si aggiunge alla stessa composizione. Il V7 usa la **croce rossa** e la **freccia rossa disegnata a mano** allo stesso scopo, e **curve verdi** per il guadagno ("COURBE PROFIT").
+
+**Dati come oggetti (V6, V4):** i tre importi sono **pile di banconote di altezza proporzionale** (20% piccola con cartellino che brilla, 30% media, **50% la più alta**) e il numero è in cartellino. Il V4 fa lo stesso con numeri giganti su fondo blu (480, 2027).
+
+**Costanti di ambiente:** stesso sfondo tutto il video (azzurro V6, bianco V7, verde V5, carta V4 con nero/blu solo come svolta); personaggio principale sempre nella stessa zona (V6 al centro, V7 in basso a sinistra o al centro-basso); i terzi sono sagome (V5, V7: agente Urssaf come omino con taccuino e caffè).
+
+**Stratificazione.** In V6, quando un blocco dura più di una frase, **il titolo rosso in alto resta** ("14 E 20", "95% DEGLI ADULTI") mentre cambia la parola gialla in basso: lo spettatore legge il tema una volta sola e il testo che cambia è solo la parola detta.
+
+**Zona del testo:** V6 a ~77% dell'altezza (sopra la fascia bassa dell'interfaccia); V5 al 50%; V4 in basso e in alto; V7 variabile, con le parole-chiave vicino all'oggetto che descrivono.
 
 ### 5. Sistema dei testi
 **Video 4: due livelli**
@@ -87,7 +133,20 @@ Tecniche del Video 5: **alternanza di inquadratura** sullo stesso personaggio (f
 **Video 5: un livello solo**
 - **1-3 parole al centro, ~50% dell'altezza**, sans condensed bold bianco con bordo nero, parola chiave in giallo. Al centro significa fuori da ogni zona coperta dall'interfaccia TikTok.
 
-Entrambi: **mai più di 2 righe**, sempre sincronizzati con la voce, un solo segno grafico di enfasi per schermata.
+**Video 6: una parola alla volta, in basso** (giallo pieno con bordo nero, sans arrotondato)
+- Ogni parola entra **piccola e cresce con un piccolo "pop"** (si vede in "maggior", "un'unica") e poi si assesta; ~196 parole in 75 s = **una parola nuova ogni 0,38 s**.
+- **Le parole importanti sono più grandi** (paghetta, sarai, guadagnare, 50%, decidi, seconda, parte): la dimensione fa da enfasi, senza cambiare colore.
+- **In alto un titolo rosso in maiuscolo** solo quando c'è un dato ("14 E 20", "95% DEGLI ADULTI").
+- Non c'è mai più di una parola: lo spettatore non può leggere avanti e non può "saltare" il parlato.
+
+**Video 7: niente sottotitoli continui, solo parole-chiave**
+- **Sostantivi in maiuscolo grassetto** (DIVORCE, DETTE, PROCÈS, APPARTEMENT, BOÎTE, HOLDING, COURBE PROFIT).
+- **Commenti ironici in minuscolo, piccoli, a centro schermo** ("un jour..", "et là..", "sur le papier..", "comment il fait ?", "se protéger"). Il registro cambia: minuscolo = voce che commenta, maiuscolo = oggetto.
+- **Evidenziatore giallo** sulla parola che apre il video (MILLIONNAIRE).
+- **Logo reale come àncora** (Urssaf): rende il fatto riconoscibile subito.
+- Cifre in nero grassetto vicino all'oggetto (250.000 €, +2.500 €, 170 €).
+
+Tutti: **mai più di 2 righe**, sempre sincronizzati con la voce, un solo segno grafico di enfasi per schermata.
 
 ### 6. Il colore come emozione (Video 4)
 | Sfondo | Quando | Effetto |
@@ -111,23 +170,31 @@ I due video hanno cose diverse che stimolano il salvataggio:
 | 4 | **Cronologia con date** (27 ottobre, entro novembre, 2027, set-ott) e importi: è un "promemoria" da riguardare quando la storia evolve. |
 | 5 | **Ricetta con numeri** passo passo (1 000 000 → 600 000; 100 000 € di franchigia a testa; 200 000 € tassati al 20% = 40 000 €; **160 000 € risparmiati**): è un'informazione "da rifare con il notaio". |
 
+| 6 | **Una formula da applicare** (20% divertimento, 30% investimento, **50% fondo che non tocchi**) per un pubblico preciso (14-20 anni): si salva per applicarla alla prossima paghetta o come promemoria. Contiene anche una giustificazione scientifica (Richard Thaler) che la rende "affidabile". |
+| 7 | **Una struttura da riguardare** (società immobiliare → holding → stipendio da 2 500 €) con nomi tecnici ben spiegati. Si salva per approfondire. |
+
 Tratti comuni:
-- **C'è un numero finale riassuntivo** (480 milioni / 1 miliardo / 160 000 €): lo spettatore sente di avere in tasca una risposta.
+- **C'è un numero o una formula finale riassuntiva** (480 milioni / 1 miliardo / 160 000 € / 20-30-50 / 2 500 € di stipendio): lo spettatore sente di avere in tasca una risposta.
+- **Il riepilogo finale in 3 parole** (V6: "divertimento, obiettivo, futuro; 3 destinazioni, un'unica abitudine"): si può citare a memoria, quindi si salva.
+- **Un beat di autorità a ~2/3 del video** (V6: il ricercatore Richard Thaler a 0:48) che risponde al "ma funziona davvero?".
 - **Linguaggio chiaro con una parola tecnica spiegata con un oggetto** (credito d'imposta = foglio "sconto tasse"; nuda proprietà = atto).
 - **Contenuto da "dopo"**: dice "mi servirà" (tasse, rincari, eredità), non "mi diverte".
 - Il Video 4 chiede esplicitamente un'azione che somiglia a un salvataggio ("Iscriviti… ogni mattina alle 7").
 
 ### 9. Audio e copione
-**Velocità del parlato (dalle trascrizioni):**
-| | Parole | Durata | **Parole/minuto** |
-|---|---|---|---|
-| Video 4 (it) | 302 | 97 s | **~186** |
-| Video 5 (fr) | 204 | 69 s | **~177** |
-| Nostra regola | — | — | 140-150 |
+**Velocità e pause (dalle trascrizioni e dalle pause misurate a -45 dB):**
+| | Parole | Durata | **Parole/minuto** | Pause ≥ 0,2 s |
+|---|---|---|---|---|
+| Video 4 (it) | 302 | 97 s | **~186** | 0 |
+| Video 5 (fr) | 204 | 69 s | **~177** | 1 |
+| Video 6 (it) | 196 | 74 s | **~158** | **23** (brevi, a fine frase) |
+| Video 7 (fr) | 245 | 62 s | **~237** | 1 |
+| Nostra regola | — | — | 140-150 | "pause brevi tra i concetti" |
 
-- Nessuna pausa del parlato oltre 0,25 s: **1 sola in 99 s** (Video 4) e **1 sola in 70 s** (Video 5). Voce continua e svelta; il testo scritto è lo stesso del parlato.
-- **Frasi da ~2-3 s e ~6-8 parole** per segmento; subito dopo parte la frase successiva.
-- Non posso dire se c'è musica sotto, né come suonano timbri/oggetti.
+- **Non esiste una velocità unica.** Il Video 6 respira a fine frase (circa una pausa ogni 3 s) ed è il più vicino al nostro 140-150; gli altri corrono tra 177 e 237 senza pause. Quello che hanno in comune non è la voce ma **l'assenza di tempo morto sullo schermo**: anche quando la voce del V6 si ferma 0,2-0,4 s, la parola o l'immagine cambia.
+- Livello medio dell'audio: V7 molto forte (circa -18 dB, picco -0,5 dB), V6 più basso (circa -34 dB di media). Non so se dipenda dalla musica o dal mix.
+- **Frasi da ~2-3 s e ~6-8 parole** per segmento in tutti e quattro.
+- Non posso dire se c'è musica sotto, né come suonano timbri e oggetti.
 
 **Il copione usa "frasi-segnale"** che dicono allo spettatore dove si trova (e perché restare):
 | Funzione | Italiano (V4) | Francese (V5) |
@@ -143,12 +210,13 @@ Tratti comuni:
 
 **Struttura della frase:** frasi corte, soggetto-verbo-oggetto, una cifra per frase ("480 milioni per pagare le domande arrivate fino ad agosto"), elenchi da 3 ("camion fermi, distributori vuoti, supermercati senza frutta e verdura"), seconda persona (V4: *ti/te/tu/tuoi* ricorrono 12 volte in 97 s; la prima "te" è già a 0:04).
 
-**Conflitto con `stile-tiktok.md`:** la regola attuale chiede 140-150 parole/min con pause tra i concetti; i due video che hanno funzionato corrono a 177-186 e non hanno pause. Da testare: **voce nostra a ~170 parole/min, senza pause, con il passo dato anche dalle immagini**. Calma nel timbro, non nel ritmo.
+**Rapporto con `stile-tiktok.md`:** la regola attuale (140-150 parole/min con pause brevi) è dentro il range osservato, ma sul lato lento (come il V6). Due dei quattro video arrivano a 177-237. Da testare **A/B: 150 contro 175 parole/min**, tenendo l'immagine che cambia ogni ~1,7 s in entrambi i casi.
 
 ### 10. Chiusura (CTA)
 - **Video 4:** parte **senza stacco** dall'ultimo payoff ("…li paghi tu al supermercato, vuoi sapere cosa succede ai tuoi soldi prima che te ne accorgi al supermercato?"): la domanda riprende l'oggetto appena nominato. Poi promessa concreta con tre dettagli di abitudine ("ogni mattina alle 7, mentre bevi il caffè, in 5 minuti") e timbro LINK IN BIO. Vende il prodotto con un'immagine della vita quotidiana, non con un'etichetta.
 - **Video 5:** chiude con un contrasto d'identità ("pendant que toi tu attends ta succession, le lapin a déjà tout transmis") e poi **"abonne-toi pour arrêter de te faire plumer"** (iscriviti per smettere di farti spennare). CTA breve di 1,5 s, fondato su una perdita, non su un favore.
-- Nessuno dei due chiude con un "commentate" generico: **chiedono un'azione che cambia la situazione dello spettatore**.
+- **Video 6 e 7: nessun CTA.** Il V6 finisce su "un'unica abitudine" (primo piano con la moneta), il V7 su "…des règles que la plupart des gens ignorent": il video termina **esattamente sull'ultima parola** (V7: 62,0 s di video, ultima parola a 61,998 s). *Ipotesi:* il video riparte da solo e l'ultima frase si aggancia alla prima ("…che molti ignorano" → "Louis è milionario…"), favorendo i riavvii e il completamento. Da verificare con le nostre analytics.
+- Nessuno chiude con un "commentate" generico: **chiedono un'azione che cambia la situazione dello spettatore, oppure non chiedono nulla e lasciano la frase finale come punch.**
 
 ## Dove i riferimenti precedenti e questi due divergono
 | Aspetto | Prima (V0-V3) | Ora (V4-V5) |
@@ -156,7 +224,9 @@ Tratti comuni:
 | Durata | 60-80 s | 70-99 s |
 | Passo | 1 immagine ogni 2-6 s | **~1,8 s costante** |
 | Testo | 1 livello (V0-V2) / evidenziato (V3) | **V4: due livelli (etichetta + riga parlata)**; V5: 1-3 parole centrali |
-| Parlato | non misurato | **177-186 parole/min, senza pause** |
+| Parlato | non misurato | **158-237 parole/min**: dal ritmo con pause brevi (V6) a quello senza pause (V4, V5, V7) |
+| Editing | non misurato | **1 cambio visivo ogni 1,7-1,8 s in tutti e 4**; transizioni solo ai cambi di blocco |
+| Chiusura | "iscriviti" / "commenta" | **V6 e V7: taglio netto sull'ultima frase** |
 | Svolta | non rilevata | **Sfondo nero/blu nei punti di svolta (V4)** |
 | Notizia | mai | **V4: attualità con conseguenza personale** |
 
@@ -168,10 +238,19 @@ Tratti comuni:
 5. Includere in ogni video **un ciclo lungo + almeno un "gradino" buona notizia → clausola**.
 6. Chiudere con **un numero riassuntivo** e una domanda che riguarda lo spettatore.
 7. Verificare se video più lunghi di 40 s funzionano per noi: fare un test A/B con 40 s contro 70 s sullo stesso tema.
+8. **Editing:** un cambio visivo ogni ~1,7 s; ogni sostantivo importante compare nell'istante in cui è detto; oggetti che entrano (non appaiono di colpo); piccolo movimento di riposo sul personaggio.
+9. **Transizioni:** taglio netto di default; una sola transizione speciale (whip o flash) **solo** ai cambi di blocco; un primo piano sull'ultima frase.
+10. **Testi:** provare la **parola singola con "pop"** (V6) contro il doppio livello (V4) sullo stesso copione; titolo rosso in alto per i dati.
+11. **Dati come oggetti** di altezza/scala proporzionale (pile, barre) con cartellino numerico.
+12. **Un beat di autorità** (fonte, studio, istituzione) a circa 2/3 del video.
+13. **Finale senza CTA**, tagliato sull'ultima frase, in A/B contro il finale con domanda aperta.
 
 ## Cosa non copiare
 - **Consigli prescrittivi** ("fai così per non pagare", "legalmente"): presentiamo fatti e tesi; per un tema fiscale, spiegare **come funziona** e non "cosa fare". Le cifre del Video 5 (60% a 60 anni, 100 000 € a figlio, 20%) sono norme francesi che non ho verificato: non riusarle senza fonte.
 - **CTA basato sulla vergogna** ("smetti di farti spennare"): efficace ma non nel nostro tono.
+- **Video 7: schermare i beni dai creditori e "hors d'atteinte"** (società + holding per sottrarre i beni a divorzio, debiti e procedimenti, profitti "quasi senza imposte"): è una struttura fiscale e patrimoniale che non possiamo presentare come soluzione. Si copia **il meccanismo narrativo** (protagonista con un nome, paradosso, rivelazione in due passaggi), non il contenuto.
+- **Video 6: percentuali come "regola"** (20/30/50): per noi sono un'illustrazione, non un consiglio di investimento a minorenni. Il marchio "regola" è una leva di salvataggio, ma va accompagnato da una fonte e da un limite.
+- **Personaggi generati con IA e nomi di studiosi reali** (Richard Thaler): citare solo con fonte verificata; la trascrizione scrive "Richard taler", il nome corretto è Richard Thaler (economista comportamentale, concetto di *mental accounting*).
 - **Volti reali di politici/persone** anche in stile incisione: rischio di parzialità e di uso del volto. Per notizie politiche usare simboli (edificio, scrivania, sagoma grigia).
 - **Immagini IA con testi interni** e marchi "Ai": il testo si aggiunge sempre in montaggio.
 - **Schieramento** (nel Video 4 si sente un tono di accusa verso "lo Stato"): noi manteniamo le due tesi.
@@ -193,12 +272,17 @@ Tratti comuni:
 | 10 | Un solo colore d'accento, solo per l'essenziale | |
 | 11 | Svolta segnalata da cambio di sfondo | |
 | 12 | Testi in zona sicura, ≤ 2 righe, parola-chiave evidenziata | |
-| 13 | Nessuna pausa del parlato oltre ~0,3 s, ~170-185 parole/min | |
+| 13 | Nessun tempo morto sullo schermo (anche se la voce respira) | |
 | 14 | C'è un numero finale riassuntivo (cosa si porta a casa) | |
 | 15 | La chiusura riporta alla vita quotidiana o apre una domanda vera, e nasce dall'ultimo payoff | |
 | 16 | Almeno 3 frasi-segnale a voce (svolta, "ma…", "e adesso la parte che riguarda te") | |
+| 17 | Ogni sostantivo-chiave compare nell'istante in cui è detto (elenco = tante immagini quante voci) | |
+| 18 | Transizione speciale solo ai cambi di blocco, il resto è taglio netto | |
+| 19 | Gli elementi entrano con un movimento, il personaggio ha un movimento di riposo | |
+| 20 | Il titolo/dato resta in alto mentre cambia la riga parlata | |
+| 21 | Beat di autorità o fonte a ~2/3 del video | |
 
-**Punteggio (max 32):** 27-32 pubblica · 21-26 rivedi i punti a 0 · < 21 riscrivi l'hook e il passo.
+**Punteggio (max 42):** 35-42 pubblica · 27-34 rivedi i punti a 0 · < 27 riscrivi l'hook e il passo.
 
 ## Schede dei due video
 
@@ -251,10 +335,59 @@ Formato: micro-lezione con numeri. Sfondo verde scuro uniforme, personaggio fiss
 | 1:04-1:07 | "Mentre tu aspetti la tua successione, il coniglio ha già trasmesso tutto" | Sagoma sulle sedie, coniglio che si aggiusta la cravatta | Contrasto d'identità |
 | 1:07-1:09 | "**Iscriviti per smettere di farti spennare**" | Coniglio | CTA |
 
+### Video 6: @finance.guy.0, regola 20/30/50 per i 14-20 anni (75 s)
+Formato: regola con formula + autorità + riepilogo. Sfondo azzurro unico, uomo in completo blu, parola gialla una alla volta in basso, titolo rosso in alto sui dati. Nessun CTA.
+
+| Tempo | Parlato | Immagine e **montaggio** | Leva |
+|---|---|---|---|
+| 0:00-0:02 | "Se hai tra i 14 e i 20 anni" | Uomo che **corre verso la camera e indica lo spettatore**, monete a terra; parola "Hai" già a 0:00; titolo rosso **14 E 20** da 0:00,5, l'uomo con tablet | Bersaglio preciso |
+| 0:02-0:04 | "segui questa regola e sarai avanti" | Taccuino con spunta, l'uomo indica | Promessa |
+| 0:04-0:06,5 | "al 95% degli adulti" | Ragazzo che corre davanti a una folla di adulti; titolo rosso **95% DEGLI ADULTI** (resta 3 s) | Status |
+| 0:06,5 | — | **Flash bianco sfocato** | Cambio di blocco |
+| 0:06,6-0:08 | "riguarda i soldi che ricevi" | Uomo con regalo e monete | Definizione |
+| 0:08-0:12 | "regali di compleanno, paghetta, mance, il primo stipendio" | Mensola con regalo, barattoli **ALLOWANCE**, **TIPS**; poi busta di monete su tavolo. **Una parola grande per voce, nel suo istante** | Elenco |
+| 0:12-0:13,8 | "non importa da dove arrivino" | Uomo che alza le spalle, oggetti ai piedi | Pausa visiva |
+| 0:13,5 | — | **Whip orizzontale sfocato** | Cambio di blocco |
+| 0:13,8-0:18 | "la maggior parte delle persone della tua età li spende subito senza nemmeno pensarci" | Gruppo di ragazzi; poi persone che corrono con le borse della spesa, volti spaventati | Errore comune |
+| 0:18-0:20 | "ed è lì che sbagliano" | Folla con le tasche vuote | Conseguenza |
+| 0:20-0:23 | "appena li ricevi dividili subito in 3 parti" | Uomo con mazzetta → la divide in 3 pile sul tavolo | **Azione** |
+| 0:23-0:30 | "il 20% è libero, va nel divertimento senza sensi di colpa, un'uscita, un acquisto quello che vuoi" | Pila con cartellino **20%** luminoso; uomo col gelato e la borsa; sneakers + biglietto + gelato | Primo gruppo |
+| 0:30-0:38 | "il 30% investili: un piccolo progetto, un corso o un libro, qualsiasi cosa che potrebbe aiutarti a guadagnare di più" | Pila **30%**; uomo con libri e laptop; uomo pensieroso con lampadina; albero di soldi con freccia | Secondo gruppo |
+| 0:38-0:48 | "avanti 50%, la parte più grande va in un fondo che non tocchi; quello è il tuo futuro che si costruisce da solo, mentre tu non ci pensi" | **Pila più alta** con **50%**; uomo con salvadanaio e lucchetto; uomo di spalle verso una strada luminosa; maialino rosa con lucchetto e calendario | Terzo gruppo, il più grande |
+| 0:48 | — | **Whip sfocato** → ricercatore al leggio | Cambio di blocco |
+| 0:48-0:55 | "il ricercatore Richard Thaler ha mostrato che il cervello tratta i soldi in modo diverso a seconda della categoria in cui li mette" | Ricercatore con camice, targhetta "richard", barattoli con icone; **beat di autorità** | Credibilità |
+| 0:55-0:58 | "anche se il totale è identico" | Uomo con pila di banconote ai piedi | Controintuitivo |
+| 0:58-1:02 | "ecco perché questa divisione funziona meglio di qualsiasi buon proposito" | Foglio-buon-proposito stropicciato che rimbalza via da una pila di soldi | **Metafora** |
+| 1:02-1:09 | "non decidi ogni volta cosa fare con i soldi: lo decidi una volta sola e poi lo ripeti automaticamente" | Uomo con più volti e punti interrogativi; poi indica la pila; poi pila con frecce che girano | Perché funziona |
+| 1:09-1:13 | "divertimento, obiettivo, futuro: 3 destinazioni" | Uomo con 3 icone (borsa, lampadina, freccia) | Riepilogo |
+| 1:13,5-1:14,4 | "un'unica abitudine" | **Punch-in a primo piano**, moneta luminosa sul palmo; **fine** | Chiusura-punch |
+
+### Video 7: @louisinvestfr, "Louis è milionario ma ufficialmente povero" (62 s)
+Formato: storia di un personaggio con un nome + doppia struttura (società, holding). Fondo bianco, omino con cappello da cowboy, emoji e foto ritagliate, frecce rosse/curve verdi a mano. Nessun CTA, nessun sottotitolo continuo.
+
+| Tempo | Parlato (traduzione) | Immagine e **montaggio** | Leva |
+|---|---|---|---|
+| 0:00-0:01 | "Louis è milionario" | Pillola gialla **MILLIONNAIRE**; omino con ai lati una G-Class nera e una pila di contanti (foto ritagliate) | Paradosso, parte 1 |
+| 0:01-0:03 | "ma ufficialmente Louis è povero" | Carta d'identità; omino che si tiene il cappello al petto | Paradosso, parte 2 |
+| 0:03-0:06 | "un giorno passa lo staff e là, sorpresa" | Testi in minuscolo "un jour..", logo **Urssaf**, "et là..", **SURPRISE** con coriandoli | Suspense |
+| 0:06-0:09 | "nessuna casa a suo nome, nessuna auto di lusso, quasi nessun risparmio" | Agente-omino con taccuino; **casa con X rossa**, **auto con X rossa**, **ÉPARGNE 170 €** | Elenco con X |
+| 0:09-0:12 | "sulla carta Louis non ha niente, ma nella vita vera vive molto bene" | "sur le papier.."; omino che suda; hotel + soldi | Contraddizione |
+| 0:12-0:13 | "allora come fa?" | "comment il fait ?" | **Domanda aperta** |
+| 0:13-0:17 | "la maggioranza compra a proprio nome casa, auto, soldi: tutto è loro" | Casa **250.000 €** + icona di due persone; contanti; auto che si aggiungono | Il metodo comune |
+| 0:17-0:21,5 | "ma il problema è che se domani c'è un divorzio, un debito, un processo, tutto può essere pignorato" | **PROBLÈME** (omino con lente); scrivania; **DIVORCE / DETTE / PROCÈS** compaiono una riga alla volta; riquadro Urssaf che si riempie di oggetti | **Rischio** |
+| 0:21-0:25 | "Louis ha capito una cosa: possedere è rischioso; ha deciso di non possedere niente ma di controllare tutto" | Omino con pollice alzato; i beni si accumulano attorno a lui; telefono | Insight |
+| 0:25-0:29 | "per i suoi appartamenti crea una società immobiliare, una scatola" | Computer, **APPARTEMENT** ×2, edificio con **BOÎTE** | Passo 1 |
+| 0:29-0:35 | "non è più Louis che possiede i beni, è la scatola; se qualcuno attacca Louis non può toccare" | Beni che salgono nella BOÎTE con freccia rossa; omino con valigetta; il logo Urssaf svanisce | Protezione |
+| 0:35-0:42 | "ma Louis non si ferma qui: sopra crea una holding, una società madre che controlla tutte le altre" | Omino che sbadiglia e poi **sdraiato sul divano coi soldi** sotto la BOÎTE; **HOLDING** con 3 frecce rosse verso 3 edifici | Passo 2 |
+| 0:42-0:47 | "grazie a un meccanismo fiscale i profitti risalgono quasi senza imposte fino alla holding" | **COURBE PROFIT** (curva verde), contanti in cerchio tra BOÎTE e HOLDING | Meccanismo |
+| 0:47-0:53 | "il denaro resta nel suo sistema fuori portata; lui si versa un piccolo stipendio, 2.500 €, quanto basta per vivere. Ufficialmente" | Omino con soldi; **+2.500 €** in verde; formaggio e vino; **OFFICIELLEMENT** | Dettaglio concreto |
+| 0:53-0:58 | "guadagna quasi niente ma in realtà controlla tutto, un impero. È quello che si chiama proteggersi intelligentemente" | Omino con edifici attorno; "se protéger", **INTELLIGEMMENT** | Etichetta |
+| 0:58-1:02 | "Louis non è povero, gioca solo con regole che la maggior parte della gente ignora" | Omino con le braccia alzate; **taglio netto sull'ultima parola** | Punch |
+
 ## Come aggiornare la guida con un nuovo video
 Per ogni video che mi mandi:
 1. **Misuro**: durata, numero di cambi di immagine (e media), pause audio, colori, posizione del testo.
-2. **Mappo**: hook, cicli aperti/chiusi, svolte, CTA, frasi-segnale, parole/minuto, timeline come nelle schede sopra (con la trascrizione `.srt`, se me la dai).
+2. **Mappo**: hook, cicli aperti/chiusi, svolte, CTA, frasi-segnale, parole/minuto, timeline come nelle schede sopra (con la trascrizione `.srt`, se me la dai), **e l'editing** (differenza tra fotogrammi, transizioni, animazioni, sincronia parola-immagine).
 3. **Aggiorno le tabelle di confronto** e la colonna "Visto in".
 4. **Promuovo o scarto le proposte da validare**: una regola diventa "confermata" quando compare in almeno 3 video, "scartata" se un video con ottimi risultati la contraddice.
 5. **Se hai i dati reali** (retention media, % fino alla fine, salvataggi per visualizzazione), li scrivo nella riga del video: un numero vero vale più di dieci ipotesi.
@@ -263,7 +396,8 @@ Per ogni video che mi mandi:
 ```
 ### Video N: @account, tema (durata)
 Metriche note: like __, salvataggi __, commenti __, condivisioni __, retention media __ %
-Misure: cambi di immagine __ (media __ s) · pause audio __ · font __ · colori __
+Misure: cambi visivi __ (media __ s) · parole/min __ · pause audio __ · font __ · colori __
+Editing: transizioni (tipo, tempi) · animazioni di entrata · movimento di riposo · primo piano · sincronia parola-immagine · layout testi · fine (CTA o taglio)
 Hook (0-5 s): frase, immagine, leva
 Cicli aperti/chiusi: tabella
 Svolte e pattern interrupt:
@@ -277,7 +411,7 @@ Cosa non copiare:
 | # | Regola | Visto in | Stato |
 |---|---|---|---|
 | 1 | Voce parte a 0:00, hook con asserzione personale | V4, V5 | Provvisoria (2/3) |
-| 2 | ~1,8 s per immagine, anche in 99 s | V4, V5, (V2 ≈ 1,8 s) | **Confermata (3)** |
+| 2 | **Un cambio visivo ogni ~1,7-1,8 s**, anche in 99 s | V2, V4, V5, V6, V7 | **Confermata (5)** |
 | 3 | Ogni concetto astratto = oggetto fisico | V2, V4, V5 | **Confermata (3)** |
 | 4 | Terzi come sagome grigie senza volto | V0, V1, V2, V5 | **Confermata (4)** |
 | 5 | Un solo accento colore, per l'essenziale | V2, V4, V5 | **Confermata (3)** |
@@ -287,10 +421,21 @@ Cosa non copiare:
 | 9 | Etichetta in alto + riga parlata in basso | V4 | In osservazione (1) |
 | 10 | Timbro / cerchio / croce / sottolineatura come "movimento" | V4 | In osservazione (1) |
 | 11 | Numero finale riassuntivo | V4, V5 | Provvisoria (2/3) |
-| 12 | Parlato continuo, senza pause lunghe, **~177-186 parole/min** | V4, V5 | Provvisoria (2/3); contraddice la nostra regola 140-150 |
+| 12 | Velocità del parlato: **158-237 parole/min**, con o senza pause brevi | V4, V5, V6, V7 | **Non è una regola**: la regola è "niente tempo morto" (vedi 17) |
 | 13 | Durata 70-99 s accettabile se il passo regge | V4, V5 | Da testare con i nostri video |
 | 14 | Frasi-segnale a voce ("ma fermati un attimo", "e non è finita", "cioè?", "la parte che riguarda te") | V4, V5 | Provvisoria (2/3) |
 | 15 | Seconda persona fin dai primi 5 s e ritorno al quotidiano a fine video | V4, V5 | Provvisoria (2/3) |
-| 16 | CTA che nasce dall'ultimo payoff e offre un cambiamento concreto | V4, V5 | Provvisoria (2/3) |
+| 16 | CTA che nasce dall'ultimo payoff e offre un cambiamento concreto **oppure taglio netto sull'ultima frase** | V4, V5 (CTA), V6, V7 (taglio) | Provvisoria (da A/B) |
+| 17 | Nessun tempo morto: l'immagine o la parola cambia anche mentre la voce respira | V4, V5, V6, V7 | **Confermata (4)** |
+| 18 | Ogni sostantivo-chiave compare nell'istante in cui è detto | V4, V5, V6, V7 | **Confermata (4)** |
+| 19 | Transizioni speciali solo ai cambi di blocco; il resto è taglio netto | V4, V6 (V7 senza) | Provvisoria (2/3) |
+| 20 | Oggetti che entrano con movimento + personaggio con movimento di riposo | V5, V6, V7 | Provvisoria (3/3 ma V4 diverso) |
+| 21 | Parola singola con pop e grandezza variabile come enfasi | V6 | In osservazione (1) |
+| 22 | Titolo/dato rosso in alto che resta mentre cambia la riga parlata | V4, V6 | Provvisoria (2/3) |
+| 23 | Dati come oggetti di scala proporzionale | V4, V6 | Provvisoria (2/3) |
+| 24 | Protagonista con un nome / bersaglio dichiarato nei primi 3 s | V6, V7 | Provvisoria (2/3) |
+| 25 | Beat di autorità a ~2/3 del video | V6 | In osservazione (1) |
+| 26 | Fondo e ambiente costanti per tutto il video | V2, V5, V6, V7 | **Confermata (4)** |
+| 27 | Parole in minuscolo per il commento ironico, maiuscolo per gli oggetti | V7 | In osservazione (1) |
 
 *Nota:* V0-V3 sono i riferimenti di `analisi-riferimenti.md`; le colonne "Visto in" per quei video sono dedotte dalla loro scheda, non rimisurate.
