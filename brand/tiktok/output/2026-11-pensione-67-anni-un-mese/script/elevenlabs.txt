@@ -1,23 +1,24 @@
 TESTO PER ELEVENLABS · Il numero: 67 anni e 1 mese
 
-5 scene, 75 parole (a 165-175 parole/min ≈ ~26-27 s). Numeri in lettere; pausa «…» prima di «Ma perché?», voce che sale.
+5 scene, 74 parole (a 165-175 parole/min ≈ ~25-27 s; 26,1 s a 170/min). Numeri in lettere; pausa «…» prima di «Ma perché?», voce che sale.
+Revisione: giro 1 (vedi ../revisione/r1-redattore.md).
 
 === VERSIONE 1: eleven_v3, tag di tono in inglese (da incollare così) ===
 
-[surprised] Sessantasette anni e un mese. Dal duemilaventisette, l'età della pensione di vecchiaia. … [curious] Ma perché?
-[matter-of-fact] Ogni due anni i requisiti seguono la speranza di vita a sessantacinque anni, misurata dall'Istat.
-[calm] Per l'Inps, nel duemilaventotto si sale a sessantasette anni e tre mesi.
-[thoughtful] Per chi la difende, tiene in equilibrio i conti. Per i sindacati, allontana il traguardo.
-[warm] Un mese sembra poco: è un mese di lavoro in più. [curious] E tu: a che età pensi di andarci?
+[surprised] Un mese di lavoro in più. Per tutti. Dal duemilaventisette. … [curious] Ma perché?
+[matter-of-fact] Pensione di vecchiaia: sessantasette anni e un mese. La regola: se a sessantacinque anni si vive più a lungo, si va più tardi.
+[calm] Nel duemilaventotto, sessantasette e tre mesi.
+[thoughtful] Per chi difende la regola, tiene in equilibrio i conti. Per la Cgil, allontana il traguardo di chi lavora.
+[warm] Poco o tanto, un mese conta. [curious] E tu: a che età pensi di andarci?
 
 
 === VERSIONE 2: tag di tono in italiano ===
 
-[sorpreso] Sessantasette anni e un mese. Dal duemilaventisette, l'età della pensione di vecchiaia. … [curioso] Ma perché?
-[chiaro] Ogni due anni i requisiti seguono la speranza di vita a sessantacinque anni, misurata dall'Istat.
-[calmo] Per l'Inps, nel duemilaventotto si sale a sessantasette anni e tre mesi.
-[pensieroso] Per chi la difende, tiene in equilibrio i conti. Per i sindacati, allontana il traguardo.
-[caldo] Un mese sembra poco: è un mese di lavoro in più. [curioso] E tu: a che età pensi di andarci?
+[sorpreso] Un mese di lavoro in più. Per tutti. Dal duemilaventisette. … [curioso] Ma perché?
+[chiaro] Pensione di vecchiaia: sessantasette anni e un mese. La regola: se a sessantacinque anni si vive più a lungo, si va più tardi.
+[calmo] Nel duemilaventotto, sessantasette e tre mesi.
+[pensieroso] Per chi difende la regola, tiene in equilibrio i conti. Per la Cgil, allontana il traguardo di chi lavora.
+[caldo] Poco o tanto, un mese conta. [curioso] E tu: a che età pensi di andarci?
 
 (Se il modello legge ad alta voce i tag italiani, usa la versione 1 o la 3.)
 
@@ -25,17 +26,17 @@ TESTO PER ELEVENLABS · Il numero: 67 anni e 1 mese
 === VERSIONE 3: eleven_multilingual_v2, una scena alla volta (senza tag) ===
 (lingua italiano, similarity 0.8, speaker boost attivo, velocità 0,95-1,0)
 
-Scena 1 - hook (0-6 s) | stability 0.35 | style 0.45
-Sessantasette anni e un mese. Dal duemilaventisette, l'età della pensione di vecchiaia. … Ma perché?
+Scena 1 - hook (0-5 s) | stability 0.35 | style 0.45
+Un mese di lavoro in più. Per tutti. Dal duemilaventisette. … Ma perché?
 
-Scena 2 - la regola (6-12 s) | stability 0.6 | style 0.2
-Ogni due anni i requisiti seguono la speranza di vita a sessantacinque anni, misurata dall'Istat.
+Scena 2 - la regola (5-13 s) | stability 0.6 | style 0.2
+Pensione di vecchiaia: sessantasette anni e un mese. La regola: se a sessantacinque anni si vive più a lungo, si va più tardi.
 
-Scena 3 - 2028 (12-17 s) | stability 0.7 | style 0.1
-Per l'Inps, nel duemilaventotto si sale a sessantasette anni e tre mesi.
+Scena 3 - 2028 (13-15 s) | stability 0.7 | style 0.1
+Nel duemilaventotto, sessantasette e tre mesi.
 
-Scena 4 - due tesi (17-23 s) | stability 0.7 | style 0.1
-Per chi la difende, tiene in equilibrio i conti. Per i sindacati, allontana il traguardo.
+Scena 4 - due tesi (15-22 s) | stability 0.7 | style 0.1
+Per chi difende la regola, tiene in equilibrio i conti. Per la Cgil, allontana il traguardo di chi lavora.
 
-Scena 5 - chiusura (23-27 s) | stability 0.5 | style 0.3
-Un mese sembra poco: è un mese di lavoro in più. E tu: a che età pensi di andarci?
+Scena 5 - chiusura (22-27 s) | stability 0.5 | style 0.3
+Poco o tanto, un mese conta. E tu: a che età pensi di andarci?
