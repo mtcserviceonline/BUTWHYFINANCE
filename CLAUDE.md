@@ -11,3 +11,4 @@ Usala sempre quando si creano contenuti, grafiche o prompt per immagini del bran
 ## TikTok
 
 Stile e regole per i video e i caroselli TikTok in `brand/tiktok/stile-tiktok.md` (non riusare i reel di Instagram).
+Per rivedere uno script TikTok a più giri fino al post definitivo (4 agenti valutatori in `.claude/agents/bwf-*.md` + redattore) usa la skill `.claude/skills/rivedi-post-tiktok/` (`/rivedi-post-tiktok <cartella del post>`).
