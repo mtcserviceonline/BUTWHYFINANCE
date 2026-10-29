@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Cartella di destinazione · BWF analitiche</title>
+<style>
+  :root { --ink:#111418; --paper:#F4F1EA; --verde:#006B3C; --ambra:#E9A400; }
+  body { margin:0; background:var(--paper); color:var(--ink); font:15px/1.5 system-ui, sans-serif; }
+  header { background:var(--ink); color:var(--paper); padding:16px 24px; font-weight:700; font-size:18px; }
+  header span { color:var(--ambra); }
+  main { max-width:640px; margin:24px auto; padding:0 24px; }
+  fieldset { border:1px solid #cfc9bb; border-radius:10px; padding:16px; margin:0 0 20px; background:#fff; }
+  legend { font-weight:700; padding:0 6px; }
+  label { display:block; margin:8px 0; cursor:pointer; }
+  button { padding:10px 16px; font:700 14px system-ui; border:0; border-radius:8px; background:var(--verde); color:#fff; cursor:pointer; }
+  button.secondario { background:#fff; color:var(--verde); border:1px solid var(--verde); }
+  #cartella { margin:12px 0; font-weight:700; }
+  #esito { margin-top:10px; min-height:20px; }
+  .ok { color:var(--verde); } .err { color:#B8420F; }
+  small { color:#555; display:block; margin-top:8px; }
+</style>
+</head>
+<body>
+<header>But Why Finance · <span>dove salvare le analitiche</span></header>
+<main>
+  <fieldset>
+    <legend>Modalità</legend>
+    <label><input type="radio" name="modo" value="cartella"> Salva sempre nella cartella che scelgo qui sotto (nessuna finestra)</label>
+    <label><input type="radio" name="modo" value="chiedi"> Chiedimi ogni volta dove salvare (finestra "Salva con nome")</label>
+  </fieldset>
+  <fieldset>
+    <legend>Cartella fissa</legend>
+    <div id="cartella">Nessuna cartella scelta</div>
+    <button id="scegli">Scegli cartella…</button>
+    <button id="verifica" class="secondario">Verifica il permesso</button>
+    <div id="esito"></div>
+    <small>Per salvare direttamente nel repo, scegli ad esempio <b>brand/tiktok/metriche/grezzi</b>. Il browser non permette di scegliere direttamente Documenti, Download o Scrivania: scegli una cartella dentro. La prima volta di ogni sessione il browser può chiederti di confermare il permesso.</small>
+  </fieldset>
+</main>
+<script src="memoria.js"></script>
+<script src="opzioni.js"></script>
+</body>
+</html>

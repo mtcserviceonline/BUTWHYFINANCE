@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Salva analitiche · BWF</title>
+<style>
+  :root { --ink:#111418; --paper:#F4F1EA; --verde:#006B3C; --ambra:#E9A400; }
+  body { margin:0; background:var(--paper); color:var(--ink); font:15px/1.5 system-ui, sans-serif; }
+  header { background:var(--ink); color:var(--paper); padding:16px 24px; font-weight:700; font-size:18px; }
+  header span { color:var(--ambra); }
+  main { max-width:640px; margin:24px auto; padding:0 24px; }
+  button { padding:14px 20px; font:700 16px system-ui; border:0; border-radius:8px; background:var(--verde); color:#fff; cursor:pointer; }
+  #riepilogo, #esito { white-space:pre-line; margin:14px 0; }
+  .ok { color:var(--verde); font-weight:700; } .err { color:#B8420F; }
+</style>
+</head>
+<body>
+<header>But Why Finance · <span>salva le analitiche</span></header>
+<main>
+  <div id="riepilogo">Carico i dati…</div>
+  <button id="salva" hidden>Scegli dove salvare…</button>
+  <div id="esito"></div>
+</main>
+<script src="memoria.js"></script>
+<script src="salva.js"></script>

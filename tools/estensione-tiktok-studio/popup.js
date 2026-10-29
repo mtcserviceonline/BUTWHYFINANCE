@@ -1,4 +1,5 @@
 const stato = document.getElementById('stato');
+const dove = document.getElementById('dove');
 const bottone = document.getElementById('salva');
 const dire = (t, classe = '') => { stato.textContent = t; stato.className = classe; };
 
@@ -8,44 +9,61 @@ async function esporta(tabId) {
   return r.dati;
 }
 
-function riepilogo(d) {
-  const p = d.schede.panoramica || {};
-  const m = p.metriche ? Object.keys(p.metriche).length : 0;
-  const tr = p.fonti_traffico ? Object.keys(p.fonti_traffico).length : 0;
-  const s = d.schede.spettatori || {};
-  const eta = s.eta ? Object.keys(s.eta).length : 0;
-  return `Metriche lette: ${m} · fonti di traffico: ${tr} · fasce di età: ${eta}\n` +
-    `Risposte di rete salvate: ${d.risposte_rete.length} · curve numeriche trovate: ${d.indizi.curve_numeriche.length}`;
+async function mostraDestinazione() {
+  const modo = await bwfMemoria.modoEffettivo();
+  const cartella = await bwfMemoria.get('cartella');
+  dove.textContent = modo === 'cartella' ? `Salvo in: ${cartella.name} · ` : 'Ti chiedo dove salvare ogni volta · ';
+  const a = document.createElement('a');
+  a.textContent = modo === 'cartella' ? 'cambia cartella' : 'scegli una cartella fissa';
+  a.addEventListener('click', () => chrome.runtime.openOptionsPage());
+  dove.appendChild(a);
 }
 
-async function salvaFile(dati) {
-  const data = new Date();
-  const pad = (n) => String(n).padStart(2, '0');
-  const stampa = `${data.getFullYear()}${pad(data.getMonth() + 1)}${pad(data.getDate())}-${pad(data.getHours())}${pad(data.getMinutes())}`;
-  const nome = `BWF-metriche/tiktok-studio_${dati.video_id || 'post'}_${stampa}.json`;
-  const url = URL.createObjectURL(new Blob([JSON.stringify(dati, null, 2)], { type: 'application/json' }));
-  const id = await chrome.downloads.download({ url, filename: nome, saveAs: false, conflictAction: 'uniquify' });
-  setTimeout(() => URL.revokeObjectURL(url), 60000);
-  return { id, nome };
+// "Chiedi ogni volta": i dati passano alla scheda salva.html, dove la finestra "Salva con nome" resta aperta.
+async function chiediDove(dati, nome) {
+  await bwfMemoria.set('ultimo_export', { dati, nome });
+  await chrome.tabs.create({ url: chrome.runtime.getURL('salva.html') });
 }
 
 async function clic() {
   bottone.disabled = true;
-  dire('Leggo le tre schede… (qualche secondo, non cambiare pagina)');
   try {
     const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
     if (!tab || !/^https:\/\/www\.tiktok\.com\//.test(tab.url || '')) {
       throw new Error('Apri prima i dettagli di un post in TikTok Studio.');
     }
+    const modo = await bwfMemoria.modoEffettivo();
+    let cartella = null;
+    if (modo === 'cartella') {
+      cartella = await bwfMemoria.get('cartella');
+      // Subito, mentre vale il clic: dopo qualche secondo il browser non permette più di chiedere il permesso.
+      let ok = false;
+      try { ok = await bwfMemoria.permesso(cartella, true); } catch (_) {}
+      if (!ok) {
+        dire('Il browser non ha dato il permesso di scrivere nella cartella. Ti chiederò dove salvare questa volta.', 'err');
+        cartella = null;
+      }
+    }
+    dire('Leggo le tre schede… (qualche secondo, non cambiare pagina)');
     let dati;
     try { dati = await esporta(tab.id); }
     catch (e) { throw new Error('La pagina non risponde. Ricarica la pagina (F5) e riprova.\n(' + e.message + ')'); }
-    const file = await salvaFile(dati);
-    let testo = `Salvato: ${file.nome}\n${riepilogo(dati)}`;
+    const nome = bwfMemoria.nomeFile(dati);
+    let testo = bwfMemoria.riepilogo(dati);
     if (!dati.hook_attivo || dati.risposte_rete.length === 0) {
       testo += '\n\nNessuna risposta di rete registrata: ricarica la pagina del post (F5) e riclicca, così le registro dall\'inizio.';
     }
-    dire(testo, 'ok');
+    if (cartella) {
+      try {
+        await bwfMemoria.scrivi(cartella, nome, JSON.stringify(dati, null, 2));
+        dire(`Salvato: ${cartella.name}/${nome}\n${testo}`, 'ok');
+        return;
+      } catch (e) {
+        testo = `Non riesco a scrivere in "${cartella.name}" (${e.name}). Scegli dove salvare nella scheda che si apre.\n` + testo;
+      }
+    }
+    await chiediDove(dati, nome);
+    dire(`Letto.\n${testo}\n\nSi è aperta una scheda: scegli lì dove salvare il file.`, 'ok');
   } catch (e) {
     dire(e.message, 'err');
   } finally {
@@ -54,5 +72,6 @@ async function clic() {
 }
 
 bottone.addEventListener('click', clic);
-window.bwfEsporta = esporta;      // per i test
-window.bwfSalvaFile = salvaFile;  // per i test
+mostraDestinazione();
+window.bwfEsporta = esporta;        // per i test
+window.bwfChiediDove = chiediDove;  // per i test
