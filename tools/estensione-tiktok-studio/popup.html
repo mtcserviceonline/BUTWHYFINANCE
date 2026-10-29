@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Salva analitiche</title>
+<style>
+  :root { --ink:#111418; --paper:#F4F1EA; --verde:#006B3C; --ambra:#E9A400; }
+  body { margin:0; width:320px; font:14px/1.4 system-ui, sans-serif; background:var(--paper); color:var(--ink); }
+  header { background:var(--ink); color:var(--paper); padding:12px 14px; font-weight:700; }
+  header span { color:var(--ambra); }
+  main { padding:14px; }
+  button { width:100%; padding:12px; font:700 15px system-ui; border:0; border-radius:8px; background:var(--verde); color:#fff; cursor:pointer; }
+  button:disabled { opacity:.6; cursor:wait; }
+  #stato { margin-top:12px; font-size:13px; min-height:20px; white-space:pre-line; }
+  .ok { color:var(--verde); } .err { color:#B8420F; }
+  small { display:block; margin-top:10px; color:#555; }
+</style>
+</head>
+<body>
+<header>But Why Finance · <span>analitiche</span></header>
+<main>
+  <button id="salva">Salva dati di questo post</button>
+  <div id="stato"></div>
+  <small>Apri i dettagli di un post in TikTok Studio e clicca. Il file va in Download/BWF-metriche. Nessun dato viene inviato fuori dal browser.</small>
+</main>
+<script src="popup.js"></script>
+</body>
+</html>

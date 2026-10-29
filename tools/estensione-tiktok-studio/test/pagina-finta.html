@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8"><title>TikTok Studio (pagina finta per collaudo)</title>
+<style>body{font:14px sans-serif;margin:0} .tabs{display:flex;gap:24px;padding:12px 40px;border-bottom:1px solid #ddd;position:sticky;top:0;background:#fff}
+.tab{cursor:pointer;color:#888} .tab.on{color:#000;font-weight:700} .card{margin:16px;padding:16px;border:1px solid #ddd}
+.row{display:flex;justify-content:space-between} .c{display:inline-block;width:150px;text-align:center}</style></head>
+<body>
+<div class="tabs" role="tablist"><div class="tab on" role="tab">Panoramica</div><div class="tab" role="tab">Spettatori</div><div class="tab" role="tab">Coinvolgimento</div></div>
+<div id="contenuto"></div>
+<script>
+const riga = (a,b) => `<div class="row"><div>${a}</div><div>${b}</div></div>`;
+const viste = {
+ Panoramica: () => `
+  <div class="card"><div>Se ti bevi un caffè al bar ogni giorno, spendi circa 470 euro all'anno. Per Assou...</div><div>Pubblicato il giorno 28/10/2026</div>
+   <div><span class="c"><div>237</div></span><span class="c"><div>10</div></span><span class="c"><div>0</div></span><span class="c"><div>0</div></span><span class="c"><div>0</div></span></div></div>
+  <div class="card"><div class="c"><div>Visualizzazioni video</div><div>237</div></div><div class="c"><div>Tempo di riproduzione totale</div><div>0h:35m:45s</div></div>
+   <div class="c"><div>Tempo medio di visualizzazione</div><div>8.51s</div></div><div class="c"><div>Guarda il video completo</div><div>4.8%</div></div><div class="c"><div>Nuovi follower</div><div>3</div></div></div>
+  <div class="card"><div>Tasso di mantenimento</div><div>La maggior parte degli spettatori ha smesso di vedere il video in questo momento: 0:01. Riproduci il video qui sotto per vedere quando gli spettatori hanno perso interesse.</div></div>
+  <div class="card"><div>Fonti di traffico</div>${riga('Per te','94.8%')}${riga('Profilo personale','5.2%')}${riga('Seguiti','&lt;0.1%')}${riga('Cerca','&lt;0.1%')}</div>
+  <div class="card"><div>Termini di ricerca</div><div>I dati sui video sono in fase di elaborazione. Controlla più tardi.</div></div>`,
+ Spettatori: () => `
+  <div class="card"><div>Spettatori totali</div><div>I dati sui video sono in fase di elaborazione. Controlla più tardi.</div><div>--</div></div>
+  <div class="card"><div>Età</div>${riga('18-24','37%')}${riga('25-34','43%')}${riga('35-44','4%')}${riga('45-54','8%')}${riga('55+','8%')}</div>
+  <div class="card"><div>Sesso</div>${riga('Uomini','78%')}${riga('Donne','22%')}${riga('Altro','0%')}</div>
+  <div class="card"><div>Posizioni</div>${riga('Italia','96.4%')}${riga('Brasile','1.2%')}${riga('Germania','&lt;1%')}</div>`,
+ Coinvolgimento: () => `
+  <div class="card"><div>Mi piace</div><div>La maggior parte degli spettatori ha messo Mi piace al tuo video in questo momento: 0:02. Riproduci il video qui sotto per vedere quando è piaciuto.</div></div>
+  <div class="card"><div>Le parole più usate nei commenti</div><div>I dati sui video sono in fase di elaborazione. Controlla più tardi.</div></div>`
+};
+const api = { Panoramica: '/api/overview?msToken=SEGRETO&aid=1', Spettatori: '/api/audience?X-Bogus=ZZZ', Coinvolgimento: '/api/likes?device_id=123' };
+async function mostra(nome) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.toggle('on', t.textContent === nome));
+  document.getElementById('contenuto').innerHTML = '<div class="card">Caricamento…</div>';
+  const r = await fetch(api[nome]); await r.json();           // la pagina scarica i suoi dati con fetch
+  if (nome === 'Panoramica') { const x = new XMLHttpRequest(); x.open('GET','/api/hourly'); x.send(); await new Promise(ok => x.addEventListener('loadend', ok)); }
+  document.getElementById('contenuto').innerHTML = viste[nome]();
+}
+document.querySelectorAll('.tab').forEach(t => t.addEventListener('click', () => mostra(t.textContent)));
+mostra('Panoramica');
+</script></body></html>

@@ -14,4 +14,4 @@ Un file `.json` per video (nome: `AAAA-MM-tema-versione.json`), con le metriche 
 Rilevare a **2 h**, **24 h** e **7 giorni** dalla pubblicazione (le prime ore sono un campione piccolo). Un file per rilevazione nello stesso JSON, o un nuovo file con suffisso `-24h`.
 
 ## Come
-Per ora: allegare gli screenshot alla conversazione; vengono letti e trascritti nel JSON e nel registro "I nostri video" della guida. Un export automatico è in valutazione (vedi la guida).
+Con un clic, usando l'estensione `tools/estensione-tiktok-studio` (vedi il suo README): il file esportato va in `grezzi/` e viene trasformato nel JSON delle metriche e nel registro della guida. In alternativa: allegare gli screenshot alla conversazione.
