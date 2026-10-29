@@ -1,11 +1,11 @@
 TESTO PER ELEVENLABS · Il numero: 67 anni e 1 mese
 
-5 scene, 74 parole (a 165-175 parole/min ≈ ~25-27 s; 26,1 s a 170/min). Numeri in lettere; pausa «…» prima di «Ma perché?», voce che sale.
-Revisione: giro 1 (vedi ../revisione/r1-redattore.md).
+5 scene, 75 parole (a 165-175 parole/min ≈ 25,7-27,3 s; 26,5 s a 170/min, ~26,9 s con la pausa «…»). Numeri in lettere; pausa «…» prima di «Ma perché?», voce che sale.
+Revisione: giro 2 (vedi ../revisione/r2-redattore.md).
 
 === VERSIONE 1: eleven_v3, tag di tono in inglese (da incollare così) ===
 
-[surprised] Un mese di lavoro in più. Per tutti. Dal duemilaventisette. … [curious] Ma perché?
+[surprised] Un mese di lavoro in più. Per quasi tutti. Dal duemilaventisette. … [curious] Ma perché?
 [matter-of-fact] Pensione di vecchiaia: sessantasette anni e un mese. La regola: se a sessantacinque anni si vive più a lungo, si va più tardi.
 [calm] Nel duemilaventotto, sessantasette e tre mesi.
 [thoughtful] Per chi difende la regola, tiene in equilibrio i conti. Per la Cgil, allontana il traguardo di chi lavora.
@@ -14,7 +14,7 @@ Revisione: giro 1 (vedi ../revisione/r1-redattore.md).
 
 === VERSIONE 2: tag di tono in italiano ===
 
-[sorpreso] Un mese di lavoro in più. Per tutti. Dal duemilaventisette. … [curioso] Ma perché?
+[sorpreso] Un mese di lavoro in più. Per quasi tutti. Dal duemilaventisette. … [curioso] Ma perché?
 [chiaro] Pensione di vecchiaia: sessantasette anni e un mese. La regola: se a sessantacinque anni si vive più a lungo, si va più tardi.
 [calmo] Nel duemilaventotto, sessantasette e tre mesi.
 [pensieroso] Per chi difende la regola, tiene in equilibrio i conti. Per la Cgil, allontana il traguardo di chi lavora.
@@ -27,7 +27,7 @@ Revisione: giro 1 (vedi ../revisione/r1-redattore.md).
 (lingua italiano, similarity 0.8, speaker boost attivo, velocità 0,95-1,0)
 
 Scena 1 - hook (0-5 s) | stability 0.35 | style 0.45
-Un mese di lavoro in più. Per tutti. Dal duemilaventisette. … Ma perché?
+Un mese di lavoro in più. Per quasi tutti. Dal duemilaventisette. … Ma perché?
 
 Scena 2 - la regola (5-13 s) | stability 0.6 | style 0.2
 Pensione di vecchiaia: sessantasette anni e un mese. La regola: se a sessantacinque anni si vive più a lungo, si va più tardi.
