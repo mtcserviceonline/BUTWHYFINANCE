@@ -1,0 +1,23 @@
+{
+  "video": "Il prezzo di… un caffè, v2 (34 s, numero in voce a 0:00)",
+  "pubblicato": "2026-10-28",
+  "rilevazione": {"quando": "circa 27 h dopo la pubblicazione (2026-10-29)", "fonte": "TikTok Studio, dettagli del post (screenshot)"},
+  "contatori": {"visualizzazioni": 237, "mi_piace": 10, "commenti": 0, "condivisioni": 0, "salvataggi": 0},
+  "panoramica": {
+    "tempo_riproduzione_totale": "0h35m45s",
+    "tempo_medio_visualizzazione_s": 8.51,
+    "tempo_medio_su_durata_%": 25,
+    "guarda_video_completo_%": 4.8,
+    "nuovi_follower": 3,
+    "visualizzazioni_per_ora_lettura_grafico": {"1h": 94, "2h": 32, "3h": 73, "4h": 38, "5h": 2, "da_6h_a_27h": "circa 0-3 all'ora"}
+  },
+  "retention": {"picco_abbandono_s": 1, "note": "Curva: calo subito dopo 0:00, poi lento fino a 0:33. Valori esatti non disponibili (serve il tooltip a 0:01, 0:02, 0:03, 0:05, 0:10, 0:20)."},
+  "fonti_traffico_%": {"Per te": 94.8, "Profilo personale": 5.2, "altre": "<0,1% ciascuna"},
+  "spettatori": {
+    "sesso_%": {"uomini": 78, "donne": 22, "altro": 0},
+    "eta_%": {"18-24": 37, "25-34": 43, "35-44": 4, "45-54": 8, "55+": 8},
+    "posizioni_%": {"Italia": 96.4, "Brasile": 1.2, "altri": "<1% ciascuno (Germania, Svizzera, Spagna, Regno Unito, Filippine)"},
+    "tipi_spettatori": "in elaborazione"
+  },
+  "coinvolgimento": {"mi_piace_picco_s": 2, "picchi_lettura_grafico": "circa 0:02, 0:06, 0:08, 0:11 e 0:28", "parole_nei_commenti": "in elaborazione"}
+}
