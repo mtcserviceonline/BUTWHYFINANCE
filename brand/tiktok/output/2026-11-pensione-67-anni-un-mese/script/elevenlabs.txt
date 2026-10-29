@@ -1,7 +1,7 @@
 TESTO PER ELEVENLABS · Il numero: 67 anni e 1 mese
 
 5 scene, 75 parole (a 165-175 parole/min ≈ 25,7-27,3 s; 26,5 s a 170/min, ~26,9 s con la pausa «…»). Numeri in lettere; pausa «…» prima di «Ma perché?», voce che sale.
-Revisione: giro 2 (vedi ../revisione/r2-redattore.md).
+Revisione: giro 3 (vedi ../revisione/r3-redattore.md). Voce invariata dal giro 2.
 
 === VERSIONE 1: eleven_v3, tag di tono in inglese (da incollare così) ===
 
