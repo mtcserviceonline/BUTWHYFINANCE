@@ -1,0 +1,1107 @@
+{
+ "durata": 26.6,
+ "fps": 30,
+ "inquadrature": [
+  {
+   "n": 1,
+   "img": "01",
+   "inizio": 0.0,
+   "fine": 4.333,
+   "durata": 4.333,
+   "vista": [
+    560,
+    880,
+    0.92
+   ],
+   "moto": "in",
+   "titolo": "hook",
+   "transizione": null
+  },
+  {
+   "n": 2,
+   "img": "01",
+   "inizio": 4.333,
+   "fine": 5.129,
+   "durata": 0.796,
+   "vista": [
+    500,
+    960,
+    1.1
+   ],
+   "moto": "in",
+   "titolo": "perche",
+   "transizione": null
+  },
+  {
+   "n": 3,
+   "img": "02",
+   "inizio": 5.129,
+   "fine": 7.682,
+   "durata": 2.553,
+   "vista": [
+    540,
+    900,
+    1.0
+   ],
+   "moto": "in",
+   "titolo": "vecchiaia",
+   "transizione": "tenda"
+  },
+  {
+   "n": 4,
+   "img": "02",
+   "inizio": 7.682,
+   "fine": 9.561,
+   "durata": 1.879,
+   "vista": [
+    495,
+    1150,
+    1.1
+   ],
+   "moto": "in",
+   "titolo": "vecchiaia",
+   "transizione": null
+  },
+  {
+   "n": 5,
+   "img": "02",
+   "inizio": 9.561,
+   "fine": 11.831,
+   "durata": 2.27,
+   "vista": [
+    520,
+    950,
+    1.1
+   ],
+   "moto": "in",
+   "titolo": "regola",
+   "transizione": null
+  },
+  {
+   "n": 6,
+   "img": "02",
+   "inizio": 11.831,
+   "fine": 12.817,
+   "durata": 0.986,
+   "vista": [
+    560,
+    1000,
+    1.04
+   ],
+   "moto": "in",
+   "titolo": "tardi",
+   "transizione": null
+  },
+  {
+   "n": 7,
+   "img": "03",
+   "inizio": 12.817,
+   "fine": 13.782,
+   "durata": 0.965,
+   "vista": [
+    540,
+    1060,
+    0.85
+   ],
+   "moto": "in",
+   "titolo": "2028",
+   "transizione": null
+  },
+  {
+   "n": 8,
+   "img": "03",
+   "inizio": 13.782,
+   "fine": 14.938,
+   "durata": 1.156,
+   "vista": [
+    590,
+    1000,
+    1.05
+   ],
+   "moto": "in",
+   "titolo": "2028",
+   "transizione": null
+  },
+  {
+   "n": 9,
+   "img": "03",
+   "inizio": 14.938,
+   "fine": 15.896,
+   "durata": 0.958,
+   "vista": [
+    520,
+    1060,
+    0.92
+   ],
+   "moto": "in",
+   "titolo": "2028",
+   "transizione": null
+  },
+  {
+   "n": 10,
+   "img": "04",
+   "inizio": 15.896,
+   "fine": 17.207,
+   "durata": 1.311,
+   "vista": [
+    540,
+    900,
+    1.0
+   ],
+   "moto": "in",
+   "titolo": "difende",
+   "transizione": null
+  },
+  {
+   "n": 11,
+   "img": "04",
+   "inizio": 17.207,
+   "fine": 19.235,
+   "durata": 2.028,
+   "vista": [
+    380,
+    900,
+    1.1
+   ],
+   "moto": "in",
+   "titolo": "difende",
+   "transizione": null
+  },
+  {
+   "n": 12,
+   "img": "04",
+   "inizio": 19.235,
+   "fine": 21.855,
+   "durata": 2.62,
+   "vista": [
+    720,
+    900,
+    1.1
+   ],
+   "moto": "in",
+   "titolo": "cgil",
+   "transizione": null
+  },
+  {
+   "n": 13,
+   "img": "05",
+   "inizio": 21.855,
+   "fine": 24.108,
+   "durata": 2.253,
+   "vista": [
+    540,
+    860,
+    0.92
+   ],
+   "moto": "in",
+   "titolo": "fine",
+   "transizione": null
+  },
+  {
+   "n": 14,
+   "img": "05",
+   "inizio": 24.108,
+   "fine": 26.15,
+   "durata": 2.042,
+   "vista": [
+    480,
+    900,
+    1.08
+   ],
+   "moto": "in",
+   "titolo": "domanda",
+   "transizione": null
+  },
+  {
+   "n": 15,
+   "img": "01",
+   "inizio": 26.15,
+   "fine": 26.6,
+   "durata": 0.45,
+   "vista": [
+    560,
+    880,
+    0.92
+   ],
+   "moto": "fermo",
+   "titolo": "loop",
+   "transizione": null
+  }
+ ],
+ "titoli": [
+  {
+   "titolo": "hook",
+   "riga": 1,
+   "da": 0.0,
+   "a": 3.087
+  },
+  {
+   "titolo": "hook",
+   "riga": 2,
+   "da": 3.087,
+   "a": null
+  },
+  {
+   "titolo": "hook",
+   "riga": 3,
+   "da": 0.0,
+   "a": null
+  },
+  {
+   "titolo": "hook",
+   "riga": 4,
+   "da": 0.78,
+   "a": 2.215
+  },
+  {
+   "titolo": "hook",
+   "riga": 5,
+   "da": 2.215,
+   "a": null
+  },
+  {
+   "titolo": "hook",
+   "riga": 6,
+   "da": 2.959,
+   "a": null
+  },
+  {
+   "titolo": "perche",
+   "riga": 1,
+   "da": 4.333,
+   "a": null
+  },
+  {
+   "titolo": "perche",
+   "riga": 2,
+   "da": 4.333,
+   "a": null
+  },
+  {
+   "titolo": "vecchiaia",
+   "riga": 1,
+   "da": 5.129,
+   "a": null
+  },
+  {
+   "titolo": "vecchiaia",
+   "riga": 2,
+   "da": 6.371,
+   "a": null
+  },
+  {
+   "titolo": "vecchiaia",
+   "riga": 3,
+   "da": 8.506,
+   "a": null
+  },
+  {
+   "titolo": "regola",
+   "riga": 1,
+   "da": 9.561,
+   "a": null
+  },
+  {
+   "titolo": "regola",
+   "riga": 2,
+   "da": 10.901,
+   "a": null
+  },
+  {
+   "titolo": "tardi",
+   "riga": 1,
+   "da": 11.831,
+   "a": null
+  },
+  {
+   "titolo": "2028",
+   "riga": 1,
+   "da": 12.817,
+   "a": null
+  },
+  {
+   "titolo": "2028",
+   "riga": 2,
+   "da": 12.817,
+   "a": null
+  },
+  {
+   "titolo": "2028",
+   "riga": 3,
+   "da": 13.812,
+   "a": null
+  },
+  {
+   "titolo": "difende",
+   "riga": 1,
+   "da": 16.235,
+   "a": null
+  },
+  {
+   "titolo": "difende",
+   "riga": 2,
+   "da": 17.606,
+   "a": null
+  },
+  {
+   "titolo": "cgil",
+   "riga": 1,
+   "da": 19.235,
+   "a": null
+  },
+  {
+   "titolo": "cgil",
+   "riga": 2,
+   "da": 20.604,
+   "a": null
+  },
+  {
+   "titolo": "fine",
+   "riga": 1,
+   "da": 21.855,
+   "a": null
+  },
+  {
+   "titolo": "fine",
+   "riga": 2,
+   "da": 23.135,
+   "a": null
+  },
+  {
+   "titolo": "domanda",
+   "riga": 1,
+   "da": 24.108,
+   "a": null
+  },
+  {
+   "titolo": "loop",
+   "riga": 1,
+   "da": 26.15,
+   "a": null
+  },
+  {
+   "titolo": "loop",
+   "riga": 2,
+   "da": 26.15,
+   "a": null
+  }
+ ],
+ "scritte": [],
+ "sottotitoli": [
+  {
+   "testo": "UN *MESE* DI LAVORO",
+   "parlato": "Un mese di lavoro",
+   "da": 0.0,
+   "a": 1.155,
+   "parole": [
+    0.0,
+    0.29,
+    0.675,
+    0.78
+   ]
+  },
+  {
+   "testo": "IN PIÙ.",
+   "parlato": "in più.",
+   "da": 1.155,
+   "a": 1.83,
+   "parole": [
+    1.155,
+    1.3
+   ]
+  },
+  {
+   "testo": "PER *QUASI* TUTTI.",
+   "parlato": "Per quasi tutti.",
+   "da": 1.83,
+   "a": 2.959,
+   "parole": [
+    1.83,
+    1.92,
+    2.215
+   ]
+  },
+  {
+   "testo": "DAL *2027*.",
+   "parlato": "Dal duemilaventisette.",
+   "da": 2.959,
+   "a": 4.413,
+   "parole": [
+    2.959,
+    3.087
+   ]
+  },
+  {
+   "testo": "MA *PERCHÉ?*",
+   "parlato": "Ma perché?",
+   "da": 4.413,
+   "a": 5.209,
+   "parole": [
+    4.413,
+    4.5
+   ]
+  },
+  {
+   "testo": "PENSIONE",
+   "parlato": "Pensione",
+   "da": 5.209,
+   "a": 5.655,
+   "parole": [
+    5.209
+   ]
+  },
+  {
+   "testo": "DI VECCHIAIA:",
+   "parlato": "di vecchiaia:",
+   "da": 5.655,
+   "a": 6.371,
+   "parole": [
+    5.655,
+    5.752
+   ]
+  },
+  {
+   "testo": "*67* ANNI",
+   "parlato": "sessantasette anni",
+   "da": 6.371,
+   "a": 7.269,
+   "parole": [
+    6.371,
+    6.97
+   ]
+  },
+  {
+   "testo": "E UN MESE.",
+   "parlato": "e un mese.",
+   "da": 7.269,
+   "a": 8.506,
+   "parole": [
+    7.269,
+    7.462,
+    7.712
+   ]
+  },
+  {
+   "testo": "LA *REGOLA*:",
+   "parlato": "La regola:",
+   "da": 8.506,
+   "a": 9.307,
+   "parole": [
+    8.506,
+    8.565
+   ]
+  },
+  {
+   "testo": "SE A *65* ANNI",
+   "parlato": "se a sessantacinque anni",
+   "da": 9.307,
+   "a": 10.785,
+   "parole": [
+    9.307,
+    9.455,
+    9.591,
+    10.44
+   ]
+  },
+  {
+   "testo": "SI VIVE PIÙ",
+   "parlato": "si vive più",
+   "da": 10.785,
+   "a": 11.379,
+   "parole": [
+    10.785,
+    10.901,
+    11.213
+   ]
+  },
+  {
+   "testo": "A LUNGO,",
+   "parlato": "a lungo,",
+   "da": 11.379,
+   "a": 11.861,
+   "parole": [
+    11.379,
+    11.58
+   ]
+  },
+  {
+   "testo": "SI VA *PIÙ TARDI*.",
+   "parlato": "si va più tardi.",
+   "da": 11.861,
+   "a": 12.897,
+   "parole": [
+    11.861,
+    11.995,
+    12.134,
+    12.254
+   ]
+  },
+  {
+   "testo": "NEL *2028*,",
+   "parlato": "Nel duemilaventotto,",
+   "da": 12.897,
+   "a": 13.812,
+   "parole": [
+    12.897,
+    12.991
+   ]
+  },
+  {
+   "testo": "*67* E TRE MESI.",
+   "parlato": "sessantasette e tre mesi.",
+   "da": 13.812,
+   "a": 15.976,
+   "parole": [
+    13.812,
+    14.845,
+    14.968,
+    15.09
+   ]
+  },
+  {
+   "testo": "PER CHI DIFENDE LA REGOLA,",
+   "parlato": "Per chi difende la regola,",
+   "da": 15.976,
+   "a": 17.287,
+   "parole": [
+    15.976,
+    16.122,
+    16.235,
+    16.565,
+    16.705
+   ]
+  },
+  {
+   "testo": "TIENE IN *EQUILIBRIO* I CONTI.",
+   "parlato": "tiene in equilibrio i conti.",
+   "da": 17.287,
+   "a": 18.794,
+   "parole": [
+    17.287,
+    17.481,
+    17.606,
+    17.993,
+    18.139
+   ]
+  },
+  {
+   "testo": "PER LA *CGIL*,",
+   "parlato": "Per la Cgil,",
+   "da": 18.794,
+   "a": 19.915,
+   "parole": [
+    18.794,
+    19.005,
+    19.265
+   ]
+  },
+  {
+   "testo": "ALLONTANA IL *TRAGUARDO*",
+   "parlato": "allontana il traguardo",
+   "da": 19.915,
+   "a": 21.006,
+   "parole": [
+    19.915,
+    20.438,
+    20.604
+   ]
+  },
+  {
+   "testo": "DI CHI LAVORA.",
+   "parlato": "di chi lavora.",
+   "da": 21.006,
+   "a": 21.935,
+   "parole": [
+    21.006,
+    21.115,
+    21.223
+   ]
+  },
+  {
+   "testo": "POCO O TANTO,",
+   "parlato": "Poco o tanto,",
+   "da": 21.935,
+   "a": 22.955,
+   "parole": [
+    21.935,
+    22.268,
+    22.427
+   ]
+  },
+  {
+   "testo": "UN *MESE* CONTA.",
+   "parlato": "un mese conta.",
+   "da": 22.955,
+   "a": 24.188,
+   "parole": [
+    22.955,
+    23.135,
+    23.406
+   ]
+  },
+  {
+   "testo": "E TU: A CHE ETÀ",
+   "parlato": "E tu: a che età",
+   "da": 24.188,
+   "a": 25.358,
+   "parole": [
+    24.188,
+    24.357,
+    24.88,
+    25.013,
+    25.126
+   ]
+  },
+  {
+   "testo": "PENSI DI *ANDARCI?*",
+   "parlato": "pensi di andarci?",
+   "da": 25.358,
+   "a": 26.6,
+   "parole": [
+    25.358,
+    25.575,
+    25.68
+   ]
+  }
+ ],
+ "effetti": [
+  {
+   "effetto": "colpo",
+   "parola": null,
+   "t": 0.0,
+   "livello_db_picco_voce": -12
+  },
+  {
+   "effetto": "tick",
+   "parola": "sessantasette",
+   "t": 6.371,
+   "livello_db_picco_voce": -22
+  },
+  {
+   "effetto": "tick",
+   "parola": "sessantasette#2",
+   "t": 13.812,
+   "livello_db_picco_voce": -22
+  }
+ ],
+ "controlli": {
+  "errori": [],
+  "avvisi": [],
+  "cambio_visivo_max_s": 1.63,
+  "fine_dopo_ultima_parola_s": 0.45,
+  "loop": {
+   "centro_titolo_apertura": [
+    505,
+    262
+   ],
+   "centro_titolo_loop": [
+    505,
+    262
+   ],
+   "baseline_uguale": 0
+  },
+  "inquadrature": [
+   {
+    "n": 1,
+    "img": "01",
+    "zoom_max_effettivo": 1.072,
+    "occhiali": [
+     200,
+     914,
+     411,
+     1015
+    ]
+   },
+   {
+    "n": 2,
+    "img": "01",
+    "zoom_max_effettivo": 1.144,
+    "occhiali": [
+     199,
+     817,
+     452,
+     938
+    ]
+   },
+   {
+    "n": 3,
+    "img": "02",
+    "zoom_max_effettivo": 1.04,
+    "occhiali": [
+     100,
+     1115,
+     340,
+     1200
+    ]
+   },
+   {
+    "n": 4,
+    "img": "02",
+    "zoom_max_effettivo": 1.144,
+    "occhiali": [
+     105,
+     856,
+     370,
+     949
+    ]
+   },
+   {
+    "n": 5,
+    "img": "02",
+    "zoom_max_effettivo": 1.144,
+    "occhiali": [
+     78,
+     1076,
+     342,
+     1169
+    ]
+   },
+   {
+    "n": 6,
+    "img": "02",
+    "zoom_max_effettivo": 1.082,
+    "occhiali": [
+     62,
+     1017,
+     311,
+     1106
+    ]
+   },
+   {
+    "n": 7,
+    "img": "03",
+    "zoom_max_effettivo": 0.884,
+    "occhiali": [
+     285,
+     654,
+     472,
+     782
+    ]
+   },
+   {
+    "n": 8,
+    "img": "03",
+    "zoom_max_effettivo": 1.092,
+    "occhiali": [
+     172,
+     645,
+     404,
+     802
+    ]
+   },
+   {
+    "n": 9,
+    "img": "03",
+    "zoom_max_effettivo": 0.957,
+    "occhiali": [
+     282,
+     629,
+     485,
+     767
+    ]
+   },
+   {
+    "n": 10,
+    "img": "04",
+    "zoom_max_effettivo": 1.04,
+    "occhiali": [
+     420,
+     720,
+     620,
+     830
+    ]
+   },
+   {
+    "n": 11,
+    "img": "04",
+    "zoom_max_effettivo": 1.144,
+    "occhiali": [
+     584,
+     696,
+     804,
+     817
+    ]
+   },
+   {
+    "n": 12,
+    "img": "04",
+    "zoom_max_effettivo": 1.144,
+    "occhiali": [
+     210,
+     696,
+     430,
+     817
+    ]
+   },
+   {
+    "n": 13,
+    "img": "05",
+    "zoom_max_effettivo": 0.957,
+    "occhiali": [
+     305,
+     693,
+     595,
+     840
+    ]
+   },
+   {
+    "n": 14,
+    "img": "05",
+    "zoom_max_effettivo": 1.123,
+    "occhiali": [
+     329,
+     604,
+     670,
+     776
+    ]
+   },
+   {
+    "n": 15,
+    "img": "01",
+    "zoom_max_effettivo": 0.92,
+    "occhiali": [
+     200,
+     914,
+     411,
+     1015
+    ]
+   }
+  ]
+ },
+ "voce": {
+  "file": "voce.mp3",
+  "ritmo": {
+   "durata_originale": 27.246,
+   "durata_finale": 26.313,
+   "parole": 75,
+   "wpm_originale": 166.5,
+   "wpm_dopo_pause": 172.1,
+   "velocita": 1.0,
+   "wpm_finale": 172.1,
+   "filtro": "anull",
+   "tagli": [
+    [
+     1.68,
+     1.846
+    ],
+    [
+     4.399,
+     4.493
+    ],
+    [
+     5.319,
+     5.484
+    ],
+    [
+     8.781,
+     8.885
+    ],
+    [
+     16.355,
+     16.533
+    ],
+    [
+     22.492,
+     22.658
+    ]
+   ],
+   "modifiche": [
+    "pausa 1.53-2.00 (0.47 s) -> 0.30 s  prima di \"Per quasi tutti.\"",
+    "pausa 4.22-4.67 (0.45 s) -> 0.36 s  prima di \"Ma perché?\"",
+    "pausa 5.17-5.63 (0.47 s) -> 0.30 s  prima di \"Pensione di vecchiaia:\"",
+    "pausa 8.63-9.04 (0.40 s) -> 0.30 s  prima di \"La regola:\"",
+    "pausa 16.20-16.68 (0.48 s) -> 0.30 s  prima di \"Per chi difende la regola,\"",
+    "pausa 22.34-22.81 (0.47 s) -> 0.30 s  prima di \"Poco o tanto,\""
+   ]
+  },
+  "frasi_originali": [
+   {
+    "text": "Un mese di lavoro in più.",
+    "start": 0.0,
+    "end": 1.53
+   },
+   {
+    "text": "Per quasi tutti.",
+    "start": 1.996,
+    "end": 2.763
+   },
+   {
+    "text": "Dal duemilaventisette.",
+    "start": 3.125,
+    "end": 4.219
+   },
+   {
+    "text": "Ma perché?",
+    "start": 4.673,
+    "end": 5.169
+   },
+   {
+    "text": "Pensione di vecchiaia:",
+    "start": 5.634,
+    "end": 6.659
+   },
+   {
+    "text": "sessantasette anni e un mese.",
+    "start": 6.796,
+    "end": 8.631
+   },
+   {
+    "text": "La regola:",
+    "start": 9.035,
+    "end": 9.564
+   },
+   {
+    "text": "se a sessantacinque anni si vive più a lungo, si va più tardi.",
+    "start": 9.836,
+    "end": 13.029
+   },
+   {
+    "text": "Nel duemilaventotto, sessantasette",
+    "start": 13.426,
+    "end": 15.249
+   },
+   {
+    "text": "e tre mesi.",
+    "start": 15.374,
+    "end": 16.205
+   },
+   {
+    "text": "Per chi difende la regola,",
+    "start": 16.683,
+    "end": 17.851
+   },
+   {
+    "text": "tiene in equilibrio i conti.",
+    "start": 17.994,
+    "end": 19.196
+   },
+   {
+    "text": "Per la Cgil,",
+    "start": 19.501,
+    "end": 20.456
+   },
+   {
+    "text": "allontana il traguardo di chi lavora.",
+    "start": 20.622,
+    "end": 22.342
+   },
+   {
+    "text": "Poco o tanto,",
+    "start": 22.808,
+    "end": 23.641
+   },
+   {
+    "text": "un mese conta.",
+    "start": 23.828,
+    "end": 24.667
+   },
+   {
+    "text": "E tu:",
+    "start": 25.061,
+    "end": 25.399
+   },
+   {
+    "text": "a che età pensi di andarci?",
+    "start": 25.753,
+    "end": 27.023
+   }
+  ],
+  "frasi": [
+   {
+    "text": "Un mese di lavoro in più.",
+    "start": 0.0,
+    "end": 1.53
+   },
+   {
+    "text": "Per quasi tutti.",
+    "start": 1.83,
+    "end": 2.597
+   },
+   {
+    "text": "Dal duemilaventisette.",
+    "start": 2.959,
+    "end": 4.053
+   },
+   {
+    "text": "Ma perché?",
+    "start": 4.413,
+    "end": 4.909
+   },
+   {
+    "text": "Pensione di vecchiaia:",
+    "start": 5.209,
+    "end": 6.234
+   },
+   {
+    "text": "sessantasette anni e un mese.",
+    "start": 6.371,
+    "end": 8.206
+   },
+   {
+    "text": "La regola:",
+    "start": 8.506,
+    "end": 9.035
+   },
+   {
+    "text": "se a sessantacinque anni si vive più a lungo, si va più tardi.",
+    "start": 9.307,
+    "end": 12.5
+   },
+   {
+    "text": "Nel duemilaventotto, sessantasette",
+    "start": 12.897,
+    "end": 14.72
+   },
+   {
+    "text": "e tre mesi.",
+    "start": 14.845,
+    "end": 15.676
+   },
+   {
+    "text": "Per chi difende la regola,",
+    "start": 15.976,
+    "end": 17.144
+   },
+   {
+    "text": "tiene in equilibrio i conti.",
+    "start": 17.287,
+    "end": 18.489
+   },
+   {
+    "text": "Per la Cgil,",
+    "start": 18.794,
+    "end": 19.749
+   },
+   {
+    "text": "allontana il traguardo di chi lavora.",
+    "start": 19.915,
+    "end": 21.635
+   },
+   {
+    "text": "Poco o tanto,",
+    "start": 21.935,
+    "end": 22.768
+   },
+   {
+    "text": "un mese conta.",
+    "start": 22.955,
+    "end": 23.794
+   },
+   {
+    "text": "E tu:",
+    "start": 24.188,
+    "end": 24.526
+   },
+   {
+    "text": "a che età pensi di andarci?",
+    "start": 24.88,
+    "end": 26.15
+   }
+  ]
+ },
+ "audio": {
+  "lufs_integrati": -14.5,
+  "true_peak_dbfs": -1.9,
+  "musica": null
+ }
+}

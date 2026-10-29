@@ -1,0 +1,35 @@
+{
+ "accento": "blu",
+ "immagini": [
+  {
+   "id": "01",
+   "orso": true,
+   "fondo": "inchiostro",
+   "scena": "The bear, full body, SMALLER, about 35% of the image height, standing slightly left of center; his head starts at about 40% of the image height and his feet end at about 76% of the image height, with a wide empty dark area below his feet down to the bottom edge. He looks SURPRISED: mouth open in a small round 'o' shape, eyebrows raised above the sunglasses, both paws open and raised slightly in astonishment, beside his shoulders, the chest and the big yellow euro symbol completely uncovered. Right next to him, standing on the same floor level, ONE big classic hourglass about as tall as the bear, with a light grey wooden frame and plain {ACCENTO} sand flowing from the top bulb to the bottom bulb. Further back, between the bear and the hourglass but slightly higher and fully visible (not hidden behind the hourglass), ONE empty light grey wooden rocking chair, medium-sized (about half the bear's height), seen from the side, well away from the bear's head and sunglasses, and well away from the right edge (it ends before 85% of the image width). The whole upper part of the image above the bear's head is completely empty dark background (space for titles). Nothing below 80% of the image height. No text, no numbers, no marks on the hourglass."
+  },
+  {
+   "id": "02",
+   "orso": true,
+   "fondo": "carta",
+   "scena": "The whole scene sits between 25% and 80% of the image height; the bottom 20% of the image is completely empty paper background with no floor line. A smooth, gently rising hill, plain very light beige (#E6DCC8) with a thick black outline, no grass, no trees, no flowers, nothing green. A light grey path (#C8C8C8) climbs gently along the hill from the lower left to the top on the right. On the path, halfway up, ONE small full-body {SAGOMA} walking uphill. On the top of the hill, ending well before the right edge (before 85% of the image width), ONE empty light grey rocking chair with a plain {ACCENTO} cushion. On the lower left, standing ON the foot of the hill (his feet at about 75% of the image height, not lower), the bear, full body, small, about 28% of the image height, explaining: one index finger raised up ('I have an idea' pose), open smiling mouth, the raised arm to the side so the chest and the big yellow euro symbol stay completely uncovered. No chart, no axis, no signpost, no milestones, no numbers, no writing anywhere."
+  },
+  {
+   "id": "03",
+   "orso": true,
+   "fondo": "carta",
+   "scena": "Nessuna scritta: absolutely no text. The whole scene sits between 20% and 78% of the image height and ends before 85% of the image width; the bottom 22% is empty paper. A simple small staircase of exactly TWO plain light grey steps (#B8B8B8) with thick black outlines, in the center-right: the first step low, the second step a bit higher. ONE plain solid {ACCENTO} arrow starts low above the first step and curves UPWARD, pointing UP to the top of the higher step (the arrowhead points up and to the right, never down), with no marks, no symbols, no numbers. On the left, at the foot of the stairs, the bear, full body, SMALL, about 33% of the image height, THOUGHTFUL: one paw on his chin, mouth twisted to one side, one eyebrow raised, head turned up looking at the higher step; the arm on the chin stays at the side of the face so the chest and the big yellow euro symbol are completely uncovered. The steps are completely blank: no numbers, no notches, no lines, no markings, no letters on the steps."
+  },
+  {
+   "id": "04",
+   "orso": true,
+   "fondo": "carta",
+   "scena": "Nessuna scritta: absolutely no text. A simple long light grey table (#C8C8C8) across the middle of the image. On the left side of the table, ONE full-body {SAGOMA} holding in both hands a plain grey piggy bank with ONE smooth plain {ACCENTO} coin going into its slot (a smooth disc with no numbers, no symbols, no engraving). On the right side of the table, ONE full-body {SAGOMA} holding a plain grey toolbox by its handle. Behind the center of the table, the bear, from the waist up behind the table, THOUGHTFUL: one paw on his chin, mouth twisted to one side, one eyebrow raised; the paw stays at the side of the chin so the chest and the big yellow euro symbol are completely uncovered and clearly visible above the table. No red or pink objects. No text, no numbers, no letters, no marks on any object."
+  },
+  {
+   "id": "05",
+   "orso": true,
+   "fondo": "inchiostro",
+   "scena": "The bear, full body, SMALLER, about 38% of the image height, slightly left of center; his head starts at about 35% of the image height and his feet end at about 76% of the image height, with empty dark background below his feet. He is WINKING like the winking face in the second reference image, with a friendly smile. With one arm lowered to his side he holds, at HIP height next to his leg, away from his chest and face, ONE classic hourglass with a light grey wooden frame and plain {ACCENTO} sand; the hourglass ends well before the right edge (before 80% of the image width). The chest and the big yellow euro symbol are completely uncovered and the sunglasses are fully visible. Empty dark space above and to the right of his head (space for a speech bubble added later). No text, no marks on the hourglass."
+  }
+ ]
+}
