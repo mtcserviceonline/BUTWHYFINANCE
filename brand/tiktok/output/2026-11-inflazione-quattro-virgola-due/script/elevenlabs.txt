@@ -1,0 +1,41 @@
+TESTO PER ELEVENLABS · Dietro la notizia: inflazione al 4,2%
+
+5 scene, 74 parole (a 165-175 parole/min ≈ ~25-27 s). Numeri in lettere; pausa «…» prima di «Ma perché?», voce che sale.
+
+=== VERSIONE 1: eleven_v3, tag di tono in inglese (da incollare così) ===
+
+[surprised] Quattro virgola due per cento. È l'inflazione di settembre secondo l'Istat. … [curious] Ma perché?
+[matter-of-fact] Il grosso è l'energia: tariffe regolamentate su di quasi il ventisei per cento in un anno.
+[curious] Il carrello della spesa invece sale meno: uno virgola cinque per cento.
+[thoughtful] E senza energia e alimentari freschi, l'inflazione di fondo è all'uno virgola sei.
+[warm] I prezzi non corrono tutti uguali. Corre soprattutto quello che scalda la casa. [curious] E tu: dove lo senti di più?
+
+
+=== VERSIONE 2: tag di tono in italiano ===
+
+[sorpreso] Quattro virgola due per cento. È l'inflazione di settembre secondo l'Istat. … [curioso] Ma perché?
+[chiaro] Il grosso è l'energia: tariffe regolamentate su di quasi il ventisei per cento in un anno.
+[curioso] Il carrello della spesa invece sale meno: uno virgola cinque per cento.
+[pensieroso] E senza energia e alimentari freschi, l'inflazione di fondo è all'uno virgola sei.
+[caldo] I prezzi non corrono tutti uguali. Corre soprattutto quello che scalda la casa. [curioso] E tu: dove lo senti di più?
+
+(Se il modello legge ad alta voce i tag italiani, usa la versione 1 o la 3.)
+
+
+=== VERSIONE 3: eleven_multilingual_v2, una scena alla volta (senza tag) ===
+(lingua italiano, similarity 0.8, speaker boost attivo, velocità 0,95-1,0)
+
+Scena 1 - hook (0-5 s) | stability 0.35 | style 0.45
+Quattro virgola due per cento. È l'inflazione di settembre secondo l'Istat. … Ma perché?
+
+Scena 2 - energia (5-11 s) | stability 0.6 | style 0.2
+Il grosso è l'energia: tariffe regolamentate su di quasi il ventisei per cento in un anno.
+
+Scena 3 - carrello (11-15 s) | stability 0.5 | style 0.3
+Il carrello della spesa invece sale meno: uno virgola cinque per cento.
+
+Scena 4 - di fondo (15-20 s) | stability 0.7 | style 0.1
+E senza energia e alimentari freschi, l'inflazione di fondo è all'uno virgola sei.
+
+Scena 5 - chiusura (20-27 s) | stability 0.5 | style 0.3
+I prezzi non corrono tutti uguali. Corre soprattutto quello che scalda la casa. E tu: dove lo senti di più?

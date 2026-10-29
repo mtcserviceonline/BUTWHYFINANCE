@@ -1,0 +1,46 @@
+TESTO PER ELEVENLABS · Vero o falso? La tredicesima è tassata di più
+
+6 scene, 73 parole (a 165-175 parole/min ≈ ~25-27 s). Numeri in lettere; pausa «…» prima di «Ma perché?», voce che sale.
+
+=== VERSIONE 1: eleven_v3, tag di tono in inglese (da incollare così) ===
+
+[surprised] Tredicesima tassata di più. VERO O FALSO? … [curious] Ma perché il netto è più basso?
+[matter-of-fact] Falso sull'aliquota: l'Irpef è la stessa di tutto l'anno.
+[curious] Vero sul netto: le detrazioni per lavoro e familiari sono già spalmate sui dodici stipendi.
+[calm] Sulla tredicesima non ne restano, e la trattenuta pesa di più.
+[thoughtful] Detassarla? Per la manovra, per ora, è solo un'ipotesi.
+[warm] Non è una tassa in più: è uno sconto già avuto. [curious] E tu: lo sapevi?
+
+
+=== VERSIONE 2: tag di tono in italiano ===
+
+[sorpreso] Tredicesima tassata di più. VERO O FALSO? … [curioso] Ma perché il netto è più basso?
+[chiaro] Falso sull'aliquota: l'Irpef è la stessa di tutto l'anno.
+[curioso] Vero sul netto: le detrazioni per lavoro e familiari sono già spalmate sui dodici stipendi.
+[calmo] Sulla tredicesima non ne restano, e la trattenuta pesa di più.
+[pensieroso] Detassarla? Per la manovra, per ora, è solo un'ipotesi.
+[caldo] Non è una tassa in più: è uno sconto già avuto. [curioso] E tu: lo sapevi?
+
+(Se il modello legge ad alta voce i tag italiani, usa la versione 1 o la 3.)
+
+
+=== VERSIONE 3: eleven_multilingual_v2, una scena alla volta (senza tag) ===
+(lingua italiano, similarity 0.8, speaker boost attivo, velocità 0,95-1,0)
+
+Scena 1 - hook (0-5 s) | stability 0.35 | style 0.45
+Tredicesima tassata di più. VERO O FALSO? … Ma perché il netto è più basso?
+
+Scena 2 - falso sull'aliquota (5-10 s) | stability 0.6 | style 0.2
+Falso sull'aliquota: l'Irpef è la stessa di tutto l'anno.
+
+Scena 3 - vero sul netto (10-16 s) | stability 0.5 | style 0.3
+Vero sul netto: le detrazioni per lavoro e familiari sono già spalmate sui dodici stipendi.
+
+Scena 4 - perché pesa (16-20 s) | stability 0.7 | style 0.1
+Sulla tredicesima non ne restano, e la trattenuta pesa di più.
+
+Scena 5 - la manovra (20-24 s) | stability 0.7 | style 0.1
+Detassarla? Per la manovra, per ora, è solo un'ipotesi.
+
+Scena 6 - chiusura (24-29 s) | stability 0.5 | style 0.3
+Non è una tassa in più: è uno sconto già avuto. E tu: lo sapevi?

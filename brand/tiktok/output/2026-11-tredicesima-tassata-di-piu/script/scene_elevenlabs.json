@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "nome": "hook",
+    "secondi": "0-5",
+    "espressione_orso": "sorpreso, bocca a 'o', zampe alzate",
+    "immagini_previste": "Fondo inchiostro. Orso sorpreso a sinistra, davanti a lui una busta paga bianca con righe grigie astratte e un piccolo regalo incartato (la tredicesima), moneta € nell'accento viola che scivola via dalla busta.",
+    "testo_a_schermo": "«TASSATA DI PIÙ?» in alto, dal fotogramma 0; riquadro «VERO O FALSO?» in viola",
+    "effetto_sonoro": "colpo secco di timbro a 0,0 s",
+    "tag_v3": "[surprised]",
+    "tag_it": "[sorpreso]",
+    "stability": 0.35,
+    "style": 0.45,
+    "text": "Tredicesima tassata di più. VERO O FALSO? … Ma perché il netto è più basso?",
+    "text_v3": "[surprised] Tredicesima tassata di più. VERO O FALSO? … [curious] Ma perché il netto è più basso?",
+    "text_it": "[sorpreso] Tredicesima tassata di più. VERO O FALSO? … [curioso] Ma perché il netto è più basso?",
+    "immagini": [
+      1
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "falso sull'aliquota",
+    "secondi": "5-10",
+    "espressione_orso": "spiega, indice alzato",
+    "immagini_previste": "Fondo carta. Due bilance identiche affiancate, sui piatti due buste paga uguali; orso a lato che indica.",
+    "testo_a_schermo": "timbro «FALSO» (giallo) + «stesse aliquote IRPEF: 23 · 35 · 43%»",
+    "effetto_sonoro": "timbro",
+    "tag_v3": "[matter-of-fact]",
+    "tag_it": "[chiaro]",
+    "stability": 0.6,
+    "style": 0.2,
+    "text": "Falso sull'aliquota: l'Irpef è la stessa di tutto l'anno.",
+    "text_v3": "[matter-of-fact] Falso sull'aliquota: l'Irpef è la stessa di tutto l'anno.",
+    "text_it": "[chiaro] Falso sull'aliquota: l'Irpef è la stessa di tutto l'anno.",
+    "immagini": [
+      2
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "vero sul netto",
+    "secondi": "10-16",
+    "espressione_orso": "curioso con la lente d'ingrandimento",
+    "immagini_previste": "Fondo carta. Dodici buste paga in fila, su ognuna una piccola moneta viola (le detrazioni spalmate); la tredicesima, ultima, senza moneta; orso con la lente.",
+    "testo_a_schermo": "«VERO» (giallo) sul netto · «detrazioni già usate nei 12 mesi»",
+    "effetto_sonoro": "carta che scorre",
+    "tag_v3": "[curious]",
+    "tag_it": "[curioso]",
+    "stability": 0.5,
+    "style": 0.3,
+    "text": "Vero sul netto: le detrazioni per lavoro e familiari sono già spalmate sui dodici stipendi.",
+    "text_v3": "[curious] Vero sul netto: le detrazioni per lavoro e familiari sono già spalmate sui dodici stipendi.",
+    "text_it": "[curioso] Vero sul netto: le detrazioni per lavoro e familiari sono già spalmate sui dodici stipendi.",
+    "immagini": [
+      3
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "perché pesa",
+    "secondi": "16-20",
+    "espressione_orso": "pensieroso, mano al mento",
+    "immagini_previste": "Fondo carta. Busta della tredicesima su un piatto di bilancia che scende, sagoma grigia senza volto (lo Stato) che tiene un piccolo sacchetto con €.",
+    "testo_a_schermo": "«niente detrazioni = trattenuta più alta»",
+    "effetto_sonoro": "—",
+    "tag_v3": "[calm]",
+    "tag_it": "[calmo]",
+    "stability": 0.7,
+    "style": 0.1,
+    "text": "Sulla tredicesima non ne restano, e la trattenuta pesa di più.",
+    "text_v3": "[calm] Sulla tredicesima non ne restano, e la trattenuta pesa di più.",
+    "text_it": "[calmo] Sulla tredicesima non ne restano, e la trattenuta pesa di più.",
+    "immagini": [
+      4
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "la manovra",
+    "secondi": "20-24",
+    "espressione_orso": "pensieroso, sopracciglio alzato",
+    "immagini_previste": "Fondo carta. Un grande punto di domanda fatto di monete viola sopra una cartellina chiusa (la manovra); orso che lo guarda.",
+    "testo_a_schermo": "«detassazione? solo un'ipotesi»",
+    "effetto_sonoro": "—",
+    "tag_v3": "[thoughtful]",
+    "tag_it": "[pensieroso]",
+    "stability": 0.7,
+    "style": 0.1,
+    "text": "Detassarla? Per la manovra, per ora, è solo un'ipotesi.",
+    "text_v3": "[thoughtful] Detassarla? Per la manovra, per ora, è solo un'ipotesi.",
+    "text_it": "[pensieroso] Detassarla? Per la manovra, per ora, è solo un'ipotesi.",
+    "immagini": [
+      5
+    ]
+  },
+  {
+    "id": 6,
+    "nome": "chiusura",
+    "secondi": "24-29",
+    "espressione_orso": "occhiolino, regalo della tredicesima in mano (richiama l'hook)",
+    "immagini_previste": "Fondo inchiostro. Orso con l'occhiolino che tiene il regalo incartato dell'hook, spazio in alto per il fumetto 'But Why Finance?'.",
+    "testo_a_schermo": "«E TU, LO SAPEVI?» + fumetto But Why Finance?",
+    "effetto_sonoro": "base che sfuma",
+    "tag_v3": "[warm]",
+    "tag_it": "[caldo]",
+    "stability": 0.5,
+    "style": 0.3,
+    "text": "Non è una tassa in più: è uno sconto già avuto. E tu: lo sapevi?",
+    "text_v3": "[warm] Non è una tassa in più: è uno sconto già avuto. [curious] E tu: lo sapevi?",
+    "text_it": "[caldo] Non è una tassa in più: è uno sconto già avuto. [curioso] E tu: lo sapevi?",
+    "immagini": [
+      6
+    ]
+  }
+]

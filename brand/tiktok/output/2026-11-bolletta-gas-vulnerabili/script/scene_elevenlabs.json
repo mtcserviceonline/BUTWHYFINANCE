@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "nome": "hook",
+    "secondi": "0-6",
+    "espressione_orso": "sorpreso, bocca a 'o'",
+    "immagini_previste": "Fondo inchiostro. Orso sorpreso accanto a un fornello con fiamma blu stilizzata e una bolletta bianca con righe grigie astratte che si allunga; monete ambra.",
+    "testo_a_schermo": "«+201 €» gigante in ambra dal fotogramma 0, «ALL'ANNO» sotto",
+    "effetto_sonoro": "scatto dell'accensione del gas a 0,0 s",
+    "tag_v3": "[surprised]",
+    "tag_it": "[sorpreso]",
+    "stability": 0.35,
+    "style": 0.45,
+    "text": "Duecentouno euro in più all'anno. Sulla carta, è l'ultimo aumento del gas per i clienti vulnerabili. … Ma perché?",
+    "text_v3": "[surprised] Duecentouno euro in più all'anno. Sulla carta, è l'ultimo aumento del gas per i clienti vulnerabili. … [curious] Ma perché?",
+    "text_it": "[sorpreso] Duecentouno euro in più all'anno. Sulla carta, è l'ultimo aumento del gas per i clienti vulnerabili. … [curioso] Ma perché?",
+    "immagini": [
+      1
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "il dato",
+    "secondi": "6-11",
+    "espressione_orso": "spiega, indice alzato",
+    "immagini_previste": "Fondo carta. Grande freccia ambra che sale sopra un calendario stilizzato senza numeri; orso a lato.",
+    "testo_a_schermo": "«+12,7% in un mese» · «Fonte: ARERA, settembre 2026»",
+    "effetto_sonoro": "—",
+    "tag_v3": "[matter-of-fact]",
+    "tag_it": "[chiaro]",
+    "stability": 0.6,
+    "style": 0.2,
+    "text": "Per Arera, a settembre: più dodici virgola sette per cento in un mese.",
+    "text_v3": "[matter-of-fact] Per Arera, a settembre: più dodici virgola sette per cento in un mese.",
+    "text_it": "[chiaro] Per Arera, a settembre: più dodici virgola sette per cento in un mese.",
+    "immagini": [
+      2
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "all'ingrosso",
+    "secondi": "11-16",
+    "espressione_orso": "curioso con la lente",
+    "immagini_previste": "Fondo carta. Un grosso tubo del gas che arriva da sinistra con un contatore stilizzato senza cifre; monete ambra che scorrono dentro.",
+    "testo_a_schermo": "«prezzo all'ingrosso ↑»",
+    "effetto_sonoro": "—",
+    "tag_v3": "[curious]",
+    "tag_it": "[curioso]",
+    "stability": 0.5,
+    "style": 0.3,
+    "text": "Il motivo: il gas all'ingrosso è salito, e questa tariffa lo segue.",
+    "text_v3": "[curious] Il motivo: il gas all'ingrosso è salito, e questa tariffa lo segue.",
+    "text_it": "[curioso] Il motivo: il gas all'ingrosso è salito, e questa tariffa lo segue.",
+    "immagini": [
+      3
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "chi è vulnerabile",
+    "secondi": "16-21",
+    "espressione_orso": "calmo, sorriso",
+    "immagini_previste": "Fondo carta. Tre sagome grigie senza volto: una con il bastone (anziano), una in carrozzina, una famiglia; orso accanto.",
+    "testo_a_schermo": "«over 75 · bonus sociale · disabilità…»",
+    "effetto_sonoro": "—",
+    "tag_v3": "[calm]",
+    "tag_it": "[calmo]",
+    "stability": 0.7,
+    "style": 0.1,
+    "text": "Vulnerabili sono, per esempio, gli over settantacinque e chi ha il bonus sociale.",
+    "text_v3": "[calm] Vulnerabili sono, per esempio, gli over settantacinque e chi ha il bonus sociale.",
+    "text_it": "[calmo] Vulnerabili sono, per esempio, gli over settantacinque e chi ha il bonus sociale.",
+    "immagini": [
+      4
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "chiusura",
+    "secondi": "21-27",
+    "espressione_orso": "occhiolino, bolletta dell'hook piegata in mano",
+    "immagini_previste": "Fondo inchiostro. Orso con l'occhiolino che tiene la bolletta dell'hook, fiamma blu piccola e calma; spazio per il fumetto.",
+    "testo_a_schermo": "«GUARDI LA MATERIA PRIMA?» + fumetto",
+    "effetto_sonoro": "base che sfuma",
+    "tag_v3": "[warm]",
+    "tag_it": "[caldo]",
+    "stability": 0.5,
+    "style": 0.3,
+    "text": "È il prezzo di un mese, non dell'inverno. E tu: guardi mai la materia prima in bolletta?",
+    "text_v3": "[warm] È il prezzo di un mese, non dell'inverno. [curious] E tu: guardi mai la materia prima in bolletta?",
+    "text_it": "[caldo] È il prezzo di un mese, non dell'inverno. [curioso] E tu: guardi mai la materia prima in bolletta?",
+    "immagini": [
+      5
+    ]
+  }
+]

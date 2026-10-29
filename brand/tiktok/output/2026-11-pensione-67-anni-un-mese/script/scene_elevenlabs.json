@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "nome": "hook",
+    "secondi": "0-6",
+    "espressione_orso": "sorpreso, zampe alzate",
+    "immagini_previste": "Fondo inchiostro. Orso sorpreso accanto a una grande clessidra con sabbia blu; una sedia a dondolo vuota lontana sullo sfondo.",
+    "testo_a_schermo": "«67 ANNI + 1 MESE» gigante in blu dal fotogramma 0",
+    "effetto_sonoro": "ticchettio di orologio a 0,0 s",
+    "tag_v3": "[surprised]",
+    "tag_it": "[sorpreso]",
+    "stability": 0.35,
+    "style": 0.45,
+    "text": "Sessantasette anni e un mese. Dal duemilaventisette, l'età della pensione di vecchiaia. … Ma perché?",
+    "text_v3": "[surprised] Sessantasette anni e un mese. Dal duemilaventisette, l'età della pensione di vecchiaia. … [curious] Ma perché?",
+    "text_it": "[sorpreso] Sessantasette anni e un mese. Dal duemilaventisette, l'età della pensione di vecchiaia. … [curioso] Ma perché?",
+    "immagini": [
+      1
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "la regola",
+    "secondi": "6-12",
+    "espressione_orso": "spiega, indice alzato",
+    "immagini_previste": "Fondo carta. Grafico a linea stilizzato senza numeri che sale dolcemente, con una piccola figura grigia che cammina sulla linea; orso a lato.",
+    "testo_a_schermo": "«ogni 2 anni» · «speranza di vita a 65 anni (Istat)»",
+    "effetto_sonoro": "—",
+    "tag_v3": "[matter-of-fact]",
+    "tag_it": "[chiaro]",
+    "stability": 0.6,
+    "style": 0.2,
+    "text": "Ogni due anni i requisiti seguono la speranza di vita a sessantacinque anni, misurata dall'Istat.",
+    "text_v3": "[matter-of-fact] Ogni due anni i requisiti seguono la speranza di vita a sessantacinque anni, misurata dall'Istat.",
+    "text_it": "[chiaro] Ogni due anni i requisiti seguono la speranza di vita a sessantacinque anni, misurata dall'Istat.",
+    "immagini": [
+      2
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "2028",
+    "secondi": "12-17",
+    "espressione_orso": "calmo",
+    "immagini_previste": "Fondo carta. Due gradini di una scala, il secondo un po' più alto, una freccia blu; orso ai piedi della scala.",
+    "testo_a_schermo": "«2028: 67 anni + 3 mesi» · «Fonte: INPS»",
+    "effetto_sonoro": "—",
+    "tag_v3": "[calm]",
+    "tag_it": "[calmo]",
+    "stability": 0.7,
+    "style": 0.1,
+    "text": "Per l'Inps, nel duemilaventotto si sale a sessantasette anni e tre mesi.",
+    "text_v3": "[calm] Per l'Inps, nel duemilaventotto si sale a sessantasette anni e tre mesi.",
+    "text_it": "[calmo] Per l'Inps, nel duemilaventotto si sale a sessantasette anni e tre mesi.",
+    "immagini": [
+      3
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "due tesi",
+    "secondi": "17-23",
+    "espressione_orso": "pensieroso, mano al mento",
+    "immagini_previste": "Fondo carta. Due sagome grigie senza volto ai lati di un tavolo, una con un salvadanaio, l'altra con una cassetta degli attrezzi; orso al centro.",
+    "testo_a_schermo": "«conti in equilibrio» vs «traguardo più lontano»",
+    "effetto_sonoro": "—",
+    "tag_v3": "[thoughtful]",
+    "tag_it": "[pensieroso]",
+    "stability": 0.7,
+    "style": 0.1,
+    "text": "Per chi la difende, tiene in equilibrio i conti. Per i sindacati, allontana il traguardo.",
+    "text_v3": "[thoughtful] Per chi la difende, tiene in equilibrio i conti. Per i sindacati, allontana il traguardo.",
+    "text_it": "[pensieroso] Per chi la difende, tiene in equilibrio i conti. Per i sindacati, allontana il traguardo.",
+    "immagini": [
+      4
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "chiusura",
+    "secondi": "23-27",
+    "espressione_orso": "occhiolino, clessidra dell'hook in mano",
+    "immagini_previste": "Fondo inchiostro. Orso con l'occhiolino che tiene la clessidra dell'hook; spazio per il fumetto.",
+    "testo_a_schermo": "«A CHE ETÀ PENSI DI ANDARCI?» + fumetto",
+    "effetto_sonoro": "base che sfuma",
+    "tag_v3": "[warm]",
+    "tag_it": "[caldo]",
+    "stability": 0.5,
+    "style": 0.3,
+    "text": "Un mese sembra poco: è un mese di lavoro in più. E tu: a che età pensi di andarci?",
+    "text_v3": "[warm] Un mese sembra poco: è un mese di lavoro in più. [curious] E tu: a che età pensi di andarci?",
+    "text_it": "[caldo] Un mese sembra poco: è un mese di lavoro in più. [curioso] E tu: a che età pensi di andarci?",
+    "immagini": [
+      5
+    ]
+  }
+]

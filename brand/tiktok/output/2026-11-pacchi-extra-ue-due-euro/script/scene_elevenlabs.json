@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "nome": "hook",
+    "secondi": "0-5",
+    "espressione_orso": "sorpreso, zampe alzate",
+    "immagini_previste": "Fondo inchiostro. Orso sorpreso accanto a un pacchetto di cartone piccolo con un'etichetta bianca vuota; due monete € arancio sopra il pacco.",
+    "testo_a_schermo": "«+2 €» gigante in arancio dal fotogramma 0, «A PACCO» sotto",
+    "effetto_sonoro": "tonfo di pacco a 0,0 s",
+    "tag_v3": "[surprised]",
+    "tag_it": "[sorpreso]",
+    "stability": 0.35,
+    "style": 0.45,
+    "text": "Due euro in più su ogni pacchetto da fuori Europa. Dal primo dicembre. … Ma perché?",
+    "text_v3": "[surprised] Due euro in più su ogni pacchetto da fuori Europa. Dal primo dicembre. … [curious] Ma perché?",
+    "text_it": "[sorpreso] Due euro in più su ogni pacchetto da fuori Europa. Dal primo dicembre. … [curioso] Ma perché?",
+    "immagini": [
+      1
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "la norma",
+    "secondi": "5-11",
+    "espressione_orso": "spiega, indice alzato",
+    "immagini_previste": "Fondo carta. Una pila di piccoli pacchi su un nastro della dogana, una sbarra grigia; orso di lato che indica.",
+    "testo_a_schermo": "«spedizioni fino a 150 €» · «Legge di bilancio 2026»",
+    "effetto_sonoro": "nastro trasportatore",
+    "tag_v3": "[matter-of-fact]",
+    "tag_it": "[chiaro]",
+    "stability": 0.6,
+    "style": 0.2,
+    "text": "Legge di bilancio: vale fino a centocinquanta euro di valore.",
+    "text_v3": "[matter-of-fact] Legge di bilancio: vale fino a centocinquanta euro di valore.",
+    "text_it": "[chiaro] Legge di bilancio: vale fino a centocinquanta euro di valore.",
+    "immagini": [
+      2
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "si somma",
+    "secondi": "11-15",
+    "espressione_orso": "pensieroso",
+    "immagini_previste": "Fondo carta. Tre monete impilate di colori diversi (grigio, grigio chiaro, arancio) sopra un pacchetto: IVA, dazio UE, contributo.",
+    "testo_a_schermo": "«IVA + 3 € dazio UE + 2 €»",
+    "effetto_sonoro": "monete che cadono",
+    "tag_v3": "[calm]",
+    "tag_it": "[calmo]",
+    "stability": 0.7,
+    "style": 0.1,
+    "text": "Si aggiunge all'Iva e al dazio europeo di tre euro.",
+    "text_v3": "[calm] Si aggiunge all'Iva e al dazio europeo di tre euro.",
+    "text_it": "[calmo] Si aggiunge all'Iva e al dazio europeo di tre euro.",
+    "immagini": [
+      3
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "chi paga",
+    "secondi": "15-19",
+    "espressione_orso": "curioso con la lente",
+    "immagini_previste": "Fondo carta. Una sagoma grigia senza volto (il venditore) e una sagoma grigia (chi compra) ai due lati di un pacco; una moneta arancio a metà strada.",
+    "testo_a_schermo": "«CHI PAGA?»",
+    "effetto_sonoro": "—",
+    "tag_v3": "[curious]",
+    "tag_it": "[curioso]",
+    "stability": 0.5,
+    "style": 0.3,
+    "text": "Chi paga? Dipende dal venditore: può assorbirli o caricarli sul prezzo.",
+    "text_v3": "[curious] Chi paga? Dipende dal venditore: può assorbirli o caricarli sul prezzo.",
+    "text_it": "[curioso] Chi paga? Dipende dal venditore: può assorbirli o caricarli sul prezzo.",
+    "immagini": [
+      4
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "due tesi",
+    "secondi": "19-25",
+    "espressione_orso": "pensieroso, mano al mento, bilancia",
+    "immagini_previste": "Fondo carta. Bilancia: su un piatto una piccola vetrina di negozio stilizzata, sull'altro un carrello della spesa; orso al centro.",
+    "testo_a_schermo": "«negozi europei» vs «consumatori»",
+    "effetto_sonoro": "—",
+    "tag_v3": "[thoughtful]",
+    "tag_it": "[pensieroso]",
+    "stability": 0.7,
+    "style": 0.1,
+    "text": "Per chi la sostiene, protegge i negozi europei. Per chi la critica, pesa su chi compra.",
+    "text_v3": "[thoughtful] Per chi la sostiene, protegge i negozi europei. Per chi la critica, pesa su chi compra.",
+    "text_it": "[pensieroso] Per chi la sostiene, protegge i negozi europei. Per chi la critica, pesa su chi compra.",
+    "immagini": [
+      5
+    ]
+  },
+  {
+    "id": 6,
+    "nome": "chiusura",
+    "secondi": "25-30",
+    "espressione_orso": "occhiolino, pacchetto dell'hook sotto il braccio",
+    "immagini_previste": "Fondo inchiostro. Orso con l'occhiolino che tiene il pacchetto dell'hook, spazio per il fumetto 'But Why Finance?'.",
+    "testo_a_schermo": "«QUANTI PACCHI RICEVI?» + fumetto",
+    "effetto_sonoro": "base che sfuma",
+    "tag_v3": "[warm]",
+    "tag_it": "[caldo]",
+    "stability": 0.5,
+    "style": 0.3,
+    "text": "Dieci ordini, venti euro. E tu: quanti pacchi ricevi da fuori Europa?",
+    "text_v3": "[warm] Dieci ordini, venti euro. [curious] E tu: quanti pacchi ricevi da fuori Europa?",
+    "text_it": "[caldo] Dieci ordini, venti euro. [curioso] E tu: quanti pacchi ricevi da fuori Europa?",
+    "immagini": [
+      6
+    ]
+  }
+]

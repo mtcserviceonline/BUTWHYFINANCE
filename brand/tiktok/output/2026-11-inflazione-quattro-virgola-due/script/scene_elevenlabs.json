@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "nome": "hook",
+    "secondi": "0-5",
+    "espressione_orso": "sorpreso, bocca a 'o'",
+    "immagini_previste": "Fondo inchiostro. Orso sorpreso accanto a un ritaglio di giornale bianco con righe grigie astratte (nessuna scritta) e una freccia verde che sale.",
+    "testo_a_schermo": "«4,2%» gigante dal fotogramma 0, «INFLAZIONE · SETTEMBRE»",
+    "effetto_sonoro": "fruscio di giornale a 0,0 s",
+    "tag_v3": "[surprised]",
+    "tag_it": "[sorpreso]",
+    "stability": 0.35,
+    "style": 0.45,
+    "text": "Quattro virgola due per cento. È l'inflazione di settembre secondo l'Istat. … Ma perché?",
+    "text_v3": "[surprised] Quattro virgola due per cento. È l'inflazione di settembre secondo l'Istat. … [curious] Ma perché?",
+    "text_it": "[sorpreso] Quattro virgola due per cento. È l'inflazione di settembre secondo l'Istat. … [curioso] Ma perché?",
+    "immagini": [
+      1
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "energia",
+    "secondi": "5-11",
+    "espressione_orso": "spiega, indice alzato",
+    "immagini_previste": "Fondo carta. Un termosifone e una lampadina stilizzati, con una freccia verde grande che sale; orso a lato.",
+    "testo_a_schermo": "«energia regolamentata +25,8%» · «Fonte: Istat»",
+    "effetto_sonoro": "—",
+    "tag_v3": "[matter-of-fact]",
+    "tag_it": "[chiaro]",
+    "stability": 0.6,
+    "style": 0.2,
+    "text": "Il grosso è l'energia: tariffe regolamentate su di quasi il ventisei per cento in un anno.",
+    "text_v3": "[matter-of-fact] Il grosso è l'energia: tariffe regolamentate su di quasi il ventisei per cento in un anno.",
+    "text_it": "[chiaro] Il grosso è l'energia: tariffe regolamentate su di quasi il ventisei per cento in un anno.",
+    "immagini": [
+      2
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "carrello",
+    "secondi": "11-15",
+    "espressione_orso": "curioso con la lente",
+    "immagini_previste": "Fondo carta. Un carrello della spesa con pochi prodotti generici senza marchi, una freccia piccola che sale appena.",
+    "testo_a_schermo": "«carrello della spesa +1,5%»",
+    "effetto_sonoro": "ruote del carrello",
+    "tag_v3": "[curious]",
+    "tag_it": "[curioso]",
+    "stability": 0.5,
+    "style": 0.3,
+    "text": "Il carrello della spesa invece sale meno: uno virgola cinque per cento.",
+    "text_v3": "[curious] Il carrello della spesa invece sale meno: uno virgola cinque per cento.",
+    "text_it": "[curioso] Il carrello della spesa invece sale meno: uno virgola cinque per cento.",
+    "immagini": [
+      3
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "di fondo",
+    "secondi": "15-20",
+    "espressione_orso": "pensieroso, mano al mento",
+    "immagini_previste": "Fondo carta. Una torta divisa in fette, due fette (energia, cibo fresco) tolte e messe da parte; orso che guarda il resto.",
+    "testo_a_schermo": "«inflazione di fondo 1,6%» · «senza energia e alimentari freschi»",
+    "effetto_sonoro": "—",
+    "tag_v3": "[thoughtful]",
+    "tag_it": "[pensieroso]",
+    "stability": 0.7,
+    "style": 0.1,
+    "text": "E senza energia e alimentari freschi, l'inflazione di fondo è all'uno virgola sei.",
+    "text_v3": "[thoughtful] E senza energia e alimentari freschi, l'inflazione di fondo è all'uno virgola sei.",
+    "text_it": "[pensieroso] E senza energia e alimentari freschi, l'inflazione di fondo è all'uno virgola sei.",
+    "immagini": [
+      4
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "chiusura",
+    "secondi": "20-27",
+    "espressione_orso": "occhiolino, ritaglio di giornale dell'hook in mano",
+    "immagini_previste": "Fondo inchiostro. Orso con l'occhiolino che tiene il ritaglio di giornale dell'hook, piccolo termosifone accanto; spazio per il fumetto.",
+    "testo_a_schermo": "«DOVE LO SENTI DI PIÙ?» + fumetto",
+    "effetto_sonoro": "base che sfuma",
+    "tag_v3": "[warm]",
+    "tag_it": "[caldo]",
+    "stability": 0.5,
+    "style": 0.3,
+    "text": "I prezzi non corrono tutti uguali. Corre soprattutto quello che scalda la casa. E tu: dove lo senti di più?",
+    "text_v3": "[warm] I prezzi non corrono tutti uguali. Corre soprattutto quello che scalda la casa. [curious] E tu: dove lo senti di più?",
+    "text_it": "[caldo] I prezzi non corrono tutti uguali. Corre soprattutto quello che scalda la casa. [curioso] E tu: dove lo senti di più?",
+    "immagini": [
+      5
+    ]
+  }
+]
