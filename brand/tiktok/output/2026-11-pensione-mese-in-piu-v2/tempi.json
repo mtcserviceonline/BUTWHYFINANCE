@@ -1,0 +1,1167 @@
+{
+ "durata": 29.709,
+ "fps": 30,
+ "inquadrature": [
+  {
+   "n": 1,
+   "img": "01",
+   "inizio": 0.0,
+   "fine": 2.288,
+   "durata": 2.288,
+   "vista": [
+    560,
+    880,
+    0.92
+   ],
+   "moto": "in",
+   "titolo": "hook",
+   "transizione": null
+  },
+  {
+   "n": 2,
+   "img": "02",
+   "inizio": 2.288,
+   "fine": 5.405,
+   "durata": 3.117,
+   "vista": [
+    540,
+    950,
+    0.85
+   ],
+   "moto": "in",
+   "titolo": "anno",
+   "transizione": "tenda"
+  },
+  {
+   "n": 3,
+   "img": "02",
+   "inizio": 5.405,
+   "fine": 7.618,
+   "durata": 2.213,
+   "vista": [
+    520,
+    960,
+    0.9
+   ],
+   "moto": "in",
+   "titolo": "quasi",
+   "transizione": null
+  },
+  {
+   "n": 4,
+   "img": "01",
+   "inizio": 7.618,
+   "fine": 8.543,
+   "durata": 0.925,
+   "vista": [
+    520,
+    960,
+    1.1
+   ],
+   "moto": "in",
+   "titolo": "perche",
+   "transizione": null
+  },
+  {
+   "n": 5,
+   "img": "03",
+   "inizio": 8.543,
+   "fine": 9.886,
+   "durata": 1.343,
+   "vista": [
+    540,
+    1040,
+    0.92
+   ],
+   "moto": "in",
+   "titolo": "speranza",
+   "transizione": null
+  },
+  {
+   "n": 6,
+   "img": "03",
+   "inizio": 9.886,
+   "fine": 11.995,
+   "durata": 2.109,
+   "vista": [
+    515,
+    930,
+    1.09
+   ],
+   "moto": "in",
+   "titolo": "speranza",
+   "transizione": null
+  },
+  {
+   "n": 7,
+   "img": "04",
+   "inizio": 11.995,
+   "fine": 13.04,
+   "durata": 1.045,
+   "vista": [
+    480,
+    1020,
+    0.95
+   ],
+   "moto": "in",
+   "titolo": "cosa",
+   "transizione": null
+  },
+  {
+   "n": 8,
+   "img": "04",
+   "inizio": 13.04,
+   "fine": 14.293,
+   "durata": 1.253,
+   "vista": [
+    480,
+    1020,
+    0.95
+   ],
+   "moto": "in",
+   "titolo": "c1",
+   "transizione": null
+  },
+  {
+   "n": 9,
+   "img": "04",
+   "inizio": 14.293,
+   "fine": 17.073,
+   "durata": 2.78,
+   "vista": [
+    520,
+    1000,
+    1.03
+   ],
+   "moto": "in",
+   "titolo": "c1",
+   "transizione": null
+  },
+  {
+   "n": 10,
+   "img": "05",
+   "inizio": 17.073,
+   "fine": 18.622,
+   "durata": 1.549,
+   "vista": [
+    500,
+    1000,
+    0.95
+   ],
+   "moto": "in",
+   "titolo": "c2",
+   "transizione": null
+  },
+  {
+   "n": 11,
+   "img": "05",
+   "inizio": 18.622,
+   "fine": 21.173,
+   "durata": 2.551,
+   "vista": [
+    560,
+    880,
+    1.08
+   ],
+   "moto": "in",
+   "titolo": "c2",
+   "transizione": null
+  },
+  {
+   "n": 12,
+   "img": "06",
+   "inizio": 21.173,
+   "fine": 23.502,
+   "durata": 2.329,
+   "vista": [
+    540,
+    1000,
+    1.0
+   ],
+   "moto": "in",
+   "titolo": "c3",
+   "transizione": null
+  },
+  {
+   "n": 13,
+   "img": "06",
+   "inizio": 23.502,
+   "fine": 25.99,
+   "durata": 2.488,
+   "vista": [
+    560,
+    1000,
+    1.08
+   ],
+   "moto": "in",
+   "titolo": "c3",
+   "transizione": null
+  },
+  {
+   "n": 14,
+   "img": "07",
+   "inizio": 25.99,
+   "fine": 27.629,
+   "durata": 1.639,
+   "vista": [
+    520,
+    1000,
+    0.98
+   ],
+   "moto": "in",
+   "titolo": "prima",
+   "transizione": null
+  },
+  {
+   "n": 15,
+   "img": "08",
+   "inizio": 27.629,
+   "fine": 29.259,
+   "durata": 1.63,
+   "vista": [
+    560,
+    1000,
+    0.95
+   ],
+   "moto": "in",
+   "titolo": "domanda",
+   "transizione": null
+  },
+  {
+   "n": 16,
+   "img": "01",
+   "inizio": 29.259,
+   "fine": 29.709,
+   "durata": 0.45,
+   "vista": [
+    560,
+    880,
+    0.92
+   ],
+   "moto": "fermo",
+   "titolo": "loop",
+   "transizione": null
+  }
+ ],
+ "titoli": [
+  {
+   "titolo": "hook",
+   "riga": 1,
+   "da": 0.0,
+   "a": null
+  },
+  {
+   "titolo": "hook",
+   "riga": 2,
+   "da": 0.0,
+   "a": null
+  },
+  {
+   "titolo": "hook",
+   "riga": 3,
+   "da": 1.629,
+   "a": null
+  },
+  {
+   "titolo": "anno",
+   "riga": 1,
+   "da": 2.288,
+   "a": null
+  },
+  {
+   "titolo": "anno",
+   "riga": 2,
+   "da": 3.906,
+   "a": null
+  },
+  {
+   "titolo": "quasi",
+   "riga": 1,
+   "da": 5.405,
+   "a": null
+  },
+  {
+   "titolo": "quasi",
+   "riga": 2,
+   "da": 6.508,
+   "a": null
+  },
+  {
+   "titolo": "quasi",
+   "riga": 3,
+   "da": 6.508,
+   "a": null
+  },
+  {
+   "titolo": "perche",
+   "riga": 1,
+   "da": 7.618,
+   "a": null
+  },
+  {
+   "titolo": "speranza",
+   "riga": 1,
+   "da": 8.543,
+   "a": null
+  },
+  {
+   "titolo": "speranza",
+   "riga": 2,
+   "da": 10.404,
+   "a": null
+  },
+  {
+   "titolo": "speranza",
+   "riga": 3,
+   "da": 11.033,
+   "a": null
+  },
+  {
+   "titolo": "cosa",
+   "riga": 1,
+   "da": 11.995,
+   "a": null
+  },
+  {
+   "titolo": "c1",
+   "riga": 1,
+   "da": 13.04,
+   "a": null
+  },
+  {
+   "titolo": "c1",
+   "riga": 2,
+   "da": 15.705,
+   "a": null
+  },
+  {
+   "titolo": "c2",
+   "riga": 1,
+   "da": 17.073,
+   "a": null
+  },
+  {
+   "titolo": "c2",
+   "riga": 2,
+   "da": 19.433,
+   "a": null
+  },
+  {
+   "titolo": "c3",
+   "riga": 1,
+   "da": 21.173,
+   "a": null
+  },
+  {
+   "titolo": "c3",
+   "riga": 2,
+   "da": 22.5,
+   "a": null
+  },
+  {
+   "titolo": "c3",
+   "riga": 3,
+   "da": 24.582,
+   "a": null
+  },
+  {
+   "titolo": "prima",
+   "riga": 1,
+   "da": 25.99,
+   "a": null
+  },
+  {
+   "titolo": "prima",
+   "riga": 2,
+   "da": 26.726,
+   "a": null
+  },
+  {
+   "titolo": "domanda",
+   "riga": 1,
+   "da": 27.629,
+   "a": null
+  },
+  {
+   "titolo": "domanda",
+   "riga": 2,
+   "da": 27.629,
+   "a": null
+  },
+  {
+   "titolo": "loop",
+   "riga": 1,
+   "da": 29.259,
+   "a": null
+  },
+  {
+   "titolo": "loop",
+   "riga": 2,
+   "da": 29.259,
+   "a": null
+  }
+ ],
+ "scritte": [],
+ "sottotitoli": [
+  {
+   "testo": "*67* ANNI",
+   "parlato": "Sessantasette anni",
+   "da": 0.0,
+   "a": 1.29,
+   "parole": [
+    0.0,
+    0.911
+   ]
+  },
+  {
+   "testo": "E UN *MESE*.",
+   "parlato": "e un mese.",
+   "da": 1.29,
+   "a": 2.368,
+   "parole": [
+    1.29,
+    1.45,
+    1.629
+   ]
+  },
+  {
+   "testo": "DAL *2027*,",
+   "parlato": "Dal duemilaventisette,",
+   "da": 2.368,
+   "a": 3.813,
+   "parole": [
+    2.368,
+    2.523
+   ]
+  },
+  {
+   "testo": "PER RAGGIUNGERE",
+   "parlato": "per raggiungere",
+   "da": 3.813,
+   "a": 4.422,
+   "parole": [
+    3.813,
+    3.906
+   ]
+  },
+  {
+   "testo": "LA PENSIONE DI VECCHIAIA,",
+   "parlato": "la pensione di vecchiaia,",
+   "da": 4.422,
+   "a": 5.435,
+   "parole": [
+    4.422,
+    4.508,
+    4.966,
+    5.102
+   ]
+  },
+  {
+   "testo": "SI DOVRÀ LAVORARE",
+   "parlato": "si dovrà lavorare",
+   "da": 5.435,
+   "a": 6.368,
+   "parole": [
+    5.435,
+    5.632,
+    5.92
+   ]
+  },
+  {
+   "testo": "UN *MESE* IN PIÙ.",
+   "parlato": "un mese in più.",
+   "da": 6.368,
+   "a": 7.698,
+   "parole": [
+    6.368,
+    6.508,
+    6.899,
+    7.069
+   ]
+  },
+  {
+   "testo": "MA *PERCHÉ?*",
+   "parlato": "Ma perché?",
+   "da": 7.698,
+   "a": 8.623,
+   "parole": [
+    7.698,
+    7.83
+   ]
+  },
+  {
+   "testo": "SI VIVE PIÙ A LUNGO:",
+   "parlato": "Si vive più a lungo:",
+   "da": 8.623,
+   "a": 9.966,
+   "parole": [
+    8.623,
+    8.775,
+    8.998,
+    9.146,
+    9.319
+   ]
+  },
+  {
+   "testo": "L'ETÀ *SALE*",
+   "parlato": "l'età sale",
+   "da": 9.966,
+   "a": 10.712,
+   "parole": [
+    9.966,
+    10.404
+   ]
+  },
+  {
+   "testo": "CON LA SPERANZA DI VITA.",
+   "parlato": "con la speranza di vita.",
+   "da": 10.712,
+   "a": 12.075,
+   "parole": [
+    10.712,
+    10.866,
+    11.033,
+    11.426,
+    11.513
+   ]
+  },
+  {
+   "testo": "COSA PUOI *FARE?*",
+   "parlato": "Cosa puoi fare?",
+   "da": 12.075,
+   "a": 13.12,
+   "parole": [
+    12.075,
+    12.305,
+    12.49
+   ]
+  },
+  {
+   "testo": "PRIMO:",
+   "parlato": "Primo:",
+   "da": 13.12,
+   "a": 13.778,
+   "parole": [
+    13.12
+   ]
+  },
+  {
+   "testo": "CONTROLLA I *CONTRIBUTI*",
+   "parlato": "controlla i contributi",
+   "da": 13.778,
+   "a": 14.799,
+   "parole": [
+    13.778,
+    14.184,
+    14.323
+   ]
+  },
+  {
+   "testo": "VERSATI, NEL TUO",
+   "parlato": "versati, nel tuo",
+   "da": 14.799,
+   "a": 15.705,
+   "parole": [
+    14.799,
+    15.328,
+    15.527
+   ]
+  },
+  {
+   "testo": "*ESTRATTO CONTO* INPS.",
+   "parlato": "estratto conto Inps.",
+   "da": 15.705,
+   "a": 17.153,
+   "parole": [
+    15.705,
+    16.127,
+    16.402
+   ]
+  },
+  {
+   "testo": "SECONDO:",
+   "parlato": "Secondo:",
+   "da": 17.153,
+   "a": 18.006,
+   "parole": [
+    17.153
+   ]
+  },
+  {
+   "testo": "STIMA LA TUA PENSIONE",
+   "parlato": "stima la tua pensione",
+   "da": 18.006,
+   "a": 19.087,
+   "parole": [
+    18.006,
+    18.415,
+    18.518,
+    18.652
+   ]
+  },
+  {
+   "testo": "CON IL *SIMULATORE*",
+   "parlato": "con il simulatore",
+   "da": 19.087,
+   "a": 20.049,
+   "parole": [
+    19.087,
+    19.247,
+    19.433
+   ]
+  },
+  {
+   "testo": "GRATUITO DELL'INPS.",
+   "parlato": "gratuito dell'Inps.",
+   "da": 20.049,
+   "a": 21.253,
+   "parole": [
+    20.049,
+    20.399
+   ]
+  },
+  {
+   "testo": "TERZO:",
+   "parlato": "Terzo:",
+   "da": 21.253,
+   "a": 21.913,
+   "parole": [
+    21.253
+   ]
+  },
+  {
+   "testo": "VALUTA UN *FONDO PENSIONE*.",
+   "parlato": "valuta un fondo pensione.",
+   "da": 21.913,
+   "a": 23.582,
+   "parole": [
+    21.913,
+    22.37,
+    22.5,
+    22.685
+   ]
+  },
+  {
+   "testo": "QUELLO CHE VERSI",
+   "parlato": "Quello che versi",
+   "da": 23.582,
+   "a": 24.318,
+   "parole": [
+    23.582,
+    23.819,
+    23.952
+   ]
+  },
+  {
+   "testo": "SI PUÒ *DEDURRE*",
+   "parlato": "si può dedurre",
+   "da": 24.318,
+   "a": 24.906,
+   "parole": [
+    24.318,
+    24.464,
+    24.582
+   ]
+  },
+  {
+   "testo": "DALLE TASSE.",
+   "parlato": "dalle tasse.",
+   "da": 24.906,
+   "a": 26.07,
+   "parole": [
+    24.906,
+    25.107
+   ]
+  },
+  {
+   "testo": "PRIMA INIZI,",
+   "parlato": "Prima inizi,",
+   "da": 26.07,
+   "a": 26.726,
+   "parole": [
+    26.07,
+    26.252
+   ]
+  },
+  {
+   "testo": "*MEGLIO* È.",
+   "parlato": "meglio è.",
+   "da": 26.726,
+   "a": 27.709,
+   "parole": [
+    26.726,
+    27.166
+   ]
+  },
+  {
+   "testo": "E TU, CI STAI",
+   "parlato": "E tu, ci stai",
+   "da": 27.709,
+   "a": 28.51,
+   "parole": [
+    27.709,
+    27.892,
+    28.282,
+    28.37
+   ]
+  },
+  {
+   "testo": "GIÀ *PENSANDO?*",
+   "parlato": "già pensando?",
+   "da": 28.51,
+   "a": 29.709,
+   "parole": [
+    28.51,
+    28.645
+   ]
+  }
+ ],
+ "effetti": [
+  {
+   "effetto": "colpo",
+   "parola": null,
+   "t": 0.0,
+   "livello_db_picco_voce": -12
+  },
+  {
+   "effetto": "tick",
+   "parola": "mese",
+   "t": 1.629,
+   "livello_db_picco_voce": -22
+  },
+  {
+   "effetto": "tick",
+   "parola": "Primo:",
+   "t": 13.12,
+   "livello_db_picco_voce": -22
+  },
+  {
+   "effetto": "tick",
+   "parola": "Secondo:",
+   "t": 17.153,
+   "livello_db_picco_voce": -22
+  },
+  {
+   "effetto": "tick",
+   "parola": "Terzo:",
+   "t": 21.253,
+   "livello_db_picco_voce": -22
+  }
+ ],
+ "controlli": {
+  "errori": [],
+  "avvisi": [],
+  "cambio_visivo_max_s": 1.74,
+  "fine_dopo_ultima_parola_s": 0.45,
+  "loop": {
+   "centro_titolo_apertura": [
+    505,
+    262
+   ],
+   "centro_titolo_loop": [
+    505,
+    262
+   ],
+   "baseline_uguale": 0
+  },
+  "inquadrature": [
+   {
+    "n": 1,
+    "img": "01",
+    "zoom_max_effettivo": 1.072,
+    "occhiali": [
+     246,
+     905,
+     416,
+     1006
+    ]
+   },
+   {
+    "n": 2,
+    "img": "02",
+    "zoom_max_effettivo": 0.884,
+    "occhiali": [
+     242,
+     956,
+     412,
+     1036
+    ]
+   },
+   {
+    "n": 3,
+    "img": "02",
+    "zoom_max_effettivo": 0.936,
+    "occhiali": [
+     243,
+     946,
+     423,
+     1032
+    ]
+   },
+   {
+    "n": 4,
+    "img": "01",
+    "zoom_max_effettivo": 1.144,
+    "occhiali": [
+     232,
+     806,
+     436,
+     927
+    ]
+   },
+   {
+    "n": 5,
+    "img": "03",
+    "zoom_max_effettivo": 0.957,
+    "occhiali": [
+     190,
+     592,
+     384,
+     702
+    ]
+   },
+   {
+    "n": 6,
+    "img": "03",
+    "zoom_max_effettivo": 1.134,
+    "occhiali": [
+     153,
+     644,
+     382,
+     775
+    ]
+   },
+   {
+    "n": 7,
+    "img": "04",
+    "zoom_max_effettivo": 0.988,
+    "occhiali": [
+     264,
+     742,
+     507,
+     903
+    ]
+   },
+   {
+    "n": 8,
+    "img": "04",
+    "zoom_max_effettivo": 0.988,
+    "occhiali": [
+     264,
+     742,
+     507,
+     903
+    ]
+   },
+   {
+    "n": 9,
+    "img": "04",
+    "zoom_max_effettivo": 1.071,
+    "occhiali": [
+     200,
+     744,
+     463,
+     919
+    ]
+   },
+   {
+    "n": 10,
+    "img": "05",
+    "zoom_max_effettivo": 0.988,
+    "occhiali": [
+     312,
+     642,
+     535,
+     780
+    ]
+   },
+   {
+    "n": 11,
+    "img": "05",
+    "zoom_max_effettivo": 1.123,
+    "occhiali": [
+     216,
+     728,
+     470,
+     884
+    ]
+   },
+   {
+    "n": 12,
+    "img": "06",
+    "zoom_max_effettivo": 1.04,
+    "occhiali": [
+     155,
+     685,
+     345,
+     795
+    ]
+   },
+   {
+    "n": 13,
+    "img": "06",
+    "zoom_max_effettivo": 1.123,
+    "occhiali": [
+     103,
+     663,
+     308,
+     782
+    ]
+   },
+   {
+    "n": 14,
+    "img": "07",
+    "zoom_max_effettivo": 1.019,
+    "occhiali": [
+     217,
+     774,
+     442,
+     901
+    ]
+   },
+   {
+    "n": 15,
+    "img": "08",
+    "zoom_max_effettivo": 0.988,
+    "occhiali": [
+     203,
+     836,
+     436,
+     950
+    ]
+   },
+   {
+    "n": 16,
+    "img": "01",
+    "zoom_max_effettivo": 0.92,
+    "occhiali": [
+     246,
+     905,
+     416,
+     1006
+    ]
+   }
+  ]
+ },
+ "voce": {
+  "file": "voce.mp3",
+  "ritmo": {
+   "durata_originale": 30.041,
+   "durata_finale": 29.336,
+   "parole": 80,
+   "wpm_originale": 160.5,
+   "wpm_dopo_pause": 164.1,
+   "velocita": 1.0,
+   "wpm_finale": 164.1,
+   "filtro": "anull",
+   "tagli": [
+    [
+     7.518,
+     7.586
+    ],
+    [
+     11.993,
+     12.176
+    ],
+    [
+     13.221,
+     13.39
+    ],
+    [
+     21.523,
+     21.629
+    ],
+    [
+     28.085,
+     28.214
+    ]
+   ],
+   "modifiche": [
+    "pausa 7.34-7.77 (0.43 s) -> 0.36 s  prima di \"Ma perché?\"",
+    "pausa 11.84-12.33 (0.48 s) -> 0.30 s  prima di \"Cosa puoi fare?\"",
+    "pausa 13.07-13.54 (0.47 s) -> 0.30 s  prima di \"Primo:\"",
+    "pausa 21.37-21.78 (0.41 s) -> 0.30 s  prima di \"Terzo:\"",
+    "pausa 27.93-28.36 (0.43 s) -> 0.30 s  prima di \"E tu,\""
+   ]
+  },
+  "frasi_originali": [
+   {
+    "text": "Sessantasette anni e un mese.",
+    "start": 0.0,
+    "end": 2.001
+   },
+   {
+    "text": "Dal duemilaventisette,",
+    "start": 2.368,
+    "end": 3.688
+   },
+   {
+    "text": "per raggiungere la pensione di vecchiaia, si dovrà lavorare un mese in più.",
+    "start": 3.813,
+    "end": 7.338
+   },
+   {
+    "text": "Ma perché?",
+    "start": 7.766,
+    "end": 8.349
+   },
+   {
+    "text": "Si vive più a lungo:",
+    "start": 8.691,
+    "end": 9.77
+   },
+   {
+    "text": "l'età sale con la speranza di vita.",
+    "start": 10.034,
+    "end": 11.843
+   },
+   {
+    "text": "Cosa puoi fare?",
+    "start": 12.326,
+    "end": 13.071
+   },
+   {
+    "text": "Primo:",
+    "start": 13.54,
+    "end": 13.861
+   },
+   {
+    "text": "controlla i contributi versati, nel tuo estratto conto Inps.",
+    "start": 14.198,
+    "end": 17.182
+   },
+   {
+    "text": "Secondo:",
+    "start": 17.573,
+    "end": 18.127
+   },
+   {
+    "text": "stima la tua pensione con il simulatore gratuito dell'Inps.",
+    "start": 18.426,
+    "end": 21.373
+   },
+   {
+    "text": "Terzo:",
+    "start": 21.779,
+    "end": 22.169
+   },
+   {
+    "text": "valuta un fondo pensione.",
+    "start": 22.439,
+    "end": 23.783
+   },
+   {
+    "text": "Quello che versi si può dedurre dalle tasse.",
+    "start": 24.108,
+    "end": 26.219
+   },
+   {
+    "text": "Prima inizi, meglio è.",
+    "start": 26.596,
+    "end": 27.935
+   },
+   {
+    "text": "E tu,",
+    "start": 28.364,
+    "end": 28.729
+   },
+   {
+    "text": "ci stai già pensando?",
+    "start": 28.937,
+    "end": 29.914
+   }
+  ],
+  "frasi": [
+   {
+    "text": "Sessantasette anni e un mese.",
+    "start": 0.0,
+    "end": 2.001
+   },
+   {
+    "text": "Dal duemilaventisette,",
+    "start": 2.368,
+    "end": 3.688
+   },
+   {
+    "text": "per raggiungere la pensione di vecchiaia, si dovrà lavorare un mese in più.",
+    "start": 3.813,
+    "end": 7.338
+   },
+   {
+    "text": "Ma perché?",
+    "start": 7.698,
+    "end": 8.281
+   },
+   {
+    "text": "Si vive più a lungo:",
+    "start": 8.623,
+    "end": 9.702
+   },
+   {
+    "text": "l'età sale con la speranza di vita.",
+    "start": 9.966,
+    "end": 11.775
+   },
+   {
+    "text": "Cosa puoi fare?",
+    "start": 12.075,
+    "end": 12.82
+   },
+   {
+    "text": "Primo:",
+    "start": 13.12,
+    "end": 13.441
+   },
+   {
+    "text": "controlla i contributi versati, nel tuo estratto conto Inps.",
+    "start": 13.778,
+    "end": 16.762
+   },
+   {
+    "text": "Secondo:",
+    "start": 17.153,
+    "end": 17.707
+   },
+   {
+    "text": "stima la tua pensione con il simulatore gratuito dell'Inps.",
+    "start": 18.006,
+    "end": 20.953
+   },
+   {
+    "text": "Terzo:",
+    "start": 21.253,
+    "end": 21.643
+   },
+   {
+    "text": "valuta un fondo pensione.",
+    "start": 21.913,
+    "end": 23.257
+   },
+   {
+    "text": "Quello che versi si può dedurre dalle tasse.",
+    "start": 23.582,
+    "end": 25.693
+   },
+   {
+    "text": "Prima inizi, meglio è.",
+    "start": 26.07,
+    "end": 27.409
+   },
+   {
+    "text": "E tu,",
+    "start": 27.709,
+    "end": 28.074
+   },
+   {
+    "text": "ci stai già pensando?",
+    "start": 28.282,
+    "end": 29.259
+   }
+  ]
+ },
+ "audio": {
+  "lufs_integrati": -14.8,
+  "true_peak_dbfs": -1.7,
+  "musica": null
+ }
+}

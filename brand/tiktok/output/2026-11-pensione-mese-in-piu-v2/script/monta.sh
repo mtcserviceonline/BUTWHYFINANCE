@@ -15,7 +15,7 @@
 #
 # Passi: mp3 -> wav -> frasi.py (testo noto da scene_elevenlabs.json, allineato alle pause) -> ritmo.py
 # (pause > 0,4 s portate a 0,3 s, 0,36 s prima di "Ma perché?"; accelera solo se sotto 165 parole/min,
-# qui max 1,05x: variabile VMAX) -> allinea.py (tempi di ogni parola) -> montage.py (controlli automatici + video muto) ->
+# qui nessuna accelerazione: VMAX=1.0, variabile VMAX) -> allinea.py (tempi di ogni parola) -> montage.py (controlli automatici + video muto) ->
 # effetti.py -> [musica.py] -> norm.sh (-14 LUFS, true peak -2 dBTP) -> unione -> fotogrammi.py ->
 # copertina.py -> trascrizione.py.
 #
@@ -51,7 +51,7 @@ ffmpeg -loglevel error -y -i "$VOCE" -ac 1 -ar 44100 voce_orig.wav
 # pause da 0,12 s (non 0,08): con 0,08 una micro-pausa dentro "duemilaventisette" spostava "Ma perché?"
 python3 frasi.py voce_orig.wav scene_elevenlabs.json frasi_orig.json --min "${FRASI_MIN:-0.12}"
 if [ "${RITMO:-1}" != "0" ]; then
-  python3 ritmo.py voce_orig.wav frasi_orig.json voce.wav frasi.json --pausa-prima "$PAUSA_PRIMA" --vmax "${VMAX:-1.05}"
+  python3 ritmo.py voce_orig.wav frasi_orig.json voce.wav frasi.json --pausa-prima "$PAUSA_PRIMA" --vmax "${VMAX:-1.0}"
 else
   cp voce_orig.wav voce.wav; cp frasi_orig.json frasi.json
 fi

@@ -4,20 +4,21 @@
     "nome": "hook: il numero",
     "secondi": "0-7.3",
     "espressione_orso": "sorpreso, zampe aperte (01: la sedia a dondolo che si allontana), poi spiega col calendario (02)",
-    "tono": "sorpresa vera sul numero detto subito, poi chiaro; «per quasi tutti» detto piano, non esclamato; pausa sospesa sui puntini",
+    "tono": "sorpresa vera sul numero detto subito, poi chiaro; pausa sospesa sui puntini",
     "tag_v3": "[surprised]",
     "tag_it": "[sorpreso]",
     "stability": 0.35,
     "style": 0.45,
-    "text": "Sessantasette anni e un mese. Dal duemilaventisette, per quasi tutti, la pensione di vecchiaia si sposta più in là. …",
+    "text": "Sessantasette anni e un mese. Dal duemilaventisette, per raggiungere la pensione di vecchiaia, si dovrà lavorare un mese in più. …",
     "frasi_immagini": [
       "Sessantasette anni e un mese.",
-      "Dal duemilaventisette, per quasi tutti, la pensione di vecchiaia si sposta più in là."
+      "Dal duemilaventisette, per raggiungere la pensione di vecchiaia, si dovrà lavorare un mese in più."
     ],
     "immagini": [
       1,
       2
-    ]
+    ],
+    "nota": "Testo allineato alla registrazione del 30/10/2026 (il testo approvato diceva «per quasi tutti, la pensione di vecchiaia si sposta più in là»): «per quasi tutti» è affidato allo schermo e alla didascalia."
   },
   {
     "id": 2,

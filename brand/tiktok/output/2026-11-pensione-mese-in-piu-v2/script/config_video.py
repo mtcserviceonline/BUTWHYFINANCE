@@ -10,10 +10,8 @@
 #   "sopra" = prendono il posto della riga precedente;
 #   colori "base" (carta su inchiostro, inchiostro su carta) o "accent" (fucsia, contorno carta).
 #
-# PREPARATA SENZA LA VOCE DEFINITIVA: inquadrature e titoli sono stati provati con montage.py
-# (--solo-controlli e --preview) su tempi stimati dalle pause della registrazione del 30/10/2026
-# (scena 1 a parte, che verra' rifatta). Con la voce nuova rilanciare monta.sh: se un controllo
-# fallisce (di solito un cambio visivo > 2 s), spostare la parola d'inizio dell'inquadratura.
+# Voce: registrazione ElevenLabs del 30/10/2026 tenuta com'e' (scena 1: «per raggiungere la pensione di
+# vecchiaia, si dovra' lavorare un mese in piu'»): «PER QUASI TUTTI» e le eccezioni sono a schermo (titolo "quasi").
 
 # Box degli occhiali (lenti + ponte) e del volto (orecchie comprese), pixel della sorgente, misurati su una
 # griglia di 50 px e controllati disegnandoli (immagini del 30/10/2026).
@@ -28,7 +26,6 @@ OCCHIALI = {
     "08": {"occhiali": (205, 870, 450, 990), "volto": (128, 770, 498, 1105)},
 }
 
-INVITO = ("ECCEZIONI? LEGGI LA DIDASCALIA ↓", "semi", 48, "base")   # freccia nel font, niente emoji a schermo
 AVVERTENZA = ("Informazione, non consulenza finanziaria", "semi", 44, "base")
 
 TITLES = {
@@ -40,16 +37,17 @@ TITLES = {
          "parola": "mese"},
     ],
     "perche": [[("MA PERCHÉ?", "cond", 130, "base")]],
-    # il fatto, sul calendario: «DAL 2027» → «PER QUASI TUTTI» + invito alle eccezioni
+    # il fatto, sul calendario: «DAL 2027» → «PENSIONE DI VECCHIAIA»
     "anno": [
         [("DAL ", "cond", 110, "base"), ("2027", "mono", 112, "accent")],
-        {"runs": [("PER ", "cond", 92, "base"), ("QUASI", "cond", 92, "accent"), (" TUTTI", "cond", 92, "base")],
-         "parola": "quasi"},
-        {"runs": [INVITO], "parola": "tutti,"},
+        {"runs": [("PENSIONE DI VECCHIAIA", "cond", 74, "base")], "parola": "raggiungere"},
     ],
-    "vecchiaia": [
-        [("PENSIONE DI VECCHIAIA", "cond", 70, "base")],
-        {"runs": [("PIÙ IN LÀ →", "cond", 112, "accent")], "parola": "sposta"},
+    # sulla frase registrata «si dovrà lavorare un mese in più» (semplificazione: il requisito è l'età),
+    # la precisazione a schermo: «PER QUASI TUTTI» grande + invito alle eccezioni grande, su due righe
+    "quasi": [
+        [("PER ", "cond", 100, "base"), ("QUASI", "cond", 100, "accent"), (" TUTTI", "cond", 100, "base")],
+        {"runs": [("ECCEZIONI?", "cond", 76, "base")], "parola": "mese#2"},
+        {"runs": [("LEGGI LA DIDASCALIA ↓", "semi", 62, "base")], "parola": "mese#2"},
     ],
     "speranza": [
         [("SI VIVE PIÙ A LUNGO", "cond", 92, "base")],
@@ -90,7 +88,7 @@ SHOTS = [
     # 2 · il fatto (carta, tenda inchiostro → carta): calendario con la pagina fucsia in più; titoli su
     # targhetta color carta ("pill") perche' passano sopra il calendario
     {"img": "02", "parola": "Dal", "view": (540, 950, 0.85), "title": "anno", "pill": True, "transizione": "tenda"},
-    {"img": "02", "parola": "la#1", "view": (500, 935, 0.95), "title": "vecchiaia"},
+    {"img": "02", "parola": "si", "view": (520, 960, 0.90), "title": "quasi", "pill": True},
     # «Ma perché?»: stretta su orso sorpreso + sedia, fumetto sopra la sedia
     {"img": "01", "parola": "Ma", "view": (520, 960, 1.10), "title": "perche", "zoom_max": 1.15,
      "bubble": (560, 440, 640, 600), "bubble_parola": "perché?"},
@@ -118,7 +116,7 @@ SHOTS = [
 
 SUBS = [
     "*67* ANNI", "E UN *MESE*.",
-    "DAL *2027*,", "PER *QUASI* TUTTI,", "LA PENSIONE", "DI VECCHIAIA", "SI SPOSTA *PIÙ IN LÀ*.",
+    "DAL *2027*,", "PER RAGGIUNGERE", "LA PENSIONE DI VECCHIAIA,", "SI DOVRÀ LAVORARE", "UN *MESE* IN PIÙ.",
     "MA *PERCHÉ?*",
     "SI VIVE PIÙ A LUNGO:", "L'ETÀ *SALE*", "CON LA SPERANZA DI VITA.",
     "COSA PUOI *FARE?*", "PRIMO:", "CONTROLLA I *CONTRIBUTI*", "VERSATI, NEL TUO", "*ESTRATTO CONTO* INPS.",

@@ -1,10 +1,10 @@
-TESTO PER ELEVENLABS · In 60 secondi: pensione a 67 anni e un mese, cosa puoi fare
+TESTO PER ELEVENLABS · In 60 secondi: pensione a 67 anni e un mese, cosa puoi fare (testo allineato alla registrazione del 30/10)
 
-8 scene, 80 parole (a 140-150 parole/min ~ 32-34 s di voce).
+8 scene, 81 parole (a 140-150 parole/min ~ 32-35 s di voce).
 
 === VERSIONE 1: eleven_v3, tag di tono in inglese (da incollare così) ===
 
-[surprised] Sessantasette anni e un mese. Dal duemilaventisette, per quasi tutti, la pensione di vecchiaia si sposta più in là. …
+[surprised] Sessantasette anni e un mese. Dal duemilaventisette, per raggiungere la pensione di vecchiaia, si dovrà lavorare un mese in più. …
 [curious] Ma perché?
 [matter-of-fact] Si vive più a lungo: l'età sale con la speranza di vita.
 [calm] Cosa puoi fare? Primo: controlla i contributi versati, nel tuo estratto conto Inps.
@@ -16,7 +16,7 @@ TESTO PER ELEVENLABS · In 60 secondi: pensione a 67 anni e un mese, cosa puoi f
 
 === VERSIONE 2: tag di tono in italiano ===
 
-[sorpreso] Sessantasette anni e un mese. Dal duemilaventisette, per quasi tutti, la pensione di vecchiaia si sposta più in là. …
+[sorpreso] Sessantasette anni e un mese. Dal duemilaventisette, per raggiungere la pensione di vecchiaia, si dovrà lavorare un mese in più. …
 [curioso] Ma perché?
 [chiaro] Si vive più a lungo: l'età sale con la speranza di vita.
 [calmo] Cosa puoi fare? Primo: controlla i contributi versati, nel tuo estratto conto Inps.
@@ -30,7 +30,7 @@ TESTO PER ELEVENLABS · In 60 secondi: pensione a 67 anni e un mese, cosa puoi f
 (lingua italiano, similarity 0.8, speaker boost attivo, velocità 0,95-1,0)
 
 Scena 1 | sorpreso | stability 0.35 | style 0.45 | 0-7.3 s | immagini 1, 2
-Sessantasette anni e un mese. Dal duemilaventisette, per quasi tutti, la pensione di vecchiaia si sposta più in là. …
+Sessantasette anni e un mese. Dal duemilaventisette, per raggiungere la pensione di vecchiaia, si dovrà lavorare un mese in più. …
 
 Scena 2 | curioso | stability 0.5 | style 0.3 | 7.7-8.4 s | immagini 1
 Ma perché?
