@@ -1,0 +1,56 @@
+TESTO PER ELEVENLABS · Vero o falso? Il governo alza l'età pensionabile
+
+8 scene, 75 parole: a 165-175 parole/min (ritmo voluto per questo post) 25,7-27,3 s, ~26,5-28 s con la pausa «…» e le pause sui due punti.
+Hook: «Vero» è la prima parola e deve sentirsi piena. Se eleven_v3 la mangia o la attacca troppo morbida, rigenera solo la riga 1
+scrivendo «VERO o falso?» (maiuscolo solo nel testo per la voce) e controlla che il file non parta tagliato.
+
+=== VERSIONE 1: eleven_v3, tag di tono in inglese (da incollare così) ===
+
+[surprised] Vero o falso? Il governo alza l'età pensionabile…
+[curious] Ma perché?
+[matter-of-fact] Dal duemilaventisette, sessantasette anni e un mese. Per quasi tutti.
+[calm] È una regola: se a sessantacinque anni si vive in media di più, si va più tardi.
+[calm] Stavolta toccavano tre mesi: la manovra ne ha rinviati due.
+[thoughtful] Banca d'Italia: va tenuta, contiene la spesa. Cgil: va fermata, pesa su chi lavora.
+[warm] Vero che sale: lo fa la regola, non il governo.
+[curious] E tu, la terresti?
+
+
+=== VERSIONE 2: tag di tono in italiano ===
+
+[sorpreso] Vero o falso? Il governo alza l'età pensionabile…
+[curioso] Ma perché?
+[chiaro] Dal duemilaventisette, sessantasette anni e un mese. Per quasi tutti.
+[calmo] È una regola: se a sessantacinque anni si vive in media di più, si va più tardi.
+[calmo] Stavolta toccavano tre mesi: la manovra ne ha rinviati due.
+[pensieroso] Banca d'Italia: va tenuta, contiene la spesa. Cgil: va fermata, pesa su chi lavora.
+[caldo] Vero che sale: lo fa la regola, non il governo.
+[curioso] E tu, la terresti?
+
+
+=== VERSIONE 3: eleven_multilingual_v2, una scena alla volta (senza tag) ===
+(lingua italiano, similarity 0.8, speaker boost attivo, velocità 0,95-1,0)
+
+Scena 1 | sorpreso | stability 0.35 | style 0.45 | 0-3.3 s | immagini 1
+Vero o falso? Il governo alza l'età pensionabile…
+
+Scena 2 | curioso | stability 0.5 | style 0.3 | 3.3-4.0 s | immagini 1
+Ma perché?
+
+Scena 3 | chiaro | stability 0.6 | style 0.2 | 4.0-7.7 s | immagini 2
+Dal duemilaventisette, sessantasette anni e un mese. Per quasi tutti.
+
+Scena 4 | calmo | stability 0.7 | style 0.1 | 7.7-13.6 s | immagini 3, 4
+È una regola: se a sessantacinque anni si vive in media di più, si va più tardi.
+
+Scena 5 | calmo | stability 0.7 | style 0.1 | 13.6-17.4 s | immagini 5, 6
+Stavolta toccavano tre mesi: la manovra ne ha rinviati due.
+
+Scena 6 | pensieroso | stability 0.7 | style 0.1 | 17.4-22.6 s | immagini 7
+Banca d'Italia: va tenuta, contiene la spesa. Cgil: va fermata, pesa su chi lavora.
+
+Scena 7 | caldo | stability 0.5 | style 0.3 | 22.6-26.3 s | immagini 8
+Vero che sale: lo fa la regola, non il governo.
+
+Scena 8 | curioso | stability 0.5 | style 0.3 | 26.3-27.8 s | immagini 8
+E tu, la terresti?
