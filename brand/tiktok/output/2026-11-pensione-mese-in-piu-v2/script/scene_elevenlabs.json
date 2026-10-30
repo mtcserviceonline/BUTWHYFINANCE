@@ -1,24 +1,29 @@
 [
   {
     "id": 1,
-    "nome": "hook: la frase",
-    "secondi": "0-3.3",
-    "espressione_orso": "sorpreso, zampe aperte",
-    "tono": "sfida da quiz, come chi legge un titolo che circola; «Vero» attaccato forte e accentato fin dal primo istante, poi pausa sospesa sui puntini",
+    "nome": "hook: il numero",
+    "secondi": "0-7.3",
+    "espressione_orso": "sorpreso, zampe aperte (01: la sedia a dondolo che si allontana), poi spiega col calendario (02)",
+    "tono": "sorpresa vera sul numero detto subito, poi chiaro; «per quasi tutti» detto piano, non esclamato; pausa sospesa sui puntini",
     "tag_v3": "[surprised]",
     "tag_it": "[sorpreso]",
     "stability": 0.35,
     "style": 0.45,
-    "text": "Vero o falso? Il governo alza l'età pensionabile…",
+    "text": "Sessantasette anni e un mese. Dal duemilaventisette, per quasi tutti, la pensione di vecchiaia si sposta più in là. …",
+    "frasi_immagini": [
+      "Sessantasette anni e un mese.",
+      "Dal duemilaventisette, per quasi tutti, la pensione di vecchiaia si sposta più in là."
+    ],
     "immagini": [
-      1
+      1,
+      2
     ]
   },
   {
     "id": 2,
     "nome": "hook: ma perché",
-    "secondi": "3.3-4.0",
-    "espressione_orso": "sorpreso (inquadratura stretta)",
+    "secondi": "7.7-8.4",
+    "espressione_orso": "sorpreso (01, inquadratura stretta)",
     "tono": "curioso, breve, domanda che sale",
     "tag_v3": "[curious]",
     "tag_it": "[curioso]",
@@ -31,100 +36,90 @@
   },
   {
     "id": 3,
-    "nome": "il fatto",
-    "secondi": "4.0-7.7",
-    "espressione_orso": "spiega, indice alzato",
-    "tono": "chiaro e asciutto, i numeri scanditi; «Per quasi tutti» detto piano, non esclamato",
+    "nome": "il perché",
+    "secondi": "8.7-11.8",
+    "espressione_orso": "pensieroso, mano al mento (03)",
+    "tono": "chiaro e asciutto",
     "tag_v3": "[matter-of-fact]",
     "tag_it": "[chiaro]",
     "stability": 0.6,
     "style": 0.2,
-    "text": "Dal duemilaventisette, sessantasette anni e un mese. Per quasi tutti.",
+    "text": "Si vive più a lungo: l'età sale con la speranza di vita.",
     "immagini": [
-      2
+      3
     ]
   },
   {
     "id": 4,
-    "nome": "la regola",
-    "secondi": "7.7-13.6",
-    "espressione_orso": "pensieroso (03), poi spiega con l'indice alzato (04)",
-    "tono": "calmo, da spiegazione al bar; piccola pausa dopo i due punti",
+    "nome": "consiglio 1",
+    "secondi": "12.3-17.2",
+    "espressione_orso": "legge un foglio con la lente (04)",
+    "tono": "calmo, da spiegazione al bar; piccola pausa dopo «Primo»",
     "tag_v3": "[calm]",
     "tag_it": "[calmo]",
     "stability": 0.7,
     "style": 0.1,
-    "text": "È una regola: se a sessantacinque anni si vive in media di più, si va più tardi.",
-    "frasi_immagini": [
-      "È una regola:",
-      "se a sessantacinque anni si vive in media di più, si va più tardi."
-    ],
+    "text": "Cosa puoi fare? Primo: controlla i contributi versati, nel tuo estratto conto Inps.",
     "immagini": [
-      3,
       4
     ]
   },
   {
     "id": 5,
-    "nome": "tre mesi, due rinviati",
-    "secondi": "13.6-17.4",
-    "espressione_orso": "sorpreso (05), poi spiega (06)",
-    "tono": "calmo, il «tre» e il «due» ben distinti",
+    "nome": "consiglio 2",
+    "secondi": "17.6-21.4",
+    "espressione_orso": "contento con lo smartphone e il grafico (05)",
+    "tono": "calmo, pratico",
     "tag_v3": "[calm]",
     "tag_it": "[calmo]",
     "stability": 0.7,
     "style": 0.1,
-    "text": "Stavolta toccavano tre mesi: la manovra ne ha rinviati due.",
-    "frasi_immagini": [
-      "Stavolta toccavano tre mesi:",
-      "la manovra ne ha rinviati due."
-    ],
+    "text": "Secondo: stima la tua pensione con il simulatore gratuito dell'Inps.",
     "immagini": [
-      5,
-      6
+      5
     ]
   },
   {
     "id": 6,
-    "nome": "due tesi",
-    "secondi": "17.4-22.6",
-    "espressione_orso": "pensieroso, mano al mento",
-    "tono": "pensieroso e neutro, stesso peso alle due frasi, pausa fra le due istituzioni",
+    "nome": "consiglio 3",
+    "secondi": "21.8-26.2",
+    "espressione_orso": "spiega, indice alzato, salvadanaio e pile di monete (06)",
+    "tono": "pensieroso e misurato, senza tono da pubblicità",
     "tag_v3": "[thoughtful]",
     "tag_it": "[pensieroso]",
     "stability": 0.7,
     "style": 0.1,
-    "text": "Banca d'Italia: va tenuta, contiene la spesa. Cgil: va fermata, pesa su chi lavora.",
+    "text": "Terzo: valuta un fondo pensione. Quello che versi si può dedurre dalle tasse.",
+    "immagini": [
+      6
+    ]
+  },
+  {
+    "id": 7,
+    "nome": "prima inizi",
+    "secondi": "26.6-27.9",
+    "espressione_orso": "spiega, indice alzato verso la clessidra (07)",
+    "tono": "caldo e sicuro",
+    "tag_v3": "[warm]",
+    "tag_it": "[caldo]",
+    "stability": 0.5,
+    "style": 0.3,
+    "text": "Prima inizi, meglio è.",
     "immagini": [
       7
     ]
   },
   {
-    "id": 7,
-    "nome": "verdetto",
-    "secondi": "22.6-26.3",
-    "espressione_orso": "occhiolino, timbro in mano",
-    "tono": "caldo e sicuro, verdetto senza trionfo",
-    "tag_v3": "[warm]",
-    "tag_it": "[caldo]",
-    "stability": 0.5,
-    "style": 0.3,
-    "text": "Vero che sale: lo fa la regola, non il governo.",
-    "immagini": [
-      8
-    ]
-  },
-  {
     "id": 8,
     "nome": "domanda",
-    "secondi": "26.3-27.8",
-    "espressione_orso": "occhiolino (inquadratura stretta)",
+    "secondi": "28.4-30.0",
+    "espressione_orso": "occhiolino, saluta, sedia a dondolo ferma (08)",
     "tono": "curioso e aperto, domanda vera che sale alla fine",
     "tag_v3": "[curious]",
     "tag_it": "[curioso]",
     "stability": 0.5,
     "style": 0.3,
-    "text": "E tu, la terresti?",
+    "text": "E tu, ci stai già pensando?",
     "immagini": [
       8
     ]

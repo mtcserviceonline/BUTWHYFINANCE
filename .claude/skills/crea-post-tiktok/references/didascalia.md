@@ -8,7 +8,7 @@
 - **Fonti nominate** nel testo ("secondo Assoutenti", "dati Istat"); i link non sono cliccabili su TikTok: niente URL lunghi.
 - **3-5 hashtag** parola chiave + nicchia, non solo generici (`#risparmio #finanzapersonale #bollette #imparacontiktok`). `#butwhyfinance`: chiedi all'utente (vedi `brand.md`).
 - Parole chiave SEO del copione dentro il testo, in modo naturale.
-- Nessun consiglio di investimento, nessun prodotto, nessuna marca consigliata.
+- Consigli solo generali (strumenti pubblici, abitudini, categorie di prodotto), mai prodotti, fondi, titoli o marche specifici né importi/rendimenti promessi; con un consiglio finanziario, una riga per consiglio con il «come si fa» e **sempre** l'avvertenza «Informazione, non consulenza finanziaria: per la tua situazione chiedi a un professionista» (o a un patronato).
 - Una **versione breve** (1-2 righe + hashtag) per quando serve stare corti.
 - Promemoria: attivare l'etichetta **"contenuto generato da IA"** al momento della pubblicazione.
 

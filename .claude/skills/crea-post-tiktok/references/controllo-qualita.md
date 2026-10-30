@@ -8,7 +8,8 @@ Da fare prima del commit. Riporta l'esito (sì / no + cosa manca) nella sezione 
 - [ ] **Durata 20-30 s**: parole della voce contate (≤ 66; a 140-150 parole/min = 26-28 s).
 - [ ] **Passo**: un'immagine ogni 2-3 s (8 immagini per ~25 s), nessuna schermata ferma a lungo.
 - [ ] **Tesi attribuite e neutrali**: ogni tesi ha il nome di chi la sostiene, nessun giudizio, nessuna presa di posizione.
-- [ ] **Nessun consiglio di investimento** né prodotto finanziario; nessuna marca o servizio consigliato.
+- [ ] **Consigli solo generali** (strumenti pubblici, abitudini, categorie di prodotto): nessun prodotto, fondo, gestore, titolo, marca o servizio specifico consigliato; nessun importo da investire, rendimento o risparmio promesso; verbi aperti («valuta», «controlla»), non ordini.
+- [ ] Se c'è un consiglio finanziario: **avvertenza** «Informazione, non consulenza finanziaria: per la tua situazione chiedi a un professionista» (o patronato) in didascalia e, piccola, a schermo (scena del consiglio o chiusura).
 - [ ] **Numeri**: ognuno ha fonte e data in `ricerca.md`, oppure è marcato come **stima** con il calcolo; "circa" nella voce e "~" a schermo per le stime. Calcoli rifatti eseguendoli.
 - [ ] Dati "letti solo in sintesi" elencati nel README come **da verificare prima di pubblicare**.
 - [ ] **Domanda aperta** in chiusura (non retorica), ripetuta in didascalia.

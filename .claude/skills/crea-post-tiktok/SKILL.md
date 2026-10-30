@@ -29,7 +29,7 @@ Il metodo viene dai due post già fatti; quando hai un dubbio, imita `brand/tikt
 - Scrivi e rispondi **in italiano**.
 - Testi e prompt **direttamente in chat**, non solo nei file. Il **testo ElevenLabs va sempre incollato nel messaggio**.
 - Delega volentieri il lavoro lungo ad **agenti in background** (immagini e testi in parallelo, su file diversi, ognuno con `git add` dei soli propri percorsi e `git pull --rebase` prima del push): vedi [`references/cartella-e-consegna.md`](references/cartella-e-consegna.md).
-- Il tema resta **aperto alla discussione**: si chiude con una domanda, mai con una sentenza. **Nessun consiglio di investimento** né prodotto finanziario.
+- Il tema resta **aperto alla discussione**: si chiude con una domanda, mai con una sentenza. **Consigli finanziari semplici e generali sì** (strumenti pubblici, abitudini, categorie di prodotto), **mai** prodotti/fondi/titoli specifici né importi o rendimenti promessi, **sempre** l'avvertenza «Informazione, non consulenza finanziaria» (regola completa in `references/brand.md` → "Voce e tono").
 
 ## Flusso
 
@@ -72,7 +72,7 @@ Fatto con fonte nominata, tesi attribuite, domanda aperta, 3-5 hashtag parola ch
 Indice, stato di ogni elemento, cose da verificare prima di pubblicare, cosa manca (voce, montaggio). Struttura e modello: [`references/cartella-e-consegna.md`](references/cartella-e-consegna.md). `voce.mp3` e `video.mp4` solo su richiesta: [`references/montaggio.md`](references/montaggio.md).
 
 ### 8. Controllo qualità
-Checklist in [`references/controllo-qualita.md`](references/controllo-qualita.md): hook in 1 s su tre canali, un'immagine ogni 2-3 s, tesi attribuite e neutrali, nessun consiglio di investimento, numeri con fonte o marcati come stima, domanda aperta, colori e regole di brand, orso coerente, fasce libere, nessuna scritta nelle immagini.
+Checklist in [`references/controllo-qualita.md`](references/controllo-qualita.md): hook in 1 s su tre canali, un'immagine ogni 2-3 s, tesi attribuite e neutrali, consigli solo generali con l'avvertenza "informazione, non consulenza", numeri con fonte o marcati come stima, domanda aperta, colori e regole di brand, orso coerente, fasce libere, nessuna scritta nelle immagini.
 
 ### 9. Consegna
 - `git add` **solo** della cartella del post; commit in italiano con le righe di attribuzione richieste dall'ambiente (se presenti nella conversazione); `git pull --rebase origin <branch corrente>`; `git push -u origin <branch corrente>` con retry 2/4/8/16 s solo per errori di rete. Mai altri branch, nessuna PR.

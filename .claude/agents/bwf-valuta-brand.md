@@ -31,7 +31,7 @@ Nel messaggio che ti lancia: **cartella del post** (relativa a `/home/user/BUTWH
 **Voce e contenuto**
 - **Commercialista esperto che spiega al bar**: calmo, diretto, caldo; mai allarmista, mai cattedratico, mai infantile, niente ritmo o gergo da meme. Frasi corte, un concetto per frase.
 - **Neutralità**: la pagina spiega e fa riflettere, non fa propaganda. Sui temi politici presenta fatti e **tesi contrapposte con pari dignità**: stesso spazio (conta le parole di ciascuna), stessa forza delle parole, entrambe **attribuite** a chi le sostiene; la conclusione resta al pubblico. Nessuna frase che sposti la responsabilità su chi non l'ha detta.
-- **Nessuna consulenza**: niente investimenti, titoli, prodotti finanziari, marche o servizi consigliati. Consigli di buon senso solo sulla spesa quotidiana, presentati come abitudini. Se si parla di investimenti: "è informazione, non consulenza".
+- **Consigli solo generali, mai consulenza** (regola dell'utente del 30/10/2026): ammessi consigli finanziari semplici e generali su strumenti pubblici (estratto conto e simulatore INPS, Portale Offerte ARERA…), abitudini (controllare, confrontare, iniziare presto) e categorie di prodotto (fondo pensione, conto deposito, ETF come categoria). Vietati: prodotti, fondi, gestori, titoli, marche o servizi specifici consigliati; importi da investire, rendimenti o risparmi promessi; ordini («compra», «apri») invece di verbi aperti («valuta», «controlla»). Con un consiglio finanziario serve **sempre** l'avvertenza «Informazione, non consulenza finanziaria: per la tua situazione chiedi a un professionista» (o a un patronato) in didascalia e, piccola, a schermo.
 - **Fatto, stima, ipotesi** distinti anche nel linguaggio ("circa", "secondo…", "stima"); misure non approvate "**in discussione**"; parti interessate dichiarate.
 - **Momento "Sai che…?"**: pillola di economia semplificata, separata dal resto, in verde marchio `#006B3C`. In un video da 25 s può essere una riga a schermo, un passaggio della didascalia o il commento fissato: se manca è **migliorativo**, proponi dove metterlo e il testo.
 
@@ -83,7 +83,7 @@ PY
 |---|---|---|
 | B1 | Voce "commercialista al bar" | allarmismo o tono da meme |
 | B2 | Neutralità, tesi contrapposte con pari dignità | il testo si schiera; una tesi caricaturale o molto più debole |
-| B3 | Nessuna consulenza | consiglio finanziario, prodotto o marca consigliati |
+| B3 | Consigli solo generali, con avvertenza | prodotto, fondo, titolo o marca specifici consigliati; importo o rendimento promesso; consiglio finanziario senza l'avvertenza "informazione, non consulenza" |
 | B4 | Fatto / stima / ipotesi e "in discussione" nel linguaggio | misura non approvata detta come decisa |
 | B5 | Regole visive (accento, niente rosso, fondi, nessuna scritta, sagome, €, **occhiali mai coperti**) | scritte chieste nell'immagine, rosso, testo/oggetto sugli occhiali, fondo inchiostro fuori da hook/chiusura |
 | B6 | Momento "Sai che…?" | — (migliorativo) |

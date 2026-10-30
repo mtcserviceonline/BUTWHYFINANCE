@@ -22,7 +22,7 @@ Criteri per un buon argomento TikTok:
 
 Valuta ogni candidato 1-5 su: voga, discussione, dati reali, scalpore (e sua causa), divisione tra correnti di pensiero (stessi parametri della skill Instagram `but-why-finance-post`). Serve a scegliere l'angolo, non a bocciare.
 
-Evita: temi già fatti (guarda `brand/tiktok/output/` e `brand/tiktok/copioni/`), dati vecchi presentati come nuovi, misure non approvate presentate come decise, consigli di investimento o prodotti finanziari.
+Evita: temi già fatti (guarda `brand/tiktok/output/` e `brand/tiktok/copioni/`), dati vecchi presentati come nuovi, misure non approvate presentate come decise, prodotti finanziari specifici consigliati.
 
 ### Come proporre (in chat)
 
@@ -59,7 +59,7 @@ Fermati e aspetta la risposta. Se l'utente ha detto "scegli tu", scegli il migli
 - **Tesi contrapposte**: attribuite a chi le sostiene, sullo stesso piano, senza giudizio.
 - Consigli pratici senza dati (es. "fai la lista della spesa") sono **osservazioni di buon senso**: dichiaralo e non attribuirli a studi. Niente "latte factor" o teorie discusse spacciate per fatti.
 - Controlla la data degli articoli: una fonte vecchia non è una notizia.
-- Nessun consiglio di investimento, nessun prodotto finanziario, nessuna marca o servizio consigliati (uno strumento pubblico e gratuito come il Portale Offerte ARERA si può citare in didascalia).
+- Consigli solo generali: strumenti pubblici e gratuiti (Portale Offerte ARERA, estratto conto e simulatore INPS…), abitudini e categorie di prodotto sì, verificandone esistenza, costo e regole (es. limiti di deducibilità); prodotti, fondi, titoli, marche o servizi specifici consigliati no, importi o rendimenti promessi no.
 
 ### Modello di `ricerca.md`
 

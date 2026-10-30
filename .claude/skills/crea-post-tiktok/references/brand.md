@@ -71,7 +71,7 @@ Espressioni (dal set `espressioni.jpg`) e formula inglese collaudata nei prompt:
 
 - **Commercialista esperto che spiega al bar**: calmo, diretto, caldo; mai allarmista, mai infantile, niente ritmo da meme.
 - Neutro: presenta i fatti e le tesi attribuite a chi le sostiene, non si schiera. Il tema resta **aperto alla discussione**.
-- **Nessun consiglio di investimento, nessun prodotto finanziario**, nessuna marca o servizio citato come consiglio. Consigli di buon senso sulla spesa quotidiana sono ammessi, presentati come abitudini e non come regole sostenute da dati che non abbiamo.
+- **Consigli finanziari semplici e generali: sì** (decisione dell'utente del 30/10/2026). Ammessi: **strumenti pubblici** (estratto conto e simulatore INPS, Portale Offerte ARERA…), **abitudini** (controllare, confrontare, iniziare presto, tenere un fondo per le emergenze), **categorie di prodotto** (fondo pensione, conto deposito, ETF come categoria), con il vantaggio o la regola di legge che le riguarda. **Mai**: prodotti, fondi, gestori, titoli, marche o servizi specifici consigliati; importi da investire, rendimenti o risparmi promessi; ordini («compra», «apri») al posto di verbi aperti («valuta», «controlla», «confronta»). **Sempre l'avvertenza** «Informazione, non consulenza finanziaria: per la tua situazione chiedi a un professionista» (per i temi previdenziali «… o a un patronato») in didascalia e, piccola, a schermo nella scena del consiglio o in chiusura. I consigli di buon senso sulla spesa quotidiana restano abitudini, non regole sostenute da dati che non abbiamo.
 - Velocità 140-150 parole/min, frasi corte, un concetto per frase.
 - Chiusura sempre con una **domanda aperta** (non retorica), ripetuta nella didascalia.
 

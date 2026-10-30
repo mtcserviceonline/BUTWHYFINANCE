@@ -1,56 +1,54 @@
-TESTO PER ELEVENLABS · Vero o falso? Il governo alza l'età pensionabile
+TESTO PER ELEVENLABS · In 60 secondi: pensione a 67 anni e un mese, cosa puoi fare
 
-8 scene, 75 parole: a 165-175 parole/min (ritmo voluto per questo post) 25,7-27,3 s, ~26,5-28 s con la pausa «…» e le pause sui due punti.
-Hook: «Vero» è la prima parola e deve sentirsi piena. Se eleven_v3 la mangia o la attacca troppo morbida, rigenera solo la riga 1
-scrivendo «VERO o falso?» (maiuscolo solo nel testo per la voce) e controlla che il file non parta tagliato.
+8 scene, 80 parole (a 140-150 parole/min ~ 32-34 s di voce).
 
 === VERSIONE 1: eleven_v3, tag di tono in inglese (da incollare così) ===
 
-[surprised] Vero o falso? Il governo alza l'età pensionabile…
+[surprised] Sessantasette anni e un mese. Dal duemilaventisette, per quasi tutti, la pensione di vecchiaia si sposta più in là. …
 [curious] Ma perché?
-[matter-of-fact] Dal duemilaventisette, sessantasette anni e un mese. Per quasi tutti.
-[calm] È una regola: se a sessantacinque anni si vive in media di più, si va più tardi.
-[calm] Stavolta toccavano tre mesi: la manovra ne ha rinviati due.
-[thoughtful] Banca d'Italia: va tenuta, contiene la spesa. Cgil: va fermata, pesa su chi lavora.
-[warm] Vero che sale: lo fa la regola, non il governo.
-[curious] E tu, la terresti?
+[matter-of-fact] Si vive più a lungo: l'età sale con la speranza di vita.
+[calm] Cosa puoi fare? Primo: controlla i contributi versati, nel tuo estratto conto Inps.
+[calm] Secondo: stima la tua pensione con il simulatore gratuito dell'Inps.
+[thoughtful] Terzo: valuta un fondo pensione. Quello che versi si può dedurre dalle tasse.
+[warm] Prima inizi, meglio è.
+[curious] E tu, ci stai già pensando?
 
 
 === VERSIONE 2: tag di tono in italiano ===
 
-[sorpreso] Vero o falso? Il governo alza l'età pensionabile…
+[sorpreso] Sessantasette anni e un mese. Dal duemilaventisette, per quasi tutti, la pensione di vecchiaia si sposta più in là. …
 [curioso] Ma perché?
-[chiaro] Dal duemilaventisette, sessantasette anni e un mese. Per quasi tutti.
-[calmo] È una regola: se a sessantacinque anni si vive in media di più, si va più tardi.
-[calmo] Stavolta toccavano tre mesi: la manovra ne ha rinviati due.
-[pensieroso] Banca d'Italia: va tenuta, contiene la spesa. Cgil: va fermata, pesa su chi lavora.
-[caldo] Vero che sale: lo fa la regola, non il governo.
-[curioso] E tu, la terresti?
+[chiaro] Si vive più a lungo: l'età sale con la speranza di vita.
+[calmo] Cosa puoi fare? Primo: controlla i contributi versati, nel tuo estratto conto Inps.
+[calmo] Secondo: stima la tua pensione con il simulatore gratuito dell'Inps.
+[pensieroso] Terzo: valuta un fondo pensione. Quello che versi si può dedurre dalle tasse.
+[caldo] Prima inizi, meglio è.
+[curioso] E tu, ci stai già pensando?
 
 
 === VERSIONE 3: eleven_multilingual_v2, una scena alla volta (senza tag) ===
 (lingua italiano, similarity 0.8, speaker boost attivo, velocità 0,95-1,0)
 
-Scena 1 | sorpreso | stability 0.35 | style 0.45 | 0-3.3 s | immagini 1
-Vero o falso? Il governo alza l'età pensionabile…
+Scena 1 | sorpreso | stability 0.35 | style 0.45 | 0-7.3 s | immagini 1, 2
+Sessantasette anni e un mese. Dal duemilaventisette, per quasi tutti, la pensione di vecchiaia si sposta più in là. …
 
-Scena 2 | curioso | stability 0.5 | style 0.3 | 3.3-4.0 s | immagini 1
+Scena 2 | curioso | stability 0.5 | style 0.3 | 7.7-8.4 s | immagini 1
 Ma perché?
 
-Scena 3 | chiaro | stability 0.6 | style 0.2 | 4.0-7.7 s | immagini 2
-Dal duemilaventisette, sessantasette anni e un mese. Per quasi tutti.
+Scena 3 | chiaro | stability 0.6 | style 0.2 | 8.7-11.8 s | immagini 3
+Si vive più a lungo: l'età sale con la speranza di vita.
 
-Scena 4 | calmo | stability 0.7 | style 0.1 | 7.7-13.6 s | immagini 3, 4
-È una regola: se a sessantacinque anni si vive in media di più, si va più tardi.
+Scena 4 | calmo | stability 0.7 | style 0.1 | 12.3-17.2 s | immagini 4
+Cosa puoi fare? Primo: controlla i contributi versati, nel tuo estratto conto Inps.
 
-Scena 5 | calmo | stability 0.7 | style 0.1 | 13.6-17.4 s | immagini 5, 6
-Stavolta toccavano tre mesi: la manovra ne ha rinviati due.
+Scena 5 | calmo | stability 0.7 | style 0.1 | 17.6-21.4 s | immagini 5
+Secondo: stima la tua pensione con il simulatore gratuito dell'Inps.
 
-Scena 6 | pensieroso | stability 0.7 | style 0.1 | 17.4-22.6 s | immagini 7
-Banca d'Italia: va tenuta, contiene la spesa. Cgil: va fermata, pesa su chi lavora.
+Scena 6 | pensieroso | stability 0.7 | style 0.1 | 21.8-26.2 s | immagini 6
+Terzo: valuta un fondo pensione. Quello che versi si può dedurre dalle tasse.
 
-Scena 7 | caldo | stability 0.5 | style 0.3 | 22.6-26.3 s | immagini 8
-Vero che sale: lo fa la regola, non il governo.
+Scena 7 | caldo | stability 0.5 | style 0.3 | 26.6-27.9 s | immagini 7
+Prima inizi, meglio è.
 
-Scena 8 | curioso | stability 0.5 | style 0.3 | 26.3-27.8 s | immagini 8
-E tu, la terresti?
+Scena 8 | curioso | stability 0.5 | style 0.3 | 28.4-30.0 s | immagini 8
+E tu, ci stai già pensando?

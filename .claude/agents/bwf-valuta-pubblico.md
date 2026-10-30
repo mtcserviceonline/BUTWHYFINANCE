@@ -102,7 +102,7 @@ Data: AAAA-MM-GG · File letti: …
 ```
 ```
 
-Regole delle proposte: testo pronto; voce con **numeri in lettere** e stime con "circa"; niente numeri nuovi (se servirebbero, segnalali nelle note per il verificatore); tono da commercialista al bar, neutrale, nessun consiglio finanziario; tieni conto del limite di ~75 parole (se aggiungi, indica cosa togliere). Il blocco JSON è **l'ultima cosa del file**, su una riga, JSON valido.
+Regole delle proposte: testo pronto; voce con **numeri in lettere** e stime con "circa"; niente numeri nuovi (se servirebbero, segnalali nelle note per il verificatore); tono da commercialista al bar, neutrale, consigli finanziari solo generali (mai prodotti specifici, importi o rendimenti; con avvertenza «informazione, non consulenza»); tieni conto del limite di ~75 parole (se aggiungi, indica cosa togliere). Il blocco JSON è **l'ultima cosa del file**, su una riga, JSON valido.
 
 ## Divieti
 

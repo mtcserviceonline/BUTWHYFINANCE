@@ -1,90 +1,80 @@
-# Copione TikTok: "Vero o falso? «Il governo alza l'età pensionabile»"
+# Copione TikTok: "In 60 secondi · Pensione a 67 anni e un mese: cosa puoi fare"
 
-**Rubrica:** Vero o falso? (accento viola `#5B3FA8` su oggetti, numeri dei titoli e parole chiave; timbro del verdetto in montaggio)
+**Rubrica:** In 60 secondi (accento fucsia `#B0186E` su oggetti, numeri dei titoli e parole chiave dei sottotitoli; unico accento)
 **Formato:** illustrato con l'orso + voce narrante; hook (01) e chiusura (08) su inchiostro `#111418`, le altre 6 immagini su carta `#F4F1EA`
-**Durata:** **75 parole**, 25,7-27,3 s a 165-175 parole/min, **~27,5 s** con la pausa «…», le pause sui due punti e l'ultimo fotogramma del loop; 8 scene voce, 8 immagini (un cambio visivo ogni ≤ 2,5 s con le inquadrature strette indicate)
-**Obiettivo:** commenti (verdetto da discutere + domanda «la terresti?») e condivisioni (sfata una frase che gira)
-**Suono:** voce narrante + base strumentale leggera a -20 dB con licenza commerciale (libreria TikTok); effetti: colpo secco a 0,0 s, «tick» sui numeri, **timbro** sul verdetto (~22,6 s)
+**Durata:** **80 parole** (conteggio di `elevenlabs_txt.py`; 79 per `frasi.py`, che non conta «…»). Registrazione attuale 30,04 s → con le pause > 0,4 s portate a 0,3 s e al più 1,05x **~28 s, ~170 parole/min** (prova della catena sulla voce del 30/10); 8 scene voce, 8 immagini, 16 inquadrature (un cambio visivo ogni ≤ 2 s)
+**Obiettivo:** salvataggi (tre cose da fare, con il «come» in didascalia) e commenti (domanda personale «ci stai già pensando?")
+**Suono:** voce narrante; base strumentale leggera a -20 dB solo dalla libreria commerciale di TikTok; effetti: colpo secco a 0,0 s, «tick» su «mese» e sui numeri dei consigli
 **Etichetta IA:** attivare "contenuto generato da IA" (immagini e voce). Testi solo in montaggio, mai nelle immagini.
-**Stato:** testo **da approvare** dall'utente prima di registrare la voce.
-**Fatti e fonti:** [`ricerca.md`](ricerca.md) · **Scene per la voce:** [`script/scene_elevenlabs.json`](script/scene_elevenlabs.json) · **Testo da incollare:** [`script/elevenlabs.txt`](script/elevenlabs.txt)
+**Stato:** testo **approvato dall'utente** (30/10/2026) e registrato; la scena 1 registrata è diversa dal testo e va rifatta (vedi `README.md`).
+**Fatti e fonti:** [`ricerca.md`](ricerca.md) · **Scene per la voce:** [`script/scene_elevenlabs.json`](script/scene_elevenlabs.json) · **Testo da incollare:** [`script/elevenlabs.txt`](script/elevenlabs.txt) · **Montaggio:** [`script/config_video.py`](script/config_video.py)
 
-## Testo della voce (eleven_v3, tag inglesi)
+## Testo della voce (approvato, eleven_v3, tag inglesi)
 
 ```
-[surprised] Vero o falso? Il governo alza l'età pensionabile…
-[curious] Ma perché?
-[matter-of-fact] Dal duemilaventisette, sessantasette anni e un mese. Per quasi tutti.
-[calm] È una regola: se a sessantacinque anni si vive in media di più, si va più tardi.
-[calm] Stavolta toccavano tre mesi: la manovra ne ha rinviati due.
-[thoughtful] Banca d'Italia: va tenuta, contiene la spesa. Cgil: va fermata, pesa su chi lavora.
-[warm] Vero che sale: lo fa la regola, non il governo.
-[curious] E tu, la terresti?
+[surprised] Sessantasette anni e un mese. Dal duemilaventisette, per quasi tutti, la pensione di vecchiaia si sposta più in là. … [curious] Ma perché?
+[matter-of-fact] Si vive più a lungo: l'età sale con la speranza di vita.
+[calm] Cosa puoi fare? Primo: controlla i contributi versati, nel tuo estratto conto Inps.
+[calm] Secondo: stima la tua pensione con il simulatore gratuito dell'Inps.
+[thoughtful] Terzo: valuta un fondo pensione. Quello che versi si può dedurre dalle tasse.
+[warm] Prima inizi, meglio è. [curious] E tu, ci stai già pensando?
 ```
 
-Conteggio: `wc -w` sul solo testo (tag esclusi) = 75. «Cgil» si pronuncia come sigla («ci-gi-elle»): se la voce sbaglia, scrivere «Ci Gi Elle» solo nel testo per la voce.
+**Scena 1 da rifare** (la sola cosa da registrare di nuovo):
+
+```
+[surprised] Sessantasette anni e un mese. Dal duemilaventisette, per quasi tutti, la pensione di vecchiaia si sposta più in là.
+```
+
+La registrazione del 30/10 dice invece «Dal duemilaventisette, per raggiungere la pensione di vecchiaia, si dovrà lavorare un mese in più» (5 trascrizioni su 5): manca «per quasi tutti», la correzione chiave del post precedente.
 
 ## Production doc
 
-Tempi stimati a ~171 parole/min (0,35 s a parola) più ~0,4 s di pausa «…» e ~0,15 s per i due punti: conta la parola su cui entra ogni elemento, il secondo è indicativo. **Regola dei titoli:** le righe si **sostituiscono**, non si impilano: a schermo al massimo 2 righe di titolo + sottotitolo.
+Tempi della voce del 30/10 dopo `ritmo.py` (scena 1 stimata sulla durata attuale, ~7,3 s): conta la parola su cui entra ogni elemento, il secondo è indicativo. Le inquadrature sono in `script/config_video.py`.
 
-| # | Tempo | Immagine | Testo a schermo (entra sulla parola) | Voce (tono) | Suono |
+| # | Tempo | Immagine / inquadratura | Testo a schermo (entra sulla parola) | Voce (tono) | Suono |
 |---|---|---|---|---|---|
-| 1 | 0,0-3,3 | **01 · Hook.** Inchiostro; orso intero sorpreso, zampe aperte; timbro con manico viola sospeso sopra un foglio bianco | **a 0,0 s**, come la copertina: «VERO O FALSO?» gigante in viola con contorno carta + sotto «"IL GOVERNO ALZA L'ETÀ PENSIONABILE"» in carta (2 righe), sopra la testa dell'orso; punch-in 100→110% nei primi 0,7 s | *(sorpreso, «Vero» pieno)* "Vero o falso? Il governo alza l'età pensionabile…" | colpo secco a 0,0 s |
-| 2 | 3,3-4,0 | 01, stretta su orso + timbro (≤ 115%) | escono le righe dell'hook; entra **«MA PERCHÉ?»** gigante; fumetto «But Why Finance?» verde marchio su «perché», di lato, mai sugli occhiali | *(curioso)* "Ma perché?" | — |
-| 3 | 4,0-7,7 | **02.** Carta; calendario a strappo grigio con un foglio viola nuovo in cima; orso che spiega | «PENSIONE DI VECCHIAIA» piccolo + **«67 ANNI + 1 MESE»** viola (cifre IBM Plex Mono) su «sessantasette» (~4,5) · su «quasi» (~6,9) la riga piccola diventa «PER QUASI TUTTI» · subito sotto l'invito **«ECCEZIONI? LEGGI LA DIDASCALIA ↓»** su targhetta inchiostro, **corpo ≥ 64 px** (non meno di metà del titolo), resta fino al taglio | *(chiaro)* "Dal duemilaventisette, sessantasette anni e un mese. Per quasi tutti." | tick su «67» |
-| 4 | 7,7-9,9 | **03.** Carta; tre ingranaggi che girano da soli (il grande viola), sagoma grigia senza volto che non li tocca; orso pensieroso | **«REGOLA AUTOMATICA»** + «DAL 2010» (Mono) su «regola» (~8,2) | *(calmo)* "È una regola:" | ticchettio d'ingranaggio leggero |
-| 5 | 9,9-13,6 | **04.** Carta; sentiero in salita, sagoma con bastone, sedia a dondolo spostata più in là (freccia viola dalla sagoma tratteggiata) | «A 65 ANNI SI VIVE DI PIÙ?» su «sessantacinque» (~10,3) → sostituita da **«→ PENSIONE PIÙ TARDI»** su «si va» (~12,8) · etichetta verde marchio **«SAI CHE…? CONTA QUANTO SI VIVE DOPO I 65»** sulla vista larga, in alto a sinistra, dentro le zone sicure · stretta sulla sedia a ~12,8 s | *(calmo)* "se a sessantacinque anni si vive in media di più, si va più tardi." | — |
-| 6 | 13,6-15,5 | **05.** Carta; tre cubi viola su una mensola, lente d'ingrandimento grigia; orso sorpreso | **«+3 MESI»** viola + «DATI ISTAT · decreto 19/12/2025» piccolo su «tre» (~14,3) | *(calmo)* "Stavolta toccavano tre mesi:" | tick su «3» |
-| 7 | 15,5-17,4 | **06.** Carta; due gradini: un cubo sul primo, due sul secondo con freccia viola che sale; orso che spiega | «LEGGE DI BILANCIO 2026» + **«2027: +1 · 2028: +2»** (Mono, numeri viola) su «manovra» (~15,7) | *(calmo)* "la manovra ne ha rinviati due." | tick su «due» |
-| 8 | 17,4-22,6 | **07.** Carta; bilancia in equilibrio: salvadanaio con moneta viola / casco e guanti da lavoro; orso pensieroso | larga: nessun titolo (~17,4-17,8) · stretta sul piatto del salvadanaio su «Banca» (~17,6): **«BANCA D'ITALIA: TENERLA»** + «contiene la spesa» · stretta sul piatto con il casco su «Cgil» (~20,2): **«CGIL: FERMARLA»** + «pesa su chi lavora» (le righe della Banca escono) · etichette sopra il loro piatto, mai sugli occhiali | *(pensieroso)* "Banca d'Italia: va tenuta, contiene la spesa. Cgil: va fermata, pesa su chi lavora." | — |
-| 9 | 22,6-26,3 | **08 · Chiusura.** Inchiostro; orso con l'occhiolino che alza il timbro viola; foglio con l'anello viola timbrato | su «Vero» (~22,6): **timbro «VERO A METÀ»** in montaggio dentro l'anello del foglio (viola con contorno carta, leggera rotazione) + colpo di timbro · su «regola» (~24,3): «SALE PER LA REGOLA, NON PER IL GOVERNO» (2 righe) | *(caldo)* "Vero che sale: lo fa la regola, non il governo." | **timbro** a ~22,6 s |
-| 10 | 26,3-27,8 | 08, stretta su orso + timbro | **«E TU, LA TERRESTI?»** gigante + fumetto «But Why Finance?» su «tu»; ultimi ~0,5 s: **fotogramma 0** (immagine 01, vista larga) con «VERO O FALSO?» nella stessa posizione, per il loop | *(curioso)* "E tu, la terresti?" | base che sfuma |
+| 1 | 0,0-2,2 | **01 · Hook.** Inchiostro; orso intero sorpreso, zampe aperte; sedia a dondolo fucsia che **si allontana** (linee di movimento). Vista larga + punch-in 112% in 0,7 s | **a 0,0 s**, come la copertina: «PENSIONE» piccolo + **«67 ANNI»** gigante fucsia (cifre Mono) · su «mese» (~1,3): **«+ 1 MESE»** | *(sorpreso)* "Sessantasette anni e un mese." | **colpo** a 0,0 s, tick su «mese» |
+| 2 | 2,2-4,6 | **02.** Carta; calendario a strappo grigio, pagine bianche, **una pagina fucsia nuova** in cima; orso che spiega, indice alzato. Larga (85%), **tenda** inchiostro → carta | **«DAL 2027»** · su «quasi»: **«PER QUASI TUTTI»** (QUASI in fucsia) · su «tutti»: **«ECCEZIONI? LEGGI LA DIDASCALIA ↓»** (targhetta carta: le righe passano sopra il calendario) | *(chiaro)* "Dal duemilaventisette, per quasi tutti," | — |
+| 3 | 4,6-7,4 | 02, media (95%) | «PENSIONE DI VECCHIAIA» · su «sposta»: **«PIÙ IN LÀ →»** fucsia | "la pensione di vecchiaia si sposta più in là. …" | — |
+| 4 | 7,4-8,4 | 01, stretta (110%) su orso sorpreso + sedia | **«MA PERCHÉ?»** gigante · fumetto «But Why Finance?» su «perché», sopra la sedia | *(curioso)* "Ma perché?" | — |
+| 5 | 8,4-9,7 | **03.** Carta; sentiero in salita, sagoma grigia con bastone, **sedia fucsia spostata più in là** (sagoma tratteggiata + freccia fucsia); orso pensieroso, mano al mento. Larga (92%) | **«SI VIVE PIÙ A LUNGO»** | *(chiaro)* "Si vive più a lungo:" | — |
+| 6 | 9,7-11,9 | 03, stretta (109%) | su «sale»: **«→ L'ETÀ SALE»** · su «speranza»: «adeguamento alla speranza di vita (Istat)» | "l'età sale con la speranza di vita." | — |
+| 7 | 11,9-13,1 | **04.** Carta; orso che tiene in alto un **foglio bianco a righe grigie astratte** (l'estratto conto) e una **lente fucsia**. Larga | **«COSA PUOI FARE?»** | *(calmo)* "Cosa puoi fare?" | — |
+| 8 | 13,1-14,5 | 04, larga (stessa vista, cambia il titolo) | **«1 · ESTRATTO CONTO»** (1 in Mono fucsia) sopra la testa | "Primo:" | tick su «Primo» |
+| 9 | 14,5-16,9 | 04, media (103%) | su «estratto»: «MyINPS, gratis con SPID o CIE» | "controlla i contributi versati, nel tuo estratto conto Inps." | — |
+| 10 | 16,9-18,4 | **05.** Carta; orso contento con uno **smartphone** alzato: grafico astratto fucsia che sale, barre grigie, **nessun numero**. Larga | **«2 · SIMULATORE INPS»** | *(calmo)* "Secondo: stima la tua" | tick su «Secondo» |
+| 11 | 18,4-21,0 | 05, media (108%) | su «simulatore»: ««La mia pensione futura»» | "pensione con il simulatore gratuito dell'Inps." | — |
+| 12 | 21,0-23,4 | **06.** Carta; **salvadanaio** grigio, moneta fucsia che entra, **tre pile di monete fucsia che crescono**; orso che spiega. Larga | **«3 · FONDO PENSIONE»** · su «fondo»: **«Informazione, non consulenza finanziaria»** (piccola, resta fino al taglio) | *(pensieroso)* "Terzo: valuta un fondo pensione." | tick su «Terzo» |
+| 13 | 23,4-25,8 | 06, media (108%) | + su «dedurre»: «versamenti deducibili, con un tetto annuo» (nessuna cifra a schermo) | "Quello che versi si può dedurre dalle tasse." | — |
+| 14 | 25,8-27,4 | **07.** Carta; **clessidra** con sabbia fucsia appena iniziata a scendere; orso con l'indice alzato verso la clessidra | **«PRIMA INIZI,»** · su «meglio»: **«MEGLIO È»** fucsia | *(caldo)* "Prima inizi, meglio è." | — |
+| 15 | 27,4-28,9 | **08 · Chiusura.** Inchiostro; orso con l'**occhiolino** che saluta, **la stessa sedia fucsia, ferma** accanto a lui | **«CI STAI GIÀ PENSANDO?»** + sotto, piccola, «Informazione, non consulenza finanziaria» · fumetto «But Why Finance?» su «già» | *(curioso)* "E tu, ci stai già pensando?" | — |
+| 16 | ultimi ~0,45 s | **loop:** 01, la vista del fotogramma 0 (prima del punch-in), ferma | «PENSIONE» + **«?»** fucsia al posto di «67 ANNI», stessa posizione | — | — |
 
 Note di montaggio:
-- Testo a schermo **dal fotogramma 0**: stesse righe della copertina (`copertina.png`, script `script/copertina.py`), così copertina e primo fotogramma coincidono.
-- Titoli in IBM Plex Sans Condensed Bold, cifre (67, 65, 2010, 2027, 2028, +3) in IBM Plex Mono; viola sempre con contorno carta (su inchiostro il viola puro si legge poco).
-- **Invito grande**: «ECCEZIONI? LEGGI LA DIDASCALIA ↓» a ≥ 64 px su targhetta, mai in corpo piccolo (difetto del post precedente). La freccia «↓» nello stesso font (niente emoji a schermo).
-- Un cambio visivo ogni ≤ 2,5 s: le scene lunghe (07 e 08) hanno 2-3 inquadrature (larga → strette), zoom ≤ 115%.
-- Dissolvenza 0,2 s come unica transizione; sottotitoli 3-5 parole nelle zone sicure (non nel 10% alto, nel 15% basso, nella colonna destra), una parola chiave per riga in viola.
-- Immagini 02, 07 e 08: l'orso scende fino all'86-90% dell'altezza (vedi `immagini/README.md`): sottotitoli su targhetta o vista leggermente alzata.
-- Il timbro «VERO A METÀ» è un elemento di montaggio (testo), non nell'immagine: l'anello viola del foglio dell'08 è il suo posto.
+- **Fotogramma 0 = copertina**: stesse righe di `copertina.png` (`script/copertina.py`), numero a schermo e colpo a 0,0 s.
+- «Ma perché?» senza titolo di rubrica: solo la domanda e il fumetto.
+- **Titoli dei consigli sopra la testa** («1 · ESTRATTO CONTO», «2 · SIMULATORE INPS», «3 · FONDO PENSIONE»), numeri in IBM Plex Mono fucsia con contorno carta; testo in IBM Plex Sans Condensed.
+- **Sottotitoli** 1-2 righe sopra il 15% basso, mai su occhiali né su € (controllato con le coordinate della € misurate su ogni immagine: fondo della € ≤ y 1390 in tutte le inquadrature, sottotitoli da y ~1400).
+- Solo tagli netti, una tenda (inchiostro → carta); zoom ≤ 115%.
+- **Avvertenza a schermo** due volte: nella scena del fondo pensione e nella domanda finale.
 
 ## Hook: i tre canali
-- **Verbale:** la prima parola è «Vero», forte e accentata sulla prima sillaba (nel post precedente l'«Un» iniziale non si sentiva); «Ma perché?» entra a ~3,3 s, dopo la pausa «…».
-- **Testo:** «VERO O FALSO?» viola gigante + la frase fra virgolette dal fotogramma 0; a 3,3 s le righe **escono** e lascia posto a «MA PERCHÉ?».
-- **Visivo:** orso sorpreso con un oggetto concreto (il timbro sospeso sul foglio bianco: il verdetto sta per arrivare), colpo secco a 0,0 s, punch-in.
+- **Verbale:** il numero è la prima parola («Sessantasette anni e un mese»), poi il quando e il «per quasi tutti».
+- **Testo:** «67 ANNI» gigante fucsia dal fotogramma 0, «+ 1 MESE» sulla parola.
+- **Visivo:** orso sorpreso e la sedia a dondolo (la pensione) che scappa via; colpo secco, punch-in.
 
 ## Loop e rewatch
-- **Loop:** l'08 è lo stesso set dell'01 (inchiostro, orso a sinistra, timbro viola, foglio a destra): nell'01 il foglio è bianco, nell'08 è timbrato. Ultimi ~0,5 s: torna il fotogramma 0 con «VERO O FALSO?» e la voce ripartendo ricomincia la domanda.
-- **Rewatch:** il verdetto «a metà» (vero/falso nella stessa frase), i numeri da rileggere («2027: +1 · 2028: +2»), la lista delle eccezioni in didascalia.
+- **Loop:** l'08 è lo stesso set dell'01 (inchiostro, orso a sinistra, sedia fucsia a destra): nell'01 la sedia scappa, nell'08 è ferma e l'orso saluta. Ultimi ~0,45 s: torna il fotogramma 0 con «?» al posto di «67 ANNI».
+- **Rewatch / salvataggi:** tre consigli numerati, il «come» (MyINPS, SPID/CIE, «La mia pensione futura») scritto piccolo a schermo e per intero in didascalia.
 
-## SEO TikTok
-- **Parole chiave:** età pensionabile, pensione di vecchiaia, pensione 2027, speranza di vita, legge di bilancio, INPS.
-- «Età pensionabile» è detta nei primi 3 s e scritta a schermo dal fotogramma 0; «pensione di vecchiaia» a schermo a ~4,5 s; tutte nella prima riga della didascalia.
-- **Hashtag:** vedi `didascalia.md` (`#butwhyfinance #maperché` + pertinenti).
+## Parole chiave (SEO TikTok)
+pensione 2027, età pensionabile, 67 anni e 1 mese, estratto conto INPS, simulatore pensione INPS, La mia pensione futura, fondo pensione deducibile, previdenza complementare.
 
-## Confronto con il post precedente (`../2026-11-pensione-67-anni-un-mese/`)
-| Errore trovato allora | Qui |
-|---|---|
-| «Per tutti» falso | «Per quasi tutti» a voce e a schermo, eccezioni a condizioni in didascalia; difesa e sicurezza **non** fra le eccezioni |
-| «Vale anche per l'anticipata» mai verificato | non usato (riga 11 di `ricerca.md`: non verificato sulla circolare) |
-| Tesi favorevole generica («chi difende la regola») | Banca d'Italia con nome e audizione; Cgil con Lara Ghiglione e data |
-| «Un» iniziale che non si sentiva | prima parola «Vero», accentata; nota per rigenerare la riga 1 |
-| Invito a schermo troppo piccolo | invito ≥ 64 px su targhetta |
-| Titoli impilati | regola «le righe si sostituiscono», max 2 righe |
-| 5 immagini | 8 immagini, 8 oggetti diversi |
-| Manovra 2027 | nominata solo in `ricerca.md` e nelle note: in discussione, niente di deciso |
-
-## Controllo qualità
-- Hook in 1 s su tre canali: sì («Vero» a 0,0 s, «VERO O FALSO?» a 0,0 s, orso sorpreso + timbro). «Ma perché?» a ~3,3 s con pausa «…»: sì.
-- Durata: 75 parole ≤ 75, ~27,5 s a 165-175 parole/min: sì.
-- Passo: 8 immagini, 10 inquadrature principali, nessuna vista ferma oltre ~2,5 s: sì (con le strette indicate).
-- Tesi attribuite con nome e pari peso (7 parole ciascuna, stessa struttura); chiusura con frase neutra (il verdetto) + domanda aperta non retorica: sì.
-- Nessun consiglio, né d'investimento né su quando andare in pensione: sì. Per i casi personali la didascalia rimanda a INPS o patronato.
-- Numeri: tutti con fonte in `ricerca.md`, **tutti letti solo in sintesi** (nessun sito raggiungibile dalla sessione): da verificare prima di pubblicare. Nessuna stima nostra.
-- Numeri in lettere nella voce, cifre a schermo: sì. Tag inglesi per eleven_v3: sì.
-- «Sai che…?»: a schermo (img 04) e in didascalia.
-- Colori: un solo accento viola, niente rosso, inchiostro solo su 01 e 08: sì (misurato).
-- Testi solo in montaggio: sì; immagini senza scritte (guardate tutte).
-- Da fare: approvazione del testo, verifiche di `ricerca.md`, voce su ElevenLabs, montaggio.
+## Controllo qualità (copione)
+- [x] Hook in 1 s sui tre canali; numero a 0,0 s.
+- [x] Fatto con fonte (INPS circ. 28/2026) in didascalia; «per quasi tutti» con le eccezioni corrette (difesa e sicurezza **non** escluse).
+- [x] Consigli **generali**: strumenti pubblici gratuiti e una categoria di prodotto, nessun fondo/gestore nominato, nessun importo o rendimento promesso, «valuta» e non «apri»; avvertenza a schermo e in didascalia.
+- [x] Nessuna cifra non verificata a schermo (il tetto di 5.300 € solo in didascalia, decorrenza discussa).
+- [x] Domanda aperta finale, uguale in didascalia.
+- [ ] **Scena 1 da registrare di nuovo** con il testo approvato.

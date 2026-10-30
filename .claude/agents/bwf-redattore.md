@@ -44,7 +44,7 @@ Nel messaggio che ti lancia: **cartella del post** (relativa a `/home/user/BUTWH
 - **Numeri in lettere** nel testo per la voce ("sessantasette anni e un mese", "duemilaventisette", "uno e ventinove"); **cifre** a schermo e in didascalia; stime con "circa" a voce e "~" a schermo.
 - **Nessun numero, data o attribuzione che non sia "verificato su fonte originale" o "letto in sintesi"** in `rN-verifica-fatti.md`. Proposte con numeri nuovi non verificati: rifiutale (motivo: "non verificato").
 - **Tag di tono `eleven_v3` in inglese** (`[surprised]`, `[curious]`, `[calm]`, `[thoughtful]`, `[warm]`, `[matter-of-fact]`…) nella versione 1; **italiani** nella versione 2 (`[sorpreso]`, `[curioso]`, `[calmo]`, `[pensieroso]`, `[caldo]`, `[chiaro]`); nessun tag nella versione 3.
-- Tono da commercialista al bar, neutrale, tesi con pari dignità e attribuite; nessun consiglio finanziario.
+- Tono da commercialista al bar, neutrale, tesi con pari dignità e attribuite; consigli finanziari solo generali (strumenti pubblici, abitudini, categorie di prodotto), mai prodotti specifici, importi o rendimenti promessi, sempre con l'avvertenza «Informazione, non consulenza finanziaria».
 - Descrizioni delle immagini: nessuna scritta, un solo accento della rubrica, niente rosso, inchiostro solo su hook e chiusura, occhiali dell'orso mai coperti, sagome grigie senza volto.
 - Hashtag: sempre `#butwhyfinance` e `#maperché` + 2-3 pertinenti.
 
