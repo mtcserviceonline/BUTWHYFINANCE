@@ -1,0 +1,312 @@
+{
+ "video": "Il numero: 67 anni e 1 mese (Vero o falso: età pensionabile), 'Pensione'",
+ "id_video": "7702534309550247190",
+ "pubblicato_utc": "2026-10-30 18:47",
+ "durata_s": 29.7,
+ "rilevazione": {
+  "quando": "2026-11-01 11:02 UTC (circa 41 h dopo la pubblicazione)",
+  "fonte": "estensione tools/estensione-tiktok-studio v0.2, risposta aweme/v2/data/insight"
+ },
+ "contatori": {
+  "visualizzazioni": 305,
+  "mi_piace": 19,
+  "commenti": 0,
+  "condivisioni": 0,
+  "salvataggi": 0
+ },
+ "panoramica": {
+  "tempo_riproduzione_totale_s": 2226,
+  "tempo_medio_visualizzazione_s": 6.96,
+  "tempo_medio_su_durata_%": 23,
+  "guarda_video_completo_%": 6.3,
+  "nuovi_follower": 0,
+  "spettatori_unici": 233,
+  "spettatori_nuovi_%": 67,
+  "spettatori_di_ritorno_%": 33,
+  "spettatori_follower_%": 1,
+  "follower_account": 8
+ },
+ "retention_per_secondo": {
+  "nota": "quota di spettatori ancora presenti a ogni secondo (1 = 100%); secondo 0 = inizio",
+  "valori": [
+   1,
+   0.61,
+   0.49,
+   0.41,
+   0.31,
+   0.27,
+   0.23,
+   0.21,
+   0.2,
+   0.19,
+   0.18,
+   0.18,
+   0.17,
+   0.16,
+   0.15,
+   0.14,
+   0.12,
+   0.12,
+   0.11,
+   0.11,
+   0.11,
+   0.1,
+   0.09,
+   0.08,
+   0.08,
+   0.07,
+   0.07,
+   0.07,
+   0.06,
+   0.06
+  ],
+  "picco_abbandono_s": 1,
+  "perdita_per_secondo_punti": [
+   39,
+   12,
+   8,
+   10,
+   4,
+   4,
+   2,
+   1,
+   1,
+   1,
+   0,
+   1,
+   1,
+   1,
+   1,
+   2,
+   0,
+   1,
+   0,
+   0,
+   1,
+   1,
+   1,
+   0,
+   1,
+   0,
+   0,
+   1,
+   0
+  ]
+ },
+ "mi_piace_per_secondo": {
+  "nota": "quota dei mi piace messi a ogni secondo (19 mi piace in totale)",
+  "valori": [
+   0.15,
+   0.2,
+   0.15,
+   0.1,
+   0.1,
+   0.05,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0.05,
+   0.05,
+   0.05,
+   0,
+   0,
+   0,
+   0,
+   0.05,
+   0.05,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "picco_s": 1
+ },
+ "visualizzazioni_per_ora_utc": [
+  {
+   "ora_utc": "2026-10-30 18:00",
+   "visualizzazioni": 30,
+   "tempo_medio_s": 3.77,
+   "completamento": 0
+  },
+  {
+   "ora_utc": "2026-10-30 19:00",
+   "visualizzazioni": 115,
+   "tempo_medio_s": 6.3,
+   "completamento": 0.04
+  },
+  {
+   "ora_utc": "2026-10-30 20:00",
+   "visualizzazioni": 113,
+   "tempo_medio_s": 5.18,
+   "completamento": 0.04
+  },
+  {
+   "ora_utc": "2026-10-30 21:00",
+   "visualizzazioni": 11,
+   "tempo_medio_s": 6.93,
+   "completamento": 0
+  },
+  {
+   "ora_utc": "2026-10-30 22:00",
+   "visualizzazioni": 3,
+   "tempo_medio_s": 3.1,
+   "completamento": 0
+  },
+  {
+   "ora_utc": "2026-10-30 23:00",
+   "visualizzazioni": 2,
+   "tempo_medio_s": 14.27,
+   "completamento": 0.5
+  },
+  {
+   "ora_utc": "2026-10-31 04:00",
+   "visualizzazioni": 1,
+   "tempo_medio_s": 30.65,
+   "completamento": 1
+  },
+  {
+   "ora_utc": "2026-10-31 08:00",
+   "visualizzazioni": 4,
+   "tempo_medio_s": 29.44,
+   "completamento": 0.5
+  },
+  {
+   "ora_utc": "2026-10-31 09:00",
+   "visualizzazioni": 1,
+   "tempo_medio_s": 1.21,
+   "completamento": 0
+  },
+  {
+   "ora_utc": "2026-10-31 10:00",
+   "visualizzazioni": 5,
+   "tempo_medio_s": 8.6,
+   "completamento": 0.2
+  },
+  {
+   "ora_utc": "2026-10-31 11:00",
+   "visualizzazioni": 3,
+   "tempo_medio_s": 27.15,
+   "completamento": 1
+  },
+  {
+   "ora_utc": "2026-10-31 13:00",
+   "visualizzazioni": 3,
+   "tempo_medio_s": 17.58,
+   "completamento": 0.33
+  },
+  {
+   "ora_utc": "2026-10-31 14:00",
+   "visualizzazioni": 6,
+   "tempo_medio_s": 5.73,
+   "completamento": 0.17
+  },
+  {
+   "ora_utc": "2026-10-31 15:00",
+   "visualizzazioni": 3,
+   "tempo_medio_s": 10.86,
+   "completamento": 0
+  },
+  {
+   "ora_utc": "2026-10-31 16:00",
+   "visualizzazioni": 2,
+   "tempo_medio_s": 6.07,
+   "completamento": 0
+  },
+  {
+   "ora_utc": "2026-10-31 17:00",
+   "visualizzazioni": 3,
+   "tempo_medio_s": 13.29,
+   "completamento": 0
+  },
+  {
+   "ora_utc": "2026-10-31 18:00",
+   "visualizzazioni": 1,
+   "tempo_medio_s": 1.33,
+   "completamento": 0
+  },
+  {
+   "ora_utc": "2026-10-31 19:00",
+   "visualizzazioni": 2,
+   "tempo_medio_s": 7.84,
+   "completamento": 0
+  },
+  {
+   "ora_utc": "2026-10-31 20:00",
+   "visualizzazioni": 5,
+   "tempo_medio_s": 13.54,
+   "completamento": 0.2
+  },
+  {
+   "ora_utc": "2026-10-31 22:00",
+   "visualizzazioni": 1,
+   "tempo_medio_s": 15.59,
+   "completamento": 0
+  },
+  {
+   "ora_utc": "2026-10-31 23:00",
+   "visualizzazioni": 2,
+   "tempo_medio_s": 8.41,
+   "completamento": 0
+  },
+  {
+   "ora_utc": "2026-11-01 03:00",
+   "visualizzazioni": 1,
+   "tempo_medio_s": 20.95,
+   "completamento": 0
+  },
+  {
+   "ora_utc": "2026-11-01 08:00",
+   "visualizzazioni": 2,
+   "tempo_medio_s": 2.2,
+   "completamento": 0
+  },
+  {
+   "ora_utc": "2026-11-01 10:00",
+   "visualizzazioni": 1,
+   "tempo_medio_s": 0.7,
+   "completamento": 0
+  }
+ ],
+ "fonti_traffico_%": {
+  "For You": 96.6,
+  "Personal Profile": 2.8,
+  "Direct Message": 0.3,
+  "Search": 0.3,
+  "Follow": 0,
+  "Sound": 0,
+  "Others": 0
+ },
+ "spettatori": {
+  "sesso_%": {
+   "male_vv": 73,
+   "female_vv": 27,
+   "other_vv": 0
+  },
+  "eta_%": {
+   "18-24": 37,
+   "25-34": 38,
+   "35-44": 5,
+   "45-54": 10,
+   "55+": 10
+  },
+  "paesi_%": {
+   "IT": 95.3,
+   "US": 1.6,
+   "BE": 1.3,
+   "NL": 0.6,
+   "FR": 0.3,
+   "GB": 0.3,
+   "HU": 0.3,
+   "IS": 0.3
+  }
+ },
+ "commenti_e_parole": "in elaborazione"
+}

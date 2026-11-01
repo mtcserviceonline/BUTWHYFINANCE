@@ -327,6 +327,7 @@ Il voto misura **quanto il video assomiglia ai riferimenti che hanno funzionato*
 |---|---|---|---|---|---|---|---|---|---|---|
 | Il prezzo di… un caffè, **versione 24 s (470 €)** (versione pubblicata da confermare: originale o corretta) | 2026-10-28 | 24 s | **29 / 42** (originale) | Rivedi | 110 dopo ~1 h | — | — | 5 like (4,5% delle visualizzazioni) | — | Prime metriche (1 h, campione piccolo): **picco di abbandono a 0:01**. Da completare con retention a 0:03 e 0:06, % fino alla fine, fonte del traffico |
 | Il prezzo di… un caffè, **v2 (34 s, numero in voce a 0:00)** | 2026-10-28 | 34 s | **34 / 42** | Rivedi (limite alto) | 116 dopo ~2 h; **237 dopo ~27 h** | 2 h: 6,6 s (19%); **27 h: 8,5 s (25% di 34 s)** | 2 h: 4,3%; **27 h: 4,8%** | 27 h: 10 mi piace (4,2%), 0 salvataggi | 27 h: 0 | Picco di abbandono ancora a **0:01** nonostante il numero in voce a 0:00. 27 h: 94,8% Per te, 3 nuovi follower, 0 commenti. Dettagli in `metriche/2026-10-caffe-470-v2.json` (2 h) e `…-27h.json` |
+| Il numero: 67 anni e 1 mese (pensione), 29,7 s | 2026-10-30 | 29,7 s | non valutato (video sul branch `claude/nifty-mendel-4boshl`) | — | 305 dopo ~41 h | Tempo medio **6,96 s (23%)**; a 3 s resta il 41%, a 5 s il 27%, a 10 s il 18%, a 29 s il 6% | **6,3%** | 19 mi piace (6,2%), 0 salvataggi | 0 | Curva reale per secondo in `metriche/2026-10-pensione-67-anni-un-mese-41h.json`. 0 commenti, 0 condivisioni, 0 nuovi follower |
 
 *(Copia la riga per ogni nuovo video. Una versione modificata dello stesso video si aggiunge come nuova riga, con la dicitura "v2".)*
 
@@ -339,6 +340,35 @@ Il voto misura **quanto il video assomiglia ai riferimenti che hanno funzionato*
 - **Pubblico (v2):** 96,5% Italia, 88% tra 18 e 34 anni, 82% uomini; 96,6% del traffico da "Per te". Il pubblico è in linea con il target.
 - **Mi piace (v2):** picchi a ~0:02, ~0:06 e ~0:28 (lettura del grafico), cioè sul numero, su "Ma perché?" e sulla conclusione.
 - **Regola candidata (in osservazione):** nei riferimenti il bersaglio o il paradosso è **già a schermo e/o in voce entro 1 s** (V7: MILLIONNAIRE a 0:00; V6: "Hai" a 0:00 e "14 E 20" a 0:00,5). Da confermare con più video con metriche.
+
+### Seconda rilevazione: "Il numero: 67 anni e 1 mese" (30/10, 29,7 s)
+Dati letti con l'estensione dal vero TikTok Studio (file `metriche/2026-10-pensione-67-anni-un-mese-41h.json`): **305 visualizzazioni in ~41 ore**, 19 mi piace (6,2%), 0 commenti, 0 condivisioni, 0 salvataggi, 0 nuovi follower. Il pubblico è freddo: 96,6% "Per te", 99% non follower, 67% spettatori nuovi; l'account ha **8 follower**.
+
+**Curva di retention reale (quota di spettatori ancora presenti):**
+| Secondo | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 8 | 10 | 15 | 20 | 25 | 29 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Presenti | 100% | **61%** | 49% | 41% | 31% | 27% | 23% | 20% | 18% | 14% | 11% | 7% | **6%** |
+| Persi nel secondo | | **39** | 12 | 8 | 10 | 4 | 4 | 1 | 1 | 1 | 0 | 0 | 0 |
+
+**Cosa dice la curva:**
+- **Il 73% se ne va nei primi 5 secondi**; il 39% nel solo primo secondo (è il "picco a 0:01" che TikTok segnala). Dopo i 6 secondi si perde circa **1 punto al secondo**: di chi arriva a 6 s (23%), il 26% guarda fino in fondo (6%, coerente con il 6,3% di completamento).
+- Quindi **il problema è l'apertura, non il corpo del video**: chi supera i primi secondi resta. Il tempo medio (6,96 s) è determinato quasi solo dai primi 5.
+- Perdite per secondo: 39 (0-1 s, durante "Un mese di lavoro in più"), 12 (1-2 s, "Per quasi tutti"), 8 (2-3 s, "Dal duemilaventisette"), **10 (3-4 s)**, 4+4 (4-6 s, "Ma perché?" e inizio della scena 2). Il secondo "scalino" da 10 punti a 3-4 s cade dove nel copione sono sovrapposte fino a 4 righe di testo e il taglio stretto (~4,3 s): **ipotesi da testare:** hook troppo carico di testo.
+- **I mi piace** arrivano presto: 15% a 0 s, 20% a 1 s, 15% a 2 s, 10% a 3 s e a 4 s (75% entro i 5 s). Pochi guardano abbastanza per mettere un mi piace alla fine.
+- **Distribuzione:** 30, 115, 113 visualizzazioni nelle prime tre ore (18:00-21:00 UTC), poi 11, 3, 2 e quasi zero fino a 41 ore: TikTok ha dato un test iniziale di ~260 visualizzazioni e poi ha smesso. Stessa forma del video sul caffè.
+
+**Confronto tra i due video con dati reali (campioni piccoli):**
+| | Caffè v2 (34 s) | Pensione (29,7 s) |
+|---|---|---|
+| Visualizzazioni | 237 dopo ~27 h | 305 dopo ~41 h |
+| Mi piace | 10 (4,2%) | 19 (6,2%) |
+| Tempo medio di visione | 8,5 s (25%) | 6,96 s (23%) |
+| Guarda fino in fondo | 4,8% | 6,3% |
+| Salvataggi, commenti, condivisioni | 0 | 0 |
+| Picco di abbandono | 0:01 | 0:01 |
+| Curva per secondo | non letta (solo screenshot) | letta |
+
+Due hook molto diversi (numero in voce nel caffè, "Un mese di lavoro in più. Per quasi tutti" nella pensione) danno **retention simili**: la forma dell'hook non basta a spiegare la perdita. Resta da testare cosa c'è nei **primi 1,5 secondi** (movimento, volto dell'orso in azione, un solo elemento di testo) e la densità di testo a 3-5 s. Per una vera valutazione serve confrontare almeno 5 video con curva reale.
 
 ### Valutazione compilata: "Il prezzo di… un caffè" (versione 24 s, 470 €)
 Misure (script `misura_video.py`): 24,3 s · 13 cambi medi/grandi (uno ogni ~1,9 s; 21 contando ogni elemento) · nessun fotogramma fermo (86% in piccolo movimento) · 168 parole/min · 9 pause brevi a fine frase · audio -14,4 LUFS, picco -1,4 dB.
