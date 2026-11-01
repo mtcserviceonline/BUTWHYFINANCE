@@ -31,7 +31,7 @@ async function mostra(nome) {
   document.querySelectorAll('.tab').forEach(t => t.classList.toggle('on', t.textContent === nome));
   document.getElementById('contenuto').innerHTML = '<div class="card">Caricamento…</div>';
   const r = await fetch(api[nome]); await r.json();           // la pagina scarica i suoi dati con fetch
-  if (nome === 'Panoramica') { const x = new XMLHttpRequest(); x.open('GET','/api/hourly'); x.send(); await new Promise(ok => x.addEventListener('loadend', ok)); }
+  if (nome === 'Panoramica') { await fetch('/aweme/v2/data/insight/?aid=1988&msToken=SEGRETO'); await fetch('/static/i18n/it-IT.json'); await fetch('/tiktokstudio/api/web/user'); const x = new XMLHttpRequest(); x.open('GET','/api/hourly'); x.send(); await new Promise(ok => x.addEventListener('loadend', ok)); }
   document.getElementById('contenuto').innerHTML = viste[nome]();
 }
 document.querySelectorAll('.tab').forEach(t => t.addEventListener('click', () => mostra(t.textContent)));

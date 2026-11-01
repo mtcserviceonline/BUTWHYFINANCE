@@ -69,7 +69,7 @@ Nel file `brand/tiktok/guida-retention.md`:
 Fai commit e push solo se la sessione lo richiede (branch indicato dall'ambiente). Non creare pull request senza richiesta.
 
 ### 8. Dopo la pubblicazione
-Quando l'utente porta i numeri reali (visualizzazioni, retention media, % fino alla fine, salvataggi per like, condivisioni, commenti), scrivili nella riga del registro. Con **almeno 5 video con metriche** confronta punteggio e risultati voce per voce e proponi di ricalibrare o togliere le voci che non prevedono nulla. Non spacciare correlazioni su 2-3 video per regole.
+Quando l'utente porta i numeri reali (visualizzazioni, retention media, % fino alla fine, salvataggi per like, condivisioni, commenti), scrivili nella riga del registro. Se ha usato l'estensione (`tools/estensione-tiktok-studio`), il file `.json` contiene `insight.serie.retention_per_secondo` (curva per secondo), `mi_piace_per_secondo` e `visualizzazioni_per_ora`: leggi quelli, non gli screenshot. Salva nella cartella `brand/tiktok/metriche/` solo il riassunto pulito (senza `risposte_rete` e senza identificativi dell'account) e mappa le perdite per secondo sul copione del video (`frasi.json` / trascrizione). Con **almeno 5 video con metriche** confronta punteggio e risultati voce per voce e proponi di ricalibrare o togliere le voci che non prevedono nulla. Non spacciare correlazioni su 2-3 video per regole.
 
 ## Modalità B: video di riferimento di un altro account
 1. Misura con lo stesso script. Chiedi la trascrizione se manca (ElevenLabs può non avere quota; i modelli di trascrizione offline possono non essere raggiungibili: non perderci tempo, chiedila all'utente).

@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "BWF · Salva analitiche TikTok Studio",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Con un clic salva in un file .json le analitiche del post aperto in TikTok Studio (testo delle schede e risposte già caricate dalla pagina) nella cartella che scegli tu. Nessun dato lascia il browser.",
   "permissions": [
     "activeTab"

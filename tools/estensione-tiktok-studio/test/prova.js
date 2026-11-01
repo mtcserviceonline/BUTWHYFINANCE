@@ -18,7 +18,17 @@ const curva = Array.from({ length: 34 }, (_, i) => Math.round(100 * Math.exp(-i 
 const server = http.createServer((req, res) => {
   const u = req.url.split('?')[0];
   const json = (o) => { res.setHeader('content-type', 'application/json'); res.end(JSON.stringify(o)); };
-  if (u.startsWith('/tiktokstudio/')) { res.setHeader('content-type', 'text/html'); return res.end(fs.readFileSync(path.join(__dirname, 'pagina-finta.html'))); }
+  if (u.startsWith('/tiktokstudio/') && !u.startsWith('/tiktokstudio/api/')) { res.setHeader('content-type', 'text/html'); return res.end(fs.readFileSync(path.join(__dirname, 'pagina-finta.html'))); }
+  if (u === '/aweme/v2/data/insight/') return json({
+    extra: { logid: 'L1', now: 1 }, status_code: 0, like_history: null, pv_history: null,
+    realtime_video_view_history: { interval: 1, list: [{ key: '1793383200', value: 30 }, { key: '1793386800', value: 115 }] },
+    video_retention_rate_realtime: { value: { peak_value: 1000, status: 0, list: Array.from({ length: 30 }, (_, i) => ({ timestamp: String(i * 1000), value: Math.round(100 * Math.exp(-i / 9)) / 100 })) } },
+    video_like_distribution_realtime: { value: { peak_value: 1000, list: Array.from({ length: 30 }, (_, i) => ({ timestamp: String(i * 1000), value: i === 1 ? 0.2 : 0 })) } },
+    photo_retention_percent: { status: 2, value: null },
+    video_info: { aweme_id: '7123456789012345678', create_time: 1793386076, desc: 'Titolo di prova', statistics: { digg_count: 10, play_count: 237 }, video: { duration: 29734 },
+      author: { nickname: 'But Why Finance', uid: '7700182844999468054', sec_uid: 'MS4wSEGRETO' } } });
+  if (u === '/static/i18n/it-IT.json') return json({ rumore: true });
+  if (u === '/tiktokstudio/api/web/user' && req.headers.accept !== 'text/html') return json({ user: { uid: '7700182844999468054' } });
   if (u === '/api/overview') return json({ data: { retention: { curve: curva }, views: 237 } });
   if (u === '/api/hourly') return json({ data: { points: [0, 94, 32, 73, 38, 2, 0, 0, 1, 0, 0, 0, 3] } });
   if (u === '/api/audience') return json({ data: { gender: { male: 78, female: 22 } } });
@@ -69,6 +79,15 @@ const server = http.createServer((req, res) => {
     ['XHR registrata', d.risposte_rete.some((r) => /api\/hourly/.test(r.url))],
     ['token redatti', d.risposte_rete.every((r) => !/SEGRETO|ZZZ|=123/.test(r.url))],
     ['curve trovate', d.indizi.curve_numeriche.length >= 2],
+    ['curva come coppie riconosciuta', d.indizi.curve_numeriche.some((c) => c.tipo === 'coppie' && c.lunghezza === 30)],
+    ['insight: retention per secondo', d.insight.serie.retention_per_secondo && d.insight.serie.retention_per_secondo.length === 30 && d.insight.serie.retention_per_secondo[0].valore === 1],
+    ['insight: picco abbandono', d.insight.serie.picco_abbandono_s === 1],
+    ['insight: mi piace per secondo', d.insight.serie.mi_piace_per_secondo && d.insight.serie.mi_piace_per_secondo[1].valore === 0.2],
+    ['insight: visualizzazioni per ora', d.insight.serie.visualizzazioni_per_ora && d.insight.serie.visualizzazioni_per_ora[1].valore === 115],
+    ['insight: video', d.insight.video && d.insight.video.durata_ms === 29734 && d.insight.video.statistiche.play_count === 237],
+    ['insight: campi vuoti scartati', !('like_history' in d.insight.campi) && !('photo_retention_percent' in d.insight.campi)],
+    ['rumore scartato (i18n, user)', !d.risposte_rete.some((r) => /i18n|api\/web\/user/.test(r.url))],
+    ['identificativi redatti', !/7700182844999468054|MS4wSEGRETO|But Why Finance/.test(JSON.stringify(d.risposte_rete))],
   ];
   let ko = 0;
   for (const [n, ok] of verifiche) { console.log(ok ? 'OK ' : 'KO ', n); if (!ok) ko++; }

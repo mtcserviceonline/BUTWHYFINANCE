@@ -2,7 +2,7 @@
 
 Estensione per **Chrome, Edge e Brave** (Manifest V3). Con un clic salva in un file `.json` le analitiche del post aperto in TikTok Studio: le tre schede (Panoramica, Spettatori, Coinvolgimento) e le risposte che la pagina ha già scaricato, dove si trovano anche i dati della curva di retention.
 
-**Stato: versione 0.2, collaudata solo su una pagina finta** che imita TikTok Studio (`test/`). Il primo salvataggio sul vero TikTok Studio serve a vedere come sono fatti i dati reali; poi si sistema il lettore.
+**Stato: versione 0.3. Provata sul vero TikTok Studio (1 novembre 2026) e collaudata su una pagina finta** che imita TikTok Studio (`test/`). Il primo salvataggio reale ha mostrato dove TikTok mette i dati: la risposta `aweme/v2/data/insight` contiene retention per secondo, mi piace per secondo, visualizzazioni per ora, pubblico e traffico. Dalla 0.3 l'estensione le legge direttamente (campo `insight`).
 
 ## Installazione (una volta)
 1. Apri `chrome://extensions` (o `edge://extensions`).
@@ -28,9 +28,10 @@ Quando farlo: a **2 ore**, **24 ore** e **7 giorni** dalla pubblicazione.
 Dopo un aggiornamento dell'estensione: `chrome://extensions` → pulsante "Ricarica" sulla scheda dell'estensione, poi F5 sulla pagina di TikTok Studio.
 
 ## Cosa salva
+- **`insight`** (il campo più utile): `serie.retention_per_secondo` (quota di spettatori ancora presenti a ogni secondo), `mi_piace_per_secondo`, `visualizzazioni_per_ora`, `tempo_medio_per_ora`, `completamento_per_ora`, `picco_abbandono_s`; `video` (durata, descrizione, statistiche); `campi` (pubblico per età, sesso e paese, fonti di traffico, spettatori nuovi e di ritorno, % follower). I campi che TikTok restituisce vuoti sono scartati.
 - **Testo di ogni scheda** (completo, "testo_grezzo") e i valori letti: titolo, data, contatori (visualizzazioni, mi piace, commenti, condivisioni, salvataggi), tempo totale e medio di visione, % che guarda tutto il video, nuovi follower, picco di abbandono, fonti di traffico, sesso, età, posizioni, momento dei mi piace.
-- **Risposte JSON** che TikTok Studio ha caricato (fino a 300; ognuna sotto 1,5 MB), con l'indirizzo ripulito dai parametri sensibili (token, firme, id di dispositivo, ecc., sostituiti da `REDATTO`).
-- **Indizi:** gli elenchi di numeri trovati nelle risposte (probabili curve di retention, visualizzazioni per ora, momenti dei mi piace).
+- **Risposte JSON utili** che TikTok Studio ha caricato (fino a 300; ognuna sotto 1,5 MB). Dalla 0.3 si scartano quelle inutili (traduzioni, tracciamento, profilo e account) e dai corpi si tolgono identificativi dell'account (uid, sec_uid, nickname, avatar, id di dispositivo). Gli indirizzi sono ripuliti dai parametri sensibili (`REDATTO`). Il file passa da circa 700 KB a poche decine di KB.
+- **Indizi:** gli elenchi di numeri e le coppie tempo/valore trovate nelle risposte (probabili curve).
 
 ## Privacy e sicurezza
 - L'estensione **non fa richieste di rete**, non invia nulla fuori dal browser e non legge pagine diverse da `tiktok.com`. Il file resta sul tuo computer, nella cartella che scegli. Non ha il permesso "downloads": scrive solo dove glielo permetti tu con il selettore del browser.
@@ -47,4 +48,4 @@ Dopo un aggiornamento dell'estensione: `chrome://extensions` → pulsante "Ricar
 | La scheda non cambia | TikTok ha cambiato l'interfaccia: manda il file con il testo grezzo |
 
 ## Collaudo
-`node test/prova.js` (serve Playwright) carica l'estensione in Chromium, apre una pagina finta con le stesse etichette degli screenshot di TikTok Studio e verifica 27 punti: lettura delle metriche, delle fonti di traffico, di età, sesso e posizioni, registrazione di `fetch` e `XMLHttpRequest`, rimozione dei token, ritrovamento delle curve e i tre percorsi di salvataggio (cartella fissa, "chiedi ogni volta", pagina delle opzioni). **Limite:** i veri selettori di cartella e di file del browser non si possono automatizzare; nel collaudo li sostituisco con una cartella interna dell'estensione, che usa le stesse funzioni di scrittura. La scelta con il selettore vero va provata a mano la prima volta.
+`node test/prova.js` (serve Playwright) carica l'estensione in Chromium, apre una pagina finta con le stesse etichette degli screenshot di TikTok Studio e verifica 36 punti: lettura delle metriche, delle fonti di traffico, di età, sesso e posizioni, registrazione di `fetch` e `XMLHttpRequest`, rimozione dei token, ritrovamento delle curve (anche come coppie tempo/valore), estrazione di `insight`, scarto del rumore e rimozione degli identificativi, e i tre percorsi di salvataggio (cartella fissa, "chiedi ogni volta", pagina delle opzioni). **Limite:** i veri selettori di cartella e di file del browser non si possono automatizzare; nel collaudo li sostituisco con una cartella interna dell'estensione, che usa le stesse funzioni di scrittura. La scelta con il selettore vero va provata a mano la prima volta.

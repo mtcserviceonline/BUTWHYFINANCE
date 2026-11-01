@@ -139,11 +139,17 @@
 
   function cercaCurve(risposte) {
     const trovate = [];
+    const numerico = (x) => typeof x === 'number';
     const visita = (nodo, percorso, i, prof) => {
-      if (prof > 9 || nodo == null || trovate.length > 60) return;
+      if (prof > 9 || nodo == null || trovate.length > 80) return;
       if (Array.isArray(nodo)) {
-        if (nodo.length >= 10 && nodo.every((x) => typeof x === 'number')) {
-          trovate.push({ risposta: i, percorso, lunghezza: nodo.length, primi_valori: nodo.slice(0, 12) });
+        if (nodo.length >= 10 && nodo.every(numerico)) {
+          trovate.push({ risposta: i, percorso, tipo: 'numeri', lunghezza: nodo.length, primi_valori: nodo.slice(0, 12) });
+          return;
+        }
+        // elenco di coppie {timestamp|key, value}: è così che TikTok consegna le curve
+        if (nodo.length >= 10 && nodo.every((x) => x && typeof x === 'object' && numerico(x.value) && ('timestamp' in x || 'key' in x))) {
+          trovate.push({ risposta: i, percorso, tipo: 'coppie', lunghezza: nodo.length, primi_valori: nodo.slice(0, 8) });
           return;
         }
         nodo.slice(0, 200).forEach((x, k) => visita(x, `${percorso}[${k}]`, i, prof + 1));
@@ -153,6 +159,48 @@
     };
     (risposte || []).forEach((r, i) => visita(r.corpo, '', i, 0));
     return trovate;
+  }
+
+  // La risposta aweme/v2/data/insight/ contiene le analitiche vere del post (retention per secondo,
+  // mi piace per secondo, visualizzazioni per ora, pubblico, traffico). Se ne uniscono i campi non vuoti.
+  function estraiInsight(risposte) {
+    const campi = {};
+    let video = null;
+    for (const r of risposte || []) {
+      if (!/\/aweme\/v2\/data\/insight\//.test(r.url || '') || !r.corpo || typeof r.corpo !== 'object') continue;
+      const c = r.corpo;
+      for (const [k, v] of Object.entries(c)) {
+        if (['extra', 'log_pb', 'status_code', 'status_msg', 'video_info'].includes(k)) continue;
+        if (v == null) continue;
+        // campi che TikTok restituisce vuoti: {status: 2} oppure {status: 2, value: null}
+        if (typeof v === 'object' && !Array.isArray(v) && 'status' in v && Object.keys(v).every((k) => k === 'status' || v[k] == null)) continue;
+        campi[k] = v;
+      }
+      const vi = c.video_info;
+      if (vi && !video) {
+        video = {
+          aweme_id: vi.aweme_id || null,
+          creato_il_unix: vi.create_time || null,
+          durata_ms: vi.video && vi.video.duration != null ? vi.video.duration : null,
+          descrizione: vi.desc || null,
+          statistiche: vi.statistics || null,
+        };
+      }
+    }
+    const lista = (nodo) => (nodo && nodo.value && Array.isArray(nodo.value.list) ? nodo.value.list : null);
+    const secondi = (l) => l && l.map((x) => ({ secondo: Math.round(Number(x.timestamp) / 1000), valore: x.value }));
+    const ore = (n) => (n && Array.isArray(n.list) ? n.list.map((x) => ({ ora_unix: Number(x.key), valore: x.value })) : null);
+    const serie = {
+      retention_per_secondo: secondi(lista(campi.video_retention_rate_realtime)),
+      mi_piace_per_secondo: secondi(lista(campi.video_like_distribution_realtime)),
+      visualizzazioni_per_ora: ore(campi.realtime_video_view_history),
+      tempo_medio_per_ora: ore(campi.realtime_average_watch_time_history),
+      completamento_per_ora: ore(campi.realtime_finish_rate_history),
+      tempo_totale_per_ora: ore(campi.realtime_total_play_time_history),
+    };
+    const rv = campi.video_retention_rate_realtime;
+    serie.picco_abbandono_s = rv && rv.value && rv.value.peak_value != null ? Math.round(rv.value.peak_value / 1000) : null;
+    return { video, serie, campi };
   }
 
   async function esporta() {
@@ -180,6 +228,7 @@
     const risposte = await chiediRisposte();
     out.hook_attivo = risposte !== null;
     out.risposte_rete = risposte || [];
+    out.insight = estraiInsight(out.risposte_rete);
     out.indizi = { curve_numeriche: cercaCurve(out.risposte_rete) };
     return out;
   }

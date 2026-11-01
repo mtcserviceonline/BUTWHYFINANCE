@@ -44,8 +44,9 @@
   function riepilogo(d) {
     const p = d.schede.panoramica || {}, s = d.schede.spettatori || {};
     const n = (o) => (o ? Object.keys(o).length : 0);
+    const ret = d.insight && d.insight.serie && d.insight.serie.retention_per_secondo;
     return `Metriche lette: ${n(p.metriche)} · fonti di traffico: ${n(p.fonti_traffico)} · fasce di età: ${n(s.eta)}\n` +
-      `Risposte di rete salvate: ${d.risposte_rete.length} · curve numeriche trovate: ${d.indizi.curve_numeriche.length}`;
+      `Curva di retention: ${ret ? ret.length + ' secondi' : 'non trovata'} · risposte salvate: ${d.risposte_rete.length}`;
   }
   window.bwfMemoria = { get, set, permesso, scrivi, modoEffettivo, nomeFile, riepilogo };
 })();
