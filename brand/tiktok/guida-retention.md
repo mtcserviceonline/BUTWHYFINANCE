@@ -327,7 +327,7 @@ Il voto misura **quanto il video assomiglia ai riferimenti che hanno funzionato*
 |---|---|---|---|---|---|---|---|---|---|---|
 | Il prezzo di… un caffè, **versione 24 s (470 €)** (versione pubblicata da confermare: originale o corretta) | 2026-10-28 | 24 s | **29 / 42** (originale) | Rivedi | 110 dopo ~1 h | — | — | 5 like (4,5% delle visualizzazioni) | — | Prime metriche (1 h, campione piccolo): **picco di abbandono a 0:01**. Da completare con retention a 0:03 e 0:06, % fino alla fine, fonte del traffico |
 | Il prezzo di… un caffè, **v2 (34 s, numero in voce a 0:00)** | 2026-10-28 | 34 s | **34 / 42** | Rivedi (limite alto) | 116 dopo ~2 h; **237 dopo ~27 h** | 2 h: 6,6 s (19%); **27 h: 8,5 s (25% di 34 s)** | 2 h: 4,3%; **27 h: 4,8%** | 27 h: 10 mi piace (4,2%), 0 salvataggi | 27 h: 0 | Picco di abbandono ancora a **0:01** nonostante il numero in voce a 0:00. 27 h: 94,8% Per te, 3 nuovi follower, 0 commenti. Dettagli in `metriche/2026-10-caffe-470-v2.json` (2 h) e `…-27h.json` |
-| Il numero: 67 anni e 1 mese (pensione), 29,7 s | 2026-10-30 | 29,7 s | non valutato (video sul branch `claude/nifty-mendel-4boshl`) | — | 305 dopo ~41 h | Tempo medio **6,96 s (23%)**; a 3 s resta il 41%, a 5 s il 27%, a 10 s il 18%, a 29 s il 6% | **6,3%** | 19 mi piace (6,2%), 0 salvataggi | 0 | Curva reale per secondo in `metriche/2026-10-pensione-67-anni-un-mese-41h.json`. 0 commenti, 0 condivisioni, 0 nuovi follower |
+| Il numero: 67 anni e 1 mese (pensione), 29,7 s | 2026-10-30 | 29,7 s | **36 / 42** (video del branch `claude/nifty-mendel-4boshl`, 26,6 s; il pubblicato dura 29,7 s: da confermare che sia lo stesso montaggio) | Pubblica (ma il risultato reale è debole) | 305 dopo ~41 h | Tempo medio **6,96 s (23%)**; a 3 s resta il 41%, a 5 s il 27%, a 10 s il 18%, a 29 s il 6% | **6,3%** | 19 mi piace (6,2%), 0 salvataggi | 0 | Curva reale per secondo in `metriche/2026-10-pensione-67-anni-un-mese-41h.json`. 0 commenti, 0 condivisioni, 0 nuovi follower |
 
 *(Copia la riga per ogni nuovo video. Una versione modificata dello stesso video si aggiunge come nuova riga, con la dicitura "v2".)*
 
@@ -369,6 +369,68 @@ Dati letti con l'estensione dal vero TikTok Studio (file `metriche/2026-10-pensi
 | Curva per secondo | non letta (solo screenshot) | letta |
 
 Due hook molto diversi (numero in voce nel caffè, "Un mese di lavoro in più. Per quasi tutti" nella pensione) danno **retention simili**: la forma dell'hook non basta a spiegare la perdita. Resta da testare cosa c'è nei **primi 1,5 secondi** (movimento, volto dell'orso in azione, un solo elemento di testo) e la densità di testo a 3-5 s. Per una vera valutazione serve confrontare almeno 5 video con curva reale.
+
+### Valutazione compilata: "Il numero: 67 anni e 1 mese" (36/42) e confronto con la curva reale
+Misure (video del branch, 26,6 s): 15 cambi medi (uno ogni ~1,77 s; 21 contando ogni elemento) · 1% di fotogrammi fermi · 171 parole/min · audio -14,5 LUFS, picco -1,9 dBFS · fine video 0,3 s dopo l'ultima parola. **Attenzione:** il video pubblicato dura 29,7 s, quello del branch 26,6 s; i primi 26 s si possono confrontare solo se il montaggio è lo stesso.
+
+| # | Voce | Punti | Note |
+|---|---|---|---|
+| 1 | Prima frase su di te / dato | 2 | "Un mese di lavoro in più. Per quasi tutti." (dato che tocca tutti, senza "tu" fino a 24 s) |
+| 2 | Voce a 0:00 | 2 | |
+| 3 | Cambio visivo entro 4-5 s | 2 | Primo taglio grande a 4,3 s |
+| 4 | Ciclo lungo | 1 | "Ma perché?" a 4,4 s, risposta a 5,2-12,5 s (20-47%); "quasi tutti" (le eccezioni) non si chiude nel video, solo in didascalia |
+| 5 | Mini-cicli | 1 | Un solo domanda → risposta |
+| 6 | Gradino | 1 | 1 mese nel 2027 → 3 mesi nel 2028 (escalation), nessun "ma…" |
+| 7 | Ritmo | 2 | Un cambio ogni ~1,8 s, nessun buco |
+| 8 | Oggetti | 2 | Clessidra, sedia a dondolo, sentiero, scala, salvadanaio, cassetta |
+| 9 | Numeri | 2 | "1 MESE" gigante, "67 ANNI + 1 MESE", "2028", "67 ANNI + 3 MESI" |
+| 10 | Accento | 2 | Blu |
+| 11 | Svolta con sfondo | 2 | Inchiostro → carta a 5,0 s → inchiostro a 22 s |
+| 12 | Zona sicura / ≤ 2 righe | 1 | Hook con 3-4 righe di testo sovrapposte (PENSIONE, 1 MESE, PER QUASI TUTTI, ECCEZIONI? SCOPRI SE RIENTRI ↓) più sottotitolo |
+| 13 | Tempo morto | 2 | |
+| 14 | Numero finale | 2 | "1 MESE CONTA" |
+| 15 | Chiusura | 2 | "E tu: a che età pensi di andarci?" + ultima inquadratura = prima con "?" |
+| 16 | Frasi-segnale | 1 | "Ma perché?" e "La regola:" |
+| 17 | Sincronia | 2 | |
+| 18 | Transizioni | 2 | |
+| 19 | Movimento | 2 | |
+| 20 | Titolo persistente | 2 | |
+| 21 | Autorità | 1 | "Fonte: Istat" e "Fonte: INPS" solo a schermo (30% e 49%), non a voce |
+| | **Totale** | **36 / 42** | **Pubblica** |
+
+**Controlli tecnici:** T1 sì (orso con occhiali visibili) · T2 **NO** (titolo e sottotitolo ripetono le stesse parole: "1 MESE" / "UN MESE", "PER QUASI TUTTI", "DAL 2027", "MA PERCHÉ?", "1 MESE CONTA") · T3 sì · T4 **da verificare** (numeri letti solo in sintesi, vedi `ricerca.md` del video) · T5 sì · T6 da ricordare · T7 sì.
+
+**Curva reale sul copione (primi 5 s, se il montaggio è lo stesso):**
+| Secondo | Persi | Cosa c'è sullo schermo e nella voce |
+|---|---|---|
+| 0-1 | **39** | Fotogramma fermo: fondo inchiostro, orso piccolo, "PENSIONE" + "1 MESE" gigante, voce "Un mese di lavoro in più" |
+| 1-2 | 12 | Entra "DI LAVORO IN PIÙ" (1,2 s) |
+| 2-3 | 8 | "PER QUASI TUTTI" (~2 s), voce "Per quasi tutti" |
+| 3-4 | **10** | Entrano "ECCEZIONI? SCOPRI SE RIENTRI ↓" e "PENSIONE · DAL 2027" (3,0 s): 4 righe di testo; voce "Dal duemilaventisette" |
+| 4-5 | 4 | Taglio stretto, "MA PERCHÉ?" + fumetto (4,3 s) |
+| 5-6 | 4 | Taglio su fondo carta (5,0-5,2 s) |
+
+**Cosa insegna il confronto (calibrazione):**
+- **Il punteggio non ha previsto il risultato.** Tre video, tre punteggi (29, 34, 36) e risultati tutti deboli e simili (circa 300 visualizzazioni, tempo medio 23-25%, nessun salvataggio). Il punteggio misura la somiglianza con i riferimenti ma **non vede ciò che decide i primi secondi**: le voci 1-3 ricevono 2 punti anche con un hook che perde il 73% in 5 s.
+- **Il primo fotogramma è quasi uguale nei due video con curva o screenshot**: fondo inchiostro, orso piccolo in basso, numero grande in alto, nessun movimento. Nei riferimenti che hanno funzionato il personaggio era grande o in azione a 0:00 (V6) o il fondo era chiaro con una forma insolita (V7).
+- **Il secondo scalino (3-4 s) coincide con l'invito "SCOPRI SE RIENTRI ↓"**, cioè con un invito a lasciare il video per cercare la didascalia. Ipotesi da testare togliendolo dall'hook (spostarlo a fine video o nel commento fissato).
+- **Il corpo del video funziona:** dopo i 6 s si perde circa 1 punto al secondo e 6% guarda fino in fondo.
+
+**Voci candidate per la rubrica (non ancora nel punteggio, da validare con altri video con curva):**
+1. **Movimento reale nel primo secondo** (personaggio che entra o agisce, elemento che "colpisce" a 0:00).
+2. **Densità di testo nei primi 5 s:** al massimo 2 elementi di testo.
+3. **Nessun invito a lasciare il video nei primi 5 s** (didascalia, commento, link).
+4. **Primo fotogramma diverso da quello dei video precedenti** (stesso fondo e stessa composizione = nessuna novità per chi scorre).
+5. **Chiusura del ciclo promesso nell'hook dentro il video** (qui "quasi tutti" resta aperto).
+
+**Correzioni suggerite per una nuova versione di questo video (da testare una alla volta):**
+1. Primo fotogramma con movimento: orso grande che entra o indica la camera, "1 MESE" che colpisce a 0:00.
+2. Via "ECCEZIONI? SCOPRI SE RIENTRI ↓" dall'hook (T2/12, voce 3 delle candidate).
+3. Un solo elemento di testo al posto di quattro nei primi 3 s; togliere il sottotitolo duplicato mentre il titolo dice la stessa cosa.
+4. Provare un hook in seconda persona ("Se lavori, dal 2027 ti toccherà un mese in più").
+5. Dire a voce la fonte ("Secondo l'INPS…") a ~13 s (voce 21).
+6. Chiudere nel video il "quasi tutti": una frase su chi è escluso ("Restano fuori gravosi, usuranti e precoci in quelle attività", da verificare sulla fonte), o togliere "quasi".
+7. Verificare i numeri sulle fonti originali (T4) e confermare che il video pubblicato sia il montaggio valutato.
 
 ### Valutazione compilata: "Il prezzo di… un caffè" (versione 24 s, 470 €)
 Misure (script `misura_video.py`): 24,3 s · 13 cambi medi/grandi (uno ogni ~1,9 s; 21 contando ogni elemento) · nessun fotogramma fermo (86% in piccolo movimento) · 168 parole/min · 9 pause brevi a fine frase · audio -14,4 LUFS, picco -1,4 dB.

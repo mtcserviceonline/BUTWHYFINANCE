@@ -45,3 +45,13 @@ Le voci sono quelle della checklist in `brand/tiktok/guida-retention.md`. Qui i 
 - "Cambi medi" (soglia 8) è la metrica da confrontare con la soglia di 1,7-2,0 s; "totali" conta anche gli elementi che entrano uno a uno (utile per i video a tela bianca); "grandi" sono i tagli di scena.
 - I fotogrammi in piccolo movimento sono respiro, rimbalzo e zoom lenti; i video con zoom continuo risultano quasi senza fotogrammi fermi.
 - Le misure sono su fotogrammi a 15 al secondo ridotti: cambi molto brevi o sfumati possono sfuggire. Confrontale con le tavole.
+
+## Voci candidate (non danno punti; da validare con più video con curva reale)
+Dal confronto tra punteggio e curva di retention di tre video dell'account (29, 34, 36 punti; risultati tutti deboli): il punteggio non vede ciò che decide i primi secondi. Annotale nella valutazione come **osservazioni**, senza punteggio:
+1. Movimento reale nel primo secondo (personaggio che entra o agisce, elemento che "colpisce" a 0:00).
+2. Densità di testo nei primi 5 s (al massimo 2 elementi).
+3. Nessun invito a lasciare il video nei primi 5 s (didascalia, commento, link).
+4. Primo fotogramma diverso da quello dei video precedenti.
+5. Ciclo promesso nell'hook chiuso dentro il video.
+
+Quando esistono almeno 5 video con la curva letta (`insight.serie.retention_per_secondo`), confronta punteggio e retention a 3 s e a 5 s e decidi quali candidate promuovere a voci.
