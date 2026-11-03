@@ -7,6 +7,9 @@ Immagini per il copione [`../../copioni/2026-11-03-tre-perche-soldi-quiz-tiktok.
 | File | Contenuto |
 |---|---|
 | `immagini/01.png` … `15.png` | Le 15 illustrazioni, 1152x2016 (circa 9:16), senza testi |
+| `audio/voce-originale.mp3` | Voce ElevenLabs ("Valerio") con il testo modificato, 57,5 s |
+| `audio/voce-con-pause.mp3` | La stessa voce con 3 s di silenzio dopo ogni domanda (a 8,25 · 24,55 · 40,95 s), 67,7 s: è quella da usare nel montaggio |
+| `prompt-montaggio.md` | Prompt per il montaggio: scene con tempi, opzioni delle domande, conto alla rovescia, regole |
 | `script/make_prompts.py` | Scrive i prompt in inglese (`script/prompts.json`) |
 | `script/gen.py` | Chiama l'API Meta `muse-image-1.0` (vedi il README del video sul caffè) |
 
