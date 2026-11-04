@@ -43,7 +43,7 @@
 | **27 giugno 2026** | Il CdA di Delfin, con **6 voti contrari su 8**, **non concede le garanzie bancarie** necessarie a chiudere. L'operazione salta. |
 | **8 settembre 2026** | Luca e Paola chiedono la **penale prevista dal contratto: 500 milioni** (250 a testa). Si parla di un arbitrato internazionale di circa 18 mesi. |
 | **30 settembre 2026** | Un tribunale lussemburghese concede a Delfin 6 mesi di proroga sulla prelazione relativa alle quote di LMDV, Clemente e Rocco Basilico (fino al 30 marzo 2027). |
-| **20 ottobre 2026** | Il miliardario ceco **Michal Strnad** (gruppo Czechoslovak Group, armi) invia una lettera di 5 pagine a Bardin: **~30 miliardi per Delfin**. Potrebbe accontentarsi del 62,5%. Chiede di eliminare dalla statuto la clausola "solo eredi". La notizia esce il 29-30 ottobre. |
+| **20 ottobre 2026** | Il miliardario ceco **Michal Strnad** (gruppo Czechoslovak Group, armi) invia una lettera di 5 pagine a Bardin: **~30 miliardi per Delfin**. Potrebbe accontentarsi del 62,5%. Chiede di eliminare dallo statuto la clausola "solo eredi". La notizia esce il 29-30 ottobre. |
 | **29 ottobre 2026** | LMDV: «Il patrimonio di mio padre resti italiano». |
 | **2 novembre 2026** | **Nuova offerta di LMDV** ai fratelli, con una lettera-appello pubblicata sui suoi giornali: compra le altre quote a **~3,7-3,75 miliardi l'una** e passerebbe dal 12,5% fino all'**87,5%**. Finanziamento: lettera di **Citi fino a 22 miliardi**. Alternativa: 30% in contanti e 70% in azioni EssilorLuxottica dopo almeno un anno. Propone un incontro entro il 7 novembre. |
 | **2 novembre (sera)** | **Quattro soci dicono no**: Rocco Basilico, Paola, Clemente e Luca. Sono gli stessi che avevano rifiutato Strnad. |
