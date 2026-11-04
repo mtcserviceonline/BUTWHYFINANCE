@@ -28,6 +28,7 @@ Regole: frasi corte, un concetto per frase, **una illustrazione nuova ogni 2-3 s
 - Nome: da confermare.
 
 ## Voce e tono
+- **Voce scelta: ElevenLabs, modello Eleven v3, voce Valerio.** Il testo si prepara col workflow `video-tiktok` (vedi `CLAUDE.md`).
 - Commercialista esperto che spiega al bar: calmo, diretto, caldo, mai allarmista né infantile.
 - Voce sintetica o registrata, velocità normale-lenta (circa 140-150 parole/min), pause brevi tra i concetti.
 - Esempio di apertura: "Il caffè al bar costa di più. Ma perché?" → dato → chi incassa → chi paga → "E tu, quanto pagheresti un caffè?"
@@ -73,5 +74,5 @@ Pubblicare 3 video narrati + 3 caroselli a settimana e confrontare: tempo medio 
 
 ## Da decidere
 - Nome dell'orso.
-- Voce narrante (sintetica o registrata) e brano di base.
+- Brano di base (per ora si sceglie dalla Commercial Music Library di TikTok).
 - Verifica dei due riferimenti e aggiustamento di ritmo e durata dei plan.

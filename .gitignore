@@ -147,3 +147,8 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Pipeline video TikTok
+brand/tiktok/pipeline/fonts/
+brand/tiktok/output/*/_lavoro/
+__pycache__/

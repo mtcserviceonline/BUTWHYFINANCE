@@ -1,0 +1,138 @@
+{
+ "_nota": "Esempio ridotto (5 scene) dal video sul caffè: un episodio vero ha 12-16 scene e 80-95 parole.",
+ "titolo": "Il prezzo di… un caffè",
+ "rubrica": "Il prezzo di…",
+ "copertina": {
+  "immagine": "01",
+  "titolo": [
+   "PERCHÉ IL CAFFÈ",
+   "COSTA *+24%*?"
+  ]
+ },
+ "scene": [
+  {
+   "id": "01",
+   "immagine": "01",
+   "sfondo": "inchiostro",
+   "tag": "[surprised]",
+   "voce": "Il caffè al bar costa il ventiquattro per cento in più di cinque anni fa.",
+   "titolo": [
+    "CAFFÈ *+24%*"
+   ],
+   "sottotitoli": [
+    [
+     "IL CAFFÈ AL BAR",
+     null
+    ],
+    [
+     "COSTA IL *24%* IN PIÙ",
+     "costa il ventiquattro per cento in più"
+    ],
+    [
+     "DI CINQUE ANNI FA.",
+     null
+    ]
+   ],
+   "fumetto": false,
+   "idea_visiva": "orso sorpreso davanti a una tazzina e a uno scontrino bianco"
+  },
+  {
+   "id": "02",
+   "immagine": "02",
+   "sfondo": "carta",
+   "tag": "[curious]",
+   "voce": "Ma perché?",
+   "titolo": [
+    "MA *PERCHÉ?*"
+   ],
+   "sottotitoli": [
+    [
+     "MA *PERCHÉ?*",
+     null
+    ]
+   ],
+   "fumetto": false,
+   "idea_visiva": "orso pensieroso, mano al mento"
+  },
+  {
+   "id": "03",
+   "immagine": "03",
+   "sfondo": "carta",
+   "tag": "[calm]",
+   "voce": "Nel duemilaventuno una tazzina costava un euro e quattro centesimi.",
+   "titolo": [
+    "NEL 2021",
+    {
+     "testo": "*1,04 €*",
+     "font": "mono",
+     "dim": 170
+    }
+   ],
+   "sottotitoli": [
+    [
+     "NEL *2021* UNA TAZZINA",
+     "nel duemilaventuno una tazzina"
+    ],
+    [
+     "COSTAVA *1,04 EURO*.",
+     "costava un euro e quattro centesimi"
+    ]
+   ],
+   "fumetto": false,
+   "idea_visiva": "orso con la tazzina in mano, aria nostalgica"
+  },
+  {
+   "id": "04",
+   "immagine": "04",
+   "sfondo": "carta",
+   "tag": "",
+   "voce": "Oggi, in media, un euro e ventinove.",
+   "titolo": [
+    {
+     "testo": "1,04 € → *1,29 €*",
+     "font": "mono",
+     "dim": 120
+    }
+   ],
+   "sottotitoli": [
+    [
+     "OGGI, IN MEDIA,",
+     null
+    ],
+    [
+     "*1,29*.",
+     "un euro e ventinove"
+    ]
+   ],
+   "fumetto": false,
+   "idea_visiva": "due scontrini bianchi affiancati e una tazzina, senza orso"
+  },
+  {
+   "id": "05",
+   "immagine": "05",
+   "sfondo": "inchiostro",
+   "tag": "[warm]",
+   "voce": "E per te? Quanto dovrebbe costare un caffè al bar?",
+   "titolo": [
+    "QUANTO DOVREBBE",
+    "COSTARE UN *CAFFÈ?*"
+   ],
+   "sottotitoli": [
+    [
+     "E PER TE?",
+     null
+    ],
+    [
+     "QUANTO DOVREBBE COSTARE",
+     null
+    ],
+    [
+     "UN *CAFFÈ* AL BAR?",
+     null
+    ]
+   ],
+   "fumetto": true,
+   "idea_visiva": "orso che fa l'occhiolino con la tazzina, fumetto But Why Finance?"
+  }
+ ]
+}
