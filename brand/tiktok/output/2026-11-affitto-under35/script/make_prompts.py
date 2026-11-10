@@ -1,26 +1,29 @@
 #!/usr/bin/env python3
-"""Scrive i prompt dei primi fotogrammi (uno per scena) in script/prompts/NN.txt."""
+"""Scrive i prompt dei primi fotogrammi (uno per scena) in script/prompts/NN.txt.
+Riferimenti passati a gen.py: image[0] = mascotte, image[1] e image[2] = esempi di stile."""
 import json, pathlib
-STYLE = ("Style: handmade paper-collage look, cut-paper textures, masking tape, ink stamps, hand-drawn doodles, "
-         "warm cream paper background, deep navy ink accents, one accent color burnt orange (#B8420F) with soft peach tint (#ECD8CB), "
-         "soft even studio light, gentle stop-motion feel, vertical 9:16.")
-BEAR = ("The bear is EXACTLY the mascot in the reference image, rendered as a cut-paper collage character: brown cartoon bear "
-        "with copper-orange fur, light peach muzzle, round ears with black inner ears, black rounded nose, "
-        "black round sunglasses with a white diagonal glare on each lens always on (eyes never visible), "
-        "dark green t-shirt with the euro sign in the center of the chest exactly as in the reference. "
-        "Same design and proportions as the reference image, fully visible from head to feet.")
-NOTEXT = "No text, no letters, no numbers, no logos, no flags anywhere in the image."
+REFS = ("Reference images: the FIRST image is the bear character to draw. The SECOND and THIRD images are ONLY examples of the "
+        "art style to copy exactly: do NOT copy their people, characters, places, objects, text or composition.")
+STYLE = ("Art style, identical to the style references: modern comic-book / cartoon illustration, bold clean black ink outlines, "
+         "flat cel-shaded colors with soft simple shading, detailed semi-realistic background drawn in the same comic style, "
+         "warm natural daylight, slightly saturated warm palette, vertical 9:16 frame.")
+BEAR = ("The bear is EXACTLY the mascot of the first reference image: cartoon brown bear with copper-orange fur, light peach muzzle, "
+        "round ears with dark inner ears, black rounded nose, black round sunglasses with a white diagonal glare on each lens "
+        "always on (eyes never visible), dark green t-shirt with a big yellow euro sign in the center of the chest. "
+        "Same design and proportions as the reference, fully visible from head to feet. He is the only bear in the image.")
+NOTEXT = ("No other characters. No text, no letters, no numbers, no words, no logos, no flags, no signs with writing anywhere; "
+          "all papers, tags, receipts and documents are blank.")
 SCENES = {
- "01": "Wide shot. The bear stands in front of two IDENTICAL small paper houses side by side (same shape, same size, same colors, same roof, mirror copies of each other), holding a paper key in one paw, looking at the camera with a curious expression.",
- "02": "The bear stands a few steps away from a large blank paper document taped to the wall with masking tape, holding two blank paper price tags (one large, one small) in his paws and turning his head toward the document with a calm expression. Below the document, a small paper table with three paper ink stamps of decreasing size.",
- "03": "Wide shot, the whole scene visible with empty floor below the feet. The bear stands beside a paper desk and is about to sit down on a paper chair. On the desk lie two rolled-up long paper receipts (blank) and a paper magnifying glass. Thoughtful expression, one paw resting on the desk.",
- "04": "Wide shot from slightly further away, the whole bear visible including his feet under the desk, empty floor below. The bear sits on a paper chair at a small paper desk, the two long blank paper receipts (completely empty, no lines, no print) lying unrolled on it and the paper magnifying glass set aside; in front of him a loose scattered heap of plain paper coins with no markings. He looks at the coins with a light smile, about to stand up.",
- "05": "The bear stands next to two piles of plain paper coins on a paper desk, one very tall and one tiny, and turns his head toward a large paper public building with classical columns standing on the other side of the frame. A closed paper wallet lies on the ground in front of the building. Serious expression.",
- "06": "The bear stands centered in front of a small paper table on which lie two blank paper cards. Paws relaxed at his sides, friendly expression, looking at the camera, about to pick up the cards.",
+ "01": "Sunny Italian residential street. The bear stands in front of two IDENTICAL small houses side by side (same shape, same size, same colors, same roof, same door). He holds a metal house key in one paw, raised slightly, and looks at the camera with a curious expression.",
+ "02": "Inside a bright office. The bear stands a few steps away from a large blank document taped to the wall with strips of masking tape, holding two blank price tags (one large, one small) in his paws and turning his head toward the document with a calm expression. Below the document, a small wooden table with three rubber ink stamps of decreasing size.",
+ "03": "Same bright office. The bear stands beside a wooden desk and is about to sit down on the chair. On the desk lie two rolled-up long blank receipts and a magnifying glass. Thoughtful expression, one paw resting on the desk.",
+ "04": "Same bright office, wide shot. The bear sits on a chair at the wooden desk, the two long blank receipts lying unrolled on it and the magnifying glass set aside; on the desk in front of him a loose scattered heap of plain gold coins with no markings. He looks at the coins with a light smile, about to stand up. His whole body is visible including his feet under the desk.",
+ "05": "Italian piazza in daylight. The bear stands next to a small outdoor table with two piles of plain gold coins, one very tall and one tiny, and turns his head toward a large public building with classical columns on the other side of the frame. A closed brown leather wallet lies on the pavement in front of the building. Serious expression.",
+ "06": "Same Italian piazza. The bear stands centered behind a small outdoor table on which lie two blank white cards. Paws relaxed at his sides, friendly expression, looking at the camera, about to pick up the cards.",
 }
 out = pathlib.Path(__file__).parent / "prompts"
 allp = {}
 for k, s in SCENES.items():
-    p = f"{STYLE} {BEAR} Scene: {s} {NOTEXT}"
+    p = f"{REFS} {STYLE} {BEAR} Scene: {s} {NOTEXT}"
     (out / f"{k}.txt").write_text(p, encoding="utf-8"); allp[k] = p
 (pathlib.Path(__file__).parent / "prompts.json").write_text(json.dumps(allp, indent=1, ensure_ascii=False), encoding="utf-8")

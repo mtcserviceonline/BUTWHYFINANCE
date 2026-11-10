@@ -10,7 +10,7 @@ prompt = open(prompt_file, encoding="utf-8").read().strip()
 base = "https://api.meta.ai/v1/images"
 t0 = time.time()
 if refs:
-    files = [(f"image[{i}]", (r.split("/")[-1], open(r, "rb"), "image/jpeg" if r.endswith("jpg") else "image/png")) for i, r in enumerate(refs)]
+    files = [(f"image[{i}]", (r.split("/")[-1], open(r, "rb"), "image/jpeg" if r.endswith(("jpg","jpeg")) else "image/png")) for i, r in enumerate(refs)]
     data = {"model": "muse-image-1.0", "prompt": prompt, "size": size, "n": "1", "response_format": "b64_json"}
     r = requests.post(base + "/edits", data=data, files=files, timeout=600)
 else:
