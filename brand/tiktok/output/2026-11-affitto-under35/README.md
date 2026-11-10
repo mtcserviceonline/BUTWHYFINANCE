@@ -30,3 +30,18 @@ Fumetto/cartoon: contorni neri netti, colori pieni con ombre semplici, sfondi se
 - Scena 3: l'orso è già seduto (il copione parte da "sits at a paper desk", va bene).
 - Scena 5: la pila piccola di monete è molto bassa, vicino a quella alta sul tavolino.
 - Su TikTok/Instagram va attivata l'etichetta "contenuto generato con IA".
+
+## Video montato
+
+`video.mp4`: 1080x1920, 30 fps, H.264 + AAC, **58,2 s**, audio a -14,5 LUFS (picco -1,3 dBFS).
+
+- **Video:** le 10 clip di Google Flow in `clip/` (1, 2A, 2B, 3A, 3B, 4, 5A, 5B, 6A, 6B), ognuna tagliata sulla sua frase e portata a 1080x1920. Tagli netti.
+- **Audio:** solo la voce ElevenLabs (`audio/voce-elevenlabs.mp3`, Valerio). L'audio di Flow è scartato (la 5B diceva "2.420" invece di "2.424"). Aggiunta una pausa di 1,5 s dopo "Rinuncia a 2.424 euro" per far vedere la moneta che cade, e 2,5 s di fermo finale.
+- **Sottotitoli:** IBM Plex Sans Condensed Bold 96 px, testo carta su riquadro inchiostro, parola chiave in arancio `#B8420F`, sotto la € della maglietta e sopra il 15% in basso.
+- Rifarlo: `python3 script/montage.py CARTELLA_FONT` (tempi delle clip e sottotitoli dentro lo script).
+
+Limiti:
+- Il labiale di Flow non coincide parola per parola con la voce ElevenLabs: ogni clip parte quando l'orso inizia a parlare, ma i tempi delle frasi sono diversi.
+- 2B e 3B sono arrivate a 360x640: ingrandite, sono più morbide delle altre.
+- Niente musica di sottofondo (da aggiungere su TikTok dalla libreria commerciale, circa -20 dB sotto la voce).
+- 58 s: più dei 20-40 s della guida di stile, perché il copione è lungo.
