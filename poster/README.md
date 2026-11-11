@@ -44,3 +44,12 @@ Le frasi sono scritte da zero per questo set. Prima di pubblicare, controllale r
 
 - Frasi e soggetti originali: niente versi di canzoni, titoli o copertine di riviste, loghi, scene di film.
 - Vinted ammette la vendita occasionale di oggetti fatti da sé, non la produzione in serie. Per una vendita continuativa valuta Etsy o un negozio online. Vinted Pro richiede un'attività registrata (in Italia, partita IVA): chiedi conferma all'assistenza Vinted e a un commercialista.
+
+## Dittico "buco nero"
+
+Due poster A3 complementari in bianco e nero: affiancati ricompongono un buco nero intero. L'immagine è calcolata da zero da `script/make_dittico.py` (nessuna immagine di partenza), a 300 dpi.
+
+- `stampa/dittico-buco-nero-sinistra.pdf`, `stampa/dittico-buco-nero-destra.pdf` — file di stampa A3.
+- `vinted/dittico-buco-nero/` — immagini pulite (singole e insieme) e mockup su tre pareti.
+
+Per rigenerare (circa 10 minuti): `python3 poster/script/make_dittico.py`. Anteprima veloce: aggiungi `40`.
